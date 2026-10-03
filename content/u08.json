@@ -1,0 +1,157 @@
+{
+  "id": 8,
+  "title_es": "Ciudad, direcciones y transporte",
+  "title_en": "Getting around the city",
+  "level": "A2",
+  "goal_es": "Al terminar podrás pedir y dar indicaciones, usar el transporte y decir qué está pasando ahora.",
+  "lessons": [
+    {
+      "id": "8-1",
+      "title_es": "Lugares de la ciudad",
+      "words": [
+        {"en":"bank","es":"banco","pos":"noun","ex_en":"The bank closes at four.","ex_es":"El banco cierra a las cuatro."},
+        {"en":"pharmacy","es":"farmacia","pos":"noun","ex_en":"Is there a pharmacy near here?","ex_es":"¿Hay una farmacia cerca de aquí?"},
+        {"en":"supermarket","es":"supermercado","pos":"noun","ex_en":"I buy food at the supermarket.","ex_es":"Compro comida en el supermercado."},
+        {"en":"hospital","es":"hospital","pos":"noun","ex_en":"The hospital is on Main Street.","ex_es":"El hospital está en la calle Main."},
+        {"en":"park","es":"parque","pos":"noun","ex_en":"The kids play in the park.","ex_es":"Los niños juegan en el parque."},
+        {"en":"museum","es":"museo","pos":"noun","ex_en":"The museum is free on Sundays.","ex_es":"El museo es gratis los domingos."},
+        {"en":"post office","es":"oficina de correos","pos":"noun","ex_en":"Where's the post office?","ex_es":"¿Dónde está la oficina de correos?"},
+        {"en":"gas station","es":"gasolinera","pos":"noun","ex_en":"There's a gas station on this street.","ex_es":"Hay una gasolinera en esta calle."}
+      ],
+      "sentences": [
+        {"en":"Where's the bank?","es":"¿Dónde está el banco?"},
+        {"en":"The pharmacy is next to the supermarket.","es":"La farmacia está al lado del supermercado."},
+        {"en":"Is there a park near your house?","es":"¿Hay un parque cerca de tu casa?"},
+        {"en":"The post office is closed on Sundays.","es":"La oficina de correos cierra los domingos."},
+        {"en":"We need gas. Is there a gas station nearby?","es":"Necesitamos gasolina. ¿Hay una gasolinera cerca?"}
+      ],
+      "tip_es": "Con lugares de la ciudad se usa the: go to the bank, go to the park. Pero se dice go to work, go to school y go home sin artículo. En pharmacy, ph suena como f."
+    },
+    {
+      "id": "8-2",
+      "title_es": "Izquierda, derecha y derecho",
+      "words": [
+        {"en":"turn","es":"dar vuelta","pos":"verb","ex_en":"Turn at the next street.","ex_es":"Da vuelta en la siguiente calle."},
+        {"en":"left","es":"izquierda","pos":"noun","ex_en":"Turn left at the bank.","ex_es":"Da vuelta a la izquierda en el banco."},
+        {"en":"right","es":"derecha","pos":"noun","ex_en":"The museum is on your right.","ex_es":"El museo está a tu derecha."},
+        {"en":"straight ahead","es":"derecho","pos":"adv","ex_en":"Go straight ahead for two blocks.","ex_es":"Sigue derecho dos cuadras."},
+        {"en":"corner","es":"esquina","pos":"noun","ex_en":"The store is on the corner.","ex_es":"La tienda está en la esquina."},
+        {"en":"block","es":"cuadra","pos":"noun","ex_en":"It's three blocks from here.","ex_es":"Está a tres cuadras de aquí."},
+        {"en":"street","es":"calle","pos":"noun","ex_en":"What street is it on?","ex_es":"¿En qué calle está?"},
+        {"en":"traffic light","es":"semáforo","pos":"noun","ex_en":"Turn right at the traffic light.","ex_es":"Da vuelta a la derecha en el semáforo."}
+      ],
+      "sentences": [
+        {"en":"Go straight ahead and turn left.","es":"Sigue derecho y da vuelta a la izquierda."},
+        {"en":"The bank is on the corner.","es":"El banco está en la esquina."},
+        {"en":"Turn right at the second traffic light.","es":"Da vuelta a la derecha en el segundo semáforo."},
+        {"en":"The park is two blocks from here.","es":"El parque está a dos cuadras de aquí."},
+        {"en":"The pharmacy is on the left.","es":"La farmacia está a la izquierda."}
+      ],
+      "tip_es": "Cuidado: derecho (seguir sin dar vuelta) es straight, y derecha es right. Si dices go right, la persona va a dar vuelta. Recuerda las preposiciones: on the corner, at the traffic light, on your left."
+    },
+    {
+      "id": "8-3",
+      "title_es": "El transporte",
+      "words": [
+        {"en":"bus","es":"camión, autobús","pos":"noun","ex_en":"I take the bus to work.","ex_es":"Tomo el camión para ir al trabajo."},
+        {"en":"subway","es":"metro","pos":"noun","ex_en":"The subway is fast and cheap.","ex_es":"El metro es rápido y barato."},
+        {"en":"taxi","es":"taxi","pos":"noun","ex_en":"Let's take a taxi. It's late.","ex_es":"Tomemos un taxi. Ya es tarde."},
+        {"en":"train","es":"tren","pos":"noun","ex_en":"The train leaves at nine.","ex_es":"El tren sale a las nueve."},
+        {"en":"bike","es":"bici","pos":"noun","ex_en":"I go to work by bike.","ex_es":"Voy al trabajo en bici."},
+        {"en":"bus stop","es":"parada del camión","pos":"noun","ex_en":"The bus stop is on the corner.","ex_es":"La parada del camión está en la esquina."},
+        {"en":"ticket","es":"boleto","pos":"noun","ex_en":"How much is a train ticket?","ex_es":"¿Cuánto cuesta un boleto de tren?"},
+        {"en":"by car","es":"en coche","pos":"phrase","ex_en":"We go to the beach by car.","ex_es":"Vamos a la playa en coche."}
+      ],
+      "sentences": [
+        {"en":"How do you get to work?","es":"¿Cómo te vas al trabajo?"},
+        {"en":"I usually take the subway.","es":"Normalmente tomo el metro."},
+        {"en":"She goes to school by bus.","es":"Ella va a la escuela en camión."},
+        {"en":"Where can I buy a ticket?","es":"¿Dónde puedo comprar un boleto?"},
+        {"en":"Does this bus go to the airport?","es":"¿Este camión va al aeropuerto?"}
+      ],
+      "tip_es": "Con by no se usa artículo: by bus, by car, by train. Pero a pie es on foot, no by foot. Con take sí va the: take the bus, take the subway."
+    },
+    {
+      "id": "8-4",
+      "title_es": "Pedir indicaciones",
+      "words": [
+        {"en":"how do I get to","es":"cómo llego a","pos":"phrase","ex_en":"How do I get to the museum?","ex_es":"¿Cómo llego al museo?"},
+        {"en":"cross","es":"cruzar","pos":"verb","ex_en":"Cross the street at the light.","ex_es":"Cruza la calle en el semáforo."},
+        {"en":"follow","es":"seguir","pos":"verb","ex_en":"Follow this street to the park.","ex_es":"Sigue esta calle hasta el parque."},
+        {"en":"stop","es":"parar, detenerse","pos":"verb","ex_en":"Stop at the corner, please.","ex_es":"Pare en la esquina, por favor."},
+        {"en":"keep going","es":"seguir adelante","pos":"phrase","ex_en":"Keep going until you see the bank.","ex_es":"Sigue adelante hasta que veas el banco."},
+        {"en":"map","es":"mapa","pos":"noun","ex_en":"Can you show me on the map?","ex_es":"¿Me lo puede enseñar en el mapa?"},
+        {"en":"lost","es":"perdido","pos":"adj","ex_en":"Excuse me, I'm lost.","ex_es":"Disculpe, estoy perdido."},
+        {"en":"directions","es":"indicaciones","pos":"noun","ex_en":"Can you give me directions?","ex_es":"¿Me puede dar indicaciones?"}
+      ],
+      "sentences": [
+        {"en":"Excuse me, how do I get to the bank?","es":"Disculpe, ¿cómo llego al banco?"},
+        {"en":"Cross the street and turn right.","es":"Cruza la calle y da vuelta a la derecha."},
+        {"en":"Don't turn here. Keep going.","es":"No des vuelta aquí. Sigue adelante."},
+        {"en":"Follow the signs to the subway.","es":"Sigue los letreros hacia el metro."},
+        {"en":"We're lost. Do you have a map?","es":"Estamos perdidos. ¿Tienes un mapa?"}
+      ],
+      "tip_es": "El imperativo es el verbo en forma base sin sujeto: Turn left, Cross the street. Para negar usa Don't: Don't turn here. Ojo, falso amigo: directions son indicaciones, y dirección (de una casa) es address."
+    },
+    {
+      "id": "8-5",
+      "title_es": "¿Qué estás haciendo ahorita?",
+      "words": [
+        {"en":"right now","es":"ahorita, ahora mismo","pos":"adv","ex_en":"I'm driving right now.","ex_es":"Ahorita voy manejando."},
+        {"en":"at the moment","es":"en este momento","pos":"phrase","ex_en":"He's working at the moment.","ex_es":"Él está trabajando en este momento."},
+        {"en":"drive","es":"manejar","pos":"verb","ex_en":"I'm learning to drive.","ex_es":"Estoy aprendiendo a manejar."},
+        {"en":"wait","es":"esperar","pos":"verb","ex_en":"I'm waiting for the bus.","ex_es":"Estoy esperando el camión."},
+        {"en":"arrive","es":"llegar","pos":"verb","ex_en":"The train arrives at six.","ex_es":"El tren llega a las seis."},
+        {"en":"ride","es":"andar en, viajar en","pos":"verb","ex_en":"Do you ride the subway every day?","ex_es":"¿Viajas en metro todos los días?"},
+        {"en":"get on","es":"subirse a","pos":"phrase","ex_en":"Get on the bus at the front.","ex_es":"Súbete al camión por adelante."},
+        {"en":"get off","es":"bajarse de","pos":"phrase","ex_en":"Get off at the next stop.","ex_es":"Bájate en la siguiente parada."}
+      ],
+      "sentences": [
+        {"en":"Where are you? I'm waiting for you.","es":"¿Dónde estás? Te estoy esperando."},
+        {"en":"I'm riding the subway right now.","es":"Ahorita voy en el metro."},
+        {"en":"We're getting off at the next stop.","es":"Nos bajamos en la siguiente parada."},
+        {"en":"Is she driving or taking the train?","es":"¿Ella viene manejando o en tren?"},
+        {"en":"The bus isn't coming. Let's take a taxi.","es":"El camión no viene. Vamos a tomar un taxi."}
+      ],
+      "tip_es": "El presente continuo (am, is, are + verbo con -ing) es para lo que pasa ahora. Si el verbo termina en e, quítala: drive, driving. Si termina en vocal + consonante, dobla la consonante: get, getting. Para rutinas usa presente simple: I take the bus every day."
+    },
+    {
+      "id": "8-6",
+      "title_es": "Por la ciudad",
+      "words": [
+        {"en":"traffic","es":"tráfico","pos":"noun","ex_en":"There's a lot of traffic today.","ex_es":"Hay mucho tráfico hoy."},
+        {"en":"rush hour","es":"hora pico","pos":"noun","ex_en":"Don't drive at rush hour.","ex_es":"No manejes en hora pico."},
+        {"en":"station","es":"estación","pos":"noun","ex_en":"Meet me at the train station.","ex_es":"Te veo en la estación del tren."},
+        {"en":"downtown","es":"el centro","pos":"adv","ex_en":"I work downtown.","ex_es":"Trabajo en el centro."},
+        {"en":"neighborhood","es":"colonia, barrio","pos":"noun","ex_en":"My neighborhood is very quiet.","ex_es":"Mi colonia es muy tranquila."},
+        {"en":"sidewalk","es":"banqueta","pos":"noun","ex_en":"Walk on the sidewalk, please.","ex_es":"Camina por la banqueta, por favor."},
+        {"en":"bridge","es":"puente","pos":"noun","ex_en":"Cross the bridge and turn left.","ex_es":"Cruza el puente y da vuelta a la izquierda."},
+        {"en":"crowded","es":"lleno de gente","pos":"adj","ex_en":"The subway is crowded at eight.","ex_es":"El metro va lleno a las ocho."}
+      ],
+      "sentences": [
+        {"en":"The traffic is terrible right now.","es":"El tráfico está horrible ahorita."},
+        {"en":"Is the station far from downtown?","es":"¿La estación está lejos del centro?"},
+        {"en":"The bus is very crowded at rush hour.","es":"El camión va muy lleno en hora pico."},
+        {"en":"I live in a quiet neighborhood near the park.","es":"Vivo en una colonia tranquila cerca del parque."},
+        {"en":"We're crossing the bridge. We're almost there!","es":"Estamos cruzando el puente. ¡Ya casi llegamos!"}
+      ],
+      "tip_es": "Downtown no lleva the ni to: I go downtown es voy al centro, no I go to the downtown. Traffic no se cuenta: di a lot of traffic, nunca traffics."
+    }
+  ],
+  "dialogue": {
+    "title_es": "¿Cómo llego al museo?",
+    "setting_es": "Estás de visita en Chicago y una señora te ayuda a llegar al museo.",
+    "lines": [
+      {"who":"A","en":"Hi! Are you OK? You look lost.","es":"¡Hola! ¿Estás bien? Te ves perdido."},
+      {"who":"B","en":"Yes. How do I get to the museum?","es":"Sí. ¿Cómo llego al museo?"},
+      {"who":"A","en":"It's far. You can take the subway.","es":"Está lejos. Puedes tomar el metro."},
+      {"who":"B","en":"Where is the subway station?","es":"¿Dónde está la estación del metro?"},
+      {"who":"A","en":"Go straight ahead and turn left at the light.","es":"Sigue derecho y da vuelta a la izquierda en el semáforo."},
+      {"who":"B","en":"And then?","es":"¿Y luego?"},
+      {"who":"A","en":"The station is on the corner, by a bank.","es":"La estación está en la esquina, junto a un banco."},
+      {"who":"B","en":"Great. Where do I get off?","es":"Perfecto. ¿Dónde me bajo?"},
+      {"who":"A","en":"Get off at Lake Street. It's three stops.","es":"Bájate en Lake Street. Son tres paradas."},
+      {"who":"B","en":"Thank you so much!","es":"¡Muchísimas gracias!"}
+    ]
+  }
+}

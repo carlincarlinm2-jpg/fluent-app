@@ -1,0 +1,157 @@
+{
+  "id": 6,
+  "title_es": "Rutina diaria y la hora",
+  "title_en": "My daily routine",
+  "level": "A1",
+  "goal_es": "Al terminar podrás describir tu rutina, decir la hora y hablar de qué tan seguido haces las cosas.",
+  "lessons": [
+    {
+      "id": "6-1",
+      "title_es": "Por la mañana",
+      "words": [
+        {"en":"wake up","es":"despertarse","pos":"verb","ex_en":"I wake up at six.","ex_es":"Me despierto a las seis."},
+        {"en":"get up","es":"levantarse","pos":"verb","ex_en":"I get up at six fifteen.","ex_es":"Me levanto a las seis y cuarto."},
+        {"en":"take a shower","es":"bañarse","pos":"phrase","ex_en":"I take a shower every morning.","ex_es":"Me baño todas las mañanas."},
+        {"en":"brush","es":"cepillarse, lavarse","pos":"verb","ex_en":"I brush my teeth after breakfast.","ex_es":"Me lavo los dientes después del desayuno."},
+        {"en":"get dressed","es":"vestirse","pos":"verb","ex_en":"I get dressed in my room.","ex_es":"Me visto en mi cuarto."},
+        {"en":"shave","es":"rasurarse","pos":"verb","ex_en":"I don't shave every day.","ex_es":"No me rasuro todos los días."},
+        {"en":"leave","es":"salir, irse","pos":"verb","ex_en":"I leave the house at seven thirty.","ex_es":"Salgo de la casa a las siete y media."},
+        {"en":"early","es":"temprano","pos":"adv","ex_en":"I go to work early.","ex_es":"Me voy a trabajar temprano."}
+      ],
+      "sentences": [
+        {"en":"I wake up early.","es":"Me despierto temprano."},
+        {"en":"Then I take a shower.","es":"Luego me baño."},
+        {"en":"I get dressed and brush my hair.","es":"Me visto y me cepillo el pelo."},
+        {"en":"I don't have breakfast at home.","es":"No desayuno en casa."},
+        {"en":"I leave the house at seven.","es":"Salgo de la casa a las siete."}
+      ],
+      "tip_es": "Muchos verbos que en español son reflexivos (despertarse, vestirse) en inglés no llevan myself: se dice I get dressed, no I dress myself. Con partes del cuerpo usa el posesivo: I brush my teeth, no the teeth."
+    },
+    {
+      "id": "6-2",
+      "title_es": "¿Qué hora es?",
+      "words": [
+        {"en":"what time","es":"qué hora","pos":"phrase","ex_en":"What time is it?","ex_es":"¿Qué hora es?"},
+        {"en":"o'clock","es":"en punto","pos":"adv","ex_en":"It's nine o'clock.","ex_es":"Son las nueve en punto."},
+        {"en":"half past","es":"y media","pos":"phrase","ex_en":"It's half past four.","ex_es":"Son las cuatro y media."},
+        {"en":"quarter","es":"cuarto","pos":"noun","ex_en":"It's a quarter to ten.","ex_es":"Son quince para las diez."},
+        {"en":"minute","es":"minuto","pos":"noun","ex_en":"Wait five minutes, please.","ex_es":"Espera cinco minutos, por favor."},
+        {"en":"hour","es":"hora","pos":"noun","ex_en":"The class is an hour long.","ex_es":"La clase dura una hora."},
+        {"en":"noon","es":"mediodía","pos":"noun","ex_en":"We have lunch at noon.","ex_es":"Comemos al mediodía."},
+        {"en":"midnight","es":"medianoche","pos":"noun","ex_en":"The party ends at midnight.","ex_es":"La fiesta termina a medianoche."}
+      ],
+      "sentences": [
+        {"en":"Excuse me, what time is it?","es":"Disculpa, ¿qué hora es?"},
+        {"en":"It's ten thirty.","es":"Son las diez y media."},
+        {"en":"It's a quarter past eight.","es":"Son las ocho y cuarto."},
+        {"en":"My English class is at noon.","es":"Mi clase de inglés es al mediodía."},
+        {"en":"What time do you get up?","es":"¿A qué hora te levantas?"}
+      ],
+      "tip_es": "Para la hora siempre usa It's, aunque en español digas son las tres: It's three o'clock. Para decir a las usa at: at noon, at seven thirty. La h de hour no suena, por eso se dice an hour."
+    },
+    {
+      "id": "6-3",
+      "title_es": "Él y ella: presente simple",
+      "words": [
+        {"en":"work","es":"trabajar","pos":"verb","ex_en":"My sister works in a hospital.","ex_es":"Mi hermana trabaja en un hospital."},
+        {"en":"study","es":"estudiar","pos":"verb","ex_en":"I study English at night.","ex_es":"Estudio inglés en la noche."},
+        {"en":"start","es":"empezar","pos":"verb","ex_en":"Class starts at eight.","ex_es":"La clase empieza a las ocho."},
+        {"en":"finish","es":"terminar","pos":"verb","ex_en":"She finishes work at five.","ex_es":"Ella termina de trabajar a las cinco."},
+        {"en":"watch","es":"ver","pos":"verb","ex_en":"My dad watches TV after dinner.","ex_es":"Mi papá ve la tele después de cenar."},
+        {"en":"cook","es":"cocinar","pos":"verb","ex_en":"My husband cooks every night.","ex_es":"Mi esposo cocina todas las noches."},
+        {"en":"read","es":"leer","pos":"verb","ex_en":"She reads before bed.","ex_es":"Ella lee antes de dormir."},
+        {"en":"walk","es":"caminar","pos":"verb","ex_en":"He walks to school.","ex_es":"Él se va caminando a la escuela."}
+      ],
+      "sentences": [
+        {"en":"I work, and my wife studies.","es":"Yo trabajo y mi esposa estudia."},
+        {"en":"He starts work at nine.","es":"Él empieza a trabajar a las nueve."},
+        {"en":"She watches the news in the morning.","es":"Ella ve las noticias en la mañana."},
+        {"en":"My brother doesn't cook.","es":"Mi hermano no cocina."},
+        {"en":"Does your son walk to school?","es":"¿Tu hijo camina a la escuela?"}
+      ],
+      "tip_es": "Con he, she e it el verbo lleva -s: she works, he reads. Después de sh, ch, x u o se agrega -es: watches, finishes, goes. Si termina en consonante + y, cambia a -ies: studies. El error más común es decir she work."
+    },
+    {
+      "id": "6-4",
+      "title_es": "Los días de la semana",
+      "words": [
+        {"en":"Monday","es":"lunes","pos":"noun","ex_en":"I go to the gym on Mondays.","ex_es":"Voy al gimnasio los lunes."},
+        {"en":"Tuesday","es":"martes","pos":"noun","ex_en":"My English class is on Tuesday.","ex_es":"Mi clase de inglés es el martes."},
+        {"en":"Wednesday","es":"miércoles","pos":"noun","ex_en":"We play soccer on Wednesdays.","ex_es":"Jugamos futbol los miércoles."},
+        {"en":"Thursday","es":"jueves","pos":"noun","ex_en":"She cooks pasta on Thursdays.","ex_es":"Ella cocina pasta los jueves."},
+        {"en":"Friday","es":"viernes","pos":"noun","ex_en":"Friday is my favorite day.","ex_es":"El viernes es mi día favorito."},
+        {"en":"Saturday","es":"sábado","pos":"noun","ex_en":"I clean the house on Saturdays.","ex_es":"Limpio la casa los sábados."},
+        {"en":"Sunday","es":"domingo","pos":"noun","ex_en":"We visit my parents on Sundays.","ex_es":"Visitamos a mis papás los domingos."},
+        {"en":"weekend","es":"fin de semana","pos":"noun","ex_en":"What do you do on the weekend?","ex_es":"¿Qué haces el fin de semana?"}
+      ],
+      "sentences": [
+        {"en":"Today is Monday.","es":"Hoy es lunes."},
+        {"en":"I don't work on Saturdays.","es":"No trabajo los sábados."},
+        {"en":"My new class starts on Tuesday.","es":"Mi nueva clase empieza el martes."},
+        {"en":"He studies on Wednesdays and Fridays.","es":"Él estudia los miércoles y los viernes."},
+        {"en":"What do you do on Sundays?","es":"¿Qué haces los domingos?"}
+      ],
+      "tip_es": "En inglés los días siempre van con mayúscula y con la preposición on: on Monday. Para algo que haces cada semana usa el plural: on Mondays significa los lunes. En Wednesday la primera d no suena: se pronuncia wénz-dei."
+    },
+    {
+      "id": "6-5",
+      "title_es": "¿Qué tan seguido?",
+      "words": [
+        {"en":"always","es":"siempre","pos":"adv","ex_en":"I always drink coffee in the morning.","ex_es":"Siempre tomo café en la mañana."},
+        {"en":"usually","es":"normalmente","pos":"adv","ex_en":"We usually eat at home.","ex_es":"Normalmente comemos en casa."},
+        {"en":"often","es":"seguido","pos":"adv","ex_en":"Do you often walk to work?","ex_es":"¿Caminas seguido al trabajo?"},
+        {"en":"sometimes","es":"a veces","pos":"adv","ex_en":"Sometimes I cook dinner.","ex_es":"A veces preparo la cena."},
+        {"en":"rarely","es":"casi nunca","pos":"adv","ex_en":"She rarely watches TV.","ex_es":"Ella casi nunca ve la tele."},
+        {"en":"never","es":"nunca","pos":"adv","ex_en":"I never get up late.","ex_es":"Nunca me levanto tarde."},
+        {"en":"every day","es":"todos los días","pos":"phrase","ex_en":"He reads the news every day.","ex_es":"Él lee las noticias todos los días."},
+        {"en":"once a week","es":"una vez a la semana","pos":"phrase","ex_en":"We go to the market once a week.","ex_es":"Vamos al mercado una vez a la semana."}
+      ],
+      "sentences": [
+        {"en":"I always wake up early.","es":"Siempre me despierto temprano."},
+        {"en":"She usually takes a shower at night.","es":"Ella normalmente se baña en la noche."},
+        {"en":"We sometimes eat out on Fridays.","es":"A veces comemos fuera los viernes."},
+        {"en":"He never works on the weekend.","es":"Él nunca trabaja el fin de semana."},
+        {"en":"How often do you go to the gym?","es":"¿Qué tan seguido vas al gimnasio?"}
+      ],
+      "tip_es": "Los adverbios de frecuencia van antes del verbo principal (I always eat) pero después de to be (I am always tired). No digas I eat always. Las expresiones como every day y once a week van al final de la oración."
+    },
+    {
+      "id": "6-6",
+      "title_es": "Por la tarde y la noche",
+      "words": [
+        {"en":"get home","es":"llegar a casa","pos":"phrase","ex_en":"I get home at six.","ex_es":"Llego a casa a las seis."},
+        {"en":"relax","es":"descansar, relajarse","pos":"verb","ex_en":"I relax on the sofa after work.","ex_es":"Descanso en el sillón después del trabajo."},
+        {"en":"do homework","es":"hacer la tarea","pos":"phrase","ex_en":"The kids do homework after dinner.","ex_es":"Los niños hacen la tarea después de cenar."},
+        {"en":"wash the dishes","es":"lavar los trastes","pos":"phrase","ex_en":"I wash the dishes every night.","ex_es":"Lavo los trastes todas las noches."},
+        {"en":"go to bed","es":"acostarse","pos":"phrase","ex_en":"I go to bed at eleven.","ex_es":"Me acuesto a las once."},
+        {"en":"sleep","es":"dormir","pos":"verb","ex_en":"I sleep seven hours a night.","ex_es":"Duermo siete horas cada noche."},
+        {"en":"late","es":"tarde","pos":"adv","ex_en":"My husband gets home late.","ex_es":"Mi esposo llega tarde a casa."},
+        {"en":"evening","es":"la tarde, la noche","pos":"noun","ex_en":"I study English in the evening.","ex_es":"Estudio inglés en la noche."}
+      ],
+      "sentences": [
+        {"en":"What time do you get home?","es":"¿A qué hora llegas a casa?"},
+        {"en":"I do my homework in the evening.","es":"Hago mi tarea en la noche."},
+        {"en":"He doesn't wash the dishes.","es":"Él no lava los trastes."},
+        {"en":"Do you go to bed late?","es":"¿Te acuestas tarde?"},
+        {"en":"She usually relaxes and reads before bed.","es":"Ella normalmente descansa y lee antes de dormir."}
+      ],
+      "tip_es": "Para negar y preguntar en presente simple usa do o does con el verbo en forma base: She doesn't work, Does he cook? La -s pasa a does, así que nunca digas She doesn't works ni Does he cooks?"
+    }
+  ],
+  "dialogue": {
+    "title_es": "Una semana ocupada",
+    "setting_es": "Platicas con una amiga sobre tu rutina diaria.",
+    "lines": [
+      {"who":"A","en":"You look tired. What time do you get up?","es":"Te ves cansado. ¿A qué hora te levantas?"},
+      {"who":"B","en":"I get up at five thirty.","es":"Me levanto a las cinco y media."},
+      {"who":"A","en":"Wow, that's early! Why?","es":"¡Guau, qué temprano! ¿Por qué?"},
+      {"who":"B","en":"I start work at seven.","es":"Empiezo a trabajar a las siete."},
+      {"who":"A","en":"And what time do you finish?","es":"¿Y a qué hora terminas?"},
+      {"who":"B","en":"At four. Then I study English.","es":"A las cuatro. Luego estudio inglés."},
+      {"who":"A","en":"Every day?","es":"¿Todos los días?"},
+      {"who":"B","en":"No, on Mondays, Wednesdays and Fridays.","es":"No, los lunes, miércoles y viernes."},
+      {"who":"A","en":"What do you do on the weekend?","es":"¿Qué haces el fin de semana?"},
+      {"who":"B","en":"I relax and sleep late!","es":"¡Descanso y duermo hasta tarde!"}
+    ]
+  }
+}

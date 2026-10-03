@@ -1,0 +1,157 @@
+{
+  "id": 7,
+  "title_es": "Ropa, compras y precios",
+  "title_en": "Clothes and shopping",
+  "level": "A2",
+  "goal_es": "Al terminar podrás comprar ropa, preguntar tallas y precios, y pagar en una tienda.",
+  "lessons": [
+    {
+      "id": "7-1",
+      "title_es": "La ropa",
+      "words": [
+        {"en":"shirt","es":"camisa","pos":"noun","ex_en":"I need a new shirt for work.","ex_es":"Necesito una camisa nueva para el trabajo."},
+        {"en":"pants","es":"pantalones","pos":"noun","ex_en":"These pants are very comfortable.","ex_es":"Estos pantalones son muy cómodos."},
+        {"en":"dress","es":"vestido","pos":"noun","ex_en":"She has a beautiful dress.","ex_es":"Ella tiene un vestido muy bonito."},
+        {"en":"shoes","es":"zapatos","pos":"noun","ex_en":"My shoes are old.","ex_es":"Mis zapatos están viejos."},
+        {"en":"jacket","es":"chamarra","pos":"noun","ex_en":"Take a jacket. It's cold.","ex_es":"Llévate una chamarra. Hace frío."},
+        {"en":"sweater","es":"suéter","pos":"noun","ex_en":"This sweater is very warm.","ex_es":"Este suéter abriga mucho."},
+        {"en":"socks","es":"calcetines","pos":"noun","ex_en":"I can't find my socks.","ex_es":"No encuentro mis calcetines."},
+        {"en":"wear","es":"usar, traer puesto","pos":"verb","ex_en":"I wear a uniform at work.","ex_es":"Uso uniforme en el trabajo."}
+      ],
+      "sentences": [
+        {"en":"I wear pants and a shirt to work.","es":"Uso pantalón y camisa para ir al trabajo."},
+        {"en":"She usually wears a dress on Sundays.","es":"Ella normalmente usa vestido los domingos."},
+        {"en":"Where are my shoes?","es":"¿Dónde están mis zapatos?"},
+        {"en":"Put on your jacket. It's cold outside.","es":"Ponte la chamarra. Hace frío afuera."},
+        {"en":"I need new socks and a sweater.","es":"Necesito calcetines nuevos y un suéter."}
+      ],
+      "tip_es": "Pants siempre es plural en inglés: My pants are new, no My pants is new. Para contarlos se dice a pair of pants. Wear es traer puesto, y put on es la acción de ponerse algo."
+    },
+    {
+      "id": "7-2",
+      "title_es": "Los colores",
+      "words": [
+        {"en":"red","es":"rojo","pos":"adj","ex_en":"She has a red dress.","ex_es":"Ella tiene un vestido rojo."},
+        {"en":"blue","es":"azul","pos":"adj","ex_en":"My favorite color is blue.","ex_es":"Mi color favorito es el azul."},
+        {"en":"green","es":"verde","pos":"adj","ex_en":"He wears a green jacket.","ex_es":"Él usa una chamarra verde."},
+        {"en":"yellow","es":"amarillo","pos":"adj","ex_en":"The taxis in New York are yellow.","ex_es":"Los taxis de Nueva York son amarillos."},
+        {"en":"black","es":"negro","pos":"adj","ex_en":"I need black shoes for the party.","ex_es":"Necesito zapatos negros para la fiesta."},
+        {"en":"white","es":"blanco","pos":"adj","ex_en":"Do you have this shirt in white?","ex_es":"¿Tiene esta camisa en blanco?"},
+        {"en":"gray","es":"gris","pos":"adj","ex_en":"My dad always wears gray pants.","ex_es":"Mi papá siempre usa pantalones grises."},
+        {"en":"pink","es":"rosa","pos":"adj","ex_en":"The baby has pink socks.","ex_es":"La bebé trae calcetines rosas."}
+      ],
+      "sentences": [
+        {"en":"What color is your car?","es":"¿De qué color es tu coche?"},
+        {"en":"I like the blue shirt.","es":"Me gusta la camisa azul."},
+        {"en":"She's wearing a black dress and red shoes.","es":"Ella trae un vestido negro y zapatos rojos."},
+        {"en":"Do you have it in green?","es":"¿Lo tiene en verde?"},
+        {"en":"My new sweater is dark gray.","es":"Mi suéter nuevo es gris oscuro."}
+      ],
+      "tip_es": "En inglés el color va antes de la cosa y nunca cambia: a red shirt, red shoes. No digas reds shoes ni shoes red. Para preguntar por el color se dice What color is it?"
+    },
+    {
+      "id": "7-3",
+      "title_es": "Tallas y probadores",
+      "words": [
+        {"en":"size","es":"talla","pos":"noun","ex_en":"What size are you?","ex_es":"¿Qué talla eres?"},
+        {"en":"small","es":"chico","pos":"adj","ex_en":"I need a small, please.","ex_es":"Necesito talla chica, por favor."},
+        {"en":"medium","es":"mediano","pos":"adj","ex_en":"Do you have a medium?","ex_es":"¿Tiene talla mediana?"},
+        {"en":"large","es":"grande","pos":"adj","ex_en":"My husband wears a large.","ex_es":"Mi esposo usa talla grande."},
+        {"en":"try on","es":"probarse","pos":"verb","ex_en":"Can I try on these pants?","ex_es":"¿Me puedo probar estos pantalones?"},
+        {"en":"fitting room","es":"probador","pos":"noun","ex_en":"The fitting room is over there.","ex_es":"El probador está por allá."},
+        {"en":"fit","es":"quedar","pos":"verb","ex_en":"These shoes don't fit me.","ex_es":"Estos zapatos no me quedan."},
+        {"en":"tight","es":"apretado","pos":"adj","ex_en":"This shirt is too tight.","ex_es":"Esta camisa me queda muy apretada."}
+      ],
+      "sentences": [
+        {"en":"Excuse me, can I try this on?","es":"Disculpe, ¿me puedo probar esto?"},
+        {"en":"Do you have this in a bigger size?","es":"¿Tiene esto en una talla más grande?"},
+        {"en":"The jacket fits very well.","es":"La chamarra me queda muy bien."},
+        {"en":"These pants are too tight.","es":"Estos pantalones me quedan muy apretados."},
+        {"en":"Where's the fitting room, please?","es":"¿Dónde está el probador, por favor?"}
+      ],
+      "tip_es": "Too significa demasiado y suena negativo: too tight, too big. Con try on, si usas it o them va en medio: try it on, nunca try on it."
+    },
+    {
+      "id": "7-4",
+      "title_es": "¿Cuánto cuesta?",
+      "words": [
+        {"en":"how much","es":"cuánto","pos":"phrase","ex_en":"How much is this jacket?","ex_es":"¿Cuánto cuesta esta chamarra?"},
+        {"en":"cost","es":"costar","pos":"verb","ex_en":"How much do these shoes cost?","ex_es":"¿Cuánto cuestan estos zapatos?"},
+        {"en":"price","es":"precio","pos":"noun","ex_en":"The price is on the tag.","ex_es":"El precio está en la etiqueta."},
+        {"en":"dollar","es":"dólar","pos":"noun","ex_en":"It's twenty dollars.","ex_es":"Son veinte dólares."},
+        {"en":"cheap","es":"barato","pos":"adj","ex_en":"This store is very cheap.","ex_es":"Esta tienda es muy barata."},
+        {"en":"expensive","es":"caro","pos":"adj","ex_en":"That dress is too expensive.","ex_es":"Ese vestido está demasiado caro."},
+        {"en":"sale","es":"oferta, rebaja","pos":"noun","ex_en":"Everything is on sale today.","ex_es":"Todo está en oferta hoy."},
+        {"en":"discount","es":"descuento","pos":"noun","ex_en":"Is there a discount on shoes?","ex_es":"¿Hay descuento en zapatos?"}
+      ],
+      "sentences": [
+        {"en":"How much is it?","es":"¿Cuánto cuesta?"},
+        {"en":"It's forty-nine ninety-nine.","es":"Son cuarenta y nueve con noventa y nueve."},
+        {"en":"How much are these socks?","es":"¿Cuánto cuestan estos calcetines?"},
+        {"en":"The sweater is on sale for twenty dollars.","es":"El suéter está en oferta a veinte dólares."},
+        {"en":"It's nice, but it's very expensive.","es":"Está bonito, pero está muy caro."}
+      ],
+      "tip_es": "Usa How much is...? para una cosa y How much are...? para varias. Con el verbo cost necesitas do o does: How much does it cost? Los precios se dicen en dos partes: 15.50 es fifteen fifty."
+    },
+    {
+      "id": "7-5",
+      "title_es": "This, that, these, those",
+      "words": [
+        {"en":"this","es":"este, esta","pos":"pron","ex_en":"This shirt is my size.","ex_es":"Esta camisa es de mi talla."},
+        {"en":"that","es":"ese, esa","pos":"pron","ex_en":"Can I see that belt, please?","ex_es":"¿Me enseña ese cinturón, por favor?"},
+        {"en":"these","es":"estos, estas","pos":"pron","ex_en":"These shoes are on sale.","ex_es":"Estos zapatos están en oferta."},
+        {"en":"those","es":"esos, esas","pos":"pron","ex_en":"Those pants over there are cheap.","ex_es":"Esos pantalones de allá están baratos."},
+        {"en":"pair","es":"par","pos":"noun","ex_en":"I need a new pair of shoes.","ex_es":"Necesito un par de zapatos nuevos."},
+        {"en":"hat","es":"sombrero, gorra","pos":"noun","ex_en":"That hat looks good on you.","ex_es":"Ese sombrero se te ve bien."},
+        {"en":"belt","es":"cinturón","pos":"noun","ex_en":"This belt is too short.","ex_es":"Este cinturón está muy corto."},
+        {"en":"bag","es":"bolsa","pos":"noun","ex_en":"I like those black bags.","ex_es":"Me gustan esas bolsas negras."}
+      ],
+      "sentences": [
+        {"en":"I like this one.","es":"Me gusta este."},
+        {"en":"How much are those hats?","es":"¿Cuánto cuestan esos sombreros?"},
+        {"en":"Is that bag on sale?","es":"¿Esa bolsa está en oferta?"},
+        {"en":"These socks are three dollars a pair.","es":"Estos calcetines cuestan tres dólares el par."},
+        {"en":"Can I try on those pants, please?","es":"¿Me puedo probar esos pantalones, por favor?"}
+      ],
+      "tip_es": "This y these son para lo que está cerca, y that y those para lo que está lejos. Cuida la pronunciación: this tiene una i corta y these una i larga, como iii. Para no repetir la cosa di this one o that one."
+    },
+    {
+      "id": "7-6",
+      "title_es": "En la caja",
+      "words": [
+        {"en":"store","es":"tienda","pos":"noun","ex_en":"The store opens at ten.","ex_es":"La tienda abre a las diez."},
+        {"en":"cashier","es":"cajero","pos":"noun","ex_en":"Ask the cashier for a bag.","ex_es":"Pídele una bolsa al cajero."},
+        {"en":"pay","es":"pagar","pos":"verb","ex_en":"Can I pay with my phone?","ex_es":"¿Puedo pagar con mi celular?"},
+        {"en":"cash","es":"efectivo","pos":"noun","ex_en":"Do you have cash?","ex_es":"¿Traes efectivo?"},
+        {"en":"credit card","es":"tarjeta de crédito","pos":"noun","ex_en":"Do you take credit cards?","ex_es":"¿Aceptan tarjeta de crédito?"},
+        {"en":"receipt","es":"ticket, recibo","pos":"noun","ex_en":"Here's your receipt.","ex_es":"Aquí está su ticket."},
+        {"en":"change","es":"cambio","pos":"noun","ex_en":"Here's your change.","ex_es":"Aquí tiene su cambio."},
+        {"en":"return","es":"devolver","pos":"verb","ex_en":"I want to return these shoes.","ex_es":"Quiero devolver estos zapatos."}
+      ],
+      "sentences": [
+        {"en":"Cash or credit?","es":"¿Efectivo o tarjeta?"},
+        {"en":"I'd like to pay with a credit card.","es":"Quisiera pagar con tarjeta de crédito."},
+        {"en":"Do you need a bag?","es":"¿Necesita bolsa?"},
+        {"en":"Can I return it if it doesn't fit?","es":"¿Lo puedo devolver si no me queda?"},
+        {"en":"Keep your receipt, please.","es":"Guarde su ticket, por favor."}
+      ],
+      "tip_es": "En receipt la p no suena: se pronuncia ri-sít. En México decimos ticket de compra, pero en inglés ticket es un boleto o una multa. Para el comprobante de pago di receipt."
+    }
+  ],
+  "dialogue": {
+    "title_es": "En una tienda de ropa",
+    "setting_es": "Estás en un centro comercial y quieres comprar una chamarra.",
+    "lines": [
+      {"who":"A","en":"Hi there! Can I help you?","es":"¡Hola! ¿En qué le puedo ayudar?"},
+      {"who":"B","en":"Yes, how much is this jacket?","es":"Sí, ¿cuánto cuesta esta chamarra?"},
+      {"who":"A","en":"It's sixty dollars, but it's on sale today.","es":"Cuesta sesenta dólares, pero hoy está en oferta."},
+      {"who":"B","en":"Great! Do you have it in black?","es":"¡Qué bien! ¿La tiene en negro?"},
+      {"who":"A","en":"Yes. What size are you?","es":"Sí. ¿Qué talla es?"},
+      {"who":"B","en":"Medium, I think. Can I try it on?","es":"Mediana, creo. ¿Me la puedo probar?"},
+      {"who":"A","en":"Sure. The fitting room is over there.","es":"Claro. El probador está por allá."},
+      {"who":"B","en":"It fits well. I'll take it.","es":"Me queda bien. Me la llevo."},
+      {"who":"A","en":"Perfect. Cash or credit card?","es":"Perfecto. ¿Efectivo o tarjeta de crédito?"},
+      {"who":"B","en":"Credit card, please.","es":"Con tarjeta, por favor."}
+    ]
+  }
+}

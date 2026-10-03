@@ -1,0 +1,157 @@
+{
+  "id": 5,
+  "title_es": "Comida y restaurante",
+  "title_en": "Food and eating out",
+  "level": "A1",
+  "goal_es": "Al terminar podrás hablar de la comida que te gusta y pedir en un restaurante.",
+  "lessons": [
+    {
+      "id": "5-1",
+      "title_es": "Comida básica",
+      "words": [
+        {"en":"bread","es":"pan","pos":"noun","ex_en":"The bread is fresh.","ex_es":"El pan está fresco."},
+        {"en":"rice","es":"arroz","pos":"noun","ex_en":"I like rice with beans.","ex_es":"Me gusta el arroz con frijoles."},
+        {"en":"egg","es":"huevo","pos":"noun","ex_en":"I want two eggs, please.","ex_es":"Quiero dos huevos, por favor."},
+        {"en":"chicken","es":"pollo","pos":"noun","ex_en":"The chicken is very good.","ex_es":"El pollo está muy bueno."},
+        {"en":"beef","es":"carne de res","pos":"noun","ex_en":"We don't eat beef.","ex_es":"No comemos carne de res."},
+        {"en":"fish","es":"pescado","pos":"noun","ex_en":"My mom makes fish on Fridays.","ex_es":"Mi mamá hace pescado los viernes."},
+        {"en":"cheese","es":"queso","pos":"noun","ex_en":"Do you want cheese on your tacos?","ex_es":"¿Quieres queso en tus tacos?"},
+        {"en":"beans","es":"frijoles","pos":"noun","ex_en":"Beans are cheap and healthy.","ex_es":"Los frijoles son baratos y saludables."}
+      ],
+      "sentences": [
+        {"en":"I like chicken.","es":"Me gusta el pollo."},
+        {"en":"I don't like fish.","es":"No me gusta el pescado."},
+        {"en":"Do you like eggs?","es":"¿Te gustan los huevos?"},
+        {"en":"We eat rice and beans every day.","es":"Comemos arroz y frijoles todos los días."},
+        {"en":"My brother loves bread with cheese.","es":"A mi hermano le encanta el pan con queso."}
+      ],
+      "tip_es": "Cuando hablas de comida en general, en inglés no se usa artículo: I like chicken, no I like the chicken. Además, like no cambia con el plural: Me gustan los huevos se dice I like eggs."
+    },
+    {
+      "id": "5-2",
+      "title_es": "Frutas y verduras",
+      "words": [
+        {"en":"apple","es":"manzana","pos":"noun","ex_en":"I eat an apple every morning.","ex_es":"Como una manzana cada mañana."},
+        {"en":"banana","es":"plátano","pos":"noun","ex_en":"This banana is very sweet.","ex_es":"Este plátano está muy dulce."},
+        {"en":"orange","es":"naranja","pos":"noun","ex_en":"The oranges are from Veracruz.","ex_es":"Las naranjas son de Veracruz."},
+        {"en":"strawberry","es":"fresa","pos":"noun","ex_en":"She loves strawberry ice cream.","ex_es":"A ella le encanta el helado de fresa."},
+        {"en":"tomato","es":"jitomate","pos":"noun","ex_en":"We need tomatoes for the salsa.","ex_es":"Necesitamos jitomates para la salsa."},
+        {"en":"onion","es":"cebolla","pos":"noun","ex_en":"Do you want onion on your burger?","ex_es":"¿Quieres cebolla en tu hamburguesa?"},
+        {"en":"potato","es":"papa","pos":"noun","ex_en":"The potatoes are in the kitchen.","ex_es":"Las papas están en la cocina."},
+        {"en":"avocado","es":"aguacate","pos":"noun","ex_en":"I put avocado on my eggs.","ex_es":"Le pongo aguacate a mis huevos."}
+      ],
+      "sentences": [
+        {"en":"I like apples and bananas.","es":"Me gustan las manzanas y los plátanos."},
+        {"en":"Are there oranges in the kitchen?","es":"¿Hay naranjas en la cocina?"},
+        {"en":"Strawberries are my favorite fruit.","es":"Las fresas son mi fruta favorita."},
+        {"en":"I don't eat onion.","es":"No como cebolla."},
+        {"en":"We need tomatoes, onions and avocados.","es":"Necesitamos jitomates, cebollas y aguacates."}
+      ],
+      "tip_es": "Ojo con los plurales: tomato y potato agregan -es (tomatoes, potatoes). Si la palabra termina en consonante + y, cambia a -ies: strawberry, strawberries."
+    },
+    {
+      "id": "5-3",
+      "title_es": "Bebidas",
+      "words": [
+        {"en":"water","es":"agua","pos":"noun","ex_en":"I drink a lot of water.","ex_es":"Tomo mucha agua."},
+        {"en":"juice","es":"jugo","pos":"noun","ex_en":"The kids want apple juice.","ex_es":"Los niños quieren jugo de manzana."},
+        {"en":"coffee","es":"café","pos":"noun","ex_en":"I drink coffee in the morning.","ex_es":"Tomo café en la mañana."},
+        {"en":"tea","es":"té","pos":"noun","ex_en":"My grandma drinks tea with honey.","ex_es":"Mi abuela toma té con miel."},
+        {"en":"milk","es":"leche","pos":"noun","ex_en":"Is there milk in the fridge?","ex_es":"¿Hay leche en el refrigerador?"},
+        {"en":"soda","es":"refresco","pos":"noun","ex_en":"Soda has a lot of sugar.","ex_es":"El refresco tiene mucha azúcar."},
+        {"en":"beer","es":"cerveza","pos":"noun","ex_en":"Two beers, please.","ex_es":"Dos cervezas, por favor."},
+        {"en":"cup","es":"taza","pos":"noun","ex_en":"Do you want a cup of coffee?","ex_es":"¿Quieres una taza de café?"}
+      ],
+      "sentences": [
+        {"en":"I want water, please.","es":"Quiero agua, por favor."},
+        {"en":"Do you drink coffee or tea?","es":"¿Tomas café o té?"},
+        {"en":"I don't drink soda.","es":"No tomo refresco."},
+        {"en":"We want two cups of tea.","es":"Queremos dos tazas de té."},
+        {"en":"Orange juice is good in the morning.","es":"El jugo de naranja es bueno en la mañana."}
+      ],
+      "tip_es": "En México decimos tomar café, pero en inglés se dice drink coffee, no take coffee. Fíjate también en el orden: jugo de naranja es orange juice, porque la palabra que describe va primero."
+    },
+    {
+      "id": "5-4",
+      "title_es": "Las comidas del día",
+      "words": [
+        {"en":"breakfast","es":"desayuno","pos":"noun","ex_en":"Breakfast is at eight.","ex_es":"El desayuno es a las ocho."},
+        {"en":"lunch","es":"comida","pos":"noun","ex_en":"We have lunch at two.","ex_es":"Comemos a las dos."},
+        {"en":"dinner","es":"cena","pos":"noun","ex_en":"Dinner is ready!","ex_es":"¡La cena está lista!"},
+        {"en":"hungry","es":"con hambre","pos":"adj","ex_en":"I'm very hungry.","ex_es":"Tengo mucha hambre."},
+        {"en":"thirsty","es":"con sed","pos":"adj","ex_en":"Are you thirsty?","ex_es":"¿Tienes sed?"},
+        {"en":"delicious","es":"delicioso","pos":"adj","ex_en":"This soup is delicious.","ex_es":"Esta sopa está deliciosa."},
+        {"en":"eat","es":"comer","pos":"verb","ex_en":"What do you want to eat?","ex_es":"¿Qué quieres comer?"},
+        {"en":"drink","es":"tomar, beber","pos":"verb","ex_en":"I want to drink something cold.","ex_es":"Quiero tomar algo frío."}
+      ],
+      "sentences": [
+        {"en":"I'm hungry. Let's eat!","es":"Tengo hambre. ¡Vamos a comer!"},
+        {"en":"What do you have for breakfast?","es":"¿Qué desayunas?"},
+        {"en":"I have eggs and coffee for breakfast.","es":"Desayuno huevos y café."},
+        {"en":"We have dinner at nine.","es":"Cenamos a las nueve."},
+        {"en":"The chicken soup is delicious.","es":"La sopa de pollo está deliciosa."}
+      ],
+      "tip_es": "Tengo hambre se dice I'm hungry, con el verbo to be. Nunca digas I have hungry. Para desayunar, comer y cenar se usa have: have breakfast, have lunch, have dinner."
+    },
+    {
+      "id": "5-5",
+      "title_es": "En el restaurante",
+      "words": [
+        {"en":"menu","es":"menú","pos":"noun","ex_en":"Can we see the menu, please?","ex_es":"¿Podemos ver el menú, por favor?"},
+        {"en":"waiter","es":"mesero","pos":"noun","ex_en":"The waiter is very friendly.","ex_es":"El mesero es muy amable."},
+        {"en":"reservation","es":"reservación","pos":"noun","ex_en":"We have a reservation for four.","ex_es":"Tenemos una reservación para cuatro."},
+        {"en":"order","es":"ordenar, pedir","pos":"verb","ex_en":"Are you ready to order?","ex_es":"¿Están listos para ordenar?"},
+        {"en":"I'd like","es":"quisiera, me gustaría","pos":"phrase","ex_en":"I'd like the fish tacos, please.","ex_es":"Quisiera los tacos de pescado, por favor."},
+        {"en":"can I have","es":"me da","pos":"phrase","ex_en":"Can I have more water, please?","ex_es":"¿Me da más agua, por favor?"},
+        {"en":"check","es":"cuenta","pos":"noun","ex_en":"Can we have the check, please?","ex_es":"¿Nos trae la cuenta, por favor?"},
+        {"en":"tip","es":"propina","pos":"noun","ex_en":"Don't forget the tip.","ex_es":"No olvides la propina."}
+      ],
+      "sentences": [
+        {"en":"A table for two, please.","es":"Una mesa para dos, por favor."},
+        {"en":"I'd like a coffee, please.","es":"Quisiera un café, por favor."},
+        {"en":"Can I have the chicken with rice?","es":"¿Me da el pollo con arroz?"},
+        {"en":"What do you recommend?","es":"¿Qué me recomienda?"},
+        {"en":"Excuse me, can we have the check?","es":"Disculpe, ¿nos trae la cuenta?"}
+      ],
+      "tip_es": "I'd like es la forma corta de I would like y suena más amable que I want. Evita Give me, que en inglés suena brusco. En EE. UU. la cuenta es the check y se acostumbra dejar entre 15 y 20 por ciento de propina."
+    },
+    {
+      "id": "5-6",
+      "title_es": "Some y any en la mesa",
+      "words": [
+        {"en":"some","es":"un poco de, unos","pos":"adj","ex_en":"I want some water.","ex_es":"Quiero un poco de agua."},
+        {"en":"any","es":"nada de, ningún","pos":"adj","ex_en":"We don't have any milk.","ex_es":"No tenemos nada de leche."},
+        {"en":"sugar","es":"azúcar","pos":"noun","ex_en":"Is there any sugar?","ex_es":"¿Hay azúcar?"},
+        {"en":"salt","es":"sal","pos":"noun","ex_en":"Can you pass the salt, please?","ex_es":"¿Me pasas la sal, por favor?"},
+        {"en":"spoon","es":"cuchara","pos":"noun","ex_en":"I need a spoon for my soup.","ex_es":"Necesito una cuchara para mi sopa."},
+        {"en":"fork","es":"tenedor","pos":"noun","ex_en":"Can I have a fork, please?","ex_es":"¿Me da un tenedor, por favor?"},
+        {"en":"knife","es":"cuchillo","pos":"noun","ex_en":"This knife is dirty.","ex_es":"Este cuchillo está sucio."},
+        {"en":"napkin","es":"servilleta","pos":"noun","ex_en":"Here are some napkins.","ex_es":"Aquí hay unas servilletas."}
+      ],
+      "sentences": [
+        {"en":"I'd like some bread, please.","es":"Quisiera un poco de pan, por favor."},
+        {"en":"Do you have any orange juice?","es":"¿Tiene jugo de naranja?"},
+        {"en":"There isn't any salt on the table.","es":"No hay sal en la mesa."},
+        {"en":"Can I have some more napkins?","es":"¿Me da más servilletas?"},
+        {"en":"We don't need any forks, thanks.","es":"No necesitamos tenedores, gracias."}
+      ],
+      "tip_es": "Usa some en oraciones afirmativas y al pedir u ofrecer algo (Can I have some water?). Usa any en negativas y preguntas (We don't have any milk). Agua, azúcar y sal no se cuentan: no digas a sugar ni sugars."
+    }
+  ],
+  "dialogue": {
+    "title_es": "En el restaurante",
+    "setting_es": "Estás en un restaurante en Austin y el mesero te toma la orden.",
+    "lines": [
+      {"who":"A","en":"Hi! Welcome. Are you ready to order?","es":"¡Hola! Bienvenido. ¿Está listo para ordenar?"},
+      {"who":"B","en":"Yes. I'd like the chicken tacos, please.","es":"Sí. Quisiera los tacos de pollo, por favor."},
+      {"who":"A","en":"Sure. Do you want rice and beans?","es":"Claro. ¿Quiere arroz y frijoles?"},
+      {"who":"B","en":"Just beans, please. No onion.","es":"Solo frijoles, por favor. Sin cebolla."},
+      {"who":"A","en":"No problem. And to drink?","es":"No hay problema. ¿Y de tomar?"},
+      {"who":"B","en":"Can I have an orange juice?","es":"¿Me da un jugo de naranja?"},
+      {"who":"A","en":"Sorry, we don't have any orange juice.","es":"Lo siento, no tenemos jugo de naranja."},
+      {"who":"B","en":"That's OK. Some water, please.","es":"Está bien. Agua, por favor."},
+      {"who":"A","en":"Here you go. Enjoy your meal!","es":"Aquí tiene. ¡Buen provecho!"},
+      {"who":"B","en":"Thank you! It looks delicious.","es":"¡Gracias! Se ve delicioso."}
+    ]
+  }
+}

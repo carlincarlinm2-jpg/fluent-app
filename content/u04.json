@@ -1,0 +1,157 @@
+{
+  "id": 4,
+  "title_es": "La casa y los objetos",
+  "title_en": "Home and things",
+  "level": "A1",
+  "goal_es": "Al terminar podrás describir tu casa, decir qué hay en cada cuarto con there is y there are, y explicar dónde están las cosas.",
+  "lessons": [
+    {
+      "id": "4-1",
+      "title_es": "Los cuartos de la casa",
+      "words": [
+        {"en": "house", "es": "casa", "pos": "noun", "ex_en": "My house is small.", "ex_es": "Mi casa es chica."},
+        {"en": "apartment", "es": "departamento", "pos": "noun", "ex_en": "We live in an apartment.", "ex_es": "Vivimos en un departamento."},
+        {"en": "room", "es": "cuarto", "pos": "noun", "ex_en": "My house has five rooms.", "ex_es": "Mi casa tiene cinco cuartos."},
+        {"en": "bedroom", "es": "recámara", "pos": "noun", "ex_en": "My bedroom is big.", "ex_es": "Mi recámara es grande."},
+        {"en": "bathroom", "es": "baño", "pos": "noun", "ex_en": "Where is the bathroom?", "ex_es": "¿Dónde está el baño?"},
+        {"en": "kitchen", "es": "cocina", "pos": "noun", "ex_en": "Mom is in the kitchen.", "ex_es": "Mamá está en la cocina."},
+        {"en": "living room", "es": "sala", "pos": "noun", "ex_en": "The living room is very big.", "ex_es": "La sala es muy grande."},
+        {"en": "yard", "es": "patio, jardín", "pos": "noun", "ex_en": "The dog is in the yard.", "ex_es": "El perro está en el patio."}
+      ],
+      "sentences": [
+        {"en": "This is my house.", "es": "Esta es mi casa."},
+        {"en": "Our apartment has two bedrooms.", "es": "Nuestro departamento tiene dos recámaras."},
+        {"en": "Excuse me, where is the bathroom?", "es": "Disculpe, ¿dónde está el baño?"},
+        {"en": "My grandmother is in the kitchen.", "es": "Mi abuela está en la cocina."},
+        {"en": "The yard is big, the house is small.", "es": "El patio es grande y la casa es chica."}
+      ],
+      "tip_es": "En México decimos recámara, pero en inglés es bedroom: bed (cama) más room (cuarto). Muchos cuartos se forman igual: bathroom, living room, dining room (comedor)."
+    },
+    {
+      "id": "4-2",
+      "title_es": "Los muebles",
+      "words": [
+        {"en": "bed", "es": "cama", "pos": "noun", "ex_en": "The bed is big.", "ex_es": "La cama es grande."},
+        {"en": "table", "es": "mesa", "pos": "noun", "ex_en": "The table is in the kitchen.", "ex_es": "La mesa está en la cocina."},
+        {"en": "chair", "es": "silla", "pos": "noun", "ex_en": "We have six chairs.", "ex_es": "Tenemos seis sillas."},
+        {"en": "couch", "es": "sillón, sofá", "pos": "noun", "ex_en": "The couch is in the living room.", "ex_es": "El sillón está en la sala."},
+        {"en": "desk", "es": "escritorio", "pos": "noun", "ex_en": "My desk is in my bedroom.", "ex_es": "Mi escritorio está en mi recámara."},
+        {"en": "closet", "es": "clóset", "pos": "noun", "ex_en": "My closet is small.", "ex_es": "Mi clóset es chico."},
+        {"en": "lamp", "es": "lámpara", "pos": "noun", "ex_en": "My sister has a pretty lamp.", "ex_es": "Mi hermana tiene una lámpara bonita."},
+        {"en": "shelf", "es": "repisa, estante", "pos": "noun", "ex_en": "My shelf has ten books.", "ex_es": "Mi repisa tiene diez libros."}
+      ],
+      "sentences": [
+        {"en": "The bed is in the bedroom.", "es": "La cama está en la recámara."},
+        {"en": "We have a table and four chairs.", "es": "Tenemos una mesa y cuatro sillas."},
+        {"en": "Is your desk big or small?", "es": "¿Tu escritorio es grande o chico?"},
+        {"en": "Her closet is very big.", "es": "Su clóset es muy grande."},
+        {"en": "Their couch is old, but nice.", "es": "Su sillón es viejo, pero bonito."}
+      ],
+      "tip_es": "Usa the para algo específico y a para algo en general: a chair (una silla), the chair (la silla). Antes de un sonido de vocal, a cambia a an: an apartment."
+    },
+    {
+      "id": "4-3",
+      "title_es": "Objetos de la casa",
+      "words": [
+        {"en": "door", "es": "puerta", "pos": "noun", "ex_en": "Where is the door?", "ex_es": "¿Dónde está la puerta?"},
+        {"en": "window", "es": "ventana", "pos": "noun", "ex_en": "My bedroom has a big window.", "ex_es": "Mi recámara tiene una ventana grande."},
+        {"en": "key", "es": "llave", "pos": "noun", "ex_en": "Where is my key?", "ex_es": "¿Dónde está mi llave?"},
+        {"en": "TV", "es": "tele, televisión", "pos": "noun", "ex_en": "The TV is in the living room.", "ex_es": "La tele está en la sala."},
+        {"en": "mirror", "es": "espejo", "pos": "noun", "ex_en": "The bathroom has a mirror.", "ex_es": "El baño tiene un espejo."},
+        {"en": "clock", "es": "reloj (de pared)", "pos": "noun", "ex_en": "The kitchen clock is old.", "ex_es": "El reloj de la cocina es viejo."},
+        {"en": "book", "es": "libro", "pos": "noun", "ex_en": "This book is very good.", "ex_es": "Este libro es muy bueno."},
+        {"en": "plant", "es": "planta", "pos": "noun", "ex_en": "My mom has ten plants.", "ex_es": "Mi mamá tiene diez plantas."}
+      ],
+      "sentences": [
+        {"en": "Where are my keys?", "es": "¿Dónde están mis llaves?"},
+        {"en": "The window is very big.", "es": "La ventana es muy grande."},
+        {"en": "We have a TV in the kitchen.", "es": "Tenemos una tele en la cocina."},
+        {"en": "Her bedroom has a mirror and a clock.", "es": "Su recámara tiene un espejo y un reloj."},
+        {"en": "Our house has plants and books.", "es": "Nuestra casa tiene plantas y libros."}
+      ],
+      "tip_es": "Para el plural casi siempre se agrega s: book, books. Si la palabra termina en sh, ch o x se agrega es: watch, watches. Y algunas cambian, como shelf, que en plural es shelves."
+    },
+    {
+      "id": "4-4",
+      "title_es": "Hay: there is y there are",
+      "words": [
+        {"en": "there is", "es": "hay (una cosa)", "pos": "phrase", "ex_en": "There is a TV in my room.", "ex_es": "Hay una tele en mi cuarto."},
+        {"en": "there are", "es": "hay (varias cosas)", "pos": "phrase", "ex_en": "There are two bathrooms.", "ex_es": "Hay dos baños."},
+        {"en": "is there", "es": "¿hay? (una cosa)", "pos": "phrase", "ex_en": "Is there a bathroom?", "ex_es": "¿Hay baño?"},
+        {"en": "are there", "es": "¿hay? (varias cosas)", "pos": "phrase", "ex_en": "Are there chairs in the kitchen?", "ex_es": "¿Hay sillas en la cocina?"},
+        {"en": "how many", "es": "cuántos, cuántas", "pos": "phrase", "ex_en": "How many rooms are there?", "ex_es": "¿Cuántos cuartos hay?"},
+        {"en": "floor", "es": "piso", "pos": "noun", "ex_en": "There are books on the floor.", "ex_es": "Hay libros en el piso."},
+        {"en": "stairs", "es": "escaleras", "pos": "noun", "ex_en": "The stairs are next to the kitchen.", "ex_es": "Las escaleras están junto a la cocina."},
+        {"en": "garage", "es": "cochera", "pos": "noun", "ex_en": "Our house has a garage.", "ex_es": "Nuestra casa tiene cochera."}
+      ],
+      "sentences": [
+        {"en": "There's a bed and a desk.", "es": "Hay una cama y un escritorio."},
+        {"en": "There are three plants in the kitchen.", "es": "Hay tres plantas en la cocina."},
+        {"en": "Is there a TV in the bedroom?", "es": "¿Hay tele en la recámara?"},
+        {"en": "Are there stairs in your house?", "es": "¿Hay escaleras en tu casa?"},
+        {"en": "How many chairs are there? There are six.", "es": "¿Cuántas sillas hay? Hay seis."}
+      ],
+      "tip_es": "En español hay sirve para todo, pero en inglés se dice there is con una cosa y there are con varias. Para preguntar se cambia el orden: is there, are there. La forma corta de there is es there's."
+    },
+    {
+      "id": "4-5",
+      "title_es": "¿Dónde está?",
+      "words": [
+        {"en": "in", "es": "en, dentro de", "pos": "prep", "ex_en": "The keys are in the kitchen.", "ex_es": "Las llaves están en la cocina."},
+        {"en": "on", "es": "sobre, encima de", "pos": "prep", "ex_en": "The book is on the table.", "ex_es": "El libro está en la mesa."},
+        {"en": "under", "es": "debajo de", "pos": "prep", "ex_en": "The cat is under the bed.", "ex_es": "El gato está debajo de la cama."},
+        {"en": "next to", "es": "junto a, al lado de", "pos": "prep", "ex_en": "The lamp is next to the bed.", "ex_es": "La lámpara está junto a la cama."},
+        {"en": "behind", "es": "detrás de", "pos": "prep", "ex_en": "The yard is behind the house.", "ex_es": "El patio está detrás de la casa."},
+        {"en": "in front of", "es": "enfrente de", "pos": "prep", "ex_en": "The TV is in front of the couch.", "ex_es": "La tele está enfrente del sillón."},
+        {"en": "between", "es": "entre", "pos": "prep", "ex_en": "The bathroom is between the bedrooms.", "ex_es": "El baño está entre las recámaras."},
+        {"en": "near", "es": "cerca de", "pos": "prep", "ex_en": "Is the bathroom near the kitchen?", "ex_es": "¿El baño está cerca de la cocina?"}
+      ],
+      "sentences": [
+        {"en": "My cell phone is on the desk.", "es": "Mi celular está en el escritorio."},
+        {"en": "There's a dog under the table.", "es": "Hay un perro debajo de la mesa."},
+        {"en": "The mirror is behind the door.", "es": "El espejo está detrás de la puerta."},
+        {"en": "Is the clock between the windows?", "es": "¿El reloj está entre las ventanas?"},
+        {"en": "My keys are in front of the TV.", "es": "Mis llaves están enfrente de la tele."}
+      ],
+      "tip_es": "En español decimos en para todo, pero en inglés in es dentro de algo y on es encima de algo: the keys are in the closet, the keys are on the table. Piensa si la cosa está adentro o arriba."
+    },
+    {
+      "id": "4-6",
+      "title_es": "Cómo es tu casa",
+      "words": [
+        {"en": "new", "es": "nuevo, nueva", "pos": "adj", "ex_en": "Our apartment is new.", "ex_es": "Nuestro departamento es nuevo."},
+        {"en": "clean", "es": "limpio, limpia", "pos": "adj", "ex_en": "The kitchen is very clean.", "ex_es": "La cocina está muy limpia."},
+        {"en": "dirty", "es": "sucio, sucia", "pos": "adj", "ex_en": "The floor is dirty.", "ex_es": "El piso está sucio."},
+        {"en": "messy", "es": "desordenado, tirado", "pos": "adj", "ex_en": "My brother's room is messy.", "ex_es": "El cuarto de mi hermano está desordenado."},
+        {"en": "comfortable", "es": "cómodo, cómoda", "pos": "adj", "ex_en": "This couch is very comfortable.", "ex_es": "Este sillón es muy cómodo."},
+        {"en": "beautiful", "es": "hermoso, precioso", "pos": "adj", "ex_en": "Your house is beautiful!", "ex_es": "¡Tu casa está preciosa!"},
+        {"en": "quiet", "es": "tranquilo, silencioso", "pos": "adj", "ex_en": "My street is quiet.", "ex_es": "Mi calle es tranquila."},
+        {"en": "noisy", "es": "ruidoso, ruidosa", "pos": "adj", "ex_en": "The city is very noisy.", "ex_es": "La ciudad es muy ruidosa."}
+      ],
+      "sentences": [
+        {"en": "My bedroom is small, but comfortable.", "es": "Mi recámara es chica, pero cómoda."},
+        {"en": "Is the kitchen clean or dirty?", "es": "¿La cocina está limpia o sucia?"},
+        {"en": "Sorry, my apartment is very messy!", "es": "¡Perdón, mi departamento está muy desordenado!"},
+        {"en": "There's a beautiful window in the living room.", "es": "Hay una ventana preciosa en la sala."},
+        {"en": "Our new house isn't noisy, it's quiet.", "es": "Nuestra casa nueva no es ruidosa, es tranquila."}
+      ],
+      "tip_es": "Comfortable se dice en tres sílabas, algo como KÓMF-ter-bol, no com-for-ta-ble. Y recuerda que el adjetivo va antes del sustantivo: a new house es una casa nueva."
+    }
+  ],
+  "dialogue": {
+    "title_es": "Buscando departamento",
+    "setting_es": "Visitas un departamento en renta y el dueño te lo enseña.",
+    "lines": [
+      {"who": "A", "en": "Hi! Welcome. This is the apartment.", "es": "¡Hola! Bienvenido. Este es el departamento."},
+      {"who": "B", "en": "It's beautiful! How many bedrooms are there?", "es": "¡Está precioso! ¿Cuántas recámaras hay?"},
+      {"who": "A", "en": "There are two bedrooms and one bathroom.", "es": "Hay dos recámaras y un baño."},
+      {"who": "B", "en": "Is there a closet in the bedroom?", "es": "¿Hay clóset en la recámara?"},
+      {"who": "A", "en": "Yes, there's a big closet next to the bed.", "es": "Sí, hay un clóset grande junto a la cama."},
+      {"who": "B", "en": "Great. And where is the kitchen?", "es": "Muy bien. ¿Y dónde está la cocina?"},
+      {"who": "A", "en": "It's behind the living room. It's new.", "es": "Está detrás de la sala. Es nueva."},
+      {"who": "B", "en": "Is the street noisy?", "es": "¿La calle es ruidosa?"},
+      {"who": "A", "en": "No, it's very quiet. There's a park near here.", "es": "No, es muy tranquila. Hay un parque cerca."},
+      {"who": "B", "en": "Perfect! I like it.", "es": "¡Perfecto! Me gusta."}
+    ]
+  }
+}

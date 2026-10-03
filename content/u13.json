@@ -1,0 +1,157 @@
+{
+  "id": 13,
+  "title_es": "Planes y futuro",
+  "title_en": "Plans and the future",
+  "level": "B1",
+  "goal_es": "Al terminar podrás hablar de tus planes, hacer predicciones, hacer promesas y aceptar o rechazar invitaciones.",
+  "lessons": [
+    {
+      "id": "13-1",
+      "title_es": "Planes con going to",
+      "words": [
+        {"en":"going to","es":"ir a (futuro)","pos":"phrase","ex_en":"I'm going to visit my aunt next month.","ex_es":"Voy a visitar a mi tía el próximo mes."},
+        {"en":"save up","es":"ahorrar","pos":"verb","ex_en":"We want to save up for a new car.","ex_es":"Queremos ahorrar para un coche nuevo."},
+        {"en":"move out","es":"mudarse (dejar la casa)","pos":"verb","ex_en":"My brother is going to move out in June.","ex_es":"Mi hermano se va a mudar en junio."},
+        {"en":"sign up","es":"inscribirse","pos":"verb","ex_en":"I'm going to sign up for a yoga class.","ex_es":"Me voy a inscribir a una clase de yoga."},
+        {"en":"get married","es":"casarse","pos":"phrase","ex_en":"They're going to get married in December.","ex_es":"Se van a casar en diciembre."},
+        {"en":"take a break","es":"tomar un descanso","pos":"phrase","ex_en":"After the exam, I'm going to take a break.","ex_es":"Después del examen, voy a tomar un descanso."},
+        {"en":"remodel","es":"remodelar","pos":"verb","ex_en":"My parents are going to remodel the kitchen.","ex_es":"Mis papás van a remodelar la cocina."},
+        {"en":"the day after tomorrow","es":"pasado mañana","pos":"phrase","ex_en":"We're leaving the day after tomorrow.","ex_es":"Nos vamos pasado mañana."}
+      ],
+      "sentences": [
+        {"en":"What are you going to do this weekend?","es":"¿Qué vas a hacer este fin de semana?"},
+        {"en":"I'm going to stay home and relax.","es":"Me voy a quedar en casa a descansar."},
+        {"en":"She isn't going to work tomorrow.","es":"Ella no va a trabajar mañana."},
+        {"en":"Are you going to sign up for the English course?","es":"¿Te vas a inscribir al curso de inglés?"},
+        {"en":"We're going to save up and travel to Oaxaca next year.","es":"Vamos a ahorrar y viajar a Oaxaca el próximo año."}
+      ],
+      "tip_es": "Usa going to para planes que ya decidiste antes de hablar. La estructura es sujeto + am/is/are + going to + verbo base: I'm going to study. En conversación suena como gonna, pero no lo escribas en textos formales."
+    },
+    {
+      "id": "13-2",
+      "title_es": "Decisiones y promesas con will",
+      "words": [
+        {"en":"promise","es":"prometer","pos":"verb","ex_en":"I promise I'll call you tonight.","ex_es":"Te prometo que te llamo hoy en la noche."},
+        {"en":"offer","es":"ofrecer","pos":"verb","ex_en":"He didn't offer to help us.","ex_es":"Él no se ofreció a ayudarnos."},
+        {"en":"decide","es":"decidir","pos":"verb","ex_en":"I can't decide what to order.","ex_es":"No puedo decidir qué pedir."},
+        {"en":"pick up","es":"recoger","pos":"verb","ex_en":"I'll pick up the kids after school.","ex_es":"Yo recojo a los niños después de la escuela."},
+        {"en":"help out","es":"echar la mano","pos":"verb","ex_en":"I'll help out with the party on Saturday.","ex_es":"Yo echo la mano con la fiesta el sábado."},
+        {"en":"right away","es":"de inmediato","pos":"adv","ex_en":"I'll send you the address right away.","ex_es":"Te mando la dirección de inmediato."},
+        {"en":"on second thought","es":"pensándolo bien","pos":"phrase","ex_en":"On second thought, I'll have the soup.","ex_es":"Pensándolo bien, voy a pedir la sopa."},
+        {"en":"I'll get it","es":"yo voy, yo contesto","pos":"phrase","ex_en":"Someone's at the door. I'll get it!","ex_es":"Alguien está tocando. ¡Yo voy!"}
+      ],
+      "sentences": [
+        {"en":"Don't worry, I'll help you with the boxes.","es":"No te preocupes, te ayudo con las cajas."},
+        {"en":"I promise I won't be late again.","es":"Te prometo que no voy a llegar tarde otra vez."},
+        {"en":"It's cold in here. I'll close the window.","es":"Hace frío aquí. Voy a cerrar la ventana."},
+        {"en":"Will you pick me up at the station?","es":"¿Me recoges en la estación?"},
+        {"en":"I think I'll take the bus today.","es":"Creo que hoy me voy a ir en camión."}
+      ],
+      "tip_es": "Usa will para decisiones que tomas en el momento, promesas y ofrecimientos. La forma negativa es won't. Ojo: en español muchas veces usamos presente (te ayudo), pero en inglés necesitas I'll help you."
+    },
+    {
+      "id": "13-3",
+      "title_es": "Predicciones",
+      "words": [
+        {"en":"probably","es":"probablemente","pos":"adv","ex_en":"It will probably rain tonight.","ex_es":"Probablemente va a llover hoy en la noche."},
+        {"en":"definitely","es":"definitivamente","pos":"adv","ex_en":"She will definitely love your gift.","ex_es":"Definitivamente le va a encantar tu regalo."},
+        {"en":"forecast","es":"pronóstico","pos":"noun","ex_en":"The weather forecast says it will be sunny.","ex_es":"El pronóstico del clima dice que va a estar soleado."},
+        {"en":"likely","es":"probable","pos":"adj","ex_en":"It's likely to snow in the mountains.","ex_es":"Es probable que nieve en las montañas."},
+        {"en":"I bet","es":"apuesto a que","pos":"phrase","ex_en":"I bet they'll win the game.","ex_es":"Apuesto a que van a ganar el partido."},
+        {"en":"go up","es":"subir","pos":"verb","ex_en":"Rent is going to go up next year.","ex_es":"La renta va a subir el próximo año."},
+        {"en":"in the future","es":"en el futuro","pos":"phrase","ex_en":"In the future, cars will drive themselves.","ex_es":"En el futuro, los coches se van a manejar solos."},
+        {"en":"doubt","es":"dudar","pos":"verb","ex_en":"I doubt he'll come to the meeting.","ex_es":"Dudo que venga a la junta."}
+      ],
+      "sentences": [
+        {"en":"I think robots will do many jobs in the future.","es":"Creo que los robots harán muchos trabajos en el futuro."},
+        {"en":"According to the forecast, it's going to rain tomorrow.","es":"Según el pronóstico, va a llover mañana."},
+        {"en":"Look at that sky! It's going to storm.","es":"¡Mira ese cielo! Va a haber tormenta."},
+        {"en":"Mexico will probably win the next match.","es":"México probablemente va a ganar el próximo partido."},
+        {"en":"I doubt prices will go down this year.","es":"Dudo que los precios bajen este año."}
+      ],
+      "tip_es": "Para predicciones basadas en tu opinión usa will: I think it will rain. Si tienes una evidencia que ves ahora, usa going to: Look at those clouds, it's going to rain. Probably va después de will, pero antes de won't: it will probably, it probably won't."
+    },
+    {
+      "id": "13-4",
+      "title_es": "Invitaciones",
+      "words": [
+        {"en":"invite","es":"invitar","pos":"verb","ex_en":"I want to invite you to my birthday party.","ex_es":"Te quiero invitar a mi fiesta de cumpleaños."},
+        {"en":"would you like to","es":"¿te gustaría...?","pos":"phrase","ex_en":"Would you like to go for a coffee?","ex_es":"¿Te gustaría ir por un café?"},
+        {"en":"feel like","es":"tener ganas de","pos":"verb","ex_en":"I don't feel like cooking tonight.","ex_es":"No tengo ganas de cocinar hoy en la noche."},
+        {"en":"I'd love to","es":"me encantaría","pos":"phrase","ex_en":"I'd love to, thanks for asking!","ex_es":"¡Me encantaría, gracias por preguntar!"},
+        {"en":"take a rain check","es":"dejarlo para otra ocasión","pos":"phrase","ex_en":"Can I take a rain check on dinner?","ex_es":"¿Podemos dejar la cena para otra ocasión?"},
+        {"en":"make it","es":"poder ir, lograr llegar","pos":"verb","ex_en":"Sorry, I can't make it on Friday.","ex_es":"Perdón, el viernes no voy a poder ir."},
+        {"en":"get-together","es":"reunión","pos":"noun","ex_en":"We're having a small get-together on Saturday.","ex_es":"Vamos a hacer una pequeña reunión el sábado."},
+        {"en":"join","es":"acompañar, unirse","pos":"verb","ex_en":"Why don't you join us for lunch?","ex_es":"¿Por qué no nos acompañas a comer?"}
+      ],
+      "sentences": [
+        {"en":"Would you like to come to my house for dinner?","es":"¿Te gustaría venir a cenar a mi casa?"},
+        {"en":"I'd love to, but I have to work late.","es":"Me encantaría, pero tengo que trabajar hasta tarde."},
+        {"en":"Do you feel like going for tacos tonight?","es":"¿Tienes ganas de ir por unos tacos hoy en la noche?"},
+        {"en":"Thanks for the invitation, but I can't make it.","es":"Gracias por la invitación, pero no voy a poder ir."},
+        {"en":"How about next weekend instead?","es":"¿Qué tal mejor el próximo fin de semana?"}
+      ],
+      "tip_es": "Después de would you like usa to + verbo: Would you like to come? Pero después de feel like y how about usa el verbo con -ing: feel like going, how about meeting. Para rechazar con amabilidad di I'd love to, but... y da una razón."
+    },
+    {
+      "id": "13-5",
+      "title_es": "Planes fijos y horarios",
+      "words": [
+        {"en":"schedule","es":"agenda, horario","pos":"noun","ex_en":"My schedule is packed this week.","ex_es":"Mi agenda está llenísima esta semana."},
+        {"en":"available","es":"disponible","pos":"adj","ex_en":"Are you available on Thursday morning?","ex_es":"¿Estás disponible el jueves en la mañana?"},
+        {"en":"reschedule","es":"cambiar la fecha, reprogramar","pos":"verb","ex_en":"Can we reschedule the meeting for Monday?","ex_es":"¿Podemos cambiar la junta para el lunes?"},
+        {"en":"call off","es":"cancelar","pos":"verb","ex_en":"They had to call off the concert because of the rain.","ex_es":"Tuvieron que cancelar el concierto por la lluvia."},
+        {"en":"put off","es":"posponer, dejar para después","pos":"verb","ex_en":"Don't put off your homework until Sunday.","ex_es":"No dejes tu tarea para el domingo."},
+        {"en":"deadline","es":"fecha límite","pos":"noun","ex_en":"The deadline for the project is next Friday.","ex_es":"La fecha límite del proyecto es el próximo viernes."},
+        {"en":"set a date","es":"fijar una fecha","pos":"phrase","ex_en":"We still need to set a date for the trip.","ex_es":"Todavía tenemos que fijar una fecha para el viaje."},
+        {"en":"pencil in","es":"apuntar tentativamente","pos":"verb","ex_en":"I'll pencil in our lunch for Tuesday.","ex_es":"Voy a apuntar nuestra comida para el martes, por si acaso."}
+      ],
+      "sentences": [
+        {"en":"I'm meeting my cousin at the airport tomorrow.","es":"Mañana voy a ver a mi primo en el aeropuerto."},
+        {"en":"What are you doing on Saturday night?","es":"¿Qué vas a hacer el sábado en la noche?"},
+        {"en":"We're having a barbecue on Sunday afternoon.","es":"Vamos a hacer una carne asada el domingo en la tarde."},
+        {"en":"The train leaves at seven fifteen tomorrow morning.","es":"El tren sale mañana a las siete y cuarto de la mañana."},
+        {"en":"Sorry, I'm not available on Monday. Can we reschedule?","es":"Perdón, no estoy disponible el lunes. ¿Lo podemos cambiar?"}
+      ],
+      "tip_es": "Para planes fijos que ya acordaste con alguien, con hora o lugar, usa el presente continuo: I'm seeing the dentist on Friday. Para horarios oficiales como trenes, vuelos o clases, usa el presente simple: The flight leaves at six."
+    },
+    {
+      "id": "13-6",
+      "title_es": "Metas y sueños",
+      "words": [
+        {"en":"goal","es":"meta","pos":"noun","ex_en":"My goal is to run a marathon.","ex_es":"Mi meta es correr un maratón."},
+        {"en":"achieve","es":"lograr","pos":"verb","ex_en":"You can achieve anything if you work hard.","ex_es":"Puedes lograr cualquier cosa si te esfuerzas."},
+        {"en":"look forward to","es":"tener muchas ganas de","pos":"phrase","ex_en":"I look forward to our vacation every year.","ex_es":"Cada año espero con muchas ganas nuestras vacaciones."},
+        {"en":"hope to","es":"esperar (con ilusión)","pos":"phrase","ex_en":"I hope to find a better job soon.","ex_es":"Espero encontrar un mejor trabajo pronto."},
+        {"en":"about to","es":"a punto de","pos":"phrase","ex_en":"Hurry up, the movie is about to start.","ex_es":"Apúrate, la película está a punto de empezar."},
+        {"en":"someday","es":"algún día","pos":"adv","ex_en":"Someday I'm going to open my own café.","ex_es":"Algún día voy a abrir mi propia cafetería."},
+        {"en":"by the end of","es":"para finales de","pos":"phrase","ex_en":"I want to speak English well by the end of the year.","ex_es":"Quiero hablar bien inglés para finales del año."},
+        {"en":"give up","es":"rendirse","pos":"verb","ex_en":"Don't give up on your dreams.","ex_es":"No te rindas con tus sueños."}
+      ],
+      "sentences": [
+        {"en":"My goal is to get a better job next year.","es":"Mi meta es conseguir un mejor trabajo el próximo año."},
+        {"en":"I hope to visit Canada someday.","es":"Espero conocer Canadá algún día."},
+        {"en":"We're looking forward to seeing you at the wedding.","es":"Tenemos muchas ganas de verte en la boda."},
+        {"en":"By the end of the course, you'll understand movies in English.","es":"Para el final del curso, vas a entender películas en inglés."},
+        {"en":"It won't be easy, but I'm not going to give up.","es":"No va a ser fácil, pero no me voy a rendir."}
+      ],
+      "tip_es": "Después de look forward to va un verbo con -ing, porque aquí to es preposición: I'm looking forward to meeting you, no to meet you. Es un error muy común de los hispanohablantes, sobre todo en correos."
+    }
+  ],
+  "dialogue": {
+    "title_es": "Planes para el puente",
+    "setting_es": "Un amigo te invita a un viaje para el fin de semana largo.",
+    "lines": [
+      {"who":"A","en":"Hey! Do you have any plans for the long weekend?","es":"¡Hola! ¿Tienes planes para el puente?"},
+      {"who":"B","en":"Not really. I think I'll just stay home and rest.","es":"No mucho. Creo que nada más me voy a quedar en casa a descansar."},
+      {"who":"A","en":"Some friends and I are going to Valle de Bravo. Would you like to join us?","es":"Unos amigos y yo vamos a Valle de Bravo. ¿Te gustaría acompañarnos?"},
+      {"who":"B","en":"I'd love to! When are you leaving?","es":"¡Me encantaría! ¿Cuándo se van?"},
+      {"who":"A","en":"We're leaving on Friday at eight in the morning.","es":"Nos vamos el viernes a las ocho de la mañana."},
+      {"who":"B","en":"Perfect. I'll ask my boss if I can take Friday off.","es":"Perfecto. Le voy a preguntar a mi jefe si me puedo tomar el viernes."},
+      {"who":"A","en":"Great. The forecast says it's going to be sunny all weekend.","es":"Genial. El pronóstico dice que va a estar soleado todo el fin de semana."},
+      {"who":"B","en":"Awesome. I'll bring snacks for the road.","es":"Qué padre. Yo llevo botanas para el camino."},
+      {"who":"A","en":"Thanks! I'm really looking forward to it.","es":"¡Gracias! Tengo muchísimas ganas de ir."},
+      {"who":"B","en":"Me too. I'll text you tonight to confirm.","es":"Yo también. Te mando mensaje hoy en la noche para confirmar."}
+    ]
+  }
+}

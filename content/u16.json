@@ -1,0 +1,157 @@
+{
+  "id": 16,
+  "title_es": "Inglés profesional",
+  "title_en": "English for work",
+  "level": "B2",
+  "goal_es": "Al terminar podrás presentarte en una entrevista, escribir correos formales, participar en juntas y llamadas, y hacer peticiones con cortesía.",
+  "lessons": [
+    {
+      "id": "16-1",
+      "title_es": "La entrevista de trabajo",
+      "words": [
+        {"en":"résumé","es":"currículum","pos":"noun","ex_en":"Please send your résumé before Friday.","ex_es":"Por favor, envíe su currículum antes del viernes."},
+        {"en":"apply for","es":"solicitar, postularse a","pos":"verb","ex_en":"I'd like to apply for the sales job.","ex_es":"Me gustaría postularme al trabajo de ventas."},
+        {"en":"position","es":"puesto","pos":"noun","ex_en":"The position requires three years of experience.","ex_es":"El puesto requiere tres años de experiencia."},
+        {"en":"background","es":"formación, trayectoria","pos":"noun","ex_en":"My background is in accounting and finance.","ex_es":"Mi formación es en contabilidad y finanzas."},
+        {"en":"strength","es":"fortaleza","pos":"noun","ex_en":"My biggest strength is solving problems quickly.","ex_es":"Mi mayor fortaleza es resolver problemas rápido."},
+        {"en":"weakness","es":"debilidad","pos":"noun","ex_en":"One of my weaknesses is that I'm a perfectionist.","ex_es":"Una de mis debilidades es que soy perfeccionista."},
+        {"en":"team player","es":"persona que trabaja bien en equipo","pos":"noun","ex_en":"I'm a team player, and I enjoy working with others.","ex_es":"Trabajo bien en equipo y me gusta colaborar con otros."},
+        {"en":"hire","es":"contratar","pos":"verb","ex_en":"The company plans to hire ten new engineers.","ex_es":"La empresa planea contratar a diez ingenieros nuevos."}
+      ],
+      "sentences": [
+        {"en":"Tell me a little about yourself.","es":"Cuénteme un poco sobre usted."},
+        {"en":"Why are you interested in this position?","es":"¿Por qué le interesa este puesto?"},
+        {"en":"I have five years of experience in customer service.","es":"Tengo cinco años de experiencia en atención al cliente."},
+        {"en":"Where do you see yourself in five years?","es":"¿Dónde se ve en cinco años?"},
+        {"en":"What are your salary expectations for this role?","es":"¿Cuáles son sus expectativas salariales para este puesto?"}
+      ],
+      "tip_es": "En una entrevista habla de tu experiencia con present perfect (I have worked in sales for five years) y de trabajos terminados con past simple (I worked at a bank in 2019). Error común: experience in sell. Lo correcto es experience in selling, con -ing después de in."
+    },
+    {
+      "id": "16-2",
+      "title_es": "Correos formales",
+      "words": [
+        {"en":"dear","es":"estimado","pos":"adj","ex_en":"Dear Ms. Johnson, thank you for your message.","ex_es":"Estimada Sra. Johnson, gracias por su mensaje."},
+        {"en":"regarding","es":"respecto a, en relación con","pos":"prep","ex_en":"I'm writing regarding the invoice from last month.","ex_es":"Le escribo en relación con la factura del mes pasado."},
+        {"en":"attach","es":"adjuntar","pos":"verb","ex_en":"I'll attach the contract to this email.","ex_es":"Voy a adjuntar el contrato a este correo."},
+        {"en":"follow up","es":"dar seguimiento","pos":"verb","ex_en":"I'm writing to follow up on our meeting.","ex_es":"Le escribo para dar seguimiento a nuestra junta."},
+        {"en":"best regards","es":"saludos cordiales","pos":"phrase","ex_en":"Best regards, Laura.","ex_es":"Saludos cordiales, Laura."},
+        {"en":"as soon as possible","es":"lo antes posible","pos":"phrase","ex_en":"Please reply as soon as possible.","ex_es":"Por favor, responda lo antes posible."},
+        {"en":"reach out","es":"contactar, escribir","pos":"verb","ex_en":"Feel free to reach out if you have any questions.","ex_es":"No dude en contactarme si tiene alguna pregunta."},
+        {"en":"inquiry","es":"consulta","pos":"noun","ex_en":"Thank you for your inquiry about our services.","ex_es":"Gracias por su consulta sobre nuestros servicios."}
+      ],
+      "sentences": [
+        {"en":"I'm writing to ask about the job opening.","es":"Le escribo para preguntar sobre la vacante."},
+        {"en":"Please find attached the documents you requested.","es":"Adjunto encontrará los documentos que solicitó."},
+        {"en":"Thank you for getting back to me so quickly.","es":"Gracias por responderme tan rápido."},
+        {"en":"Could you please confirm the date of the meeting?","es":"¿Podría confirmar la fecha de la junta, por favor?"},
+        {"en":"I look forward to hearing from you.","es":"Quedo atento a su respuesta."}
+      ],
+      "tip_es": "En correos formales empieza con Dear + título y apellido (Dear Mr. Smith) y cierra con Best regards o Sincerely. Quedo atento a su respuesta se dice I look forward to hearing from you, con -ing después de to."
+    },
+    {
+      "id": "16-3",
+      "title_es": "Juntas de trabajo",
+      "words": [
+        {"en":"agenda","es":"orden del día","pos":"noun","ex_en":"Let's look at the agenda for today's meeting.","ex_es":"Veamos el orden del día de la junta de hoy."},
+        {"en":"minutes","es":"minuta","pos":"noun","ex_en":"Who is taking the minutes today?","ex_es":"¿Quién va a hacer la minuta hoy?"},
+        {"en":"item","es":"punto (de una lista)","pos":"noun","ex_en":"The first item on the list is the budget.","ex_es":"El primer punto de la lista es el presupuesto."},
+        {"en":"bring up","es":"mencionar, sacar un tema","pos":"verb","ex_en":"I'd like to bring up a problem with the delivery dates.","ex_es":"Me gustaría mencionar un problema con las fechas de entrega."},
+        {"en":"move on","es":"pasar a otro tema","pos":"verb","ex_en":"If there are no more questions, let's move on.","ex_es":"Si no hay más preguntas, pasemos al siguiente tema."},
+        {"en":"go over","es":"revisar, repasar","pos":"verb","ex_en":"Let's go over the numbers one more time.","ex_es":"Revisemos los números una vez más."},
+        {"en":"point out","es":"señalar","pos":"verb","ex_en":"I'd like to point out that sales went up.","ex_es":"Me gustaría señalar que las ventas subieron."},
+        {"en":"brainstorm","es":"hacer lluvia de ideas","pos":"verb","ex_en":"Let's brainstorm some ideas for the new campaign.","ex_es":"Hagamos una lluvia de ideas para la nueva campaña."}
+      ],
+      "sentences": [
+        {"en":"Let's get started. Thank you all for coming.","es":"Empecemos. Gracias a todos por venir."},
+        {"en":"Sorry to interrupt, but could I add something?","es":"Perdón por interrumpir, pero ¿puedo agregar algo?"},
+        {"en":"Could you clarify what you mean by that?","es":"¿Podrías aclarar a qué te refieres con eso?"},
+        {"en":"Let's go over the main points before we finish.","es":"Repasemos los puntos principales antes de terminar."},
+        {"en":"I'll send everyone the minutes after the meeting.","es":"Les mando la minuta a todos después de la junta."}
+      ],
+      "tip_es": "Agenda es un falso amigo: en una junta, the agenda es el orden del día, y tu agenda personal se dice planner o calendar. Para pedir la palabra con cortesía usa Sorry to interrupt, but... o Could I add something?"
+    },
+    {
+      "id": "16-4",
+      "title_es": "Llamadas y videollamadas",
+      "words": [
+        {"en":"hold on","es":"espere un momento","pos":"verb","ex_en":"Hold on, please. I'll check.","ex_es":"Espere un momento, por favor. Lo reviso."},
+        {"en":"put through","es":"comunicar, transferir (una llamada)","pos":"verb","ex_en":"Please hold while I put through your call.","ex_es":"Espere en la línea mientras le transfiero su llamada."},
+        {"en":"take a message","es":"tomar un recado","pos":"phrase","ex_en":"She's not here. Can I take a message?","ex_es":"No se encuentra. ¿Le puedo tomar un recado?"},
+        {"en":"call back","es":"devolver la llamada","pos":"verb","ex_en":"I'll call back in ten minutes.","ex_es":"Le regreso la llamada en diez minutos."},
+        {"en":"speak up","es":"hablar más fuerte","pos":"verb","ex_en":"Could you speak up a little, please?","ex_es":"¿Podría hablar un poco más fuerte, por favor?"},
+        {"en":"break up","es":"cortarse (la señal)","pos":"verb","ex_en":"The signal tends to break up in the elevator.","ex_es":"La señal se suele cortar en el elevador."},
+        {"en":"mute","es":"silenciar","pos":"verb","ex_en":"Please mute your microphone when you're not speaking.","ex_es":"Por favor, silencien su micrófono cuando no estén hablando."},
+        {"en":"extension","es":"extensión","pos":"noun","ex_en":"My extension is two one four.","ex_es":"Mi extensión es dos uno cuatro."}
+      ],
+      "sentences": [
+        {"en":"Good morning, this is Laura from Grupo Delta.","es":"Buenos días, habla Laura de Grupo Delta."},
+        {"en":"May I speak with Mr. Ramírez, please?","es":"¿Puedo hablar con el señor Ramírez, por favor?"},
+        {"en":"I'm afraid he's in a meeting right now.","es":"Me temo que está en una junta en este momento."},
+        {"en":"Sorry, you're on mute. We can't hear you.","es":"Perdón, tienes el micrófono apagado. No te escuchamos."},
+        {"en":"Could you repeat that? The connection is really bad.","es":"¿Podría repetir eso? Se escucha muy mal."}
+      ],
+      "tip_es": "Al contestar el teléfono en inglés se dice This is Laura o Laura speaking, no I am Laura. Para pedir hablar con alguien usa May I speak with...? o Could you put me through to...?"
+    },
+    {
+      "id": "16-5",
+      "title_es": "Peticiones con cortesía",
+      "words": [
+        {"en":"would you mind","es":"¿le molestaría...?","pos":"phrase","ex_en":"Would you mind closing the door?","ex_es":"¿Le molestaría cerrar la puerta?"},
+        {"en":"I was wondering if","es":"me preguntaba si","pos":"phrase","ex_en":"I was wondering if you could help me with this report.","ex_es":"Me preguntaba si me podría ayudar con este reporte."},
+        {"en":"appreciate","es":"agradecer","pos":"verb","ex_en":"I'd appreciate it if you could reply today.","ex_es":"Le agradecería si pudiera responder hoy."},
+        {"en":"approve","es":"aprobar","pos":"verb","ex_en":"We need the director to approve the budget.","ex_es":"Necesitamos que el director apruebe el presupuesto."},
+        {"en":"feedback","es":"comentarios, retroalimentación","pos":"noun","ex_en":"Thanks for your feedback on my presentation.","ex_es":"Gracias por tus comentarios sobre mi presentación."},
+        {"en":"on behalf of","es":"en nombre de","pos":"phrase","ex_en":"On behalf of the company, welcome to the team.","ex_es":"En nombre de la empresa, bienvenido al equipo."},
+        {"en":"let me know","es":"avísame","pos":"phrase","ex_en":"Let me know if you need anything else.","ex_es":"Avísame si necesitas algo más."},
+        {"en":"request","es":"solicitud","pos":"noun","ex_en":"I sent a request for two days off.","ex_es":"Mandé una solicitud para dos días libres."}
+      ],
+      "sentences": [
+        {"en":"Would you mind sending me the file again?","es":"¿Le molestaría enviarme el archivo otra vez?"},
+        {"en":"I was wondering if we could move the call to Thursday.","es":"Me preguntaba si podríamos cambiar la llamada al jueves."},
+        {"en":"I'd really appreciate your feedback on this proposal.","es":"Le agradecería mucho sus comentarios sobre esta propuesta."},
+        {"en":"Could you possibly give me a little more time?","es":"¿Habría manera de que me diera un poco más de tiempo?"},
+        {"en":"Please let me know if you have any questions.","es":"Por favor, avíseme si tiene alguna duda."}
+      ],
+      "tip_es": "Después de Would you mind usa el verbo con -ing: Would you mind waiting? Si respondes No, not at all, significa que no te molesta, o sea que sí aceptas. I was wondering if... suena mucho más amable que Can you...?"
+    },
+    {
+      "id": "16-6",
+      "title_es": "Condicionales en el trabajo",
+      "words": [
+        {"en":"unless","es":"a menos que","pos":"conj","ex_en":"We won't finish on time unless we work on Saturday.","ex_es":"No vamos a terminar a tiempo a menos que trabajemos el sábado."},
+        {"en":"as long as","es":"siempre y cuando","pos":"phrase","ex_en":"You can work from home as long as you finish your tasks.","ex_es":"Puedes trabajar desde casa siempre y cuando termines tus pendientes."},
+        {"en":"in case","es":"por si acaso","pos":"phrase","ex_en":"Bring your laptop in case we need it.","ex_es":"Trae tu laptop por si la necesitamos."},
+        {"en":"budget","es":"presupuesto","pos":"noun","ex_en":"We don't have enough budget for a new office.","ex_es":"No tenemos suficiente presupuesto para una oficina nueva."},
+        {"en":"afford","es":"costear, darse el lujo de","pos":"verb","ex_en":"We can't afford to lose this client.","ex_es":"No nos podemos dar el lujo de perder a este cliente."},
+        {"en":"raise","es":"aumento de sueldo","pos":"noun","ex_en":"If I get a raise, I'll buy a car.","ex_es":"Si me dan un aumento, me voy a comprar un coche."},
+        {"en":"opportunity","es":"oportunidad","pos":"noun","ex_en":"This job is a great opportunity for me.","ex_es":"Este trabajo es una gran oportunidad para mí."},
+        {"en":"turn down","es":"rechazar","pos":"verb","ex_en":"It's hard to turn down a good offer.","ex_es":"Es difícil rechazar una buena oferta."}
+      ],
+      "sentences": [
+        {"en":"If we finish the project early, the client will be happy.","es":"Si terminamos el proyecto antes, el cliente va a estar contento."},
+        {"en":"If I were the manager, I would hire more people.","es":"Si yo fuera el gerente, contrataría a más gente."},
+        {"en":"What would you do if you lost your job?","es":"¿Qué harías si perdieras tu trabajo?"},
+        {"en":"If you need help, just let me know.","es":"Si necesitas ayuda, nada más avísame."},
+        {"en":"I'll accept the offer as long as I can work remotely.","es":"Voy a aceptar la oferta siempre y cuando pueda trabajar a distancia."}
+      ],
+      "tip_es": "Primer condicional, para situaciones reales: If + presente, will + verbo. Segundo condicional, para situaciones imaginarias: If + pasado, would + verbo. En inglés formal se dice If I were. Nunca pongas will después de if: If it rains, no If it will rain."
+    }
+  ],
+  "dialogue": {
+    "title_es": "La entrevista",
+    "setting_es": "Tienes una entrevista para un puesto de ventas en una empresa internacional.",
+    "lines": [
+      {"who":"A","en":"Good morning. Thank you for coming in today.","es":"Buenos días. Gracias por venir hoy."},
+      {"who":"B","en":"Good morning. Thank you for the opportunity.","es":"Buenos días. Gracias por la oportunidad."},
+      {"who":"A","en":"So, tell me a little about your background.","es":"Bueno, cuénteme un poco sobre su trayectoria."},
+      {"who":"B","en":"I studied business, and I've worked in sales for six years.","es":"Estudié administración y he trabajado en ventas durante seis años."},
+      {"who":"A","en":"What would you say is your biggest strength?","es":"¿Cuál diría que es su mayor fortaleza?"},
+      {"who":"B","en":"I'm a team player, and I'm very good with clients.","es":"Trabajo bien en equipo y soy muy bueno con los clientes."},
+      {"who":"A","en":"Great. What would you do if a client was unhappy?","es":"Muy bien. ¿Qué haría si un cliente estuviera inconforme?"},
+      {"who":"B","en":"I would listen carefully and try to find a solution quickly.","es":"Lo escucharía con atención y trataría de encontrar una solución rápido."},
+      {"who":"A","en":"Excellent. We'll be in touch by the end of the week.","es":"Excelente. Nos comunicaremos con usted antes de que termine la semana."},
+      {"who":"B","en":"Thank you. I look forward to hearing from you.","es":"Gracias. Quedo en espera de su respuesta."}
+    ]
+  }
+}

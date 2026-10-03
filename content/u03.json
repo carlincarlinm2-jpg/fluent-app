@@ -1,0 +1,157 @@
+{
+  "id": 3,
+  "title_es": "Familia y personas",
+  "title_en": "Family and people",
+  "level": "A1",
+  "goal_es": "Al terminar podrás hablar de tu familia, describir cómo son las personas por fuera y por dentro, y usar his, her, our y their.",
+  "lessons": [
+    {
+      "id": "3-1",
+      "title_es": "Mi familia",
+      "words": [
+        {"en": "family", "es": "familia", "pos": "noun", "ex_en": "This is my family.", "ex_es": "Esta es mi familia."},
+        {"en": "mother", "es": "madre", "pos": "noun", "ex_en": "My mother is fifty.", "ex_es": "Mi madre tiene cincuenta años."},
+        {"en": "father", "es": "padre", "pos": "noun", "ex_en": "My father is from Oaxaca.", "ex_es": "Mi padre es de Oaxaca."},
+        {"en": "mom", "es": "mamá", "pos": "noun", "ex_en": "Hi, Mom!", "ex_es": "¡Hola, mamá!"},
+        {"en": "dad", "es": "papá", "pos": "noun", "ex_en": "Thanks, Dad!", "ex_es": "¡Gracias, papá!"},
+        {"en": "brother", "es": "hermano", "pos": "noun", "ex_en": "Luis is my brother.", "ex_es": "Luis es mi hermano."},
+        {"en": "sister", "es": "hermana", "pos": "noun", "ex_en": "My sister is a student.", "ex_es": "Mi hermana es estudiante."},
+        {"en": "parents", "es": "papás, padres", "pos": "noun", "ex_en": "My parents are sixty.", "ex_es": "Mis papás tienen sesenta años."}
+      ],
+      "sentences": [
+        {"en": "This is my mom, Rosa.", "es": "Ella es mi mamá, Rosa."},
+        {"en": "My dad is a teacher.", "es": "Mi papá es maestro."},
+        {"en": "Are they your parents?", "es": "¿Son tus papás?"},
+        {"en": "My brother is twenty-two.", "es": "Mi hermano tiene veintidós años."},
+        {"en": "My sister and I are students.", "es": "Mi hermana y yo somos estudiantes."}
+      ],
+      "tip_es": "Parents significa papás (mamá y papá juntos), no parientes. Para parientes en general se dice relatives. Es un falso amigo muy común."
+    },
+    {
+      "id": "3-2",
+      "title_es": "Hijos, pareja y abuelos",
+      "words": [
+        {"en": "son", "es": "hijo", "pos": "noun", "ex_en": "My son is a student.", "ex_es": "Mi hijo es estudiante."},
+        {"en": "daughter", "es": "hija", "pos": "noun", "ex_en": "My daughter is twelve years old.", "ex_es": "Mi hija tiene doce años."},
+        {"en": "husband", "es": "esposo", "pos": "noun", "ex_en": "My husband is from Texas.", "ex_es": "Mi esposo es de Texas."},
+        {"en": "wife", "es": "esposa", "pos": "noun", "ex_en": "This is my wife, Laura.", "ex_es": "Ella es mi esposa, Laura."},
+        {"en": "grandmother", "es": "abuela", "pos": "noun", "ex_en": "My grandmother is eighty.", "ex_es": "Mi abuela tiene ochenta años."},
+        {"en": "grandfather", "es": "abuelo", "pos": "noun", "ex_en": "My grandfather is ninety-one.", "ex_es": "Mi abuelo tiene noventa y un años."},
+        {"en": "uncle", "es": "tío", "pos": "noun", "ex_en": "My uncle is American.", "ex_es": "Mi tío es estadounidense."},
+        {"en": "aunt", "es": "tía", "pos": "noun", "ex_en": "Aunt Carmen is my mom's sister.", "ex_es": "La tía Carmen es hermana de mi mamá."}
+      ],
+      "sentences": [
+        {"en": "Is he your son?", "es": "¿Es tu hijo?"},
+        {"en": "My wife and I are from Monterrey.", "es": "Mi esposa y yo somos de Monterrey."},
+        {"en": "My grandmother is my dad's mother.", "es": "Mi abuela es la mamá de mi papá."},
+        {"en": "My uncle Pedro is my mom's brother.", "es": "Mi tío Pedro es hermano de mi mamá."},
+        {"en": "My husband is forty-three years old.", "es": "Mi esposo tiene cuarenta y tres años."}
+      ],
+      "tip_es": "Para decir de quién es algo se usa 's: my mom's sister es la hermana de mi mamá. El orden es al revés que en español, primero el dueño y luego la cosa. De cariño se dice grandma y grandpa."
+    },
+    {
+      "id": "3-3",
+      "title_es": "Su, nuestro y tener",
+      "words": [
+        {"en": "your", "es": "tu, su (de usted)", "pos": "pron", "ex_en": "Is she your sister?", "ex_es": "¿Ella es tu hermana?"},
+        {"en": "his", "es": "su (de él)", "pos": "pron", "ex_en": "His name is Pedro.", "ex_es": "Su nombre es Pedro."},
+        {"en": "her", "es": "su (de ella)", "pos": "pron", "ex_en": "Her name is Carmen.", "ex_es": "Su nombre es Carmen."},
+        {"en": "our", "es": "nuestro, nuestra", "pos": "pron", "ex_en": "Our mom is a teacher.", "ex_es": "Nuestra mamá es maestra."},
+        {"en": "their", "es": "su (de ellos)", "pos": "pron", "ex_en": "Their son is six.", "ex_es": "Su hijo tiene seis años."},
+        {"en": "have", "es": "tener", "pos": "verb", "ex_en": "I have two sisters.", "ex_es": "Tengo dos hermanas."},
+        {"en": "has", "es": "tiene", "pos": "verb", "ex_en": "She has a son.", "ex_es": "Ella tiene un hijo."},
+        {"en": "cousin", "es": "primo, prima", "pos": "noun", "ex_en": "My cousin is from Chicago.", "ex_es": "Mi primo es de Chicago."}
+      ],
+      "sentences": [
+        {"en": "Her brother is my friend.", "es": "Su hermano es mi amigo."},
+        {"en": "His wife has two brothers.", "es": "Su esposa tiene dos hermanos."},
+        {"en": "We have three cousins.", "es": "Tenemos tres primos."},
+        {"en": "Their parents are from Mexico.", "es": "Sus papás son de México."},
+        {"en": "What's your cousin's name?", "es": "¿Cómo se llama tu primo?"}
+      ],
+      "tip_es": "His es su cuando el dueño es hombre y her cuando es mujer: his mom (la mamá de él), her mom (la mamá de ella). Con he, she e it, el verbo have cambia a has."
+    },
+    {
+      "id": "3-4",
+      "title_es": "Alto, bajo, joven y grande",
+      "words": [
+        {"en": "tall", "es": "alto, alta", "pos": "adj", "ex_en": "My brother is very tall.", "ex_es": "Mi hermano es muy alto."},
+        {"en": "short", "es": "bajo, chaparro", "pos": "adj", "ex_en": "My grandmother is short.", "ex_es": "Mi abuela es chaparrita."},
+        {"en": "young", "es": "joven", "pos": "adj", "ex_en": "Her mom is very young.", "ex_es": "Su mamá es muy joven."},
+        {"en": "old", "es": "viejo, grande (de edad)", "pos": "adj", "ex_en": "My grandfather is old.", "ex_es": "Mi abuelo ya está grande."},
+        {"en": "big", "es": "grande", "pos": "adj", "ex_en": "Our family is big.", "ex_es": "Nuestra familia es grande."},
+        {"en": "small", "es": "pequeño, chico", "pos": "adj", "ex_en": "Their baby is small.", "ex_es": "Su bebé es chiquito."},
+        {"en": "thin", "es": "delgado, delgada", "pos": "adj", "ex_en": "My uncle is tall and thin.", "ex_es": "Mi tío es alto y delgado."},
+        {"en": "strong", "es": "fuerte", "pos": "adj", "ex_en": "My dad is strong.", "ex_es": "Mi papá es fuerte."}
+      ],
+      "sentences": [
+        {"en": "Is your sister tall or short?", "es": "¿Tu hermana es alta o bajita?"},
+        {"en": "He's young, but he's very strong.", "es": "Es joven, pero es muy fuerte."},
+        {"en": "My parents aren't old.", "es": "Mis papás no están grandes."},
+        {"en": "We have a big family.", "es": "Tenemos una familia grande."},
+        {"en": "Her cousin is short and thin.", "es": "Su prima es bajita y delgada."}
+      ],
+      "tip_es": "El adjetivo va antes del sustantivo: a big family es una familia grande. Además, nunca cambia por género ni número: tall sirve para alto, alta, altos y altas."
+    },
+    {
+      "id": "3-5",
+      "title_es": "Pelo, ojos y apariencia",
+      "words": [
+        {"en": "hair", "es": "pelo, cabello", "pos": "noun", "ex_en": "She has long hair.", "ex_es": "Ella tiene el pelo largo."},
+        {"en": "eyes", "es": "ojos", "pos": "noun", "ex_en": "He has big eyes.", "ex_es": "Tiene los ojos grandes."},
+        {"en": "long", "es": "largo, larga", "pos": "adj", "ex_en": "My sister's hair is long.", "ex_es": "Mi hermana tiene el pelo largo."},
+        {"en": "curly", "es": "chino, rizado", "pos": "adj", "ex_en": "Her hair is curly.", "ex_es": "Ella tiene el pelo chino."},
+        {"en": "beard", "es": "barba", "pos": "noun", "ex_en": "My grandfather has a beard.", "ex_es": "Mi abuelo tiene barba."},
+        {"en": "glasses", "es": "lentes", "pos": "noun", "ex_en": "My aunt has glasses.", "ex_es": "Mi tía usa lentes."},
+        {"en": "pretty", "es": "bonita, bonito", "pos": "adj", "ex_en": "Your daughter is very pretty.", "ex_es": "Tu hija está muy bonita."},
+        {"en": "handsome", "es": "guapo", "pos": "adj", "ex_en": "Her husband is handsome.", "ex_es": "Su esposo es guapo."}
+      ],
+      "sentences": [
+        {"en": "She has long, curly hair.", "es": "Ella tiene el pelo largo y chino."},
+        {"en": "My dad has a beard and glasses.", "es": "Mi papá tiene barba y usa lentes."},
+        {"en": "Your mom is very pretty.", "es": "Tu mamá es muy bonita."},
+        {"en": "He's tall and handsome.", "es": "Es alto y guapo."},
+        {"en": "Their son has big eyes.", "es": "Su hijo tiene los ojos grandes."}
+      ],
+      "tip_es": "Para describir el pelo y los ojos se usa have o has: she has long hair (tiene el pelo largo). Ojo, hair va en singular cuando hablas de todo el pelo, nunca hairs."
+    },
+    {
+      "id": "3-6",
+      "title_es": "La personalidad",
+      "words": [
+        {"en": "nice", "es": "buena onda, amable", "pos": "adj", "ex_en": "Your parents are very nice.", "ex_es": "Tus papás son muy buena onda."},
+        {"en": "funny", "es": "chistoso, divertido", "pos": "adj", "ex_en": "My uncle is funny.", "ex_es": "Mi tío es chistoso."},
+        {"en": "kind", "es": "amable, bondadoso", "pos": "adj", "ex_en": "Thank you, you're very kind.", "ex_es": "Gracias, eres muy amable."},
+        {"en": "smart", "es": "inteligente, listo", "pos": "adj", "ex_en": "Our daughter is smart.", "ex_es": "Nuestra hija es inteligente."},
+        {"en": "shy", "es": "tímido, tímida", "pos": "adj", "ex_en": "My brother is a little shy.", "ex_es": "Mi hermano es un poco tímido."},
+        {"en": "friendly", "es": "amigable, amistoso", "pos": "adj", "ex_en": "The students are friendly.", "ex_es": "Los estudiantes son amigables."},
+        {"en": "serious", "es": "serio, seria", "pos": "adj", "ex_en": "My dad is very serious.", "ex_es": "Mi papá es muy serio."},
+        {"en": "lazy", "es": "flojo, floja", "pos": "adj", "ex_en": "My cousin is lazy.", "ex_es": "Mi primo es flojo."}
+      ],
+      "sentences": [
+        {"en": "My sister is smart and funny.", "es": "Mi hermana es inteligente y chistosa."},
+        {"en": "Is your teacher nice or serious?", "es": "¿Tu maestro es buena onda o serio?"},
+        {"en": "He isn't lazy, he's tired!", "es": "¡No es flojo, está cansado!"},
+        {"en": "Our grandmother is very kind.", "es": "Nuestra abuela es muy amable."},
+        {"en": "My son is shy, but friendly.", "es": "Mi hijo es tímido, pero amigable."}
+      ],
+      "tip_es": "Cuidado con este falso amigo: sensible en inglés significa sensato. Si quieres decir que alguien es sensible, usa sensitive. Para decir que alguien es simpático o buena onda, lo más natural es nice."
+    }
+  ],
+  "dialogue": {
+    "title_es": "Fotos de familia",
+    "setting_es": "Una amiga ve las fotos de tu familia en tu celular.",
+    "lines": [
+      {"who": "A", "en": "Is this your family?", "es": "¿Es tu familia?"},
+      {"who": "B", "en": "Yes! This is my mom, Rosa.", "es": "¡Sí! Ella es mi mamá, Rosa."},
+      {"who": "A", "en": "She's very pretty. Who is the tall man?", "es": "Es muy bonita. ¿Quién es el señor alto?"},
+      {"who": "B", "en": "That's my brother, Daniel. He's thirty.", "es": "Es mi hermano Daniel. Tiene treinta años."},
+      {"who": "A", "en": "He's handsome! Is he nice?", "es": "¡Es guapo! ¿Es buena onda?"},
+      {"who": "B", "en": "Yes, he's very funny. He's a teacher.", "es": "Sí, es muy chistoso. Es maestro."},
+      {"who": "A", "en": "And the girl with curly hair?", "es": "¿Y la niña de pelo chino?"},
+      {"who": "B", "en": "That's Sofia, my brother's daughter.", "es": "Es Sofía, la hija de mi hermano."},
+      {"who": "A", "en": "How old is she?", "es": "¿Cuántos años tiene?"},
+      {"who": "B", "en": "She's six. She's shy, but very smart.", "es": "Tiene seis años. Es tímida, pero muy inteligente."}
+    ]
+  }
+}

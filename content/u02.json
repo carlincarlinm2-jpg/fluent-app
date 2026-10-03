@@ -1,0 +1,157 @@
+{
+  "id": 2,
+  "title_es": "Números, edad y datos personales",
+  "title_en": "Numbers and personal information",
+  "level": "A1",
+  "goal_es": "Al terminar podrás contar hasta 100, decir tu edad, tu teléfono, tu correo y de dónde eres, usando el verbo to be.",
+  "lessons": [
+    {
+      "id": "2-1",
+      "title_es": "Del cero al siete",
+      "words": [
+        {"en": "zero", "es": "cero", "pos": "num", "ex_en": "The number is zero.", "ex_es": "El número es cero."},
+        {"en": "one", "es": "uno", "pos": "num", "ex_en": "One coffee, please.", "ex_es": "Un café, por favor."},
+        {"en": "two", "es": "dos", "pos": "num", "ex_en": "Two, please.", "ex_es": "Dos, por favor."},
+        {"en": "three", "es": "tres", "pos": "num", "ex_en": "Number three, please.", "ex_es": "El número tres, por favor."},
+        {"en": "four", "es": "cuatro", "pos": "num", "ex_en": "My name has four letters.", "ex_es": "Mi nombre tiene cuatro letras."},
+        {"en": "five", "es": "cinco", "pos": "num", "ex_en": "Five, four, three, two, one!", "ex_es": "¡Cinco, cuatro, tres, dos, uno!"},
+        {"en": "six", "es": "seis", "pos": "num", "ex_en": "Lesson six is easy.", "ex_es": "La lección seis es fácil."},
+        {"en": "seven", "es": "siete", "pos": "num", "ex_en": "Seven is my number.", "ex_es": "El siete es mi número."}
+      ],
+      "sentences": [
+        {"en": "One, two, three, four, five.", "es": "Uno, dos, tres, cuatro, cinco."},
+        {"en": "Number seven, please.", "es": "El número siete, por favor."},
+        {"en": "Is it six or seven?", "es": "¿Es seis o siete?"},
+        {"en": "It's zero, not six.", "es": "Es cero, no seis."},
+        {"en": "Two, three, or four?", "es": "¿Dos, tres o cuatro?"}
+      ],
+      "tip_es": "Para decir three pon la punta de la lengua entre los dientes y sopla suave, no digas tri. En números de teléfono el cero muchas veces se dice o, como la letra: 502 se dice five, o, two."
+    },
+    {
+      "id": "2-2",
+      "title_es": "Del ocho al veinte",
+      "words": [
+        {"en": "eight", "es": "ocho", "pos": "num", "ex_en": "My number is eight.", "ex_es": "Mi número es el ocho."},
+        {"en": "nine", "es": "nueve", "pos": "num", "ex_en": "Lesson nine, please.", "ex_es": "Lección nueve, por favor."},
+        {"en": "ten", "es": "diez", "pos": "num", "ex_en": "I have ten friends.", "ex_es": "Tengo diez amigos."},
+        {"en": "eleven", "es": "once", "pos": "num", "ex_en": "Eleven is a good number.", "ex_es": "El once es un buen número."},
+        {"en": "twelve", "es": "doce", "pos": "num", "ex_en": "I'm twelve.", "ex_es": "Tengo doce años."},
+        {"en": "thirteen", "es": "trece", "pos": "num", "ex_en": "Thirteen, not thirty.", "ex_es": "Trece, no treinta."},
+        {"en": "fifteen", "es": "quince", "pos": "num", "ex_en": "Ana is fifteen.", "ex_es": "Ana tiene quince años."},
+        {"en": "twenty", "es": "veinte", "pos": "num", "ex_en": "Twenty letters? No, twenty-six!", "ex_es": "¿Veinte letras? ¡No, veintiséis!"}
+      ],
+      "sentences": [
+        {"en": "Eight, nine, ten, eleven, twelve.", "es": "Ocho, nueve, diez, once, doce."},
+        {"en": "Is it thirteen or fifteen?", "es": "¿Es trece o quince?"},
+        {"en": "I'm fifteen. And you?", "es": "Tengo quince años. ¿Y tú?"},
+        {"en": "Sixteen, seventeen, eighteen, nineteen, twenty!", "es": "¡Dieciséis, diecisiete, dieciocho, diecinueve, veinte!"},
+        {"en": "The number is eleven, not seven.", "es": "El número es once, no siete."}
+      ],
+      "tip_es": "Del 13 al 19 los números terminan en teen: thirteen, fourteen, fifteen, sixteen, seventeen, eighteen, nineteen. Ojo, se dice fifteen y no fiveteen, y thirteen y no threeteen."
+    },
+    {
+      "id": "2-3",
+      "title_es": "Las decenas hasta el cien",
+      "words": [
+        {"en": "thirty", "es": "treinta", "pos": "num", "ex_en": "I'm thirty years old.", "ex_es": "Tengo treinta años."},
+        {"en": "forty", "es": "cuarenta", "pos": "num", "ex_en": "My teacher is forty.", "ex_es": "Mi maestro tiene cuarenta años."},
+        {"en": "fifty", "es": "cincuenta", "pos": "num", "ex_en": "Mr. Brown is fifty.", "ex_es": "El señor Brown tiene cincuenta años."},
+        {"en": "sixty", "es": "sesenta", "pos": "num", "ex_en": "Sixty is not old!", "ex_es": "¡Sesenta no es ser viejo!"},
+        {"en": "seventy", "es": "setenta", "pos": "num", "ex_en": "Mrs. Clark is seventy.", "ex_es": "La señora Clark tiene setenta años."},
+        {"en": "eighty", "es": "ochenta", "pos": "num", "ex_en": "Eighty, not eighteen.", "ex_es": "Ochenta, no dieciocho."},
+        {"en": "ninety", "es": "noventa", "pos": "num", "ex_en": "Ninety, ninety-one, ninety-two.", "ex_es": "Noventa, noventa y uno, noventa y dos."},
+        {"en": "one hundred", "es": "cien", "pos": "num", "ex_en": "From one to one hundred.", "ex_es": "Del uno al cien."}
+      ],
+      "sentences": [
+        {"en": "Twenty-one, twenty-two, twenty-three.", "es": "Veintiuno, veintidós, veintitrés."},
+        {"en": "Is it forty or fourteen?", "es": "¿Es cuarenta o catorce?"},
+        {"en": "Mr. Brown is fifty-five.", "es": "El señor Brown tiene cincuenta y cinco años."},
+        {"en": "I'm thirty-seven. And you?", "es": "Tengo treinta y siete años. ¿Y tú?"},
+        {"en": "Ninety-eight, ninety-nine, one hundred!", "es": "¡Noventa y ocho, noventa y nueve, cien!"}
+      ],
+      "tip_es": "Para formar números como 21 o 99 se unen las dos palabras con un guion: twenty-one, ninety-nine. Fíjate en la fuerza de la voz: thirTEEN lleva el acento al final y THIRty al inicio, así no los confundes."
+    },
+    {
+      "id": "2-4",
+      "title_es": "El verbo to be",
+      "words": [
+        {"en": "he", "es": "él", "pos": "pron", "ex_en": "He is my friend.", "ex_es": "Él es mi amigo."},
+        {"en": "she", "es": "ella", "pos": "pron", "ex_en": "She is a teacher.", "ex_es": "Ella es maestra."},
+        {"en": "it", "es": "eso (para cosas y animales)", "pos": "pron", "ex_en": "Is it seven? Yes, it is.", "ex_es": "¿Es el siete? Sí."},
+        {"en": "we", "es": "nosotros, nosotras", "pos": "pron", "ex_en": "We are students.", "ex_es": "Somos estudiantes."},
+        {"en": "they", "es": "ellos, ellas", "pos": "pron", "ex_en": "They are my friends.", "ex_es": "Ellos son mis amigos."},
+        {"en": "is", "es": "es, está", "pos": "verb", "ex_en": "Luis is tired.", "ex_es": "Luis está cansado."},
+        {"en": "are", "es": "eres, son, están", "pos": "verb", "ex_en": "Are you okay?", "ex_es": "¿Estás bien?"},
+        {"en": "not", "es": "no", "pos": "adv", "ex_en": "I'm not tired.", "ex_es": "No estoy cansado."}
+      ],
+      "sentences": [
+        {"en": "He's my friend Tom.", "es": "Él es mi amigo Tom."},
+        {"en": "She's a teacher, not a student.", "es": "Ella es maestra, no estudiante."},
+        {"en": "We're students. Are you a teacher?", "es": "Somos estudiantes. ¿Tú eres maestro?"},
+        {"en": "They aren't tired. They're great!", "es": "No están cansados. ¡Están muy bien!"},
+        {"en": "What is it? It's a number.", "es": "¿Qué es? Es un número."}
+      ],
+      "tip_es": "Formas cortas: he's, she's, it's, we're, they're. Para negar agrega not: he isn't, we aren't. En inglés nunca se omite el sujeto, así que es maestra se dice she's a teacher."
+    },
+    {
+      "id": "2-5",
+      "title_es": "Edad, teléfono y correo",
+      "words": [
+        {"en": "how old", "es": "qué edad, cuántos años", "pos": "phrase", "ex_en": "How old are you?", "ex_es": "¿Cuántos años tienes?"},
+        {"en": "years old", "es": "años (de edad)", "pos": "phrase", "ex_en": "I'm twenty years old.", "ex_es": "Tengo veinte años."},
+        {"en": "age", "es": "edad", "pos": "noun", "ex_en": "Age: thirty-two.", "ex_es": "Edad: treinta y dos."},
+        {"en": "phone number", "es": "número de teléfono", "pos": "phrase", "ex_en": "What's your phone number?", "ex_es": "¿Cuál es tu número de teléfono?"},
+        {"en": "cell phone", "es": "celular", "pos": "noun", "ex_en": "Is this your cell phone?", "ex_es": "¿Este es tu celular?"},
+        {"en": "email", "es": "correo electrónico", "pos": "noun", "ex_en": "What's your email?", "ex_es": "¿Cuál es tu correo?"},
+        {"en": "address", "es": "dirección", "pos": "noun", "ex_en": "My address is forty Oak Street.", "ex_es": "Mi dirección es calle Oak número cuarenta."},
+        {"en": "birthday", "es": "cumpleaños", "pos": "noun", "ex_en": "Today is my birthday!", "ex_es": "¡Hoy es mi cumpleaños!"}
+      ],
+      "sentences": [
+        {"en": "How old are you? I'm nineteen.", "es": "¿Cuántos años tienes? Tengo diecinueve."},
+        {"en": "She's twenty-four years old.", "es": "Ella tiene veinticuatro años."},
+        {"en": "What's your cell phone number?", "es": "¿Cuál es tu número de celular?"},
+        {"en": "It's five, five, five, eight, one, zero.", "es": "Es cinco, cinco, cinco, ocho, uno, cero."},
+        {"en": "My email is ana at fluent dot com.", "es": "Mi correo es ana arroba fluent punto com."}
+      ],
+      "tip_es": "Para decir tu edad se usa to be, no tener: I'm 20 o I'm 20 years old, nunca I have 20 years. Al dictar un correo, la arroba se dice at y el punto se dice dot."
+    },
+    {
+      "id": "2-6",
+      "title_es": "¿De dónde eres?",
+      "words": [
+        {"en": "where", "es": "dónde", "pos": "adv", "ex_en": "Where is Tom?", "ex_es": "¿Dónde está Tom?"},
+        {"en": "from", "es": "de (origen)", "pos": "prep", "ex_en": "I'm from Puebla.", "ex_es": "Soy de Puebla."},
+        {"en": "country", "es": "país", "pos": "noun", "ex_en": "Mexico is a big country.", "ex_es": "México es un país grande."},
+        {"en": "city", "es": "ciudad", "pos": "noun", "ex_en": "My city is Monterrey.", "ex_es": "Mi ciudad es Monterrey."},
+        {"en": "Mexico", "es": "México", "pos": "noun", "ex_en": "I'm from Mexico.", "ex_es": "Soy de México."},
+        {"en": "the United States", "es": "Estados Unidos", "pos": "noun", "ex_en": "Tom is from the United States.", "ex_es": "Tom es de Estados Unidos."},
+        {"en": "Mexican", "es": "mexicano, mexicana", "pos": "adj", "ex_en": "We're Mexican.", "ex_es": "Somos mexicanos."},
+        {"en": "American", "es": "estadounidense", "pos": "adj", "ex_en": "Emma is American.", "ex_es": "Emma es estadounidense."}
+      ],
+      "sentences": [
+        {"en": "Where are you from?", "es": "¿De dónde eres?"},
+        {"en": "I'm from Guadalajara, Mexico.", "es": "Soy de Guadalajara, México."},
+        {"en": "Where is she from?", "es": "¿De dónde es ella?"},
+        {"en": "He's American, from Chicago.", "es": "Él es estadounidense, de Chicago."},
+        {"en": "We're Mexican. What city are you from?", "es": "Somos mexicanos. ¿De qué ciudad eres?"}
+      ],
+      "tip_es": "Países y nacionalidades siempre llevan mayúscula en inglés: Mexico, Mexican, American. La pregunta termina con from: Where are you from?, que literalmente es dónde eres de."
+    }
+  ],
+  "dialogue": {
+    "title_es": "Inscripción en el gimnasio",
+    "setting_es": "Te inscribes en un gimnasio y la recepcionista te pide tus datos.",
+    "lines": [
+      {"who": "A", "en": "Hi! What's your name, please?", "es": "¡Hola! ¿Cómo te llamas, por favor?"},
+      {"who": "B", "en": "My name is Laura Ortiz.", "es": "Me llamo Laura Ortiz."},
+      {"who": "A", "en": "Nice to meet you. How old are you?", "es": "Mucho gusto. ¿Cuántos años tienes?"},
+      {"who": "B", "en": "I'm twenty-eight years old.", "es": "Tengo veintiocho años."},
+      {"who": "A", "en": "Great. Where are you from?", "es": "Muy bien. ¿De dónde eres?"},
+      {"who": "B", "en": "I'm from Mexico, from Puebla.", "es": "Soy de México, de Puebla."},
+      {"who": "A", "en": "What's your phone number?", "es": "¿Cuál es tu número de teléfono?"},
+      {"who": "B", "en": "It's five, five, five, zero, one, four, nine.", "es": "Es cinco, cinco, cinco, cero, uno, cuatro, nueve."},
+      {"who": "A", "en": "Thanks. And your email?", "es": "Gracias. ¿Y tu correo?"},
+      {"who": "B", "en": "It's laura at fluent dot com.", "es": "Es laura arroba fluent punto com."}
+    ]
+  }
+}

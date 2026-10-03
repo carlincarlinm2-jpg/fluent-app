@@ -1,0 +1,157 @@
+{
+  "id": 1,
+  "title_es": "Saludos y presentaciones",
+  "title_en": "Greetings and introductions",
+  "level": "A1",
+  "goal_es": "Al terminar podrás saludar, despedirte, decir tu nombre, deletrearlo y hablar con cortesía.",
+  "lessons": [
+    {
+      "id": "1-1",
+      "title_es": "Hola y adiós",
+      "words": [
+        {"en": "hello", "es": "hola", "pos": "interj", "ex_en": "Hello, Ana.", "ex_es": "Hola, Ana."},
+        {"en": "hi", "es": "hola (informal)", "pos": "interj", "ex_en": "Hi, Tom!", "ex_es": "¡Hola, Tom!"},
+        {"en": "goodbye", "es": "adiós", "pos": "interj", "ex_en": "Goodbye, Carlos.", "ex_es": "Adiós, Carlos."},
+        {"en": "bye", "es": "adiós, bye (informal)", "pos": "interj", "ex_en": "Bye, Sara!", "ex_es": "¡Bye, Sara!"},
+        {"en": "good morning", "es": "buenos días", "pos": "phrase", "ex_en": "Good morning, Luis.", "ex_es": "Buenos días, Luis."},
+        {"en": "good afternoon", "es": "buenas tardes", "pos": "phrase", "ex_en": "Good afternoon, Emma.", "ex_es": "Buenas tardes, Emma."},
+        {"en": "good night", "es": "buenas noches (al despedirse)", "pos": "phrase", "ex_en": "Good night, Mom.", "ex_es": "Buenas noches, mamá."},
+        {"en": "see you later", "es": "nos vemos luego", "pos": "phrase", "ex_en": "Bye, Tom. See you later!", "ex_es": "Adiós, Tom. ¡Nos vemos luego!"}
+      ],
+      "sentences": [
+        {"en": "Hello, Luis!", "es": "¡Hola, Luis!"},
+        {"en": "Hi, good morning!", "es": "¡Hola, buenos días!"},
+        {"en": "Good afternoon, Ana.", "es": "Buenas tardes, Ana."},
+        {"en": "Goodbye, Carlos. Good night!", "es": "Adiós, Carlos. ¡Buenas noches!"},
+        {"en": "Bye, Emma! See you later.", "es": "¡Adiós, Emma! Nos vemos luego."}
+      ],
+      "tip_es": "Good night solo se usa para despedirse o antes de dormir. Si llegas a un lugar en la noche, saluda con good evening. Hi y bye son informales, perfectos con amigos."
+    },
+    {
+      "id": "1-2",
+      "title_es": "¿Cómo te llamas?",
+      "words": [
+        {"en": "name", "es": "nombre", "pos": "noun", "ex_en": "My name is Luis.", "ex_es": "Me llamo Luis."},
+        {"en": "my", "es": "mi", "pos": "pron", "ex_en": "My name is Sara.", "ex_es": "Mi nombre es Sara."},
+        {"en": "I", "es": "yo", "pos": "pron", "ex_en": "I am Tom.", "ex_es": "Yo soy Tom."},
+        {"en": "I'm", "es": "yo soy, yo estoy", "pos": "phrase", "ex_en": "I'm Carlos.", "ex_es": "Soy Carlos."},
+        {"en": "you", "es": "tú, usted", "pos": "pron", "ex_en": "And you?", "ex_es": "¿Y tú?"},
+        {"en": "what", "es": "qué, cuál", "pos": "pron", "ex_en": "What is your name?", "ex_es": "¿Cuál es tu nombre?"},
+        {"en": "nice to meet you", "es": "mucho gusto", "pos": "phrase", "ex_en": "Nice to meet you, Ana.", "ex_es": "Mucho gusto, Ana."},
+        {"en": "too", "es": "también", "pos": "adv", "ex_en": "I'm Ana too!", "ex_es": "¡Yo también soy Ana!"}
+      ],
+      "sentences": [
+        {"en": "Hi, I'm Carlos.", "es": "Hola, soy Carlos."},
+        {"en": "My name is Sara.", "es": "Me llamo Sara."},
+        {"en": "What's your name?", "es": "¿Cómo te llamas?"},
+        {"en": "I'm Luis. And you?", "es": "Soy Luis. ¿Y tú?"},
+        {"en": "Nice to meet you too, Emma.", "es": "Igualmente, Emma. Mucho gusto."}
+      ],
+      "tip_es": "I'm es la forma corta de I am y es la más común al hablar. En inglés nunca se omite el sujeto: se dice I'm Carlos, no solo am Carlos. Además, I (yo) siempre se escribe con mayúscula."
+    },
+    {
+      "id": "1-3",
+      "title_es": "¿Cómo estás?",
+      "words": [
+        {"en": "how are you", "es": "cómo estás", "pos": "phrase", "ex_en": "Hi, Ana! How are you?", "ex_es": "¡Hola, Ana! ¿Cómo estás?"},
+        {"en": "fine", "es": "bien", "pos": "adj", "ex_en": "I'm fine.", "ex_es": "Estoy bien."},
+        {"en": "good", "es": "bien, bueno", "pos": "adj", "ex_en": "I'm good. And you?", "ex_es": "Estoy bien. ¿Y tú?"},
+        {"en": "great", "es": "muy bien, excelente", "pos": "adj", "ex_en": "I'm great!", "ex_es": "¡Estoy muy bien!"},
+        {"en": "okay", "es": "bien, normal", "pos": "adj", "ex_en": "I'm okay.", "ex_es": "Estoy bien, normal."},
+        {"en": "not bad", "es": "nada mal", "pos": "phrase", "ex_en": "Not bad. And you?", "ex_es": "Nada mal. ¿Y tú?"},
+        {"en": "tired", "es": "cansado, cansada", "pos": "adj", "ex_en": "I'm tired.", "ex_es": "Estoy cansado."},
+        {"en": "very", "es": "muy", "pos": "adv", "ex_en": "I'm very tired.", "ex_es": "Estoy muy cansada."}
+      ],
+      "sentences": [
+        {"en": "Good morning! How are you?", "es": "¡Buenos días! ¿Cómo estás?"},
+        {"en": "I'm fine. And you?", "es": "Estoy bien. ¿Y tú?"},
+        {"en": "I'm great, Luis!", "es": "¡Estoy muy bien, Luis!"},
+        {"en": "Not bad. I'm very tired.", "es": "Nada mal. Estoy muy cansado."},
+        {"en": "Hi, Tom! I'm good. How are you?", "es": "¡Hola, Tom! Estoy bien. ¿Cómo estás?"}
+      ],
+      "tip_es": "I'm sirve para soy y para estoy: I'm Ana (soy Ana), I'm tired (estoy cansada). Los adjetivos en inglés no cambian por género, así que tired es igual para hombre o mujer."
+    },
+    {
+      "id": "1-4",
+      "title_es": "El alfabeto y deletrear",
+      "words": [
+        {"en": "letter", "es": "letra", "pos": "noun", "ex_en": "What letter is it?", "ex_es": "¿Qué letra es?"},
+        {"en": "alphabet", "es": "abecedario, alfabeto", "pos": "noun", "ex_en": "The English alphabet has 26 letters.", "ex_es": "El alfabeto inglés tiene 26 letras."},
+        {"en": "spell", "es": "deletrear", "pos": "verb", "ex_en": "How do you spell it?", "ex_es": "¿Cómo se escribe?"},
+        {"en": "first name", "es": "nombre (de pila)", "pos": "phrase", "ex_en": "My first name is Laura.", "ex_es": "Mi nombre es Laura."},
+        {"en": "last name", "es": "apellido", "pos": "phrase", "ex_en": "My last name is Ruiz.", "ex_es": "Mi apellido es Ruiz."},
+        {"en": "again", "es": "otra vez, de nuevo", "pos": "adv", "ex_en": "Spell it again.", "ex_es": "Deletréalo otra vez."},
+        {"en": "slowly", "es": "despacio", "pos": "adv", "ex_en": "Spell your name slowly.", "ex_es": "Deletrea tu nombre despacio."},
+        {"en": "repeat", "es": "repetir", "pos": "verb", "ex_en": "Repeat the letter.", "ex_es": "Repite la letra."}
+      ],
+      "sentences": [
+        {"en": "What's your last name?", "es": "¿Cuál es tu apellido?"},
+        {"en": "My last name is Ruiz. R, U, I, Z.", "es": "Mi apellido es Ruiz. R, U, I, Z."},
+        {"en": "How do you spell your first name?", "es": "¿Cómo se escribe tu nombre?"},
+        {"en": "Is it B or V?", "es": "¿Es B o V?"},
+        {"en": "Repeat it again slowly.", "es": "Repítelo otra vez, despacio."}
+      ],
+      "tip_es": "Ojo con las vocales: en inglés la A se dice ei, la E se dice i y la I se dice ai. Son las letras que más confunden al deletrear, así que practica tu nombre con ellas."
+    },
+    {
+      "id": "1-5",
+      "title_es": "Por favor y gracias",
+      "words": [
+        {"en": "please", "es": "por favor", "pos": "adv", "ex_en": "Slowly, please.", "ex_es": "Despacio, por favor."},
+        {"en": "thank you", "es": "gracias", "pos": "phrase", "ex_en": "Thank you, Ana.", "ex_es": "Gracias, Ana."},
+        {"en": "thanks", "es": "gracias (informal)", "pos": "interj", "ex_en": "Thanks, Tom!", "ex_es": "¡Gracias, Tom!"},
+        {"en": "you're welcome", "es": "de nada", "pos": "phrase", "ex_en": "You're welcome, Luis.", "ex_es": "De nada, Luis."},
+        {"en": "excuse me", "es": "disculpe, con permiso", "pos": "phrase", "ex_en": "Excuse me, what's your name?", "ex_es": "Disculpe, ¿cómo se llama?"},
+        {"en": "sorry", "es": "perdón, lo siento", "pos": "interj", "ex_en": "Sorry, Emma!", "ex_es": "¡Perdón, Emma!"},
+        {"en": "no problem", "es": "no hay problema", "pos": "phrase", "ex_en": "No problem, Carlos.", "ex_es": "No hay problema, Carlos."},
+        {"en": "of course", "es": "claro, por supuesto", "pos": "phrase", "ex_en": "Of course, Sara.", "ex_es": "Claro, Sara."}
+      ],
+      "sentences": [
+        {"en": "Thank you very much, Emma!", "es": "¡Muchas gracias, Emma!"},
+        {"en": "Excuse me, how do you spell it?", "es": "Disculpe, ¿cómo se escribe?"},
+        {"en": "Sorry, repeat it slowly, please.", "es": "Perdón, repítalo despacio, por favor."},
+        {"en": "No problem. You're welcome.", "es": "No hay problema. De nada."},
+        {"en": "Thanks, Carlos. See you later!", "es": "Gracias, Carlos. ¡Nos vemos luego!"}
+      ],
+      "tip_es": "Usa excuse me antes de interrumpir o pedir algo, como disculpe. Usa sorry después de un error, como perdón. Si no escuchaste bien, di Sorry? con tono de pregunta."
+    },
+    {
+      "id": "1-6",
+      "title_es": "Conocer gente",
+      "words": [
+        {"en": "friend", "es": "amigo, amiga", "pos": "noun", "ex_en": "Tom is my friend.", "ex_es": "Tom es mi amigo."},
+        {"en": "teacher", "es": "maestro, maestra", "pos": "noun", "ex_en": "Ana is my teacher.", "ex_es": "Ana es mi maestra."},
+        {"en": "student", "es": "estudiante, alumno", "pos": "noun", "ex_en": "I'm a student.", "ex_es": "Soy estudiante."},
+        {"en": "Mr.", "es": "señor (Sr.)", "pos": "noun", "ex_en": "Good morning, Mr. Brown.", "ex_es": "Buenos días, señor Brown."},
+        {"en": "Mrs.", "es": "señora (Sra.)", "pos": "noun", "ex_en": "Thank you, Mrs. Clark.", "ex_es": "Gracias, señora Clark."},
+        {"en": "this is", "es": "este es, esta es", "pos": "phrase", "ex_en": "This is my friend Luis.", "ex_es": "Él es mi amigo Luis."},
+        {"en": "yes", "es": "sí", "pos": "adv", "ex_en": "Yes, I'm Sara.", "ex_es": "Sí, soy Sara."},
+        {"en": "no", "es": "no", "pos": "adv", "ex_en": "No, I'm Emma.", "ex_es": "No, soy Emma."}
+      ],
+      "sentences": [
+        {"en": "This is my friend Carlos.", "es": "Él es mi amigo Carlos."},
+        {"en": "Are you a student? Yes.", "es": "¿Eres estudiante? Sí."},
+        {"en": "No, I'm a teacher.", "es": "No, soy maestra."},
+        {"en": "Good morning, Mrs. Clark. How are you?", "es": "Buenos días, señora Clark. ¿Cómo está?"},
+        {"en": "Mr. Brown, this is my friend Ana.", "es": "Señor Brown, le presento a mi amiga Ana."}
+      ],
+      "tip_es": "En inglés se pone a antes de una profesión: I'm a student, I'm a teacher. En español decimos soy estudiante sin artículo, pero en inglés no se puede quitar."
+    }
+  ],
+  "dialogue": {
+    "title_es": "El primer día de clase",
+    "setting_es": "Es tu primer día en la clase de inglés y una compañera te saluda.",
+    "lines": [
+      {"who": "A", "en": "Hi! Good morning. I'm Emma.", "es": "¡Hola! Buenos días. Soy Emma."},
+      {"who": "B", "en": "Hello, Emma. My name is Carlos.", "es": "Hola, Emma. Me llamo Carlos."},
+      {"who": "A", "en": "Nice to meet you, Carlos. How are you?", "es": "Mucho gusto, Carlos. ¿Cómo estás?"},
+      {"who": "B", "en": "I'm fine, thanks. And you?", "es": "Estoy bien, gracias. ¿Y tú?"},
+      {"who": "A", "en": "I'm great! What's your last name?", "es": "¡Muy bien! ¿Cuál es tu apellido?"},
+      {"who": "B", "en": "Ruiz. R, U, I, Z.", "es": "Ruiz. R, U, I, Z."},
+      {"who": "A", "en": "Sorry? Spell it slowly, please.", "es": "¿Perdón? Deletréalo despacio, por favor."},
+      {"who": "B", "en": "Of course. R, U, I, Z.", "es": "Claro. R, U, I, Z."},
+      {"who": "A", "en": "Thank you! Are you a student?", "es": "¡Gracias! ¿Eres estudiante?"},
+      {"who": "B", "en": "Yes, I am. See you later, Emma!", "es": "Sí. ¡Nos vemos luego, Emma!"}
+    ]
+  }
+}
