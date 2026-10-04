@@ -228,7 +228,9 @@ const ACHS=[
   ['review100','Memoria de elefante','100 repasos','brain',()=>S.totals.reviews>=100],
   ['unit1','Curso 1 completo','Termina el curso 1','trophy',()=>unitComplete(1)],
   ['unit8','Mitad del camino','Termina el curso 8','trophy',()=>unitComplete(8)],
-  ['unit16','¡Fluent!','Termina los 16 cursos','trophy',()=>unitComplete(16)],
+  ['unit16','Nivel B2','Termina el curso 16','trophy',()=>unitComplete(16)],
+  ['unit20','¡Fluent!','Termina los 20 cursos','trophy',()=>unitComplete(20)],
+  ['exam85','Distinción','Saca 85% o más en un examen','star',()=>Object.values(S.units).some(u=>u.exam?.total>=85)],
 ];
 function checkAchs(){const got=[];for(const [id,name,,,fn] of ACHS){if(!S.ach[id]&&fn()){S.ach[id]=today();got.push(name)}}return got}
 

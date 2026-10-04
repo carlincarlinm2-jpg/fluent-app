@@ -136,6 +136,94 @@
         {"en": "Mr. Brown, this is my friend Ana.", "es": "Señor Brown, le presento a mi amiga Ana."}
       ],
       "tip_es": "En inglés se pone a antes de una profesión: I'm a student, I'm a teacher. En español decimos soy estudiante sin artículo, pero en inglés no se puede quitar."
+    },
+    {
+      "id": "1-7",
+      "title_es": "¿Cómo te sientes?",
+      "words": [
+        {"en": "happy", "es": "feliz, contento", "pos": "adj", "ex_en": "I'm very happy!", "ex_es": "¡Estoy muy feliz!"},
+        {"en": "sad", "es": "triste", "pos": "adj", "ex_en": "Are you sad, Luis?", "ex_es": "¿Estás triste, Luis?"},
+        {"en": "sick", "es": "enfermo, enferma", "pos": "adj", "ex_en": "Sorry, I'm sick.", "ex_es": "Perdón, estoy enferma."},
+        {"en": "hungry", "es": "con hambre", "pos": "adj", "ex_en": "I'm hungry.", "ex_es": "Tengo hambre."},
+        {"en": "thirsty", "es": "con sed", "pos": "adj", "ex_en": "Are you thirsty?", "ex_es": "¿Tienes sed?"},
+        {"en": "busy", "es": "ocupado, ocupada", "pos": "adj", "ex_en": "I'm busy, sorry.", "ex_es": "Estoy ocupado, perdón."},
+        {"en": "bored", "es": "aburrido, aburrida", "pos": "adj", "ex_en": "I'm bored.", "ex_es": "Estoy aburrida."},
+        {"en": "excited", "es": "emocionado, emocionada", "pos": "adj", "ex_en": "I'm very excited!", "ex_es": "¡Estoy muy emocionado!"}
+      ],
+      "sentences": [
+        {"en": "Hi, Ana! Are you happy?", "es": "¡Hola, Ana! ¿Estás contenta?"},
+        {"en": "I'm not sad, I'm tired.", "es": "No estoy triste, estoy cansado."},
+        {"en": "Are you sick? No, I'm fine.", "es": "¿Estás enfermo? No, estoy bien."},
+        {"en": "Sorry, I'm very busy.", "es": "Perdón, estoy muy ocupada."},
+        {"en": "I'm hungry and thirsty. And you?", "es": "Tengo hambre y sed. ¿Y tú?"}
+      ],
+      "tip_es": "En español decimos tengo hambre y tengo sed, pero en inglés se usa el verbo to be. Se dice I'm hungry, nunca I have hungry."
+    },
+    {
+      "id": "1-8",
+      "title_es": "Frases para la clase",
+      "words": [
+        {"en": "understand", "es": "entender", "pos": "verb", "ex_en": "I don't understand.", "ex_es": "No entiendo."},
+        {"en": "know", "es": "saber, conocer", "pos": "verb", "ex_en": "I don't know.", "ex_es": "No sé."},
+        {"en": "question", "es": "pregunta", "pos": "noun", "ex_en": "I have a question.", "ex_es": "Tengo una pregunta."},
+        {"en": "answer", "es": "respuesta", "pos": "noun", "ex_en": "What's the answer?", "ex_es": "¿Cuál es la respuesta?"},
+        {"en": "word", "es": "palabra", "pos": "noun", "ex_en": "Spell the word, please.", "ex_es": "Deletrea la palabra, por favor."},
+        {"en": "mean", "es": "significar, querer decir", "pos": "verb", "ex_en": "What does tired mean?", "ex_es": "¿Qué significa tired?"},
+        {"en": "English", "es": "inglés", "pos": "noun", "ex_en": "Do you speak English?", "ex_es": "¿Hablas inglés?"},
+        {"en": "Spanish", "es": "español", "pos": "noun", "ex_en": "I speak Spanish.", "ex_es": "Hablo español."}
+      ],
+      "sentences": [
+        {"en": "Sorry, I don't understand.", "es": "Perdón, no entiendo."},
+        {"en": "What does this word mean?", "es": "¿Qué significa esta palabra?"},
+        {"en": "How do you say gracias in English?", "es": "¿Cómo se dice gracias en inglés?"},
+        {"en": "Excuse me, teacher. I have a question.", "es": "Disculpe, maestra. Tengo una pregunta."},
+        {"en": "I don't know the answer. Repeat, please.", "es": "No sé la respuesta. Repita, por favor."}
+      ],
+      "tip_es": "I don't understand significa no entiendo y I don't know significa no sé. Para preguntar qué significa una palabra di What does tired mean? Los idiomas siempre llevan mayúscula en inglés, como English y Spanish."
+    },
+    {
+      "id": "1-9",
+      "title_es": "Saludos formales e informales",
+      "words": [
+        {"en": "what's up", "es": "qué onda", "pos": "phrase", "ex_en": "Hey, Tom! What's up?", "ex_es": "¡Oye, Tom! ¿Qué onda?"},
+        {"en": "how's it going", "es": "cómo te va", "pos": "phrase", "ex_en": "Hi, Ana! How's it going?", "ex_es": "¡Hola, Ana! ¿Cómo te va?"},
+        {"en": "good evening", "es": "buenas noches (al llegar)", "pos": "phrase", "ex_en": "Good evening, Mrs. Clark.", "ex_es": "Buenas noches, señora Clark."},
+        {"en": "welcome", "es": "bienvenido, bienvenida", "pos": "interj", "ex_en": "Welcome, Carlos!", "ex_es": "¡Bienvenido, Carlos!"},
+        {"en": "take care", "es": "cuídate", "pos": "phrase", "ex_en": "Bye, Luis. Take care!", "ex_es": "Adiós, Luis. ¡Cuídate!"},
+        {"en": "have a nice day", "es": "que tengas un buen día", "pos": "phrase", "ex_en": "Thanks! Have a nice day.", "ex_es": "¡Gracias! Que tengas un buen día."},
+        {"en": "see you tomorrow", "es": "nos vemos mañana", "pos": "phrase", "ex_en": "Good night! See you tomorrow.", "ex_es": "¡Buenas noches! Nos vemos mañana."},
+        {"en": "nice to see you", "es": "qué gusto verte", "pos": "phrase", "ex_en": "Nice to see you again, Emma!", "ex_es": "¡Qué gusto verte otra vez, Emma!"}
+      ],
+      "sentences": [
+        {"en": "Hey, Luis! What's up?", "es": "¡Oye, Luis! ¿Qué onda?"},
+        {"en": "Good evening, Mr. Brown. Welcome!", "es": "Buenas noches, señor Brown. ¡Bienvenido!"},
+        {"en": "How's it going, Sara? Not bad, thanks.", "es": "¿Cómo te va, Sara? Nada mal, gracias."},
+        {"en": "Nice to see you too, Carlos.", "es": "Qué gusto verte también, Carlos."},
+        {"en": "Thank you, Mrs. Clark. Have a nice day!", "es": "Gracias, señora Clark. ¡Que tenga un buen día!"}
+      ],
+      "tip_es": "What's up y how's it going son muy informales, úsalos con amigos. Con tu jefe o una persona mayor usa good morning o how are you. Nice to meet you es para la primera vez y nice to see you es para alguien que ya conoces."
+    },
+    {
+      "id": "1-10",
+      "title_es": "En la vida real, tu primer día",
+      "words": [
+        {"en": "classmate", "es": "compañero de clase, compañera de clase", "pos": "noun", "ex_en": "Ana is my classmate.", "ex_es": "Ana es mi compañera de clase."},
+        {"en": "coworker", "es": "compañero de trabajo, compañera de trabajo", "pos": "noun", "ex_en": "This is my coworker, Tom.", "ex_es": "Él es mi compañero de trabajo, Tom."},
+        {"en": "boss", "es": "jefe, jefa", "pos": "noun", "ex_en": "Mrs. Clark is my boss.", "ex_es": "La señora Clark es mi jefa."},
+        {"en": "everyone", "es": "todos, todas", "pos": "pron", "ex_en": "Good morning, everyone!", "ex_es": "¡Buenos días a todos!"},
+        {"en": "here", "es": "aquí", "pos": "adv", "ex_en": "I'm here, teacher!", "ex_es": "¡Aquí estoy, maestra!"},
+        {"en": "meet", "es": "conocer (a alguien)", "pos": "verb", "ex_en": "Come and meet my boss.", "ex_es": "Ven a conocer a mi jefe."},
+        {"en": "call", "es": "llamar, decirle a alguien", "pos": "verb", "ex_en": "Call me Lupita, please.", "ex_es": "Dime Lupita, por favor."},
+        {"en": "sure", "es": "claro, seguro", "pos": "adv", "ex_en": "Can you spell it? Sure!", "ex_es": "¿Lo puedes deletrear? ¡Claro!"}
+      ],
+      "sentences": [
+        {"en": "Good morning, everyone. My name is Carlos Ruiz.", "es": "Buenos días a todos. Me llamo Carlos Ruiz."},
+        {"en": "I'm your new classmate. Call me Charlie.", "es": "Soy su nuevo compañero. Díganme Charlie."},
+        {"en": "Mrs. Clark, this is my coworker Ana.", "es": "Señora Clark, ella es mi compañera de trabajo Ana."},
+        {"en": "Excuse me, how do you spell your last name?", "es": "Disculpe, ¿cómo se deletrea su apellido?"},
+        {"en": "Sure! R, U, I, Z. Nice to meet you.", "es": "¡Claro! R, U, I, Z. Mucho gusto."}
+      ],
+      "tip_es": "En inglés es muy común presentarse con un nombre corto o apodo, por ejemplo Call me Charlie. Para saludar a un grupo agrega everyone, como Hi, everyone o Good morning, everyone."
     }
   ],
   "dialogue": {

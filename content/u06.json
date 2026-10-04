@@ -136,6 +136,94 @@
         {"en":"She usually relaxes and reads before bed.","es":"Ella normalmente descansa y lee antes de dormir."}
       ],
       "tip_es": "Para negar y preguntar en presente simple usa do o does con el verbo en forma base: She doesn't work, Does he cook? La -s pasa a does, así que nunca digas She doesn't works ni Does he cooks?"
+    },
+    {
+      "id": "6-7",
+      "title_es": "Las tareas de la casa",
+      "words": [
+        {"en":"chores","es":"quehaceres","pos":"noun","ex_en":"I do my chores on Saturday.","ex_es":"Hago mis quehaceres el sábado."},
+        {"en":"clean","es":"limpiar","pos":"verb","ex_en":"We clean the house together.","ex_es":"Limpiamos la casa juntos."},
+        {"en":"make the bed","es":"tender la cama","pos":"phrase","ex_en":"I make the bed every morning.","ex_es":"Tiendo la cama todas las mañanas."},
+        {"en":"do the laundry","es":"lavar la ropa","pos":"phrase","ex_en":"I do the laundry on Mondays.","ex_es":"Lavo la ropa los lunes."},
+        {"en":"vacuum","es":"aspirar","pos":"verb","ex_en":"He vacuums the living room.","ex_es":"Él aspira la sala."},
+        {"en":"sweep","es":"barrer","pos":"verb","ex_en":"Can you sweep the kitchen?","ex_es":"¿Puedes barrer la cocina?"},
+        {"en":"iron","es":"planchar","pos":"verb","ex_en":"I never iron my shirts.","ex_es":"Nunca plancho mis camisas."},
+        {"en":"take out the trash","es":"sacar la basura","pos":"phrase","ex_en":"Please take out the trash.","ex_es":"Por favor, saca la basura."}
+      ],
+      "sentences": [
+        {"en":"I make the bed every day.","es":"Tiendo la cama todos los días."},
+        {"en":"Who does the laundry in your house?","es":"¿Quién lava la ropa en tu casa?"},
+        {"en":"My husband sweeps and I vacuum.","es":"Mi esposo barre y yo aspiro."},
+        {"en":"She takes out the trash at night.","es":"Ella saca la basura en la noche."},
+        {"en":"We usually clean the house on Saturdays.","es":"Normalmente limpiamos la casa los sábados."}
+      ],
+      "tip_es": "Muchas tareas usan do o make. Se dice do the laundry y do the dishes, pero make the bed. Aprende cada frase completa, no palabra por palabra."
+    },
+    {
+      "id": "6-8",
+      "title_es": "Partes del día",
+      "words": [
+        {"en":"morning","es":"mañana","pos":"noun","ex_en":"I drink coffee in the morning.","ex_es":"Tomo café en la mañana."},
+        {"en":"afternoon","es":"tarde","pos":"noun","ex_en":"She works in the afternoon.","ex_es":"Ella trabaja en la tarde."},
+        {"en":"night","es":"noche","pos":"noun","ex_en":"I read at night.","ex_es":"Leo en la noche."},
+        {"en":"tonight","es":"hoy en la noche","pos":"adv","ex_en":"Do you work tonight?","ex_es":"¿Trabajas hoy en la noche?"},
+        {"en":"tomorrow","es":"mañana","pos":"adv","ex_en":"I start my new job tomorrow.","ex_es":"Empiezo mi nuevo trabajo mañana."},
+        {"en":"before","es":"antes de","pos":"prep","ex_en":"I shower before breakfast.","ex_es":"Me baño antes de desayunar."},
+        {"en":"after","es":"después de","pos":"prep","ex_en":"We walk after dinner.","ex_es":"Caminamos después de cenar."},
+        {"en":"month","es":"mes","pos":"noun","ex_en":"I visit my parents once a month.","ex_es":"Visito a mis papás una vez al mes."}
+      ],
+      "sentences": [
+        {"en":"I study English in the morning.","es":"Estudio inglés en la mañana."},
+        {"en":"He sleeps eight hours at night.","es":"Él duerme ocho horas en la noche."},
+        {"en":"Do you watch TV after dinner?","es":"¿Ves la tele después de cenar?"},
+        {"en":"I always brush my teeth before bed.","es":"Siempre me lavo los dientes antes de dormir."},
+        {"en":"My class is tomorrow afternoon at four.","es":"Mi clase es mañana en la tarde a las cuatro."}
+      ],
+      "tip_es": "Se dice in the morning, in the afternoon e in the evening, pero at night. Cuidado con mañana: morning es la parte del día y tomorrow es el día siguiente."
+    },
+    {
+      "id": "6-9",
+      "title_es": "Tiempo libre y fin de semana",
+      "words": [
+        {"en":"free time","es":"tiempo libre","pos":"noun","ex_en":"What do you do in your free time?","ex_es":"¿Qué haces en tu tiempo libre?"},
+        {"en":"sleep in","es":"dormir hasta tarde","pos":"verb","ex_en":"I sleep in on Sundays.","ex_es":"Los domingos duermo hasta tarde."},
+        {"en":"go out","es":"salir","pos":"verb","ex_en":"We go out on Friday nights.","ex_es":"Salimos los viernes en la noche."},
+        {"en":"visit","es":"visitar","pos":"verb","ex_en":"I visit my grandma on Sundays.","ex_es":"Visito a mi abuela los domingos."},
+        {"en":"play","es":"jugar, tocar","pos":"verb","ex_en":"My kids play soccer on Saturdays.","ex_es":"Mis hijos juegan futbol los sábados."},
+        {"en":"exercise","es":"hacer ejercicio","pos":"verb","ex_en":"I exercise three times a week.","ex_es":"Hago ejercicio tres veces por semana."},
+        {"en":"busy","es":"ocupado","pos":"adj","ex_en":"I'm very busy on Mondays.","ex_es":"Los lunes estoy muy ocupado."},
+        {"en":"tired","es":"cansado","pos":"adj","ex_en":"She is always tired on Fridays.","ex_es":"Ella siempre está cansada los viernes."}
+      ],
+      "sentences": [
+        {"en":"I sleep in on the weekend.","es":"Duermo hasta tarde el fin de semana."},
+        {"en":"Do you go out on Saturday nights?","es":"¿Sales los sábados en la noche?"},
+        {"en":"He plays the guitar in his free time.","es":"Él toca la guitarra en su tiempo libre."},
+        {"en":"We sometimes visit friends on Sundays.","es":"A veces visitamos a amigos los domingos."},
+        {"en":"I'm too tired to exercise after work.","es":"Estoy muy cansado para hacer ejercicio después del trabajo."}
+      ],
+      "tip_es": "Play sirve para deportes y también para instrumentos: play soccer, play the guitar. Con instrumentos sí se usa the. Para decir que algo te gusta hacer usa like con -ing: I like playing soccer."
+    },
+    {
+      "id": "6-10",
+      "title_es": "En la vida real: mi día",
+      "words": [
+        {"en":"alarm","es":"alarma, despertador","pos":"noun","ex_en":"My alarm rings at six.","ex_es":"Mi alarma suena a las seis."},
+        {"en":"get ready","es":"arreglarse","pos":"phrase","ex_en":"I get ready in twenty minutes.","ex_es":"Me arreglo en veinte minutos."},
+        {"en":"commute","es":"trayecto al trabajo","pos":"noun","ex_en":"My commute is one hour.","ex_es":"Hago una hora de camino al trabajo."},
+        {"en":"on time","es":"a tiempo, puntual","pos":"phrase","ex_en":"The bus is never on time.","ex_es":"El camión nunca llega a tiempo."},
+        {"en":"be late","es":"llegar tarde","pos":"phrase","ex_en":"Don't be late for class.","ex_es":"No llegues tarde a clase."},
+        {"en":"lunch break","es":"hora de la comida","pos":"noun","ex_en":"My lunch break is at two.","ex_es":"Mi hora de comida es a las dos."},
+        {"en":"take a nap","es":"tomar una siesta","pos":"phrase","ex_en":"I take a nap after lunch.","ex_es":"Tomo una siesta después de comer."},
+        {"en":"schedule","es":"horario","pos":"noun","ex_en":"My schedule is very busy.","ex_es":"Mi horario está muy apretado."}
+      ],
+      "sentences": [
+        {"en":"My alarm rings at six every day.","es":"Mi alarma suena a las seis todos los días."},
+        {"en":"How long is your commute?","es":"¿Cuánto haces de camino al trabajo?"},
+        {"en":"She always gets to work on time.","es":"Ella siempre llega a tiempo al trabajo."},
+        {"en":"I have lunch at my desk during my break.","es":"Como en mi escritorio durante mi descanso."},
+        {"en":"On Sundays, he takes a nap after lunch.","es":"Los domingos, él toma una siesta después de comer."}
+      ],
+      "tip_es": "On time significa puntual, a la hora exacta. Para llegar tarde usa be late: I'm late, Don't be late. En EE. UU. la comida fuerte es dinner, en la noche, y lunch es algo ligero al mediodía."
     }
   ],
   "dialogue": {

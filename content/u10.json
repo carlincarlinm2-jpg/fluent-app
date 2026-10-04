@@ -9,21 +9,84 @@
       "id": "10-1",
       "title_es": "Profesiones",
       "words": [
-        {"en": "job", "es": "trabajo, empleo", "pos": "noun", "ex_en": "I like my new job a lot.", "ex_es": "Me gusta mucho mi nuevo trabajo."},
-        {"en": "engineer", "es": "ingeniero", "pos": "noun", "ex_en": "My sister is an engineer.", "ex_es": "Mi hermana es ingeniera."},
-        {"en": "lawyer", "es": "abogado", "pos": "noun", "ex_en": "He works as a lawyer downtown.", "ex_es": "Trabaja como abogado en el centro."},
-        {"en": "accountant", "es": "contador", "pos": "noun", "ex_en": "An accountant helps me with my taxes.", "ex_es": "Un contador me ayuda con mis impuestos."},
-        {"en": "mechanic", "es": "mecánico", "pos": "noun", "ex_en": "The mechanic is fixing my car.", "ex_es": "El mecánico está arreglando mi carro."},
-        {"en": "police officer", "es": "policía", "pos": "noun", "ex_en": "The police officer is very friendly.", "ex_es": "El policía es muy amable."},
-        {"en": "firefighter", "es": "bombero", "pos": "noun", "ex_en": "My uncle was a firefighter for twenty years.", "ex_es": "Mi tío fue bombero durante veinte años."},
-        {"en": "salesperson", "es": "vendedor", "pos": "noun", "ex_en": "The salesperson showed me three phones.", "ex_es": "El vendedor me enseñó tres celulares."}
+        {
+          "en": "job",
+          "es": "trabajo, empleo",
+          "pos": "noun",
+          "ex_en": "I like my new job a lot.",
+          "ex_es": "Me gusta mucho mi nuevo trabajo."
+        },
+        {
+          "en": "engineer",
+          "es": "ingeniero",
+          "pos": "noun",
+          "ex_en": "My sister is an engineer.",
+          "ex_es": "Mi hermana es ingeniera."
+        },
+        {
+          "en": "lawyer",
+          "es": "abogado",
+          "pos": "noun",
+          "ex_en": "He works as a lawyer downtown.",
+          "ex_es": "Trabaja como abogado en el centro."
+        },
+        {
+          "en": "accountant",
+          "es": "contador",
+          "pos": "noun",
+          "ex_en": "An accountant helps me with my taxes.",
+          "ex_es": "Un contador me ayuda con mis impuestos."
+        },
+        {
+          "en": "mechanic",
+          "es": "mecánico",
+          "pos": "noun",
+          "ex_en": "The mechanic is fixing my car.",
+          "ex_es": "El mecánico está arreglando mi carro."
+        },
+        {
+          "en": "police officer",
+          "es": "policía",
+          "pos": "noun",
+          "ex_en": "The police officer is very friendly.",
+          "ex_es": "El policía es muy amable."
+        },
+        {
+          "en": "firefighter",
+          "es": "bombero",
+          "pos": "noun",
+          "ex_en": "My uncle was a firefighter for twenty years.",
+          "ex_es": "Mi tío fue bombero durante veinte años."
+        },
+        {
+          "en": "salesperson",
+          "es": "vendedor",
+          "pos": "noun",
+          "ex_en": "The salesperson showed me three phones.",
+          "ex_es": "El vendedor me enseñó tres celulares."
+        }
       ],
       "sentences": [
-        {"en": "What do you do?", "es": "¿A qué te dedicas?"},
-        {"en": "I'm an accountant at a bank.", "es": "Soy contador en un banco."},
-        {"en": "She works in a hospital.", "es": "Trabaja en un hospital."},
-        {"en": "My mom wants to be a lawyer.", "es": "Mi mamá quiere ser abogada."},
-        {"en": "Before, I was a salesperson in a store.", "es": "Antes era vendedor en una tienda."}
+        {
+          "en": "What do you do?",
+          "es": "¿A qué te dedicas?"
+        },
+        {
+          "en": "I'm an accountant at a bank.",
+          "es": "Soy contador en un banco."
+        },
+        {
+          "en": "She works in a hospital.",
+          "es": "Trabaja en un hospital."
+        },
+        {
+          "en": "My mom wants to be a lawyer.",
+          "es": "Mi mamá quiere ser abogada."
+        },
+        {
+          "en": "Before, I was a salesperson in a store.",
+          "es": "Antes era vendedor en una tienda."
+        }
       ],
       "tip_es": "En inglés siempre se pone a o an antes de la profesión: I am an engineer, she is a lawyer. Decir I am engineer es un error muy común. Para preguntar a qué se dedica alguien, lo más natural es What do you do?"
     },
@@ -31,21 +94,84 @@
       "id": "10-2",
       "title_es": "En la oficina",
       "words": [
-        {"en": "meeting", "es": "junta, reunión", "pos": "noun", "ex_en": "We have a meeting at ten.", "ex_es": "Tenemos una junta a las diez."},
-        {"en": "boss", "es": "jefe", "pos": "noun", "ex_en": "My boss is very patient.", "ex_es": "Mi jefe es muy paciente."},
-        {"en": "coworker", "es": "compañero de trabajo", "pos": "noun", "ex_en": "I have lunch with my coworkers.", "ex_es": "Como con mis compañeros de trabajo."},
-        {"en": "email", "es": "correo electrónico", "pos": "noun", "ex_en": "I send about fifty emails a day.", "ex_es": "Mando como cincuenta correos al día."},
-        {"en": "printer", "es": "impresora", "pos": "noun", "ex_en": "The printer isn't working again.", "ex_es": "La impresora no funciona otra vez."},
-        {"en": "report", "es": "reporte, informe", "pos": "noun", "ex_en": "I'm writing a report for my boss.", "ex_es": "Estoy escribiendo un reporte para mi jefe."},
-        {"en": "deadline", "es": "fecha límite", "pos": "noun", "ex_en": "The deadline is next Friday.", "ex_es": "La fecha límite es el próximo viernes."},
-        {"en": "schedule", "es": "horario", "pos": "noun", "ex_en": "My schedule is from nine to six.", "ex_es": "Mi horario es de nueve a seis."}
+        {
+          "en": "meeting",
+          "es": "junta, reunión",
+          "pos": "noun",
+          "ex_en": "We have a meeting at ten.",
+          "ex_es": "Tenemos una junta a las diez."
+        },
+        {
+          "en": "boss",
+          "es": "jefe",
+          "pos": "noun",
+          "ex_en": "My boss is very patient.",
+          "ex_es": "Mi jefe es muy paciente."
+        },
+        {
+          "en": "coworker",
+          "es": "compañero de trabajo",
+          "pos": "noun",
+          "ex_en": "I have lunch with my coworkers.",
+          "ex_es": "Como con mis compañeros de trabajo."
+        },
+        {
+          "en": "email",
+          "es": "correo electrónico",
+          "pos": "noun",
+          "ex_en": "I send about fifty emails a day.",
+          "ex_es": "Mando como cincuenta correos al día."
+        },
+        {
+          "en": "printer",
+          "es": "impresora",
+          "pos": "noun",
+          "ex_en": "The printer isn't working again.",
+          "ex_es": "La impresora no funciona otra vez."
+        },
+        {
+          "en": "report",
+          "es": "reporte, informe",
+          "pos": "noun",
+          "ex_en": "I'm writing a report for my boss.",
+          "ex_es": "Estoy escribiendo un reporte para mi jefe."
+        },
+        {
+          "en": "deadline",
+          "es": "fecha límite",
+          "pos": "noun",
+          "ex_en": "The deadline is next Friday.",
+          "ex_es": "La fecha límite es el próximo viernes."
+        },
+        {
+          "en": "schedule",
+          "es": "horario",
+          "pos": "noun",
+          "ex_en": "My schedule is from nine to six.",
+          "ex_es": "Mi horario es de nueve a seis."
+        }
       ],
       "sentences": [
-        {"en": "My office is on the third floor.", "es": "Mi oficina está en el tercer piso."},
-        {"en": "The meeting starts at nine.", "es": "La junta empieza a las nueve."},
-        {"en": "I answer emails every morning.", "es": "Contesto correos todas las mañanas."},
-        {"en": "My coworker is helping me with the report.", "es": "Mi compañero me está ayudando con el reporte."},
-        {"en": "Yesterday the meeting was very long and boring.", "es": "Ayer la junta fue muy larga y aburrida."}
+        {
+          "en": "My office is on the third floor.",
+          "es": "Mi oficina está en el tercer piso."
+        },
+        {
+          "en": "The meeting starts at nine.",
+          "es": "La junta empieza a las nueve."
+        },
+        {
+          "en": "I answer emails every morning.",
+          "es": "Contesto correos todas las mañanas."
+        },
+        {
+          "en": "My coworker is helping me with the report.",
+          "es": "Mi compañero me está ayudando con el reporte."
+        },
+        {
+          "en": "Yesterday the meeting was very long and boring.",
+          "es": "Ayer la junta fue muy larga y aburrida."
+        }
       ],
       "tip_es": "Junta de trabajo se dice meeting, pero una reunión con amigos es get-together. Además, compañero de trabajo es coworker y compañero de clase es classmate. Para decir mando un correo se usa send: I send an email."
     },
@@ -53,21 +179,84 @@
       "id": "10-3",
       "title_es": "En la escuela",
       "words": [
-        {"en": "classroom", "es": "salón de clases", "pos": "noun", "ex_en": "Our classroom has big windows.", "ex_es": "Nuestro salón tiene ventanas grandes."},
-        {"en": "homework", "es": "tarea", "pos": "noun", "ex_en": "I do my homework after dinner.", "ex_es": "Hago mi tarea después de cenar."},
-        {"en": "exam", "es": "examen", "pos": "noun", "ex_en": "We have a math exam tomorrow.", "ex_es": "Mañana tenemos examen de matemáticas."},
-        {"en": "grade", "es": "calificación", "pos": "noun", "ex_en": "She got a good grade in English.", "ex_es": "Sacó buena calificación en inglés."},
-        {"en": "subject", "es": "materia", "pos": "noun", "ex_en": "My favorite subject is history.", "ex_es": "Mi materia favorita es historia."},
-        {"en": "math", "es": "matemáticas", "pos": "noun", "ex_en": "Math is difficult for me.", "ex_es": "Las matemáticas son difíciles para mí."},
-        {"en": "notebook", "es": "cuaderno", "pos": "noun", "ex_en": "Write the new words in your notebook.", "ex_es": "Escribe las palabras nuevas en tu cuaderno."},
-        {"en": "pass", "es": "pasar, aprobar", "pos": "verb", "ex_en": "I studied a lot and passed the exam.", "ex_es": "Estudié mucho y pasé el examen."}
+        {
+          "en": "classroom",
+          "es": "salón de clases",
+          "pos": "noun",
+          "ex_en": "Our classroom has big windows.",
+          "ex_es": "Nuestro salón tiene ventanas grandes."
+        },
+        {
+          "en": "homework",
+          "es": "tarea",
+          "pos": "noun",
+          "ex_en": "I do my homework after dinner.",
+          "ex_es": "Hago mi tarea después de cenar."
+        },
+        {
+          "en": "exam",
+          "es": "examen",
+          "pos": "noun",
+          "ex_en": "We have a math exam tomorrow.",
+          "ex_es": "Mañana tenemos examen de matemáticas."
+        },
+        {
+          "en": "grade",
+          "es": "calificación",
+          "pos": "noun",
+          "ex_en": "She got a good grade in English.",
+          "ex_es": "Sacó buena calificación en inglés."
+        },
+        {
+          "en": "subject",
+          "es": "materia",
+          "pos": "noun",
+          "ex_en": "My favorite subject is history.",
+          "ex_es": "Mi materia favorita es historia."
+        },
+        {
+          "en": "math",
+          "es": "matemáticas",
+          "pos": "noun",
+          "ex_en": "Math is difficult for me.",
+          "ex_es": "Las matemáticas son difíciles para mí."
+        },
+        {
+          "en": "notebook",
+          "es": "cuaderno",
+          "pos": "noun",
+          "ex_en": "Write the new words in your notebook.",
+          "ex_es": "Escribe las palabras nuevas en tu cuaderno."
+        },
+        {
+          "en": "pass",
+          "es": "pasar, aprobar",
+          "pos": "verb",
+          "ex_en": "I studied a lot and passed the exam.",
+          "ex_es": "Estudié mucho y pasé el examen."
+        }
       ],
       "sentences": [
-        {"en": "Do you have homework today?", "es": "¿Tienes tarea hoy?"},
-        {"en": "The exam was very easy.", "es": "El examen estuvo muy fácil."},
-        {"en": "I didn't do my homework last night.", "es": "No hice mi tarea anoche."},
-        {"en": "What subject do you like the most?", "es": "¿Qué materia te gusta más?"},
-        {"en": "He got a bad grade because he didn't study.", "es": "Sacó mala calificación porque no estudió."}
+        {
+          "en": "Do you have homework today?",
+          "es": "¿Tienes tarea hoy?"
+        },
+        {
+          "en": "The exam was very easy.",
+          "es": "El examen estuvo muy fácil."
+        },
+        {
+          "en": "I didn't do my homework last night.",
+          "es": "No hice mi tarea anoche."
+        },
+        {
+          "en": "What subject do you like the most?",
+          "es": "¿Qué materia te gusta más?"
+        },
+        {
+          "en": "He got a bad grade because he didn't study.",
+          "es": "Sacó mala calificación porque no estudió."
+        }
       ],
       "tip_es": "Con homework se usa do, no make: I do my homework. Homework no tiene plural, así que nunca digas homeworks. Para presentar un examen se dice take an exam, y pass an exam significa pasarlo o aprobarlo."
     },
@@ -75,21 +264,84 @@
       "id": "10-4",
       "title_es": "Habilidades: can y can't",
       "words": [
-        {"en": "can", "es": "poder, saber hacer", "pos": "verb", "ex_en": "I can speak two languages.", "ex_es": "Sé hablar dos idiomas."},
-        {"en": "can't", "es": "no poder, no saber", "pos": "verb", "ex_en": "My brother can't swim.", "ex_es": "Mi hermano no sabe nadar."},
-        {"en": "drive", "es": "manejar", "pos": "verb", "ex_en": "Can you drive a truck?", "ex_es": "¿Sabes manejar un camión?"},
-        {"en": "fix", "es": "arreglar", "pos": "verb", "ex_en": "My dad can fix almost anything.", "ex_es": "Mi papá puede arreglar casi cualquier cosa."},
-        {"en": "draw", "es": "dibujar", "pos": "verb", "ex_en": "She can draw really well.", "ex_es": "Ella sabe dibujar muy bien."},
-        {"en": "sing", "es": "cantar", "pos": "verb", "ex_en": "I can't sing, but I can dance.", "ex_es": "No sé cantar, pero sé bailar."},
-        {"en": "well", "es": "bien", "pos": "adv", "ex_en": "He speaks English very well.", "ex_es": "Habla inglés muy bien."},
-        {"en": "skill", "es": "habilidad", "pos": "noun", "ex_en": "Cooking is a useful skill.", "ex_es": "Cocinar es una habilidad útil."}
+        {
+          "en": "can",
+          "es": "poder, saber hacer",
+          "pos": "verb",
+          "ex_en": "I can speak two languages.",
+          "ex_es": "Sé hablar dos idiomas."
+        },
+        {
+          "en": "can't",
+          "es": "no poder, no saber",
+          "pos": "verb",
+          "ex_en": "My brother can't swim.",
+          "ex_es": "Mi hermano no sabe nadar."
+        },
+        {
+          "en": "drive",
+          "es": "manejar",
+          "pos": "verb",
+          "ex_en": "Can you drive a truck?",
+          "ex_es": "¿Sabes manejar un camión?"
+        },
+        {
+          "en": "fix",
+          "es": "arreglar",
+          "pos": "verb",
+          "ex_en": "My dad can fix almost anything.",
+          "ex_es": "Mi papá puede arreglar casi cualquier cosa."
+        },
+        {
+          "en": "draw",
+          "es": "dibujar",
+          "pos": "verb",
+          "ex_en": "She can draw really well.",
+          "ex_es": "Ella sabe dibujar muy bien."
+        },
+        {
+          "en": "sing",
+          "es": "cantar",
+          "pos": "verb",
+          "ex_en": "I can't sing, but I can dance.",
+          "ex_es": "No sé cantar, pero sé bailar."
+        },
+        {
+          "en": "well",
+          "es": "bien",
+          "pos": "adv",
+          "ex_en": "He speaks English very well.",
+          "ex_es": "Habla inglés muy bien."
+        },
+        {
+          "en": "skill",
+          "es": "habilidad",
+          "pos": "noun",
+          "ex_en": "Cooking is a useful skill.",
+          "ex_es": "Cocinar es una habilidad útil."
+        }
       ],
       "sentences": [
-        {"en": "Can you speak English?", "es": "¿Hablas inglés?"},
-        {"en": "I can type very fast.", "es": "Escribo muy rápido en la computadora."},
-        {"en": "She can't come to the meeting today.", "es": "Ella no puede venir a la junta hoy."},
-        {"en": "Can you help me with this report?", "es": "¿Me puedes ayudar con este reporte?"},
-        {"en": "My grandpa can fix cars, but he can't drive.", "es": "Mi abuelo sabe arreglar carros, pero no sabe manejar."}
+        {
+          "en": "Can you speak English?",
+          "es": "¿Hablas inglés?"
+        },
+        {
+          "en": "I can type very fast.",
+          "es": "Escribo muy rápido en la computadora."
+        },
+        {
+          "en": "She can't come to the meeting today.",
+          "es": "Ella no puede venir a la junta hoy."
+        },
+        {
+          "en": "Can you help me with this report?",
+          "es": "¿Me puedes ayudar con este reporte?"
+        },
+        {
+          "en": "My grandpa can fix cars, but he can't drive.",
+          "es": "Mi abuelo sabe arreglar carros, pero no sabe manejar."
+        }
       ],
       "tip_es": "Can sirve para poder y también para saber hacer algo: I can swim significa sé nadar. Después de can el verbo va sin to y sin -s: she can drive, nunca she can to drive ni she cans drive."
     },
@@ -97,21 +349,84 @@
       "id": "10-5",
       "title_es": "Obligaciones: have to",
       "words": [
-        {"en": "have to", "es": "tener que", "pos": "phrase", "ex_en": "I have to work on Saturday.", "ex_es": "Tengo que trabajar el sábado."},
-        {"en": "has to", "es": "tiene que", "pos": "phrase", "ex_en": "She has to wake up at five.", "ex_es": "Ella tiene que despertarse a las cinco."},
-        {"en": "don't have to", "es": "no tener que", "pos": "phrase", "ex_en": "We don't have to wear a tie.", "ex_es": "No tenemos que usar corbata."},
-        {"en": "uniform", "es": "uniforme", "pos": "noun", "ex_en": "Nurses have to wear a uniform.", "ex_es": "Las enfermeras tienen que usar uniforme."},
-        {"en": "on time", "es": "a tiempo", "pos": "phrase", "ex_en": "You have to arrive on time.", "ex_es": "Tienes que llegar a tiempo."},
-        {"en": "rule", "es": "regla", "pos": "noun", "ex_en": "The school has a lot of rules.", "ex_es": "La escuela tiene muchas reglas."},
-        {"en": "finish", "es": "terminar", "pos": "verb", "ex_en": "I have to finish this report today.", "ex_es": "Tengo que terminar este reporte hoy."},
-        {"en": "shift", "es": "turno", "pos": "noun", "ex_en": "My shift starts at seven.", "ex_es": "Mi turno empieza a las siete."}
+        {
+          "en": "have to",
+          "es": "tener que",
+          "pos": "phrase",
+          "ex_en": "I have to work on Saturday.",
+          "ex_es": "Tengo que trabajar el sábado."
+        },
+        {
+          "en": "has to",
+          "es": "tiene que",
+          "pos": "phrase",
+          "ex_en": "She has to wake up at five.",
+          "ex_es": "Ella tiene que despertarse a las cinco."
+        },
+        {
+          "en": "don't have to",
+          "es": "no tener que",
+          "pos": "phrase",
+          "ex_en": "We don't have to wear a tie.",
+          "ex_es": "No tenemos que usar corbata."
+        },
+        {
+          "en": "uniform",
+          "es": "uniforme",
+          "pos": "noun",
+          "ex_en": "Nurses have to wear a uniform.",
+          "ex_es": "Las enfermeras tienen que usar uniforme."
+        },
+        {
+          "en": "on time",
+          "es": "a tiempo",
+          "pos": "phrase",
+          "ex_en": "You have to arrive on time.",
+          "ex_es": "Tienes que llegar a tiempo."
+        },
+        {
+          "en": "rule",
+          "es": "regla",
+          "pos": "noun",
+          "ex_en": "The school has a lot of rules.",
+          "ex_es": "La escuela tiene muchas reglas."
+        },
+        {
+          "en": "finish",
+          "es": "terminar",
+          "pos": "verb",
+          "ex_en": "I have to finish this report today.",
+          "ex_es": "Tengo que terminar este reporte hoy."
+        },
+        {
+          "en": "shift",
+          "es": "turno",
+          "pos": "noun",
+          "ex_en": "My shift starts at seven.",
+          "ex_es": "Mi turno empieza a las siete."
+        }
       ],
       "sentences": [
-        {"en": "Do you have to work tomorrow?", "es": "¿Tienes que trabajar mañana?"},
-        {"en": "He has to take the bus to work.", "es": "Tiene que tomar el camión al trabajo."},
-        {"en": "Students don't have to wear a uniform here.", "es": "Aquí los alumnos no tienen que usar uniforme."},
-        {"en": "I had to stay late at the office.", "es": "Tuve que quedarme tarde en la oficina."},
-        {"en": "Does she have to work the night shift?", "es": "¿Ella tiene que trabajar en el turno de noche?"}
+        {
+          "en": "Do you have to work tomorrow?",
+          "es": "¿Tienes que trabajar mañana?"
+        },
+        {
+          "en": "He has to take the bus to work.",
+          "es": "Tiene que tomar el camión al trabajo."
+        },
+        {
+          "en": "Students don't have to wear a uniform here.",
+          "es": "Aquí los alumnos no tienen que usar uniforme."
+        },
+        {
+          "en": "I had to stay late at the office.",
+          "es": "Tuve que quedarme tarde en la oficina."
+        },
+        {
+          "en": "Does she have to work the night shift?",
+          "es": "¿Ella tiene que trabajar en el turno de noche?"
+        }
       ],
       "tip_es": "Have to expresa obligación y cambia a has to con he, she e it. Don't have to significa que no es necesario, no que está prohibido. En pasado se dice had to: I had to work."
     },
@@ -119,39 +434,482 @@
       "id": "10-6",
       "title_es": "Buscar trabajo",
       "words": [
-        {"en": "apply", "es": "postularse, solicitar", "pos": "verb", "ex_en": "I want to apply for that job.", "ex_es": "Quiero postularme para ese trabajo."},
-        {"en": "interview", "es": "entrevista", "pos": "noun", "ex_en": "I have a job interview on Monday.", "ex_es": "Tengo una entrevista de trabajo el lunes."},
-        {"en": "salary", "es": "sueldo", "pos": "noun", "ex_en": "The salary is good, but the hours are long.", "ex_es": "El sueldo es bueno, pero el horario es largo."},
-        {"en": "part-time", "es": "de medio tiempo", "pos": "adj", "ex_en": "She has a part-time job at a café.", "ex_es": "Tiene un trabajo de medio tiempo en un café."},
-        {"en": "full-time", "es": "de tiempo completo", "pos": "adj", "ex_en": "I'm looking for a full-time job.", "ex_es": "Busco un trabajo de tiempo completo."},
-        {"en": "experience", "es": "experiencia", "pos": "noun", "ex_en": "Do you have experience in sales?", "ex_es": "¿Tienes experiencia en ventas?"},
-        {"en": "hire", "es": "contratar", "pos": "verb", "ex_en": "The company wants to hire ten people.", "ex_es": "La empresa quiere contratar a diez personas."},
-        {"en": "resume", "es": "currículum", "pos": "noun", "ex_en": "Send your resume by email.", "ex_es": "Manda tu currículum por correo."}
+        {
+          "en": "apply",
+          "es": "postularse, solicitar",
+          "pos": "verb",
+          "ex_en": "I want to apply for that job.",
+          "ex_es": "Quiero postularme para ese trabajo."
+        },
+        {
+          "en": "interview",
+          "es": "entrevista",
+          "pos": "noun",
+          "ex_en": "I have a job interview on Monday.",
+          "ex_es": "Tengo una entrevista de trabajo el lunes."
+        },
+        {
+          "en": "salary",
+          "es": "sueldo",
+          "pos": "noun",
+          "ex_en": "The salary is good, but the hours are long.",
+          "ex_es": "El sueldo es bueno, pero el horario es largo."
+        },
+        {
+          "en": "part-time",
+          "es": "de medio tiempo",
+          "pos": "adj",
+          "ex_en": "She has a part-time job at a café.",
+          "ex_es": "Tiene un trabajo de medio tiempo en un café."
+        },
+        {
+          "en": "full-time",
+          "es": "de tiempo completo",
+          "pos": "adj",
+          "ex_en": "I'm looking for a full-time job.",
+          "ex_es": "Busco un trabajo de tiempo completo."
+        },
+        {
+          "en": "experience",
+          "es": "experiencia",
+          "pos": "noun",
+          "ex_en": "Do you have experience in sales?",
+          "ex_es": "¿Tienes experiencia en ventas?"
+        },
+        {
+          "en": "hire",
+          "es": "contratar",
+          "pos": "verb",
+          "ex_en": "The company wants to hire ten people.",
+          "ex_es": "La empresa quiere contratar a diez personas."
+        },
+        {
+          "en": "resume",
+          "es": "currículum",
+          "pos": "noun",
+          "ex_en": "Send your resume by email.",
+          "ex_es": "Manda tu currículum por correo."
+        }
       ],
       "sentences": [
-        {"en": "I'm looking for a new job.", "es": "Estoy buscando un trabajo nuevo."},
-        {"en": "How was your interview?", "es": "¿Cómo te fue en tu entrevista?"},
-        {"en": "They hired me last week!", "es": "¡Me contrataron la semana pasada!"},
-        {"en": "I have three years of experience as an accountant.", "es": "Tengo tres años de experiencia como contador."},
-        {"en": "Do I have to send my resume first?", "es": "¿Tengo que mandar mi currículum primero?"}
+        {
+          "en": "I'm looking for a new job.",
+          "es": "Estoy buscando un trabajo nuevo."
+        },
+        {
+          "en": "How was your interview?",
+          "es": "¿Cómo te fue en tu entrevista?"
+        },
+        {
+          "en": "They hired me last week!",
+          "es": "¡Me contrataron la semana pasada!"
+        },
+        {
+          "en": "I have three years of experience as an accountant.",
+          "es": "Tengo tres años de experiencia como contador."
+        },
+        {
+          "en": "Do I have to send my resume first?",
+          "es": "¿Tengo que mandar mi currículum primero?"
+        }
       ],
       "tip_es": "Para solicitar un empleo se usa apply for: I applied for the job. Experience en el sentido laboral no lleva a: I have experience, no I have an experience. En Estados Unidos el currículum se llama resume."
+    },
+    {
+      "id": "10-7",
+      "title_es": "Lugares y personas en el trabajo",
+      "words": [
+        {
+          "en": "architect",
+          "es": "arquitecto",
+          "pos": "noun",
+          "ex_en": "My sister is an architect in Querétaro.",
+          "ex_es": "Mi hermana es arquitecta en Querétaro."
+        },
+        {
+          "en": "cashier",
+          "es": "cajero",
+          "pos": "noun",
+          "ex_en": "The cashier gave me the change.",
+          "ex_es": "La cajera me dio el cambio."
+        },
+        {
+          "en": "chef",
+          "es": "chef, cocinero",
+          "pos": "noun",
+          "ex_en": "The chef can cook amazing tacos.",
+          "ex_es": "El chef sabe cocinar tacos increíbles."
+        },
+        {
+          "en": "nurse",
+          "es": "enfermero",
+          "pos": "noun",
+          "ex_en": "The nurse works the night shift.",
+          "ex_es": "La enfermera trabaja en el turno de noche."
+        },
+        {
+          "en": "factory",
+          "es": "fábrica",
+          "pos": "noun",
+          "ex_en": "My dad works in a car factory.",
+          "ex_es": "Mi papá trabaja en una fábrica de carros."
+        },
+        {
+          "en": "work from home",
+          "es": "trabajar desde casa",
+          "pos": "phrase",
+          "ex_en": "I work from home on Fridays.",
+          "ex_es": "Trabajo desde casa los viernes."
+        },
+        {
+          "en": "company",
+          "es": "empresa",
+          "pos": "noun",
+          "ex_en": "She works for a big company.",
+          "ex_es": "Ella trabaja para una empresa grande."
+        },
+        {
+          "en": "customer",
+          "es": "cliente",
+          "pos": "noun",
+          "ex_en": "The customer wants to talk to the manager.",
+          "ex_es": "El cliente quiere hablar con el gerente."
+        }
+      ],
+      "sentences": [
+        {
+          "en": "What does your brother do?",
+          "es": "¿A qué se dedica tu hermano?"
+        },
+        {
+          "en": "He's a chef at a hotel.",
+          "es": "Es chef en un hotel."
+        },
+        {
+          "en": "I work for a small company downtown.",
+          "es": "Trabajo para una empresa pequeña en el centro."
+        },
+        {
+          "en": "Nurses have to work long shifts.",
+          "es": "Las enfermeras tienen que trabajar turnos largos."
+        },
+        {
+          "en": "Do you work from home or at the office?",
+          "es": "¿Trabajas desde casa o en la oficina?"
+        }
+      ],
+      "tip_es": "Para preguntar a qué se dedica alguien se dice What do you do?, no What is your work? Antes de una profesión se usa a o an: She's a nurse, he's an architect. Work for va con la empresa y work at con el lugar."
+    },
+    {
+      "id": "10-8",
+      "title_es": "En la universidad",
+      "words": [
+        {
+          "en": "college",
+          "es": "universidad",
+          "pos": "noun",
+          "ex_en": "My son is in college now.",
+          "ex_es": "Mi hijo ya está en la universidad."
+        },
+        {
+          "en": "semester",
+          "es": "semestre",
+          "pos": "noun",
+          "ex_en": "The semester starts in August.",
+          "ex_es": "El semestre empieza en agosto."
+        },
+        {
+          "en": "degree",
+          "es": "título universitario",
+          "pos": "noun",
+          "ex_en": "He has a degree in engineering.",
+          "ex_es": "Él tiene un título de ingeniería."
+        },
+        {
+          "en": "major",
+          "es": "carrera, especialidad",
+          "pos": "noun",
+          "ex_en": "My major is computer science.",
+          "ex_es": "Mi carrera es ciencias de la computación."
+        },
+        {
+          "en": "scholarship",
+          "es": "beca",
+          "pos": "noun",
+          "ex_en": "I got a scholarship for next year.",
+          "ex_es": "Conseguí una beca para el próximo año."
+        },
+        {
+          "en": "graduate",
+          "es": "graduarse",
+          "pos": "verb",
+          "ex_en": "We graduate in June.",
+          "ex_es": "Nos graduamos en junio."
+        },
+        {
+          "en": "library",
+          "es": "biblioteca",
+          "pos": "noun",
+          "ex_en": "Let's study at the library after class.",
+          "ex_es": "Vamos a estudiar en la biblioteca después de clase."
+        },
+        {
+          "en": "take notes",
+          "es": "tomar apuntes",
+          "pos": "phrase",
+          "ex_en": "Always take notes in class.",
+          "ex_es": "Siempre toma apuntes en clase."
+        }
+      ],
+      "sentences": [
+        {
+          "en": "What's your major?",
+          "es": "¿Qué carrera estudias?"
+        },
+        {
+          "en": "I study at the library every afternoon.",
+          "es": "Estudio en la biblioteca todas las tardes."
+        },
+        {
+          "en": "She can't pay for college without a scholarship.",
+          "es": "Ella no puede pagar la universidad sin una beca."
+        },
+        {
+          "en": "You have to take notes in this class.",
+          "es": "Tienes que tomar apuntes en esta clase."
+        },
+        {
+          "en": "I want to graduate next semester.",
+          "es": "Quiero graduarme el próximo semestre."
+        }
+      ],
+      "tip_es": "En Estados Unidos college se usa para hablar de la universidad en general: I'm in college. Major es la carrera que estudias y degree es el título que recibes al terminar."
+    },
+    {
+      "id": "10-9",
+      "title_es": "Tareas de todos los días",
+      "words": [
+        {
+          "en": "send",
+          "es": "mandar, enviar",
+          "pos": "verb",
+          "ex_en": "Can you send me the report today?",
+          "ex_es": "¿Me puedes mandar el reporte hoy?"
+        },
+        {
+          "en": "answer the phone",
+          "es": "contestar el teléfono",
+          "pos": "phrase",
+          "ex_en": "Please answer the phone, I'm busy.",
+          "ex_es": "Por favor contesta el teléfono, estoy ocupado."
+        },
+        {
+          "en": "make copies",
+          "es": "sacar copias",
+          "pos": "phrase",
+          "ex_en": "I have to make copies for the meeting.",
+          "ex_es": "Tengo que sacar copias para la junta."
+        },
+        {
+          "en": "busy",
+          "es": "ocupado",
+          "pos": "adj",
+          "ex_en": "Mondays are always busy at the office.",
+          "ex_es": "Los lunes siempre hay mucho trabajo en la oficina."
+        },
+        {
+          "en": "break",
+          "es": "descanso",
+          "pos": "noun",
+          "ex_en": "Let's take a break for ten minutes.",
+          "ex_es": "Tomemos un descanso de diez minutos."
+        },
+        {
+          "en": "overtime",
+          "es": "horas extra",
+          "pos": "noun",
+          "ex_en": "He works overtime on weekends.",
+          "ex_es": "Él trabaja horas extra los fines de semana."
+        },
+        {
+          "en": "day off",
+          "es": "día de descanso",
+          "pos": "phrase",
+          "ex_en": "Tomorrow is my day off.",
+          "ex_es": "Mañana es mi día de descanso."
+        },
+        {
+          "en": "team",
+          "es": "equipo",
+          "pos": "noun",
+          "ex_en": "Our team finished the project early.",
+          "ex_es": "Nuestro equipo terminó el proyecto temprano."
+        }
+      ],
+      "sentences": [
+        {
+          "en": "Can you make copies of this report?",
+          "es": "¿Puedes sacar copias de este reporte?"
+        },
+        {
+          "en": "I'm sorry, I can't talk now. I'm busy.",
+          "es": "Perdón, no puedo hablar ahora. Estoy ocupado."
+        },
+        {
+          "en": "We have a break at eleven.",
+          "es": "Tenemos un descanso a las once."
+        },
+        {
+          "en": "Do you have to work overtime this week?",
+          "es": "¿Tienes que trabajar horas extra esta semana?"
+        },
+        {
+          "en": "My boss wants the whole team at the meeting.",
+          "es": "Mi jefe quiere a todo el equipo en la junta."
+        }
+      ],
+      "tip_es": "Take a break significa tomar un descanso. Para pedir algo en el trabajo de forma amable usa Can you o Could you al inicio. Overtime no lleva artículo: I work overtime."
+    },
+    {
+      "id": "10-10",
+      "title_es": "En la vida real: crecer en el trabajo",
+      "words": [
+        {
+          "en": "promotion",
+          "es": "ascenso",
+          "pos": "noun",
+          "ex_en": "She got a promotion last month.",
+          "ex_es": "Le dieron un ascenso el mes pasado."
+        },
+        {
+          "en": "raise",
+          "es": "aumento de sueldo",
+          "pos": "noun",
+          "ex_en": "I want to ask for a raise.",
+          "ex_es": "Quiero pedir un aumento de sueldo."
+        },
+        {
+          "en": "quit",
+          "es": "renunciar",
+          "pos": "verb",
+          "ex_en": "He quit his job last week.",
+          "ex_es": "Él renunció a su trabajo la semana pasada."
+        },
+        {
+          "en": "retire",
+          "es": "jubilarse",
+          "pos": "verb",
+          "ex_en": "My grandpa wants to retire next year.",
+          "ex_es": "Mi abuelo quiere jubilarse el próximo año."
+        },
+        {
+          "en": "earn",
+          "es": "ganar (dinero)",
+          "pos": "verb",
+          "ex_en": "Nurses earn good money here.",
+          "ex_es": "Las enfermeras ganan buen dinero aquí."
+        },
+        {
+          "en": "training",
+          "es": "capacitación",
+          "pos": "noun",
+          "ex_en": "New employees have training on Monday.",
+          "ex_es": "Los empleados nuevos tienen capacitación el lunes."
+        },
+        {
+          "en": "goal",
+          "es": "meta",
+          "pos": "noun",
+          "ex_en": "My goal is to be a manager.",
+          "ex_es": "Mi meta es ser gerente."
+        },
+        {
+          "en": "hardworking",
+          "es": "trabajador",
+          "pos": "adj",
+          "ex_en": "Our new coworker is very hardworking.",
+          "ex_es": "Nuestro compañero nuevo es muy trabajador."
+        }
+      ],
+      "sentences": [
+        {
+          "en": "I can speak English and I have experience.",
+          "es": "Hablo inglés y tengo experiencia."
+        },
+        {
+          "en": "You have to finish the training first.",
+          "es": "Primero tienes que terminar la capacitación."
+        },
+        {
+          "en": "She's hardworking, so she got a promotion.",
+          "es": "Es muy trabajadora, por eso le dieron un ascenso."
+        },
+        {
+          "en": "I don't earn much, but I love my team.",
+          "es": "No gano mucho, pero me encanta mi equipo."
+        },
+        {
+          "en": "My goal is to get a raise this year.",
+          "es": "Mi meta es conseguir un aumento este año."
+        }
+      ],
+      "tip_es": "Quit es irregular y no cambia en pasado: I quit my job yesterday. Earn es ganar dinero trabajando y win es ganar un premio o un partido. Ask for a raise significa pedir un aumento."
     }
   ],
   "dialogue": {
     "title_es": "Primer día de trabajo",
     "setting_es": "Es tu primer día en una empresa y una compañera te da la bienvenida.",
     "lines": [
-      {"who": "A", "en": "Hi, you're the new engineer, right?", "es": "Hola, tú eres el nuevo ingeniero, ¿verdad?"},
-      {"who": "B", "en": "Yes, I'm Carlos. Nice to meet you.", "es": "Sí, soy Carlos. Mucho gusto."},
-      {"who": "A", "en": "I'm Laura. I work in accounting.", "es": "Soy Laura. Trabajo en contabilidad."},
-      {"who": "B", "en": "Nice! What time do we have to arrive?", "es": "¡Qué bien! ¿A qué hora tenemos que llegar?"},
-      {"who": "A", "en": "At eight thirty, but the schedule is flexible.", "es": "A las ocho y media, pero el horario es flexible."},
-      {"who": "B", "en": "Great. Do I have to wear a uniform?", "es": "Perfecto. ¿Tengo que usar uniforme?"},
-      {"who": "A", "en": "No. Can you come to a meeting at ten?", "es": "No. ¿Puedes venir a una junta a las diez?"},
-      {"who": "B", "en": "Sure. Where is the meeting room?", "es": "Claro. ¿Dónde está la sala de juntas?"},
-      {"who": "A", "en": "It's on the second floor, next to the printer.", "es": "Está en el segundo piso, junto a la impresora."},
-      {"who": "B", "en": "Perfect. Thanks for your help, Laura!", "es": "Perfecto. ¡Gracias por tu ayuda, Laura!"}
+      {
+        "who": "A",
+        "en": "Hi, you're the new engineer, right?",
+        "es": "Hola, tú eres el nuevo ingeniero, ¿verdad?"
+      },
+      {
+        "who": "B",
+        "en": "Yes, I'm Carlos. Nice to meet you.",
+        "es": "Sí, soy Carlos. Mucho gusto."
+      },
+      {
+        "who": "A",
+        "en": "I'm Laura. I work in accounting.",
+        "es": "Soy Laura. Trabajo en contabilidad."
+      },
+      {
+        "who": "B",
+        "en": "Nice! What time do we have to arrive?",
+        "es": "¡Qué bien! ¿A qué hora tenemos que llegar?"
+      },
+      {
+        "who": "A",
+        "en": "At eight thirty, but the schedule is flexible.",
+        "es": "A las ocho y media, pero el horario es flexible."
+      },
+      {
+        "who": "B",
+        "en": "Great. Do I have to wear a uniform?",
+        "es": "Perfecto. ¿Tengo que usar uniforme?"
+      },
+      {
+        "who": "A",
+        "en": "No. Can you come to a meeting at ten?",
+        "es": "No. ¿Puedes venir a una junta a las diez?"
+      },
+      {
+        "who": "B",
+        "en": "Sure. Where is the meeting room?",
+        "es": "Claro. ¿Dónde está la sala de juntas?"
+      },
+      {
+        "who": "A",
+        "en": "It's on the second floor, next to the printer.",
+        "es": "Está en el segundo piso, junto a la impresora."
+      },
+      {
+        "who": "B",
+        "en": "Perfect. Thanks for your help, Laura!",
+        "es": "Perfecto. ¡Gracias por tu ayuda, Laura!"
+      }
     ]
   }
 }

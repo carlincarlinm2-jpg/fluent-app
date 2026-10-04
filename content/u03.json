@@ -136,6 +136,94 @@
         {"en": "My son is shy, but friendly.", "es": "Mi hijo es tímido, pero amigable."}
       ],
       "tip_es": "Cuidado con este falso amigo: sensible en inglés significa sensato. Si quieres decir que alguien es sensible, usa sensitive. Para decir que alguien es simpático o buena onda, lo más natural es nice."
+    },
+    {
+      "id": "3-7",
+      "title_es": "Más familia",
+      "words": [
+        {"en": "baby", "es": "bebé", "pos": "noun", "ex_en": "Their baby is very small.", "ex_es": "Su bebé es muy chiquito."},
+        {"en": "children", "es": "hijos, niños", "pos": "noun", "ex_en": "They have three children.", "ex_es": "Tienen tres hijos."},
+        {"en": "grandparents", "es": "abuelos", "pos": "noun", "ex_en": "My grandparents are from Puebla.", "ex_es": "Mis abuelos son de Puebla."},
+        {"en": "nephew", "es": "sobrino", "pos": "noun", "ex_en": "My nephew is ten.", "ex_es": "Mi sobrino tiene diez años."},
+        {"en": "niece", "es": "sobrina", "pos": "noun", "ex_en": "Her niece is very funny.", "ex_es": "Su sobrina es muy chistosa."},
+        {"en": "boyfriend", "es": "novio", "pos": "noun", "ex_en": "Is he your boyfriend?", "ex_es": "¿Él es tu novio?"},
+        {"en": "girlfriend", "es": "novia", "pos": "noun", "ex_en": "His girlfriend is from Canada.", "ex_es": "Su novia es de Canadá."},
+        {"en": "twins", "es": "gemelos, cuates", "pos": "noun", "ex_en": "My sisters are twins.", "ex_es": "Mis hermanas son gemelas."}
+      ],
+      "sentences": [
+        {"en": "My sister has a baby girl.", "es": "Mi hermana tiene una bebé."},
+        {"en": "Their children are twins.", "es": "Sus hijos son gemelos."},
+        {"en": "My nephew and niece are very young.", "es": "Mi sobrino y mi sobrina son muy chicos."},
+        {"en": "His girlfriend is tall and smart.", "es": "Su novia es alta e inteligente."},
+        {"en": "Our grandparents have five children.", "es": "Nuestros abuelos tienen cinco hijos."}
+      ],
+      "tip_es": "Children es el plural irregular de child, que significa niño o hijo. En inglés se dice twins tanto para gemelos como para los que en México llamamos cuates."
+    },
+    {
+      "id": "3-8",
+      "title_es": "Hombres, mujeres y niños",
+      "words": [
+        {"en": "man", "es": "hombre, señor", "pos": "noun", "ex_en": "He's a nice man.", "ex_es": "Es un señor muy amable."},
+        {"en": "woman", "es": "mujer, señora", "pos": "noun", "ex_en": "My grandmother is a strong woman.", "ex_es": "Mi abuela es una mujer fuerte."},
+        {"en": "boy", "es": "niño, muchacho", "pos": "noun", "ex_en": "The boy is my son.", "ex_es": "El niño es mi hijo."},
+        {"en": "girl", "es": "niña, muchacha", "pos": "noun", "ex_en": "Is the girl your daughter?", "ex_es": "¿La niña es tu hija?"},
+        {"en": "person", "es": "persona", "pos": "noun", "ex_en": "She's a kind person.", "ex_es": "Es una persona bondadosa."},
+        {"en": "people", "es": "personas, gente", "pos": "noun", "ex_en": "Those people are my family.", "ex_es": "Esas personas son mi familia."},
+        {"en": "kid", "es": "niño, chamaco", "pos": "noun", "ex_en": "Their kid is very funny.", "ex_es": "Su niño es muy chistoso."},
+        {"en": "teenager", "es": "adolescente", "pos": "noun", "ex_en": "My son is a teenager.", "ex_es": "Mi hijo es adolescente."}
+      ],
+      "sentences": [
+        {"en": "The tall man is my uncle.", "es": "El señor alto es mi tío."},
+        {"en": "That woman is my aunt Lupe.", "es": "Esa señora es mi tía Lupe."},
+        {"en": "The boy has curly hair.", "es": "El niño tiene el pelo chino."},
+        {"en": "My daughter is a teenager now.", "es": "Mi hija ya es adolescente."},
+        {"en": "Her parents are very friendly people.", "es": "Sus papás son personas muy amigables."}
+      ],
+      "tip_es": "People es el plural de person y siempre va con are, por ejemplo the people are nice. Kid es una forma informal de decir child, como cuando decimos chamaco."
+    },
+    {
+      "id": "3-9",
+      "title_es": "¿A quién te pareces?",
+      "words": [
+        {"en": "blond", "es": "rubio, güero", "pos": "adj", "ex_en": "My son has blond hair.", "ex_es": "Mi hijo tiene el pelo güero."},
+        {"en": "brown", "es": "café", "pos": "adj", "ex_en": "She has brown eyes.", "ex_es": "Tiene los ojos cafés."},
+        {"en": "straight", "es": "lacio", "pos": "adj", "ex_en": "Her hair is long and straight.", "ex_es": "Su pelo es largo y lacio."},
+        {"en": "mustache", "es": "bigote", "pos": "noun", "ex_en": "My grandfather has a mustache.", "ex_es": "Mi abuelo tiene bigote."},
+        {"en": "look like", "es": "parecerse a", "pos": "phrase", "ex_en": "You look like your mom.", "ex_es": "Te pareces a tu mamá."},
+        {"en": "same", "es": "mismo, misma", "pos": "adj", "ex_en": "We have the same eyes.", "ex_es": "Tenemos los mismos ojos."},
+        {"en": "different", "es": "diferente", "pos": "adj", "ex_en": "My brothers are very different.", "ex_es": "Mis hermanos son muy diferentes."},
+        {"en": "both", "es": "los dos, ambos", "pos": "pron", "ex_en": "They're both tall.", "ex_es": "Los dos son altos."}
+      ],
+      "sentences": [
+        {"en": "My dad has brown eyes and a mustache.", "es": "Mi papá tiene ojos cafés y bigote."},
+        {"en": "Her daughter has long, straight hair.", "es": "Su hija tiene el pelo largo y lacio."},
+        {"en": "You look like your grandmother.", "es": "Te pareces a tu abuela."},
+        {"en": "The twins are both blond.", "es": "Los gemelos son güeros los dos."},
+        {"en": "We're sisters, but we're very different.", "es": "Somos hermanas, pero somos muy diferentes."}
+      ],
+      "tip_es": "Para decir a quién te pareces usa look like, por ejemplo I look like my dad, me parezco a mi papá. Los colores también van antes del sustantivo y no cambian, como brown eyes o blond hair."
+    },
+    {
+      "id": "3-10",
+      "title_es": "En la vida real, fotos de familia",
+      "words": [
+        {"en": "photo", "es": "foto", "pos": "noun", "ex_en": "Look, a photo of my family.", "ex_es": "Mira, una foto de mi familia."},
+        {"en": "who", "es": "quién", "pos": "pron", "ex_en": "Who is he?", "ex_es": "¿Quién es él?"},
+        {"en": "best friend", "es": "mejor amigo, mejor amiga", "pos": "phrase", "ex_en": "Ana is my best friend.", "ex_es": "Ana es mi mejor amiga."},
+        {"en": "older", "es": "mayor", "pos": "adj", "ex_en": "I have an older sister.", "ex_es": "Tengo una hermana mayor."},
+        {"en": "younger", "es": "menor", "pos": "adj", "ex_en": "My younger brother is shy.", "ex_es": "Mi hermano menor es tímido."},
+        {"en": "love", "es": "querer, amar", "pos": "verb", "ex_en": "I love my family.", "ex_es": "Quiero mucho a mi familia."},
+        {"en": "live", "es": "vivir", "pos": "verb", "ex_en": "My parents live in Mérida.", "ex_es": "Mis papás viven en Mérida."},
+        {"en": "together", "es": "juntos, juntas", "pos": "adv", "ex_en": "We live together.", "ex_es": "Vivimos juntos."}
+      ],
+      "sentences": [
+        {"en": "Look, this is a photo of my family.", "es": "Mira, esta es una foto de mi familia."},
+        {"en": "Who is the tall man with glasses?", "es": "¿Quién es el señor alto de lentes?"},
+        {"en": "That's my older brother, Daniel. He's very funny.", "es": "Es mi hermano mayor, Daniel. Es muy chistoso."},
+        {"en": "My younger sister lives with our grandparents.", "es": "Mi hermana menor vive con nuestros abuelos."},
+        {"en": "Her husband is my best friend's cousin.", "es": "Su esposo es primo de mi mejor amiga."}
+      ],
+      "tip_es": "Older y younger sirven para hermanos mayores y menores, como my older sister, mi hermana mayor. Con he y she el verbo lleva s al final, por eso se dice I live pero she lives."
     }
   ],
   "dialogue": {

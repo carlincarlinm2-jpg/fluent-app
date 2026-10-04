@@ -136,6 +136,94 @@
         {"en":"We're crossing the bridge. We're almost there!","es":"Estamos cruzando el puente. ¡Ya casi llegamos!"}
       ],
       "tip_es": "Downtown no lleva the ni to: I go downtown es voy al centro, no I go to the downtown. Traffic no se cuenta: di a lot of traffic, nunca traffics."
+    },
+    {
+      "id": "8-7",
+      "title_es": "¿Dónde está?",
+      "words": [
+        {"en":"next to","es":"al lado de","pos":"prep","ex_en":"The bank is next to the park.","ex_es":"El banco está al lado del parque."},
+        {"en":"across from","es":"enfrente de","pos":"prep","ex_en":"The pharmacy is across from the bank.","ex_es":"La farmacia está enfrente del banco."},
+        {"en":"between","es":"entre","pos":"prep","ex_en":"The café is between two stores.","ex_es":"La cafetería está entre dos tiendas."},
+        {"en":"behind","es":"detrás de","pos":"prep","ex_en":"The parking is behind the hospital.","ex_es":"El estacionamiento está detrás del hospital."},
+        {"en":"in front of","es":"delante de","pos":"prep","ex_en":"I'm in front of the museum.","ex_es":"Estoy delante del museo."},
+        {"en":"near","es":"cerca de","pos":"prep","ex_en":"Is there a bank near here?","ex_es":"¿Hay un banco cerca de aquí?"},
+        {"en":"far","es":"lejos","pos":"adj","ex_en":"The airport is far from downtown.","ex_es":"El aeropuerto está lejos del centro."},
+        {"en":"around the corner","es":"a la vuelta","pos":"phrase","ex_en":"The bus stop is around the corner.","ex_es":"La parada está a la vuelta."}
+      ],
+      "sentences": [
+        {"en":"Is the museum far from here?","es":"¿El museo está lejos de aquí?"},
+        {"en":"The hotel is across from the station.","es":"El hotel está enfrente de la estación."},
+        {"en":"There's a pharmacy around the corner.","es":"Hay una farmacia a la vuelta."},
+        {"en":"The bank is between the park and the hospital.","es":"El banco está entre el parque y el hospital."},
+        {"en":"I'm waiting in front of the post office.","es":"Estoy esperando delante de la oficina de correos."}
+      ],
+      "tip_es": "Para enfrente, cruzando la calle, usa across from. In front of es delante de, pegado a algo. Near y far from te ayudan a decir la distancia: near the park, far from here."
+    },
+    {
+      "id": "8-8",
+      "title_es": "En el aeropuerto",
+      "words": [
+        {"en":"airport","es":"aeropuerto","pos":"noun","ex_en":"The airport is very big.","ex_es":"El aeropuerto es muy grande."},
+        {"en":"plane","es":"avión","pos":"noun","ex_en":"The plane is full today.","ex_es":"El avión va lleno hoy."},
+        {"en":"flight","es":"vuelo","pos":"noun","ex_en":"My flight is at ten.","ex_es":"Mi vuelo es a las diez."},
+        {"en":"suitcase","es":"maleta","pos":"noun","ex_en":"My suitcase is very heavy.","ex_es":"Mi maleta está muy pesada."},
+        {"en":"passport","es":"pasaporte","pos":"noun","ex_en":"Don't forget your passport.","ex_es":"No olvides tu pasaporte."},
+        {"en":"gate","es":"sala, puerta de abordaje","pos":"noun","ex_en":"Our gate is number twelve.","ex_es":"Nuestra sala es la número doce."},
+        {"en":"boarding pass","es":"pase de abordar","pos":"noun","ex_en":"Can I see your boarding pass?","ex_es":"¿Me permite su pase de abordar?"},
+        {"en":"delayed","es":"retrasado","pos":"adj","ex_en":"Our flight is delayed.","ex_es":"Nuestro vuelo está retrasado."}
+      ],
+      "sentences": [
+        {"en":"Excuse me, where is gate five?","es":"Disculpe, ¿dónde está la sala cinco?"},
+        {"en":"Your passport and boarding pass, please.","es":"Su pasaporte y pase de abordar, por favor."},
+        {"en":"The flight to Chicago is delayed.","es":"El vuelo a Chicago está retrasado."},
+        {"en":"We're waiting for our suitcases right now.","es":"Ahorita estamos esperando nuestras maletas."},
+        {"en":"Is this the bus to the airport?","es":"¿Este es el camión al aeropuerto?"}
+      ],
+      "tip_es": "Plane es el avión y flight es el vuelo, el viaje. Se dice by plane o take a plane. En los aeropuertos de EE. UU. escucharás mucho boarding, que significa abordando."
+    },
+    {
+      "id": "8-9",
+      "title_es": "En el coche",
+      "words": [
+        {"en":"parking lot","es":"estacionamiento","pos":"noun","ex_en":"The parking lot is full.","ex_es":"El estacionamiento está lleno."},
+        {"en":"highway","es":"carretera","pos":"noun","ex_en":"Take the highway to the airport.","ex_es":"Toma la carretera al aeropuerto."},
+        {"en":"seat belt","es":"cinturón de seguridad","pos":"noun","ex_en":"Put on your seat belt.","ex_es":"Ponte el cinturón de seguridad."},
+        {"en":"slow down","es":"bajar la velocidad","pos":"verb","ex_en":"Slow down, please!","ex_es":"¡Baja la velocidad, por favor!"},
+        {"en":"hurry up","es":"apurarse","pos":"verb","ex_en":"Hurry up! We're late.","ex_es":"¡Apúrate! Vamos tarde."},
+        {"en":"fast","es":"rápido","pos":"adv","ex_en":"Don't drive so fast.","ex_es":"No manejes tan rápido."},
+        {"en":"careful","es":"cuidadoso","pos":"adj","ex_en":"Be careful on the highway.","ex_es":"Ten cuidado en la carretera."},
+        {"en":"accident","es":"accidente","pos":"noun","ex_en":"There's an accident on the bridge.","ex_es":"Hay un accidente en el puente."}
+      ],
+      "sentences": [
+        {"en":"Put on your seat belt, please.","es":"Ponte el cinturón, por favor."},
+        {"en":"Slow down! You're driving too fast.","es":"¡Baja la velocidad! Vas manejando muy rápido."},
+        {"en":"Is there a parking lot near the museum?","es":"¿Hay un estacionamiento cerca del museo?"},
+        {"en":"Be careful. The highway is very crowded.","es":"Ten cuidado. La carretera está muy llena."},
+        {"en":"There's an accident, so we're taking another street.","es":"Hay un accidente, así que vamos por otra calle."}
+      ],
+      "tip_es": "Para advertir a alguien usa el imperativo: Slow down, Hurry up, Be careful. Fíjate que be careful necesita be, porque careful es adjetivo. Parking lot es el estacionamiento al aire libre."
+    },
+    {
+      "id": "8-10",
+      "title_es": "En la vida real: moverse por la ciudad",
+      "words": [
+        {"en":"how far","es":"qué tan lejos","pos":"phrase","ex_en":"How far is the hotel?","ex_es":"¿Qué tan lejos está el hotel?"},
+        {"en":"how long","es":"cuánto tiempo","pos":"phrase","ex_en":"How long is the trip?","ex_es":"¿Cuánto dura el viaje?"},
+        {"en":"it takes","es":"se hace, tarda","pos":"phrase","ex_en":"It takes an hour by bus.","ex_es":"Se hace una hora en camión."},
+        {"en":"on foot","es":"a pie","pos":"phrase","ex_en":"The park is ten minutes on foot.","ex_es":"El parque está a diez minutos a pie."},
+        {"en":"miss","es":"perder","pos":"verb","ex_en":"I don't want to miss my flight.","ex_es":"No quiero perder mi vuelo."},
+        {"en":"next","es":"siguiente, próximo","pos":"adj","ex_en":"Get off at the next stop.","ex_es":"Bájate en la siguiente parada."},
+        {"en":"transfer","es":"transbordar","pos":"verb","ex_en":"Transfer to the green line here.","ex_es":"Transborda a la línea verde aquí."},
+        {"en":"fare","es":"pasaje, tarifa","pos":"noun","ex_en":"The bus fare is two dollars.","ex_es":"El pasaje del camión cuesta dos dólares."}
+      ],
+      "sentences": [
+        {"en":"How far is the museum from here?","es":"¿Qué tan lejos está el museo de aquí?"},
+        {"en":"It takes about ten minutes on foot.","es":"Se hace como diez minutos a pie."},
+        {"en":"How long does it take by subway?","es":"¿Cuánto se hace en metro?"},
+        {"en":"Transfer to the blue line at the next station.","es":"Transborda a la línea azul en la siguiente estación."},
+        {"en":"Don't miss the last train. It leaves at midnight.","es":"No pierdas el último tren. Sale a la medianoche."}
+      ],
+      "tip_es": "How far pregunta por la distancia y how long por el tiempo. Para contestar usa It takes más el tiempo: It takes twenty minutes. Recuerda que a pie es on foot, no by foot."
     }
   ],
   "dialogue": {

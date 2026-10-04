@@ -1,0 +1,245 @@
+{
+  "id": 20,
+  "title_es": "Inglés avanzado",
+  "title_en": "Advanced English",
+  "level": "C1",
+  "goal_es": "Al terminar podrás usar modismos frecuentes, matizar tus opiniones, argumentar con conectores formales, hablar del pasado hipotético y expresarte con fluidez.",
+  "lessons": [
+    {
+      "id": "20-1",
+      "title_es": "Modismos de todos los días",
+      "words": [
+        {"en":"piece of cake","es":"pan comido","pos":"phrase","ex_en":"The exam was a piece of cake.","ex_es":"El examen fue pan comido."},
+        {"en":"break the ice","es":"romper el hielo","pos":"phrase","ex_en":"He told a joke to break the ice.","ex_es":"Contó un chiste para romper el hielo."},
+        {"en":"under the weather","es":"medio enfermo, indispuesto","pos":"phrase","ex_en":"I'm feeling a bit under the weather today.","ex_es":"Hoy me siento un poco mal."},
+        {"en":"hit the sack","es":"irse a dormir","pos":"phrase","ex_en":"I'm exhausted, so I'm going to hit the sack.","ex_es":"Estoy agotado, así que me voy a dormir."},
+        {"en":"cost an arm and a leg","es":"costar un ojo de la cara","pos":"phrase","ex_en":"That car must cost an arm and a leg.","ex_es":"Ese carro ha de costar un ojo de la cara."},
+        {"en":"once in a blue moon","es":"muy de vez en cuando","pos":"phrase","ex_en":"I only eat fast food once in a blue moon.","ex_es":"Solo como comida rápida muy de vez en cuando."},
+        {"en":"call it a day","es":"dar por terminado el día","pos":"phrase","ex_en":"We've done enough, let's call it a day.","ex_es":"Ya hicimos suficiente, dejémoslo por hoy."},
+        {"en":"the last straw","es":"la gota que derramó el vaso","pos":"phrase","ex_en":"Being late again was the last straw.","ex_es":"Volver a llegar tarde fue la gota que derramó el vaso."}
+      ],
+      "sentences": [
+        {"en":"Don't worry, it's not rocket science.","es":"No te preocupes, no es tan complicado."},
+        {"en":"We're in the same boat, so let's help each other.","es":"Estamos en las mismas, así que ayudémonos."},
+        {"en":"I'll keep my fingers crossed for you.","es":"Voy a cruzar los dedos por ti."},
+        {"en":"She's always been a night owl.","es":"Ella siempre ha sido muy nocturna."},
+        {"en":"Let's play it by ear and decide tomorrow.","es":"Vamos viendo sobre la marcha y decidimos mañana."}
+      ],
+      "tip_es": "Los modismos no se traducen palabra por palabra. Costar un ojo de la cara es cost an arm and a leg, nunca cost an eye of the face. Úsalos en contextos informales, porque en un correo formal pueden sonar fuera de lugar."
+    },
+    {
+      "id": "20-2",
+      "title_es": "Modismos de trabajo",
+      "words": [
+        {"en":"touch base","es":"ponerse en contacto, reportarse","pos":"phrase","ex_en":"Let's touch base next week about the budget.","ex_es":"Hablemos la próxima semana sobre el presupuesto."},
+        {"en":"on the same page","es":"en la misma sintonía","pos":"phrase","ex_en":"I want to make sure we're on the same page.","ex_es":"Quiero asegurarme de que estemos en la misma sintonía."},
+        {"en":"think outside the box","es":"pensar de forma creativa","pos":"phrase","ex_en":"We need to think outside the box to solve this.","ex_es":"Tenemos que pensar de forma creativa para resolver esto."},
+        {"en":"cut corners","es":"hacer las cosas al aventón","pos":"phrase","ex_en":"If we cut corners now, we'll pay for it later.","ex_es":"Si hacemos las cosas al aventón ahora, lo pagaremos después."},
+        {"en":"get the ball rolling","es":"poner manos a la obra","pos":"phrase","ex_en":"Let's get the ball rolling on the new project.","ex_es":"Pongamos manos a la obra con el nuevo proyecto."},
+        {"en":"back to square one","es":"de vuelta al principio","pos":"phrase","ex_en":"The client said no, so we're back to square one.","ex_es":"El cliente dijo que no, así que volvimos al principio."},
+        {"en":"up in the air","es":"en el aire, sin definir","pos":"phrase","ex_en":"Our plans for next year are still up in the air.","ex_es":"Nuestros planes para el próximo año siguen en el aire."},
+        {"en":"learning curve","es":"curva de aprendizaje","pos":"noun","ex_en":"The new software has a steep learning curve.","ex_es":"El nuevo software tiene una curva de aprendizaje difícil."}
+      ],
+      "sentences": [
+        {"en":"Let's not reinvent the wheel.","es":"No reinventemos la rueda."},
+        {"en":"I'll keep you in the loop.","es":"Te mantengo al tanto."},
+        {"en":"That's a tall order, but we'll try.","es":"Es mucho pedir, pero lo vamos a intentar."},
+        {"en":"Can we take this offline?","es":"¿Podemos hablar de esto aparte?"},
+        {"en":"He always goes the extra mile for his clients.","es":"Él siempre hace un esfuerzo extra por sus clientes."}
+      ],
+      "tip_es": "Keep me in the loop significa mantenerme informado. Take this offline no tiene nada que ver con internet, significa hablar un tema después y en privado. Error común, abusar de estas frases. Si las usas en cada oración suenas como robot corporativo."
+    },
+    {
+      "id": "20-3",
+      "title_es": "Matizar y suavizar",
+      "words": [
+        {"en":"somewhat","es":"algo, un tanto","pos":"adv","ex_en":"The results were somewhat disappointing.","ex_es":"Los resultados fueron un tanto decepcionantes."},
+        {"en":"arguably","es":"posiblemente, se podría decir que","pos":"adv","ex_en":"She is arguably the best singer of her generation.","ex_es":"Se podría decir que es la mejor cantante de su generación."},
+        {"en":"slightly","es":"ligeramente","pos":"adv","ex_en":"The price is slightly higher than last year.","ex_es":"El precio es ligeramente más alto que el año pasado."},
+        {"en":"tend to","es":"tender a, soler","pos":"verb","ex_en":"People tend to spend more when they pay by card.","ex_es":"La gente suele gastar más cuando paga con tarjeta."},
+        {"en":"to some extent","es":"hasta cierto punto","pos":"phrase","ex_en":"I agree with you to some extent.","ex_es":"Estoy de acuerdo contigo hasta cierto punto."},
+        {"en":"by no means","es":"de ninguna manera, para nada","pos":"phrase","ex_en":"This is by no means an easy decision.","ex_es":"Esta no es para nada una decisión fácil."},
+        {"en":"not exactly","es":"no precisamente","pos":"phrase","ex_en":"It's not exactly cheap, but the quality is great.","ex_es":"No es precisamente barato, pero la calidad es excelente."},
+        {"en":"I'd say","es":"yo diría","pos":"phrase","ex_en":"I'd say we need at least two more weeks.","ex_es":"Yo diría que necesitamos por lo menos dos semanas más."}
+      ],
+      "sentences": [
+        {"en":"It's not that I don't like it, it's just a bit expensive.","es":"No es que no me guste, es que está algo caro."},
+        {"en":"I'm not entirely sure that's a good idea.","es":"No estoy del todo seguro de que sea buena idea."},
+        {"en":"That might not be the best approach.","es":"Tal vez ese no sea el mejor enfoque."},
+        {"en":"With all due respect, I see things differently.","es":"Con todo respeto, yo lo veo de otra manera."},
+        {"en":"It seems to me that we're missing something.","es":"Me parece que se nos está escapando algo."}
+      ],
+      "tip_es": "En inglés se suaviza mucho lo que en español diríamos de forma directa. En vez de That's wrong, prueba I'm not sure that's quite right. Arguably no significa discutiblemente en sentido negativo, significa que hay buenos argumentos para afirmar algo."
+    },
+    {
+      "id": "20-4",
+      "title_es": "Argumentar",
+      "words": [
+        {"en":"claim","es":"afirmar, sostener","pos":"verb","ex_en":"Some experts claim that the plan won't work.","ex_es":"Algunos expertos afirman que el plan no va a funcionar."},
+        {"en":"evidence","es":"pruebas, evidencia","pos":"noun","ex_en":"There is no evidence to support that idea.","ex_es":"No hay pruebas que respalden esa idea."},
+        {"en":"point out","es":"señalar","pos":"verb","ex_en":"I'd like to point out a small problem.","ex_es":"Me gustaría señalar un pequeño problema."},
+        {"en":"counterargument","es":"contraargumento","pos":"noun","ex_en":"Let me address a common counterargument.","ex_es":"Permítanme responder a un contraargumento común."},
+        {"en":"assumption","es":"suposición","pos":"noun","ex_en":"Your argument is based on a false assumption.","ex_es":"Tu argumento se basa en una suposición falsa."},
+        {"en":"valid","es":"válido","pos":"adj","ex_en":"That's a valid point, but consider the cost.","ex_es":"Es un punto válido, pero considera el costo."},
+        {"en":"outweigh","es":"pesar más que, superar","pos":"verb","ex_en":"The benefits clearly outweigh the risks.","ex_es":"Los beneficios claramente superan los riesgos."},
+        {"en":"play devil's advocate","es":"hacer de abogado del diablo","pos":"phrase","ex_en":"Let me play devil's advocate for a moment.","ex_es":"Déjame hacer de abogado del diablo un momento."}
+      ],
+      "sentences": [
+        {"en":"The main reason I disagree is the cost.","es":"La razón principal por la que no estoy de acuerdo es el costo."},
+        {"en":"That's true, but it doesn't change the fact that we're late.","es":"Es cierto, pero eso no cambia el hecho de que vamos tarde."},
+        {"en":"Let me put it another way.","es":"Déjame decirlo de otra forma."},
+        {"en":"What evidence do you have for that?","es":"¿Qué pruebas tienes de eso?"},
+        {"en":"I see where you're coming from, but I'm not convinced.","es":"Entiendo tu punto de vista, pero no me convence."}
+      ],
+      "tip_es": "Evidence es incontable, nunca evidences. Para una sola prueba se dice a piece of evidence. Error común, repetir in my opinion en cada oración. Varía con I'd argue that, the way I see it o from my perspective."
+    },
+    {
+      "id": "20-5",
+      "title_es": "Conectores formales",
+      "words": [
+        {"en":"however","es":"sin embargo","pos":"adv","ex_en":"The plan is good. However, it is too expensive.","ex_es":"El plan es bueno. Sin embargo, es demasiado caro."},
+        {"en":"therefore","es":"por lo tanto","pos":"adv","ex_en":"Sales fell, and therefore we had to cut costs.","ex_es":"Las ventas bajaron y, por lo tanto, tuvimos que recortar costos."},
+        {"en":"moreover","es":"además","pos":"adv","ex_en":"The house is cheap. Moreover, it's close to the city.","ex_es":"La casa es barata. Además, está cerca de la ciudad."},
+        {"en":"nevertheless","es":"no obstante","pos":"adv","ex_en":"It was risky. Nevertheless, they decided to invest.","ex_es":"Era arriesgado. No obstante, decidieron invertir."},
+        {"en":"whereas","es":"mientras que","pos":"conj","ex_en":"I prefer tea, whereas my wife loves coffee.","ex_es":"Yo prefiero el té, mientras que a mi esposa le encanta el café."},
+        {"en":"despite","es":"a pesar de","pos":"prep","ex_en":"Despite the rain, the event was a success.","ex_es":"A pesar de la lluvia, el evento fue un éxito."},
+        {"en":"as a result","es":"como resultado","pos":"phrase","ex_en":"Prices went up. As a result, sales dropped.","ex_es":"Los precios subieron. Como resultado, las ventas bajaron."},
+        {"en":"in light of","es":"a la luz de, en vista de","pos":"phrase","ex_en":"In light of recent events, the meeting is canceled.","ex_es":"En vista de los últimos acontecimientos, se cancela la reunión."}
+      ],
+      "sentences": [
+        {"en":"Although it was late, we kept working.","es":"Aunque era tarde, seguimos trabajando."},
+        {"en":"On the other hand, the risks are quite low.","es":"Por otro lado, los riesgos son bastante bajos."},
+        {"en":"In addition to the cost, there's the issue of time.","es":"Además del costo, está el tema del tiempo."},
+        {"en":"Even though she was tired, she finished the report.","es":"Aunque estaba cansada, terminó el informe."},
+        {"en":"Consequently, the project was delayed by two months.","es":"Por consiguiente, el proyecto se retrasó dos meses."}
+      ],
+      "tip_es": "Despite va seguido de un sustantivo o de un verbo con ing, despite the rain o despite being tired. Error común, decir despite of. Despite nunca lleva of, aunque in spite of sí. However al inicio de la oración lleva coma después."
+    },
+    {
+      "id": "20-6",
+      "title_es": "El tercer condicional",
+      "words": [
+        {"en":"regret","es":"arrepentirse de","pos":"verb","ex_en":"I regret not studying harder in college.","ex_es":"Me arrepiento de no haber estudiado más en la universidad."},
+        {"en":"if only","es":"si tan solo, ojalá","pos":"phrase","ex_en":"If only I had listened to you.","ex_es":"Si tan solo te hubiera hecho caso."},
+        {"en":"in hindsight","es":"en retrospectiva","pos":"phrase","ex_en":"In hindsight, it was a terrible idea.","ex_es":"En retrospectiva, fue una pésima idea."},
+        {"en":"missed opportunity","es":"oportunidad perdida","pos":"noun","ex_en":"Not applying for that job was a missed opportunity.","ex_es":"No postularme a ese trabajo fue una oportunidad perdida."},
+        {"en":"would have","es":"habría","pos":"phrase","ex_en":"I would have called you if I'd known.","ex_es":"Te habría llamado si hubiera sabido."},
+        {"en":"should have","es":"debí haber, debiste haber","pos":"phrase","ex_en":"You should have told me the truth.","ex_es":"Debiste haberme dicho la verdad."},
+        {"en":"turn out","es":"resultar","pos":"verb","ex_en":"Things didn't turn out the way we planned.","ex_es":"Las cosas no resultaron como las planeamos."},
+        {"en":"wish","es":"desear, ojalá","pos":"verb","ex_en":"I wish I had taken that job.","ex_es":"Ojalá hubiera aceptado ese trabajo."}
+      ],
+      "sentences": [
+        {"en":"If I had known, I would have helped you.","es":"Si hubiera sabido, te habría ayudado."},
+        {"en":"If we had left earlier, we wouldn't have missed the flight.","es":"Si hubiéramos salido antes, no habríamos perdido el vuelo."},
+        {"en":"She would have passed if she had studied more.","es":"Ella habría pasado si hubiera estudiado más."},
+        {"en":"What would you have done in my place?","es":"¿Qué habrías hecho tú en mi lugar?"},
+        {"en":"If it hadn't rained, we would have gone to the beach.","es":"Si no hubiera llovido, habríamos ido a la playa."}
+      ],
+      "tip_es": "El tercer condicional habla de un pasado que no ocurrió. Se forma con if más had y participio, y luego would have más participio. Al hablar se contrae, I'd have o would've. Error común, decir If I would have known. Lo correcto es If I had known."
+    },
+    {
+      "id": "20-7",
+      "title_es": "Hablar con fluidez",
+      "words": [
+        {"en":"you know","es":"sabes, o sea","pos":"phrase","ex_en":"It was, you know, kind of awkward.","ex_es":"Fue, o sea, medio incómodo."},
+        {"en":"kind of","es":"medio, algo","pos":"adv","ex_en":"I'm kind of tired, so I'll stay home.","ex_es":"Estoy medio cansado, así que me quedo en casa."},
+        {"en":"basically","es":"básicamente","pos":"adv","ex_en":"Basically, we need more time and more money.","ex_es":"Básicamente, necesitamos más tiempo y más dinero."},
+        {"en":"let me think","es":"déjame pensar","pos":"phrase","ex_en":"Hmm, let me think about that for a second.","ex_es":"Mmm, déjame pensarlo un segundo."},
+        {"en":"anyway","es":"en fin, de todos modos","pos":"adv","ex_en":"Anyway, as I was saying, the trip was great.","ex_es":"En fin, como te decía, el viaje estuvo increíble."},
+        {"en":"I mean","es":"o sea, quiero decir","pos":"phrase","ex_en":"It's good. I mean, it's not perfect, but it's good.","ex_es":"Está bien. O sea, no es perfecto, pero está bien."},
+        {"en":"that reminds me","es":"eso me recuerda","pos":"phrase","ex_en":"That reminds me, did you call your mom?","ex_es":"Eso me recuerda, ¿ya le hablaste a tu mamá?"},
+        {"en":"off the top of my head","es":"así de memoria","pos":"phrase","ex_en":"Off the top of my head, I'd guess about fifty people.","ex_es":"Así de memoria, calculo que unas cincuenta personas."}
+      ],
+      "sentences": [
+        {"en":"How can I put this?","es":"¿Cómo te lo digo?"},
+        {"en":"That's a good question, give me a second.","es":"Buena pregunta, dame un segundo."},
+        {"en":"What I'm trying to say is that it's complicated.","es":"Lo que trato de decir es que es complicado."},
+        {"en":"Where was I?","es":"¿En qué iba?"},
+        {"en":"Sorry, I lost my train of thought.","es":"Perdón, perdí el hilo."}
+      ],
+      "tip_es": "Los hablantes nativos usan muletillas como I mean, you know y like para ganar tiempo. Usarlas un poco te hace sonar natural, pero no exageres. Error común, traducir o sea como or be. Lo correcto es I mean."
+    },
+    {
+      "id": "20-8",
+      "title_es": "Phrasal verbs avanzados",
+      "words": [
+        {"en":"come up with","es":"idear, ocurrírsele a alguien","pos":"verb","ex_en":"We need to come up with a better plan.","ex_es":"Tenemos que idear un mejor plan."},
+        {"en":"get across","es":"transmitir, hacer entender","pos":"verb","ex_en":"It's hard to get across complex ideas in English.","ex_es":"Es difícil transmitir ideas complejas en inglés."},
+        {"en":"put off","es":"posponer","pos":"verb","ex_en":"Stop trying to put off the hard decisions.","ex_es":"Deja de posponer las decisiones difíciles."},
+        {"en":"bring up","es":"sacar un tema","pos":"verb","ex_en":"Don't bring up politics at dinner.","ex_es":"No saques el tema de la política en la cena."},
+        {"en":"figure out","es":"descifrar, averiguar","pos":"verb","ex_en":"I can't figure out how this works.","ex_es":"No logro descifrar cómo funciona esto."},
+        {"en":"live up to","es":"estar a la altura de","pos":"verb","ex_en":"The hotel didn't live up to our expectations.","ex_es":"El hotel no estuvo a la altura de nuestras expectativas."},
+        {"en":"run into","es":"toparse con","pos":"verb","ex_en":"I didn't expect to run into my ex at the mall.","ex_es":"No esperaba toparme con mi ex en la plaza."},
+        {"en":"look into","es":"investigar, revisar","pos":"verb","ex_en":"I'll look into it and let you know.","ex_es":"Lo voy a revisar y te aviso."}
+      ],
+      "sentences": [
+        {"en":"I came across an interesting article yesterday.","es":"Ayer me encontré un artículo interesante."},
+        {"en":"We ran out of time before the end of the meeting.","es":"Se nos acabó el tiempo antes de terminar la junta."},
+        {"en":"Can you fill me in on what happened?","es":"¿Me puedes poner al tanto de lo que pasó?"},
+        {"en":"He finally owned up to his mistake.","es":"Por fin admitió su error."},
+        {"en":"I'll get back to you by Friday.","es":"Te respondo a más tardar el viernes."}
+      ],
+      "tip_es": "Muchos phrasal verbs con objeto se pueden separar, put the meeting off o figure the problem out. Si el objeto es un pronombre, siempre va en medio, put it off, nunca put off it. Los de tres partes, como come up with, no se separan."
+    },
+    {
+      "id": "20-9",
+      "title_es": "Collocations formales",
+      "words": [
+        {"en":"make a decision","es":"tomar una decisión","pos":"phrase","ex_en":"We need to make a decision by Monday.","ex_es":"Tenemos que tomar una decisión antes del lunes."},
+        {"en":"take into account","es":"tomar en cuenta","pos":"phrase","ex_en":"Please take into account the cost of shipping.","ex_es":"Por favor, toma en cuenta el costo del envío."},
+        {"en":"pay attention","es":"poner atención","pos":"phrase","ex_en":"Pay attention to the details in the contract.","ex_es":"Pon atención a los detalles del contrato."},
+        {"en":"raise awareness","es":"crear conciencia","pos":"phrase","ex_en":"The campaign aims to raise awareness about mental health.","ex_es":"La campaña busca crear conciencia sobre la salud mental."},
+        {"en":"reach an agreement","es":"llegar a un acuerdo","pos":"phrase","ex_en":"Both sides hope to reach an agreement soon.","ex_es":"Ambas partes esperan llegar a un acuerdo pronto."},
+        {"en":"draw a conclusion","es":"sacar una conclusión","pos":"phrase","ex_en":"It's too early to draw a conclusion.","ex_es":"Es demasiado pronto para sacar una conclusión."},
+        {"en":"pose a threat","es":"representar una amenaza","pos":"phrase","ex_en":"Rising sea levels pose a threat to coastal cities.","ex_es":"El aumento del nivel del mar representa una amenaza para las ciudades costeras."},
+        {"en":"bear in mind","es":"tener en cuenta","pos":"phrase","ex_en":"Bear in mind that prices may change.","ex_es":"Ten en cuenta que los precios pueden cambiar."}
+      ],
+      "sentences": [
+        {"en":"She made a mistake, but she fixed it quickly.","es":"Cometió un error, pero lo corrigió rápido."},
+        {"en":"We have to take a closer look at the numbers.","es":"Tenemos que analizar los números con más detalle."},
+        {"en":"The new law will come into effect in January.","es":"La nueva ley entrará en vigor en enero."},
+        {"en":"It's only a matter of time before prices go up.","es":"Es solo cuestión de tiempo para que suban los precios."},
+        {"en":"He gave a speech that made a strong impression.","es":"Dio un discurso que causó una gran impresión."}
+      ],
+      "tip_es": "Las collocations son combinaciones fijas de palabras. En español tomamos una decisión, pero en inglés se dice make a decision, no take. También se dice make a mistake, no do a mistake, y pay attention, no put attention."
+    },
+    {
+      "id": "20-10",
+      "title_es": "Falsos amigos avanzados",
+      "words": [
+        {"en":"eventually","es":"con el tiempo, al final","pos":"adv","ex_en":"Eventually, he found a job he loved.","ex_es":"Con el tiempo, encontró un trabajo que le encantaba."},
+        {"en":"actually","es":"en realidad","pos":"adv","ex_en":"Actually, I've never been to Europe.","ex_es":"En realidad, nunca he ido a Europa."},
+        {"en":"sensible","es":"sensato","pos":"adj","ex_en":"That's a very sensible decision.","ex_es":"Es una decisión muy sensata."},
+        {"en":"sensitive","es":"sensible","pos":"adj","ex_en":"She's very sensitive to criticism.","ex_es":"Ella es muy sensible a las críticas."},
+        {"en":"embarrassed","es":"avergonzado, apenado","pos":"adj","ex_en":"I was so embarrassed when I fell in the street.","ex_es":"Me dio muchísima pena cuando me caí en la calle."},
+        {"en":"realize","es":"darse cuenta","pos":"verb","ex_en":"I didn't realize it was so late.","ex_es":"No me di cuenta de que era tan tarde."},
+        {"en":"attend","es":"asistir","pos":"verb","ex_en":"Over five hundred people will attend the conference.","ex_es":"Más de quinientas personas asistirán a la conferencia."},
+        {"en":"deception","es":"engaño","pos":"noun","ex_en":"The scandal involved lies and deception.","ex_es":"El escándalo involucró mentiras y engaños."}
+      ],
+      "sentences": [
+        {"en":"My parents are both retired now.","es":"Mis papás ya están jubilados los dos."},
+        {"en":"We invited all our relatives to the wedding.","es":"Invitamos a todos nuestros parientes a la boda."},
+        {"en":"I bought it at a bookstore, not a library.","es":"Lo compré en una librería, no en una biblioteca."},
+        {"en":"She has had a long career in journalism.","es":"Ella ha tenido una larga trayectoria en el periodismo."},
+        {"en":"My major in college was economics.","es":"Mi carrera en la universidad fue economía."}
+      ],
+      "tip_es": "Eventually no es eventualmente, significa con el tiempo o al final. Actually significa en realidad, y actualmente se dice currently. Embarrassed es avergonzado, mientras que embarazada es pregnant. Deception es engaño, no decepción, que se dice disappointment."
+    }
+  ],
+  "dialogue": {
+    "title_es": "Debate en la junta",
+    "setting_es": "Tu jefe propone recortar el presupuesto de marketing y tú defiendes otra idea.",
+    "lines": [
+      {"who":"A","en":"I think we should cut the marketing budget in half.","es":"Creo que deberíamos recortar el presupuesto de marketing a la mitad."},
+      {"who":"B","en":"I see where you're coming from, but I'm not entirely convinced.","es":"Entiendo tu punto de vista, pero no estoy del todo convencido."},
+      {"who":"A","en":"Why not? Sales have been flat for months.","es":"¿Por qué no? Las ventas llevan meses estancadas."},
+      {"who":"B","en":"That's true. However, if we had invested more, things would be different.","es":"Es cierto. Sin embargo, si hubiéramos invertido más, las cosas serían distintas."},
+      {"who":"A","en":"That's a valid point, but we can't change the past.","es":"Es un punto válido, pero no podemos cambiar el pasado."},
+      {"who":"B","en":"Exactly. That's why we need to think outside the box now.","es":"Exacto. Por eso ahora tenemos que pensar de forma creativa."},
+      {"who":"A","en":"What do you have in mind?","es":"¿Qué tienes en mente?"},
+      {"who":"B","en":"Off the top of my head, a social media campaign could work.","es":"Así de memoria, una campaña en redes sociales podría funcionar."},
+      {"who":"A","en":"Hmm, it's worth considering. Can you come up with a proposal?","es":"Mmm, vale la pena considerarlo. ¿Puedes preparar una propuesta?"},
+      {"who":"B","en":"Sure. I'll look into the costs and get back to you by Friday.","es":"Claro. Voy a revisar los costos y te respondo a más tardar el viernes."}
+    ]
+  }
+}

@@ -32,10 +32,10 @@ function learnView(){
     });
     const allL=u.lessons.every(l=>S.done[l.id]);
     html+=`<button class="node big ${S.units[u.id]?.dlg?'done':allL||unlocked&&u.lessons.slice(0,3).every(l=>S.done[l.id])?'open':''}" style="transform:translateX(${OFFS[n++%8]}px)" onclick="${unlocked&&u.lessons.slice(0,3).every(l=>S.done[l.id])?`openDialogue(${u.id})`:'lockedLesson()'}" aria-label="Conversación">${ic('chat',30)}</button>`;
-    html+=`<button class="node big ${S.units[u.id]?.test?'done':allL?'open':''}" style="transform:translateX(${OFFS[n++%8]}px)" onclick="${allL?`openTest(${u.id})`:(!unlocked?`offerSkip(${u.id})`:'lockedLesson()')}" aria-label="Prueba del curso">${nx&&nx.test===u.id?'<span class="tag">Prueba</span>':''}${ic('trophy',32)}</button>`;
+    html+=`<button class="node big ${S.units[u.id]?.test?'done':allL?'open':''}" style="transform:translateX(${OFFS[n++%8]}px)" onclick="${allL?`openTest(${u.id})`:(!unlocked?`offerSkip(${u.id})`:'lockedLesson()')}" aria-label="Examen final">${nx&&nx.test===u.id?'<span class="tag">Examen</span>':''}${ic('trophy',32)}</button>`;
     html+=`</div></section>`;
   }
-  return html+`<div class="card" style="text-align:center">${kikoSVG(90,'celebrate')}<b>¡Al final de la ruta hablarás inglés con confianza!</b><div class="muted small">16 cursos · 96 lecciones · ${ALL_WORDS.length} palabras · ${ALL_SENTS.length} frases</div></div>`;
+  return html+`<div class="card" style="text-align:center">${kikoSVG(90,'celebrate')}<b>¡Al final de la ruta hablarás inglés con confianza!</b><div class="muted small">${UNITS.length} cursos · ${LESSONS.length} lecciones · ${ALL_WORDS.length} palabras · ${ALL_SENTS.length} frases</div></div>`;
 }
 function greet(){const h=new Date().getHours();const g=h>=5&&h<12?'Good morning':h<19?'Good afternoon':'Good evening';return g+(userName()?', '+esc(userName()):'')+'!'}
 function scrollToCurrent(){const el=document.querySelector('.node .tag');if(el&&!window.__scrolled){window.__scrolled=1;el.closest('.node').scrollIntoView({block:'center',behavior:'smooth'})}}
@@ -106,7 +106,7 @@ function runSession(o){
   $('player').classList.add('open');document.body.style.overflow='hidden';sfx('open');showEx();
 }
 function quitLesson(){if(P&&P.i>0&&P.mode!=='game'&&!confirm('¿Salir? Perderás el avance de esta lección.'))return;endPlayer()}
-function endPlayer(){stopListen();try{speechSynthesis.cancel()}catch(e){}$('player').classList.remove('open');document.body.style.overflow='';P=null;render()}
+function endPlayer(){$('pBtn').onclick=footAction;stopListen();try{speechSynthesis.cancel()}catch(e){}$('player').classList.remove('open');document.body.style.overflow='';P=null;render()}
 function setProgress(){const done=Math.min(P.answered,P.total);$('pBar').style.width=Math.round(done/Math.max(1,P.total)*100)+'%';$('pCombo').innerHTML=P.combo>=3?`${ic('fire',16)}${P.combo}`:'';$('pCombo').style.display='flex'}
 let cur=null,sel=null,footMode='check';
 function showEx(){

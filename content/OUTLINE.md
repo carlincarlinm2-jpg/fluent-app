@@ -15,3 +15,9 @@ Plan de 16 cursos (empieza desde cero):
 14 B1  Experiencias (present perfect: have you ever, already, yet, since/for)
 15 B1  Opiniones y sentimientos (emociones, dar opinión, acuerdo/desacuerdo, comparativos y superlativos)
 16 B2  Inglés profesional (entrevista de trabajo, correos, juntas, llamadas, frases formales, condicionales)
+
+AMPLIACIÓN: cada curso pasa de 6 a 10 lecciones (ids N-7 a N-10) y se agregan 4 cursos:
+17 B2  Tecnología, internet y redes sociales (apps, trabajo remoto, privacidad, opinar sobre tecnología, phrasal verbs de tecnología)
+18 B2  Dinero, negocios y consumo (banco, presupuesto, compras en línea, reclamos, negociar, vocabulario de negocios)
+19 B2  Cultura, entretenimiento y medios (cine, series, música, noticias, recomendar y criticar, voz pasiva)
+20 C1  Inglés avanzado (modismos frecuentes, matices, argumentar, conectores formales, tercer condicional, hablar con fluidez)

@@ -9,21 +9,84 @@
       "id": "12-1",
       "title_es": "En el aeropuerto",
       "words": [
-        {"en": "flight", "es": "vuelo", "pos": "noun", "ex_en": "Our flight to Chicago leaves at six in the morning.", "ex_es": "Nuestro vuelo a Chicago sale a las seis de la mañana."},
-        {"en": "passport", "es": "pasaporte", "pos": "noun", "ex_en": "Don't forget your passport, you need it for international flights.", "ex_es": "No olvides tu pasaporte, lo necesitas para vuelos internacionales."},
-        {"en": "boarding pass", "es": "pase de abordar", "pos": "noun", "ex_en": "You can download your boarding pass on your phone.", "ex_es": "Puedes descargar tu pase de abordar en tu celular."},
-        {"en": "gate", "es": "puerta (de embarque)", "pos": "noun", "ex_en": "Our flight is now boarding at gate twelve.", "ex_es": "Nuestro vuelo ya está abordando en la puerta doce."},
-        {"en": "check in", "es": "registrarse, hacer check-in", "pos": "phrase", "ex_en": "We have to check in two hours before the flight.", "ex_es": "Tenemos que hacer el check-in dos horas antes del vuelo."},
-        {"en": "luggage", "es": "equipaje", "pos": "noun", "ex_en": "How much luggage can I bring on this flight?", "ex_es": "¿Cuánto equipaje puedo llevar en este vuelo?"},
-        {"en": "carry-on", "es": "maleta de mano", "pos": "noun", "ex_en": "My carry-on is too big for the overhead bin.", "ex_es": "Mi maleta de mano es demasiado grande para el compartimento."},
-        {"en": "departure", "es": "salida", "pos": "noun", "ex_en": "Check the departure time on the screen.", "ex_es": "Revisa la hora de salida en la pantalla."}
+        {
+          "en": "flight",
+          "es": "vuelo",
+          "pos": "noun",
+          "ex_en": "Our flight to Chicago leaves at six in the morning.",
+          "ex_es": "Nuestro vuelo a Chicago sale a las seis de la mañana."
+        },
+        {
+          "en": "passport",
+          "es": "pasaporte",
+          "pos": "noun",
+          "ex_en": "Don't forget your passport, you need it for international flights.",
+          "ex_es": "No olvides tu pasaporte, lo necesitas para vuelos internacionales."
+        },
+        {
+          "en": "boarding pass",
+          "es": "pase de abordar",
+          "pos": "noun",
+          "ex_en": "You can download your boarding pass on your phone.",
+          "ex_es": "Puedes descargar tu pase de abordar en tu celular."
+        },
+        {
+          "en": "gate",
+          "es": "puerta (de embarque)",
+          "pos": "noun",
+          "ex_en": "Our flight is now boarding at gate twelve.",
+          "ex_es": "Nuestro vuelo ya está abordando en la puerta doce."
+        },
+        {
+          "en": "check in",
+          "es": "registrarse, hacer check-in",
+          "pos": "phrase",
+          "ex_en": "We have to check in two hours before the flight.",
+          "ex_es": "Tenemos que hacer el check-in dos horas antes del vuelo."
+        },
+        {
+          "en": "luggage",
+          "es": "equipaje",
+          "pos": "noun",
+          "ex_en": "How much luggage can I bring on this flight?",
+          "ex_es": "¿Cuánto equipaje puedo llevar en este vuelo?"
+        },
+        {
+          "en": "carry-on",
+          "es": "maleta de mano",
+          "pos": "noun",
+          "ex_en": "My carry-on is too big for the overhead bin.",
+          "ex_es": "Mi maleta de mano es demasiado grande para el compartimento."
+        },
+        {
+          "en": "departure",
+          "es": "salida",
+          "pos": "noun",
+          "ex_en": "Check the departure time on the screen.",
+          "ex_es": "Revisa la hora de salida en la pantalla."
+        }
       ],
       "sentences": [
-        {"en": "Excuse me, where is gate twenty?", "es": "Disculpe, ¿dónde está la puerta veinte?"},
-        {"en": "Can I see your passport and boarding pass, please?", "es": "¿Me permite su pasaporte y su pase de abordar, por favor?"},
-        {"en": "Do you have any luggage to check?", "es": "¿Tiene equipaje para documentar?"},
-        {"en": "I only have a carry-on and a small backpack.", "es": "Solo traigo una maleta de mano y una mochila pequeña."},
-        {"en": "The departures board says our flight is on time.", "es": "La pantalla de salidas dice que nuestro vuelo va a tiempo."}
+        {
+          "en": "Excuse me, where is gate twenty?",
+          "es": "Disculpe, ¿dónde está la puerta veinte?"
+        },
+        {
+          "en": "Can I see your passport and boarding pass, please?",
+          "es": "¿Me permite su pasaporte y su pase de abordar, por favor?"
+        },
+        {
+          "en": "Do you have any luggage to check?",
+          "es": "¿Tiene equipaje para documentar?"
+        },
+        {
+          "en": "I only have a carry-on and a small backpack.",
+          "es": "Solo traigo una maleta de mano y una mochila pequeña."
+        },
+        {
+          "en": "The departures board says our flight is on time.",
+          "es": "La pantalla de salidas dice que nuestro vuelo va a tiempo."
+        }
       ],
       "tip_es": "Check in significa registrarse, en el aeropuerto o en el hotel. Luggage y baggage son incontables: se dice two pieces of luggage o two bags, nunca two luggages."
     },
@@ -31,21 +94,84 @@
       "id": "12-2",
       "title_es": "En el avión",
       "words": [
-        {"en": "security", "es": "control de seguridad", "pos": "noun", "ex_en": "The line at security was very long this morning.", "ex_es": "La fila en el control de seguridad estaba muy larga esta mañana."},
-        {"en": "delayed", "es": "retrasado", "pos": "adj", "ex_en": "Our flight was delayed because of the storm.", "ex_es": "Nuestro vuelo se retrasó por la tormenta."},
-        {"en": "aisle seat", "es": "asiento de pasillo", "pos": "noun", "ex_en": "I prefer an aisle seat on long flights.", "ex_es": "Prefiero un asiento de pasillo en vuelos largos."},
-        {"en": "window seat", "es": "asiento de ventanilla", "pos": "noun", "ex_en": "My son always wants the window seat.", "ex_es": "Mi hijo siempre quiere el asiento de ventanilla."},
-        {"en": "take off", "es": "despegar", "pos": "phrase", "ex_en": "The plane can't take off because of the snow.", "ex_es": "El avión no puede despegar por la nieve."},
-        {"en": "land", "es": "aterrizar", "pos": "verb", "ex_en": "We landed in Los Angeles at midnight.", "ex_es": "Aterrizamos en Los Ángeles a medianoche."},
-        {"en": "seat belt", "es": "cinturón de seguridad", "pos": "noun", "ex_en": "Please fasten your seat belt.", "ex_es": "Por favor, abróchese el cinturón de seguridad."},
-        {"en": "flight attendant", "es": "sobrecargo", "pos": "noun", "ex_en": "The flight attendant brought me a glass of water.", "ex_es": "La sobrecargo me trajo un vaso de agua."}
+        {
+          "en": "security",
+          "es": "control de seguridad",
+          "pos": "noun",
+          "ex_en": "The line at security was very long this morning.",
+          "ex_es": "La fila en el control de seguridad estaba muy larga esta mañana."
+        },
+        {
+          "en": "delayed",
+          "es": "retrasado",
+          "pos": "adj",
+          "ex_en": "Our flight was delayed because of the storm.",
+          "ex_es": "Nuestro vuelo se retrasó por la tormenta."
+        },
+        {
+          "en": "aisle seat",
+          "es": "asiento de pasillo",
+          "pos": "noun",
+          "ex_en": "I prefer an aisle seat on long flights.",
+          "ex_es": "Prefiero un asiento de pasillo en vuelos largos."
+        },
+        {
+          "en": "window seat",
+          "es": "asiento de ventanilla",
+          "pos": "noun",
+          "ex_en": "My son always wants the window seat.",
+          "ex_es": "Mi hijo siempre quiere el asiento de ventanilla."
+        },
+        {
+          "en": "take off",
+          "es": "despegar",
+          "pos": "phrase",
+          "ex_en": "The plane can't take off because of the snow.",
+          "ex_es": "El avión no puede despegar por la nieve."
+        },
+        {
+          "en": "land",
+          "es": "aterrizar",
+          "pos": "verb",
+          "ex_en": "We landed in Los Angeles at midnight.",
+          "ex_es": "Aterrizamos en Los Ángeles a medianoche."
+        },
+        {
+          "en": "seat belt",
+          "es": "cinturón de seguridad",
+          "pos": "noun",
+          "ex_en": "Please fasten your seat belt.",
+          "ex_es": "Por favor, abróchese el cinturón de seguridad."
+        },
+        {
+          "en": "flight attendant",
+          "es": "sobrecargo",
+          "pos": "noun",
+          "ex_en": "The flight attendant brought me a glass of water.",
+          "ex_es": "La sobrecargo me trajo un vaso de agua."
+        }
       ],
       "sentences": [
-        {"en": "Please put your laptop in a separate tray.", "es": "Por favor, ponga su laptop en una charola aparte."},
-        {"en": "Our flight is delayed two hours.", "es": "Nuestro vuelo tiene dos horas de retraso."},
-        {"en": "I asked for an aisle seat, but they gave me the middle seat.", "es": "Pedí un asiento de pasillo, pero me dieron el de en medio."},
-        {"en": "Keep your seat belt on until the plane stops.", "es": "Mantenga el cinturón abrochado hasta que el avión se detenga."},
-        {"en": "The flight attendant told us to turn off our phones.", "es": "La sobrecargo nos dijo que apagáramos los celulares."}
+        {
+          "en": "Please put your laptop in a separate tray.",
+          "es": "Por favor, ponga su laptop en una charola aparte."
+        },
+        {
+          "en": "Our flight is delayed two hours.",
+          "es": "Nuestro vuelo tiene dos horas de retraso."
+        },
+        {
+          "en": "I asked for an aisle seat, but they gave me the middle seat.",
+          "es": "Pedí un asiento de pasillo, pero me dieron el de en medio."
+        },
+        {
+          "en": "Keep your seat belt on until the plane stops.",
+          "es": "Mantenga el cinturón abrochado hasta que el avión se detenga."
+        },
+        {
+          "en": "The flight attendant told us to turn off our phones.",
+          "es": "La sobrecargo nos dijo que apagáramos los celulares."
+        }
       ],
       "tip_es": "Para hablar de retrasos se usa be delayed: my flight is delayed two hours. Take off (despegar) es un phrasal verb y en pasado es took off. Su opuesto es land (aterrizar), que es regular: landed."
     },
@@ -53,21 +179,84 @@
       "id": "12-3",
       "title_es": "Reservar un hotel",
       "words": [
-        {"en": "reservation", "es": "reservación", "pos": "noun", "ex_en": "I'd like to make a reservation for three nights.", "ex_es": "Quisiera hacer una reservación para tres noches."},
-        {"en": "book", "es": "reservar", "pos": "verb", "ex_en": "We booked the hotel online last month.", "ex_es": "Reservamos el hotel en línea el mes pasado."},
-        {"en": "single room", "es": "habitación sencilla", "pos": "noun", "ex_en": "A single room costs eighty dollars a night.", "ex_es": "Una habitación sencilla cuesta ochenta dólares la noche."},
-        {"en": "double room", "es": "habitación doble", "pos": "noun", "ex_en": "Do you have a double room for this weekend?", "ex_es": "¿Tienen una habitación doble para este fin de semana?"},
-        {"en": "available", "es": "disponible", "pos": "adj", "ex_en": "Sorry, we don't have any rooms available tonight.", "ex_es": "Lo siento, no tenemos habitaciones disponibles esta noche."},
-        {"en": "per night", "es": "por noche", "pos": "phrase", "ex_en": "How much is the room per night?", "ex_es": "¿Cuánto cuesta la habitación por noche?"},
-        {"en": "check out", "es": "entregar la habitación", "pos": "phrase", "ex_en": "What time do we have to check out?", "ex_es": "¿A qué hora tenemos que entregar la habitación?"},
-        {"en": "front desk", "es": "recepción", "pos": "noun", "ex_en": "Please leave your key at the front desk.", "ex_es": "Por favor, deje su llave en la recepción."}
+        {
+          "en": "reservation",
+          "es": "reservación",
+          "pos": "noun",
+          "ex_en": "I'd like to make a reservation for three nights.",
+          "ex_es": "Quisiera hacer una reservación para tres noches."
+        },
+        {
+          "en": "book",
+          "es": "reservar",
+          "pos": "verb",
+          "ex_en": "We booked the hotel online last month.",
+          "ex_es": "Reservamos el hotel en línea el mes pasado."
+        },
+        {
+          "en": "single room",
+          "es": "habitación sencilla",
+          "pos": "noun",
+          "ex_en": "A single room costs eighty dollars a night.",
+          "ex_es": "Una habitación sencilla cuesta ochenta dólares la noche."
+        },
+        {
+          "en": "double room",
+          "es": "habitación doble",
+          "pos": "noun",
+          "ex_en": "Do you have a double room for this weekend?",
+          "ex_es": "¿Tienen una habitación doble para este fin de semana?"
+        },
+        {
+          "en": "available",
+          "es": "disponible",
+          "pos": "adj",
+          "ex_en": "Sorry, we don't have any rooms available tonight.",
+          "ex_es": "Lo siento, no tenemos habitaciones disponibles esta noche."
+        },
+        {
+          "en": "per night",
+          "es": "por noche",
+          "pos": "phrase",
+          "ex_en": "How much is the room per night?",
+          "ex_es": "¿Cuánto cuesta la habitación por noche?"
+        },
+        {
+          "en": "check out",
+          "es": "entregar la habitación",
+          "pos": "phrase",
+          "ex_en": "What time do we have to check out?",
+          "ex_es": "¿A qué hora tenemos que entregar la habitación?"
+        },
+        {
+          "en": "front desk",
+          "es": "recepción",
+          "pos": "noun",
+          "ex_en": "Please leave your key at the front desk.",
+          "ex_es": "Por favor, deje su llave en la recepción."
+        }
       ],
       "sentences": [
-        {"en": "Is breakfast included in the price?", "es": "¿El desayuno está incluido en el precio?"},
-        {"en": "I booked a double room for two nights.", "es": "Reservé una habitación doble para dos noches."},
-        {"en": "Do you have any rooms available for next Friday?", "es": "¿Tienen habitaciones disponibles para el próximo viernes?"},
-        {"en": "Check out is at noon, but you can leave your bags here.", "es": "La salida es a mediodía, pero puede dejar sus maletas aquí."},
-        {"en": "Your reservation is under the name Martínez, is that correct?", "es": "Su reservación está a nombre de Martínez, ¿es correcto?"}
+        {
+          "en": "Is breakfast included in the price?",
+          "es": "¿El desayuno está incluido en el precio?"
+        },
+        {
+          "en": "I booked a double room for two nights.",
+          "es": "Reservé una habitación doble para dos noches."
+        },
+        {
+          "en": "Do you have any rooms available for next Friday?",
+          "es": "¿Tienen habitaciones disponibles para el próximo viernes?"
+        },
+        {
+          "en": "Check out is at noon, but you can leave your bags here.",
+          "es": "La salida es a mediodía, pero puede dejar sus maletas aquí."
+        },
+        {
+          "en": "Your reservation is under the name Martínez, is that correct?",
+          "es": "Su reservación está a nombre de Martínez, ¿es correcto?"
+        }
       ],
       "tip_es": "En el habla diaria se usa book mucho más que reserve: I booked a room. Para decir a nombre de se usa under: the reservation is under Martínez. Ojo: una habitación doble es double room, no double habitation."
     },
@@ -75,21 +264,84 @@
       "id": "12-4",
       "title_es": "En el hotel",
       "words": [
-        {"en": "key card", "es": "tarjeta de la habitación", "pos": "noun", "ex_en": "My key card doesn't open the door.", "ex_es": "Mi tarjeta no abre la puerta."},
-        {"en": "towel", "es": "toalla", "pos": "noun", "ex_en": "We need two more towels, please.", "ex_es": "Necesitamos dos toallas más, por favor."},
-        {"en": "elevator", "es": "elevador", "pos": "noun", "ex_en": "The elevator is at the end of the hall.", "ex_es": "El elevador está al final del pasillo."},
-        {"en": "room service", "es": "servicio a la habitación", "pos": "noun", "ex_en": "We ordered room service because we were very tired.", "ex_es": "Pedimos servicio a la habitación porque estábamos muy cansados."},
-        {"en": "wake-up call", "es": "llamada para despertar", "pos": "noun", "ex_en": "I asked for a wake-up call at six.", "ex_es": "Pedí una llamada para despertarme a las seis."},
-        {"en": "password", "es": "contraseña", "pos": "noun", "ex_en": "What's the password for the Wi-Fi?", "ex_es": "¿Cuál es la contraseña del wifi?"},
-        {"en": "pool", "es": "alberca", "pos": "noun", "ex_en": "The pool is open from eight to ten.", "ex_es": "La alberca está abierta de ocho a diez."},
-        {"en": "guest", "es": "huésped", "pos": "noun", "ex_en": "Hotel guests get a free breakfast every morning.", "ex_es": "Los huéspedes del hotel tienen desayuno gratis todas las mañanas."}
+        {
+          "en": "key card",
+          "es": "tarjeta de la habitación",
+          "pos": "noun",
+          "ex_en": "My key card doesn't open the door.",
+          "ex_es": "Mi tarjeta no abre la puerta."
+        },
+        {
+          "en": "towel",
+          "es": "toalla",
+          "pos": "noun",
+          "ex_en": "We need two more towels, please.",
+          "ex_es": "Necesitamos dos toallas más, por favor."
+        },
+        {
+          "en": "elevator",
+          "es": "elevador",
+          "pos": "noun",
+          "ex_en": "The elevator is at the end of the hall.",
+          "ex_es": "El elevador está al final del pasillo."
+        },
+        {
+          "en": "room service",
+          "es": "servicio a la habitación",
+          "pos": "noun",
+          "ex_en": "We ordered room service because we were very tired.",
+          "ex_es": "Pedimos servicio a la habitación porque estábamos muy cansados."
+        },
+        {
+          "en": "wake-up call",
+          "es": "llamada para despertar",
+          "pos": "noun",
+          "ex_en": "I asked for a wake-up call at six.",
+          "ex_es": "Pedí una llamada para despertarme a las seis."
+        },
+        {
+          "en": "password",
+          "es": "contraseña",
+          "pos": "noun",
+          "ex_en": "What's the password for the Wi-Fi?",
+          "ex_es": "¿Cuál es la contraseña del wifi?"
+        },
+        {
+          "en": "pool",
+          "es": "alberca",
+          "pos": "noun",
+          "ex_en": "The pool is open from eight to ten.",
+          "ex_es": "La alberca está abierta de ocho a diez."
+        },
+        {
+          "en": "guest",
+          "es": "huésped",
+          "pos": "noun",
+          "ex_en": "Hotel guests get a free breakfast every morning.",
+          "ex_es": "Los huéspedes del hotel tienen desayuno gratis todas las mañanas."
+        }
       ],
       "sentences": [
-        {"en": "Your room is on the fifth floor.", "es": "Su habitación está en el quinto piso."},
-        {"en": "Take the elevator and turn left.", "es": "Tome el elevador y dé vuelta a la izquierda."},
-        {"en": "Here is your key card and the Wi-Fi password.", "es": "Aquí tiene su tarjeta y la contraseña del wifi."},
-        {"en": "Is the pool open for guests after nine at night?", "es": "¿La alberca está abierta para los huéspedes después de las nueve de la noche?"},
-        {"en": "I'd like to order room service for breakfast tomorrow.", "es": "Quisiera pedir servicio a la habitación para el desayuno de mañana."}
+        {
+          "en": "Your room is on the fifth floor.",
+          "es": "Su habitación está en el quinto piso."
+        },
+        {
+          "en": "Take the elevator and turn left.",
+          "es": "Tome el elevador y dé vuelta a la izquierda."
+        },
+        {
+          "en": "Here is your key card and the Wi-Fi password.",
+          "es": "Aquí tiene su tarjeta y la contraseña del wifi."
+        },
+        {
+          "en": "Is the pool open for guests after nine at night?",
+          "es": "¿La alberca está abierta para los huéspedes después de las nueve de la noche?"
+        },
+        {
+          "en": "I'd like to order room service for breakfast tomorrow.",
+          "es": "Quisiera pedir servicio a la habitación para el desayuno de mañana."
+        }
       ],
       "tip_es": "En Estados Unidos se dice elevator, no lift, que es británico. Ojo con los pisos: en EE. UU. la planta baja es el first floor, así que su second floor es nuestro primer piso."
     },
@@ -97,21 +349,84 @@
       "id": "12-5",
       "title_es": "Problemas y quejas",
       "words": [
-        {"en": "complaint", "es": "queja", "pos": "noun", "ex_en": "I'd like to make a complaint about my room.", "ex_es": "Quisiera poner una queja sobre mi habitación."},
-        {"en": "noisy", "es": "ruidoso", "pos": "adj", "ex_en": "The room next to ours was very noisy all night.", "ex_es": "El cuarto de al lado estuvo muy ruidoso toda la noche."},
-        {"en": "dirty", "es": "sucio", "pos": "adj", "ex_en": "The bathroom was dirty when we arrived.", "ex_es": "El baño estaba sucio cuando llegamos."},
-        {"en": "refund", "es": "reembolso", "pos": "noun", "ex_en": "The airline gave me a full refund.", "ex_es": "La aerolínea me dio un reembolso completo."},
-        {"en": "air conditioning", "es": "aire acondicionado", "pos": "noun", "ex_en": "The air conditioning in our room doesn't work.", "ex_es": "El aire acondicionado de nuestro cuarto no funciona."},
-        {"en": "miss", "es": "perder (un vuelo, un camión)", "pos": "verb", "ex_en": "We missed our connecting flight in Dallas.", "ex_es": "Perdimos nuestro vuelo de conexión en Dallas."},
-        {"en": "upgrade", "es": "mejora de categoría", "pos": "noun", "ex_en": "They gave us a free upgrade to a suite.", "ex_es": "Nos subieron gratis de categoría a una suite."},
-        {"en": "apologize", "es": "disculparse", "pos": "verb", "ex_en": "The manager apologized for the problem.", "ex_es": "El gerente se disculpó por el problema."}
+        {
+          "en": "complaint",
+          "es": "queja",
+          "pos": "noun",
+          "ex_en": "I'd like to make a complaint about my room.",
+          "ex_es": "Quisiera poner una queja sobre mi habitación."
+        },
+        {
+          "en": "noisy",
+          "es": "ruidoso",
+          "pos": "adj",
+          "ex_en": "The room next to ours was very noisy all night.",
+          "ex_es": "El cuarto de al lado estuvo muy ruidoso toda la noche."
+        },
+        {
+          "en": "dirty",
+          "es": "sucio",
+          "pos": "adj",
+          "ex_en": "The bathroom was dirty when we arrived.",
+          "ex_es": "El baño estaba sucio cuando llegamos."
+        },
+        {
+          "en": "refund",
+          "es": "reembolso",
+          "pos": "noun",
+          "ex_en": "The airline gave me a full refund.",
+          "ex_es": "La aerolínea me dio un reembolso completo."
+        },
+        {
+          "en": "air conditioning",
+          "es": "aire acondicionado",
+          "pos": "noun",
+          "ex_en": "The air conditioning in our room doesn't work.",
+          "ex_es": "El aire acondicionado de nuestro cuarto no funciona."
+        },
+        {
+          "en": "miss",
+          "es": "perder (un vuelo, un camión)",
+          "pos": "verb",
+          "ex_en": "We missed our connecting flight in Dallas.",
+          "ex_es": "Perdimos nuestro vuelo de conexión en Dallas."
+        },
+        {
+          "en": "upgrade",
+          "es": "mejora de categoría",
+          "pos": "noun",
+          "ex_en": "They gave us a free upgrade to a suite.",
+          "ex_es": "Nos subieron gratis de categoría a una suite."
+        },
+        {
+          "en": "apologize",
+          "es": "disculparse",
+          "pos": "verb",
+          "ex_en": "The manager apologized for the problem.",
+          "ex_es": "El gerente se disculpó por el problema."
+        }
       ],
       "sentences": [
-        {"en": "There's no hot water in my room.", "es": "No hay agua caliente en mi cuarto."},
-        {"en": "The towels in the bathroom are dirty.", "es": "Las toallas del baño están sucias."},
-        {"en": "I'm sorry, but the room is too noisy to sleep.", "es": "Lo siento, pero el cuarto es demasiado ruidoso para dormir."},
-        {"en": "The airline lost my luggage and I need help.", "es": "La aerolínea perdió mi equipaje y necesito ayuda."},
-        {"en": "We missed our flight, so we asked for a refund.", "es": "Perdimos el vuelo, así que pedimos un reembolso."}
+        {
+          "en": "There's no hot water in my room.",
+          "es": "No hay agua caliente en mi cuarto."
+        },
+        {
+          "en": "The towels in the bathroom are dirty.",
+          "es": "Las toallas del baño están sucias."
+        },
+        {
+          "en": "I'm sorry, but the room is too noisy to sleep.",
+          "es": "Lo siento, pero el cuarto es demasiado ruidoso para dormir."
+        },
+        {
+          "en": "The airline lost my luggage and I need help.",
+          "es": "La aerolínea perdió mi equipaje y necesito ayuda."
+        },
+        {
+          "en": "We missed our flight, so we asked for a refund.",
+          "es": "Perdimos el vuelo, así que pedimos un reembolso."
+        }
       ],
       "tip_es": "Para perder un vuelo o un camión se usa miss, no lose: I missed my flight. Lose es perder un objeto: I lost my passport. Una queja amable suele empezar con I'm sorry, but y luego el problema."
     },
@@ -119,39 +434,482 @@
       "id": "12-6",
       "title_es": "Pedir favores con could you",
       "words": [
-        {"en": "could you", "es": "podría usted, podrías", "pos": "phrase", "ex_en": "Could you help me with my bags, please?", "ex_es": "¿Podría ayudarme con mis maletas, por favor?"},
-        {"en": "could I", "es": "podría yo", "pos": "phrase", "ex_en": "Could I have a map of the city?", "ex_es": "¿Me podría dar un mapa de la ciudad?"},
-        {"en": "would you mind", "es": "le molestaría", "pos": "phrase", "ex_en": "Would you mind taking a picture of us?", "ex_es": "¿Le molestaría tomarnos una foto?"},
-        {"en": "recommend", "es": "recomendar", "pos": "verb", "ex_en": "Can you recommend a good restaurant near the hotel?", "ex_es": "¿Me puede recomendar un buen restaurante cerca del hotel?"},
-        {"en": "store", "es": "guardar", "pos": "verb", "ex_en": "Could you store our bags until three?", "ex_es": "¿Nos podría guardar las maletas hasta las tres?"},
-        {"en": "call a taxi", "es": "pedir un taxi", "pos": "phrase", "ex_en": "The receptionist can call a taxi for you.", "ex_es": "La recepcionista le puede pedir un taxi."},
-        {"en": "sightseeing", "es": "turismo, conocer lugares", "pos": "noun", "ex_en": "We spent the whole day sightseeing downtown.", "ex_es": "Pasamos todo el día conociendo el centro."},
-        {"en": "tip", "es": "propina", "pos": "noun", "ex_en": "In the United States, people usually leave a tip of twenty percent.", "ex_es": "En Estados Unidos, la gente normalmente deja veinte por ciento de propina."}
+        {
+          "en": "could you",
+          "es": "podría usted, podrías",
+          "pos": "phrase",
+          "ex_en": "Could you help me with my bags, please?",
+          "ex_es": "¿Podría ayudarme con mis maletas, por favor?"
+        },
+        {
+          "en": "could I",
+          "es": "podría yo",
+          "pos": "phrase",
+          "ex_en": "Could I have a map of the city?",
+          "ex_es": "¿Me podría dar un mapa de la ciudad?"
+        },
+        {
+          "en": "would you mind",
+          "es": "le molestaría",
+          "pos": "phrase",
+          "ex_en": "Would you mind taking a picture of us?",
+          "ex_es": "¿Le molestaría tomarnos una foto?"
+        },
+        {
+          "en": "recommend",
+          "es": "recomendar",
+          "pos": "verb",
+          "ex_en": "Can you recommend a good restaurant near the hotel?",
+          "ex_es": "¿Me puede recomendar un buen restaurante cerca del hotel?"
+        },
+        {
+          "en": "store",
+          "es": "guardar",
+          "pos": "verb",
+          "ex_en": "Could you store our bags until three?",
+          "ex_es": "¿Nos podría guardar las maletas hasta las tres?"
+        },
+        {
+          "en": "call a taxi",
+          "es": "pedir un taxi",
+          "pos": "phrase",
+          "ex_en": "The receptionist can call a taxi for you.",
+          "ex_es": "La recepcionista le puede pedir un taxi."
+        },
+        {
+          "en": "sightseeing",
+          "es": "turismo, conocer lugares",
+          "pos": "noun",
+          "ex_en": "We spent the whole day sightseeing downtown.",
+          "ex_es": "Pasamos todo el día conociendo el centro."
+        },
+        {
+          "en": "tip",
+          "es": "propina",
+          "pos": "noun",
+          "ex_en": "In the United States, people usually leave a tip of twenty percent.",
+          "ex_es": "En Estados Unidos, la gente normalmente deja veinte por ciento de propina."
+        }
       ],
       "sentences": [
-        {"en": "Could you speak more slowly, please?", "es": "¿Podría hablar más despacio, por favor?"},
-        {"en": "Could I check out a little later tomorrow?", "es": "¿Podría entregar la habitación un poco más tarde mañana?"},
-        {"en": "Would you mind waiting five minutes?", "es": "¿Le molestaría esperar cinco minutos?"},
-        {"en": "What places do you recommend for sightseeing in the city?", "es": "¿Qué lugares me recomienda para conocer la ciudad?"},
-        {"en": "Could you call a taxi to take us to the airport?", "es": "¿Podría pedirnos un taxi para ir al aeropuerto?"}
+        {
+          "en": "Could you speak more slowly, please?",
+          "es": "¿Podría hablar más despacio, por favor?"
+        },
+        {
+          "en": "Could I check out a little later tomorrow?",
+          "es": "¿Podría entregar la habitación un poco más tarde mañana?"
+        },
+        {
+          "en": "Would you mind waiting five minutes?",
+          "es": "¿Le molestaría esperar cinco minutos?"
+        },
+        {
+          "en": "What places do you recommend for sightseeing in the city?",
+          "es": "¿Qué lugares me recomienda para conocer la ciudad?"
+        },
+        {
+          "en": "Could you call a taxi to take us to the airport?",
+          "es": "¿Podría pedirnos un taxi para ir al aeropuerto?"
+        }
       ],
       "tip_es": "Could you es más amable que can you y es ideal con desconocidos. Después de would you mind el verbo va con -ing: would you mind waiting? Para aceptar se responde no, not at all, porque significa no me molesta."
+    },
+    {
+      "id": "12-7",
+      "title_es": "Moverse por la ciudad",
+      "words": [
+        {
+          "en": "subway",
+          "es": "metro",
+          "pos": "noun",
+          "ex_en": "The subway is the fastest way to get downtown.",
+          "ex_es": "El metro es la forma más rápida de llegar al centro."
+        },
+        {
+          "en": "bus stop",
+          "es": "parada de camión",
+          "pos": "noun",
+          "ex_en": "Excuse me, where is the nearest bus stop?",
+          "ex_es": "Disculpe, ¿dónde está la parada de camión más cercana?"
+        },
+        {
+          "en": "round-trip ticket",
+          "es": "boleto redondo",
+          "pos": "noun",
+          "ex_en": "I'd like a round-trip ticket to Boston, please.",
+          "ex_es": "Quisiera un boleto redondo a Boston, por favor."
+        },
+        {
+          "en": "directions",
+          "es": "indicaciones",
+          "pos": "noun",
+          "ex_en": "Could you give me directions to the museum?",
+          "ex_es": "¿Me podría decir cómo llegar al museo?"
+        },
+        {
+          "en": "turn left",
+          "es": "dar vuelta a la izquierda",
+          "pos": "phrase",
+          "ex_en": "Turn left at the second traffic light.",
+          "ex_es": "Dé vuelta a la izquierda en el segundo semáforo."
+        },
+        {
+          "en": "go straight",
+          "es": "seguir derecho",
+          "pos": "phrase",
+          "ex_en": "Go straight for two blocks.",
+          "ex_es": "Siga derecho dos cuadras."
+        },
+        {
+          "en": "block",
+          "es": "cuadra",
+          "pos": "noun",
+          "ex_en": "The hotel is three blocks from here.",
+          "ex_es": "El hotel está a tres cuadras de aquí."
+        },
+        {
+          "en": "get lost",
+          "es": "perderse",
+          "pos": "phrase",
+          "ex_en": "It's easy to get lost in this neighborhood.",
+          "ex_es": "Es fácil perderse en esta colonia."
+        }
+      ],
+      "sentences": [
+        {
+          "en": "Excuse me, could you tell me how to get to the station?",
+          "es": "Disculpe, ¿me podría decir cómo llegar a la estación?"
+        },
+        {
+          "en": "Go straight for three blocks and turn left at the bank.",
+          "es": "Siga derecho tres cuadras y dé vuelta a la izquierda en el banco."
+        },
+        {
+          "en": "Is it better to take the subway or a taxi?",
+          "es": "¿Es mejor tomar el metro o un taxi?"
+        },
+        {
+          "en": "We got lost because the map on my phone wasn't working.",
+          "es": "Nos perdimos porque el mapa de mi celular no funcionaba."
+        },
+        {
+          "en": "Would you mind showing me the bus stop on this map?",
+          "es": "¿Le molestaría mostrarme la parada del camión en este mapa?"
+        }
+      ],
+      "tip_es": "Para pedir indicaciones de forma amable empieza con Excuse me y usa could you. Directions en plural significa indicaciones para llegar a un lugar. En Estados Unidos las distancias en la ciudad se miden en blocks, que son cuadras."
+    },
+    {
+      "id": "12-8",
+      "title_es": "En carretera: rentar un carro",
+      "words": [
+        {
+          "en": "rent a car",
+          "es": "rentar un carro",
+          "pos": "phrase",
+          "ex_en": "We want to rent a car for the weekend.",
+          "ex_es": "Queremos rentar un carro para el fin de semana."
+        },
+        {
+          "en": "driver's license",
+          "es": "licencia de manejo",
+          "pos": "noun",
+          "ex_en": "Can I see your driver's license, please?",
+          "ex_es": "¿Me permite su licencia de manejo, por favor?"
+        },
+        {
+          "en": "gas station",
+          "es": "gasolinera",
+          "pos": "noun",
+          "ex_en": "Let's stop at the next gas station.",
+          "ex_es": "Paremos en la próxima gasolinera."
+        },
+        {
+          "en": "highway",
+          "es": "carretera, autopista",
+          "pos": "noun",
+          "ex_en": "The highway was full of trucks this morning.",
+          "ex_es": "La carretera estaba llena de tráileres esta mañana."
+        },
+        {
+          "en": "toll",
+          "es": "caseta, peaje",
+          "pos": "noun",
+          "ex_en": "How much is the toll to Acapulco?",
+          "ex_es": "¿Cuánto cuesta la caseta a Acapulco?"
+        },
+        {
+          "en": "parking lot",
+          "es": "estacionamiento",
+          "pos": "noun",
+          "ex_en": "The hotel has a free parking lot.",
+          "ex_es": "El hotel tiene estacionamiento gratis."
+        },
+        {
+          "en": "fill up",
+          "es": "llenar (el tanque)",
+          "pos": "phrase",
+          "ex_en": "Could you fill up the tank, please?",
+          "ex_es": "¿Me llena el tanque, por favor?"
+        },
+        {
+          "en": "flat tire",
+          "es": "llanta ponchada",
+          "pos": "noun",
+          "ex_en": "We had a flat tire on the way to the beach.",
+          "ex_es": "Se nos ponchó una llanta camino a la playa."
+        }
+      ],
+      "sentences": [
+        {
+          "en": "I'd like to rent a car for three days, please.",
+          "es": "Quisiera rentar un carro por tres días, por favor."
+        },
+        {
+          "en": "Do I need an international driver's license to drive here?",
+          "es": "¿Necesito una licencia internacional para manejar aquí?"
+        },
+        {
+          "en": "The highway is faster, but you have to pay two tolls.",
+          "es": "La autopista es más rápida, pero tienes que pagar dos casetas."
+        },
+        {
+          "en": "Could you recommend a safe parking lot near the center?",
+          "es": "¿Me podría recomendar un estacionamiento seguro cerca del centro?"
+        },
+        {
+          "en": "We got a flat tire, so we called the rental company.",
+          "es": "Se nos ponchó una llanta, así que llamamos a la arrendadora."
+        }
+      ],
+      "tip_es": "En inglés de Estados Unidos se dice gas station y gas, no gasoline station. Rent a car es rentar un carro, y la empresa se llama car rental company. Fill up the tank significa llenar el tanque."
+    },
+    {
+      "id": "12-9",
+      "title_es": "Aduana, equipaje y cambios de plan",
+      "words": [
+        {
+          "en": "customs",
+          "es": "aduana",
+          "pos": "noun",
+          "ex_en": "We spent an hour waiting at customs.",
+          "ex_es": "Pasamos una hora esperando en la aduana."
+        },
+        {
+          "en": "declare",
+          "es": "declarar",
+          "pos": "verb",
+          "ex_en": "Do you have anything to declare?",
+          "ex_es": "¿Tiene algo que declarar?"
+        },
+        {
+          "en": "baggage claim",
+          "es": "reclamo de equipaje",
+          "pos": "noun",
+          "ex_en": "Our suitcases are at baggage claim number four.",
+          "ex_es": "Nuestras maletas están en la banda de equipaje número cuatro."
+        },
+        {
+          "en": "suitcase",
+          "es": "maleta",
+          "pos": "noun",
+          "ex_en": "My suitcase is too heavy.",
+          "ex_es": "Mi maleta pesa demasiado."
+        },
+        {
+          "en": "connecting flight",
+          "es": "vuelo de conexión",
+          "pos": "noun",
+          "ex_en": "I almost missed my connecting flight in Dallas.",
+          "ex_es": "Casi pierdo mi vuelo de conexión en Dallas."
+        },
+        {
+          "en": "exchange rate",
+          "es": "tipo de cambio",
+          "pos": "noun",
+          "ex_en": "What's the exchange rate for pesos today?",
+          "ex_es": "¿A cómo está el tipo de cambio del peso hoy?"
+        },
+        {
+          "en": "lost and found",
+          "es": "objetos perdidos",
+          "pos": "noun",
+          "ex_en": "Ask at the lost and found office.",
+          "ex_es": "Pregunte en la oficina de objetos perdidos."
+        },
+        {
+          "en": "cancel",
+          "es": "cancelar",
+          "pos": "verb",
+          "ex_en": "The airline had to cancel our flight.",
+          "ex_es": "La aerolínea tuvo que cancelar nuestro vuelo."
+        }
+      ],
+      "sentences": [
+        {
+          "en": "I don't have anything to declare, just clothes and gifts.",
+          "es": "No tengo nada que declarar, solo ropa y regalos."
+        },
+        {
+          "en": "Excuse me, where can I find baggage claim?",
+          "es": "Disculpe, ¿dónde está el reclamo de equipaje?"
+        },
+        {
+          "en": "My suitcase didn't arrive, could you help me find it?",
+          "es": "Mi maleta no llegó, ¿me podría ayudar a encontrarla?"
+        },
+        {
+          "en": "They canceled my connecting flight, so I need another one.",
+          "es": "Cancelaron mi vuelo de conexión, así que necesito otro."
+        },
+        {
+          "en": "The exchange rate at the airport is usually worse than downtown.",
+          "es": "El tipo de cambio en el aeropuerto suele ser peor que en el centro."
+        }
+      ],
+      "tip_es": "Customs es la aduana y siempre termina en s. En Estados Unidos se escribe canceled con una sola l. Si pierdes algo, busca la oficina de lost and found, que es objetos perdidos."
+    },
+    {
+      "id": "12-10",
+      "title_es": "En la vida real: un viaje completo",
+      "words": [
+        {
+          "en": "itinerary",
+          "es": "itinerario",
+          "pos": "noun",
+          "ex_en": "Could you email me the itinerary for the trip?",
+          "ex_es": "¿Me podría mandar el itinerario del viaje por correo?"
+        },
+        {
+          "en": "tour guide",
+          "es": "guía de turistas",
+          "pos": "noun",
+          "ex_en": "Our tour guide spoke English and Spanish.",
+          "ex_es": "Nuestro guía hablaba inglés y español."
+        },
+        {
+          "en": "jet lag",
+          "es": "jet lag, desfase de horario",
+          "pos": "noun",
+          "ex_en": "I had terrible jet lag after the flight to Madrid.",
+          "ex_es": "Tuve un jet lag horrible después del vuelo a Madrid."
+        },
+        {
+          "en": "local",
+          "es": "persona del lugar",
+          "pos": "noun",
+          "ex_en": "Ask a local for a good place to eat.",
+          "ex_es": "Pregúntale a alguien de ahí por un buen lugar para comer."
+        },
+        {
+          "en": "backpack",
+          "es": "mochila",
+          "pos": "noun",
+          "ex_en": "I only took a backpack for the weekend.",
+          "ex_es": "Solo llevé una mochila para el fin de semana."
+        },
+        {
+          "en": "travel insurance",
+          "es": "seguro de viaje",
+          "pos": "noun",
+          "ex_en": "Travel insurance paid for my lost luggage.",
+          "ex_es": "El seguro de viaje pagó mi equipaje perdido."
+        },
+        {
+          "en": "pack",
+          "es": "empacar, hacer la maleta",
+          "pos": "verb",
+          "ex_en": "I always pack the night before a trip.",
+          "ex_es": "Siempre empaco la noche antes de un viaje."
+        },
+        {
+          "en": "unforgettable",
+          "es": "inolvidable",
+          "pos": "adj",
+          "ex_en": "Our trip to Chiapas was unforgettable.",
+          "ex_es": "Nuestro viaje a Chiapas fue inolvidable."
+        }
+      ],
+      "sentences": [
+        {
+          "en": "I booked a double room and checked the itinerary twice.",
+          "es": "Reservé una habitación doble y revisé el itinerario dos veces."
+        },
+        {
+          "en": "Our flight was delayed, so we arrived with terrible jet lag.",
+          "es": "Nuestro vuelo se retrasó y llegamos con un jet lag horrible."
+        },
+        {
+          "en": "Would you mind taking a picture of us, please?",
+          "es": "¿Le molestaría tomarnos una foto, por favor?"
+        },
+        {
+          "en": "The tour guide recommended a small restaurant where the locals eat.",
+          "es": "El guía nos recomendó un restaurante pequeño donde come la gente local."
+        },
+        {
+          "en": "It was an unforgettable trip, and I can't wait to go back.",
+          "es": "Fue un viaje inolvidable y ya quiero regresar."
+        }
+      ],
+      "tip_es": "Pack es empacar o hacer la maleta: I need to pack tonight. Local como sustantivo significa una persona del lugar: Ask a local. Para pedir favores a desconocidos durante el viaje, recuerda usar could you y would you mind."
     }
   ],
   "dialogue": {
     "title_es": "Llegada al hotel",
     "setting_es": "Llegas a tu hotel en San Francisco después de un vuelo largo.",
     "lines": [
-      {"who": "A", "en": "Good evening and welcome. How can I help you?", "es": "Buenas noches y bienvenido. ¿En qué le puedo ayudar?"},
-      {"who": "B", "en": "Hi, I have a reservation under the name Ramírez.", "es": "Hola, tengo una reservación a nombre de Ramírez."},
-      {"who": "A", "en": "Let me check. Yes, a double room for three nights.", "es": "Déjeme revisar. Sí, una habitación doble por tres noches."},
-      {"who": "B", "en": "That's right. Is breakfast included?", "es": "Así es. ¿El desayuno está incluido?"},
-      {"who": "A", "en": "Yes, it's served from seven to ten in the restaurant.", "es": "Sí, se sirve de siete a diez en el restaurante."},
-      {"who": "B", "en": "Great. Could I check out at one on Sunday?", "es": "Perfecto. ¿Podría entregar la habitación a la una el domingo?"},
-      {"who": "A", "en": "Sure, no problem. Here is your key card. You're in room 504.", "es": "Claro, sin problema. Aquí tiene su tarjeta. Está en la habitación 504."},
-      {"who": "B", "en": "Thank you. What's the password for the Wi-Fi?", "es": "Gracias. ¿Cuál es la contraseña del wifi?"},
-      {"who": "A", "en": "It's on the card, next to your room number.", "es": "Está en la tarjeta, junto al número de su habitación."},
-      {"who": "B", "en": "Perfect. Thanks for your help!", "es": "Perfecto. ¡Gracias por su ayuda!"}
+      {
+        "who": "A",
+        "en": "Good evening and welcome. How can I help you?",
+        "es": "Buenas noches y bienvenido. ¿En qué le puedo ayudar?"
+      },
+      {
+        "who": "B",
+        "en": "Hi, I have a reservation under the name Ramírez.",
+        "es": "Hola, tengo una reservación a nombre de Ramírez."
+      },
+      {
+        "who": "A",
+        "en": "Let me check. Yes, a double room for three nights.",
+        "es": "Déjeme revisar. Sí, una habitación doble por tres noches."
+      },
+      {
+        "who": "B",
+        "en": "That's right. Is breakfast included?",
+        "es": "Así es. ¿El desayuno está incluido?"
+      },
+      {
+        "who": "A",
+        "en": "Yes, it's served from seven to ten in the restaurant.",
+        "es": "Sí, se sirve de siete a diez en el restaurante."
+      },
+      {
+        "who": "B",
+        "en": "Great. Could I check out at one on Sunday?",
+        "es": "Perfecto. ¿Podría entregar la habitación a la una el domingo?"
+      },
+      {
+        "who": "A",
+        "en": "Sure, no problem. Here is your key card. You're in room 504.",
+        "es": "Claro, sin problema. Aquí tiene su tarjeta. Está en la habitación 504."
+      },
+      {
+        "who": "B",
+        "en": "Thank you. What's the password for the Wi-Fi?",
+        "es": "Gracias. ¿Cuál es la contraseña del wifi?"
+      },
+      {
+        "who": "A",
+        "en": "It's on the card, next to your room number.",
+        "es": "Está en la tarjeta, junto al número de su habitación."
+      },
+      {
+        "who": "B",
+        "en": "Perfect. Thanks for your help!",
+        "es": "Perfecto. ¡Gracias por su ayuda!"
+      }
     ]
   }
 }

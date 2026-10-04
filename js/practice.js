@@ -191,13 +191,13 @@ function statsView(){
     <div class="kpi"><b style="color:var(--fire)">${streak()}</b><span>Días de racha (mejor: ${bestStreak()})</span></div>
     <div class="kpi"><b style="color:var(--gold)">${t.xp}</b><span>XP en total</span></div>
     <div class="kpi"><b>${wordsLearned()}</b><span>Palabras aprendidas (${wordsMastered()} dominadas)</span></div>
-    <div class="kpi"><b>${doneL}/96</b><span>Lecciones</span></div>
+    <div class="kpi"><b>${doneL}/${LESSONS.length}</b><span>Lecciones</span></div>
     <div class="kpi"><b style="color:var(--good)">${acc}%</b><span>Aciertos</span></div>
     <div class="kpi"><b>${mins<60?mins+' min':(mins/60).toFixed(1)+' h'}</b><span>Tiempo estudiando</span></div>
   </div>
   <div class="sec"><h2>XP de las últimas 2 semanas</h2></div><div class="card"><div class="bars">${days.map(k=>{const x=S.days[k]?.xp||0;return `<div><i style="height:${Math.max(2,x/mx*100)}%;${x>=S.settings.goal?'':'opacity:.55'}"></i><span>${'DLMMJVS'[new Date(k+'T12:00').getDay()]}</span></div>`}).join('')}</div></div>
   <div class="sec"><h2>Constancia</h2><span class="muted small">16 semanas</span></div><div class="card"><div class="heat">${heat}</div></div>
-  <div class="sec"><h2>Avance por curso</h2></div><div class="list">${UNITS.map(u=>{const n=u.lessons.filter(l=>S.done[l.id]).length;return `<div class="li" style="cursor:default"><span class="pill">${u.id}</span><div class="mid"><div class="t">${esc(u.title_es)}</div><div class="meter"><i style="width:${Math.round(n/6*100)}%"></i></div></div><span class="small muted">${n}/6</span></div>`}).join('')}</div>
+  <div class="sec"><h2>Avance por curso</h2></div><div class="list">${UNITS.map(u=>{const n=u.lessons.filter(l=>S.done[l.id]).length;return `<div class="li" style="cursor:default"><span class="pill">${u.id}</span><div class="mid"><div class="t">${esc(u.title_es)}</div><div class="meter"><i style="width:${Math.round(n/u.lessons.length*100)}%"></i></div></div><span class="small muted">${n}/${u.lessons.length}</span></div>`}).join('')}</div>
   <div class="sec"><h2>Logros</h2><span class="muted small">${Object.keys(S.ach).length}/${ACHS.length}</span></div><div class="achs">${ACHS.map(([id,name,desc,icn])=>`<div class="ach ${S.ach[id]?'got':''}"><div class="ai">${ic(icn,22)}</div><b>${esc(name)}</b><span>${esc(desc)}</span></div>`).join('')}</div>
   ${srsWeak().length?`<div class="sec"><h2>Palabras que más fallas</h2></div><div class="list">${srsWeak().slice(0,8).map(c=>`<div class="li" onclick="speak('${esc(enMain(c.en)).replace(/'/g,"\\'")}')"><div class="mid"><div class="t">${esc(c.en)}</div><div class="s">${esc(c.es)}</div></div><span class="small muted">${Math.round(c.ok/c.seen*100)}%</span></div>`).join('')}</div>`:''}`;
 }

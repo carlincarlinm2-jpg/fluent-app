@@ -1,0 +1,245 @@
+{
+  "id": 19,
+  "title_es": "Cultura, entretenimiento y medios",
+  "title_en": "Culture and entertainment",
+  "level": "B2",
+  "goal_es": "Al terminar podrás hablar de películas, series, música, libros y noticias, recomendar y criticar con naturalidad y usar la voz pasiva.",
+  "lessons": [
+    {
+      "id": "19-1",
+      "title_es": "El cine",
+      "words": [
+        {"en":"movie theater","es":"cine","pos":"noun","ex_en":"Let's meet in front of the movie theater at seven.","ex_es":"Veámonos enfrente del cine a las siete."},
+        {"en":"plot","es":"trama","pos":"noun","ex_en":"The plot was confusing, but the acting was great.","ex_es":"La trama era confusa, pero la actuación estuvo muy buena."},
+        {"en":"cast","es":"elenco","pos":"noun","ex_en":"The cast includes several famous Mexican actors.","ex_es":"El elenco incluye a varios actores mexicanos famosos."},
+        {"en":"sequel","es":"secuela","pos":"noun","ex_en":"The sequel was better than the original.","ex_es":"La secuela fue mejor que la original."},
+        {"en":"trailer","es":"tráiler, avance","pos":"noun","ex_en":"The trailer gave away too much of the story.","ex_es":"El tráiler reveló demasiado de la historia."},
+        {"en":"box office","es":"taquilla","pos":"noun","ex_en":"The movie was a huge hit at the box office.","ex_es":"La película fue un gran éxito de taquilla."},
+        {"en":"special effects","es":"efectos especiales","pos":"noun","ex_en":"The special effects looked cheap and fake.","ex_es":"Los efectos especiales se veían baratos y falsos."},
+        {"en":"subtitles","es":"subtítulos","pos":"noun","ex_en":"I watch movies in English with subtitles.","ex_es":"Veo películas en inglés con subtítulos."}
+      ],
+      "sentences": [
+        {"en":"What's playing at the movies tonight?","es":"¿Qué están pasando en el cine hoy en la noche?"},
+        {"en":"I'd rather see a comedy than a horror movie.","es":"Prefiero ver una comedia que una película de terror."},
+        {"en":"The movie is based on a true story.","es":"La película está basada en una historia real."},
+        {"en":"Who's in it?","es":"¿Quién sale?"},
+        {"en":"The ending was so sad that I cried.","es":"El final fue tan triste que lloré."}
+      ],
+      "tip_es": "En EE. UU. se dice movie mucho más que film. Para preguntar quién actúa se dice Who's in it? o Who stars in it? Error común, decir the actors of the movie. Es más natural the cast o the people in it."
+    },
+    {
+      "id": "19-2",
+      "title_es": "Series y streaming",
+      "words": [
+        {"en":"episode","es":"episodio, capítulo","pos":"noun","ex_en":"The last episode left me speechless.","ex_es":"El último capítulo me dejó sin palabras."},
+        {"en":"season","es":"temporada","pos":"noun","ex_en":"The second season comes out in May.","ex_es":"La segunda temporada sale en mayo."},
+        {"en":"binge watch","es":"ver de corrido, maratonear","pos":"verb","ex_en":"We like to binge watch a whole series on weekends.","ex_es":"Nos gusta maratonear una serie completa los fines de semana."},
+        {"en":"streaming service","es":"plataforma de streaming","pos":"noun","ex_en":"Which streaming service has the best shows?","ex_es":"¿Qué plataforma de streaming tiene las mejores series?"},
+        {"en":"spoiler","es":"spoiler","pos":"noun","ex_en":"No spoilers, please! I haven't seen it yet.","ex_es":"¡Sin spoilers, por favor! Todavía no la veo."},
+        {"en":"cliffhanger","es":"final de suspenso","pos":"noun","ex_en":"Every episode ends with a cliffhanger.","ex_es":"Cada capítulo termina con un final de suspenso."},
+        {"en":"character","es":"personaje","pos":"noun","ex_en":"My favorite character dies in the third season.","ex_es":"Mi personaje favorito muere en la tercera temporada."},
+        {"en":"renew","es":"renovar","pos":"verb","ex_en":"I hope they renew the show for another season.","ex_es":"Ojalá renueven la serie por otra temporada."}
+      ],
+      "sentences": [
+        {"en":"Are you watching anything good right now?","es":"¿Estás viendo algo bueno ahorita?"},
+        {"en":"I've heard great things about that show.","es":"He oído muy buenas cosas de esa serie."},
+        {"en":"I couldn't stop watching, I finished it in two days.","es":"No podía dejar de verla, la terminé en dos días."},
+        {"en":"Don't tell me how it ends!","es":"¡No me digas cómo termina!"},
+        {"en":"It starts slow, but it gets better.","es":"Empieza lento, pero luego mejora."}
+      ],
+      "tip_es": "Lo que en México llamamos serie en inglés es a series o a show. El capítulo de una serie es episode, porque chapter se usa solo para libros. Error común, decir I saw the chapter five. Lo correcto es I watched episode five."
+    },
+    {
+      "id": "19-3",
+      "title_es": "La música",
+      "words": [
+        {"en":"lyrics","es":"letra de una canción","pos":"noun","ex_en":"I love the song, but I don't understand the lyrics.","ex_es":"Me encanta la canción, pero no entiendo la letra."},
+        {"en":"catchy","es":"pegajoso","pos":"adj","ex_en":"That song is so catchy, I can't stop singing it.","ex_es":"Esa canción es tan pegajosa que no dejo de cantarla."},
+        {"en":"gig","es":"tocada, presentación","pos":"noun","ex_en":"My cousin's band has a gig on Saturday.","ex_es":"La banda de mi primo tiene una tocada el sábado."},
+        {"en":"album","es":"disco, álbum","pos":"noun","ex_en":"Their new album comes out next Friday.","ex_es":"Su nuevo disco sale el próximo viernes."},
+        {"en":"tour","es":"gira","pos":"noun","ex_en":"The band is going on a world tour.","ex_es":"La banda se va de gira mundial."},
+        {"en":"playlist","es":"lista de reproducción","pos":"noun","ex_en":"I made a playlist for our road trip.","ex_es":"Hice una lista de canciones para nuestro viaje en carretera."},
+        {"en":"sold out","es":"agotado","pos":"adj","ex_en":"The concert was sold out in ten minutes.","ex_es":"Los boletos del concierto se agotaron en diez minutos."},
+        {"en":"live","es":"en vivo","pos":"adv","ex_en":"They sound even better live.","ex_es":"Suenan todavía mejor en vivo."}
+      ],
+      "sentences": [
+        {"en":"What kind of music are you into?","es":"¿Qué tipo de música te gusta?"},
+        {"en":"I've been listening to this song on repeat.","es":"He estado escuchando esta canción una y otra vez."},
+        {"en":"Tickets go on sale tomorrow morning.","es":"Los boletos salen a la venta mañana en la mañana."},
+        {"en":"She has an amazing voice.","es":"Tiene una voz increíble."},
+        {"en":"We waited in line for hours to get in.","es":"Hicimos fila durante horas para entrar."}
+      ],
+      "tip_es": "La letra de una canción es lyrics, siempre en plural, the lyrics are beautiful. Error común, decir the letter of the song. Letter es una carta o una letra del abecedario. Be into algo es una forma informal de decir que te gusta mucho."
+    },
+    {
+      "id": "19-4",
+      "title_es": "Las noticias",
+      "words": [
+        {"en":"headline","es":"titular, encabezado","pos":"noun","ex_en":"Did you read the headline about the election?","ex_es":"¿Leíste el titular sobre la elección?"},
+        {"en":"breaking news","es":"noticia de última hora","pos":"noun","ex_en":"We interrupt this program for breaking news.","ex_es":"Interrumpimos este programa por una noticia de última hora."},
+        {"en":"journalist","es":"periodista","pos":"noun","ex_en":"The journalist interviewed people on the street.","ex_es":"El periodista entrevistó a gente en la calle."},
+        {"en":"source","es":"fuente","pos":"noun","ex_en":"Always check the source before you believe a story.","ex_es":"Siempre revisa la fuente antes de creer una noticia."},
+        {"en":"fake news","es":"noticias falsas","pos":"noun","ex_en":"That story is fake news, it never happened.","ex_es":"Esa historia es falsa, nunca pasó."},
+        {"en":"report","es":"informar, reportar","pos":"verb","ex_en":"The media began to report the story last night.","ex_es":"Los medios empezaron a reportar la historia anoche."},
+        {"en":"coverage","es":"cobertura","pos":"noun","ex_en":"The coverage of the earthquake was excellent.","ex_es":"La cobertura del sismo fue excelente."},
+        {"en":"biased","es":"parcial, tendencioso","pos":"adj","ex_en":"I think that newspaper is very biased.","ex_es":"Creo que ese periódico es muy tendencioso."}
+      ],
+      "sentences": [
+        {"en":"Did you hear the news about the storm?","es":"¿Supiste la noticia de la tormenta?"},
+        {"en":"I usually get my news from podcasts.","es":"Normalmente me informo con podcasts."},
+        {"en":"The story was first reported by a local newspaper.","es":"Un periódico local fue el primero en reportar la historia."},
+        {"en":"It's hard to know what's true these days.","es":"Es difícil saber qué es verdad hoy en día."},
+        {"en":"The president will give a press conference at noon.","es":"El presidente dará una conferencia de prensa al mediodía."}
+      ],
+      "tip_es": "News es incontable y lleva verbo en singular, The news is bad. Para una sola noticia se dice a piece of news o simplemente a story. Error común, decir a new o the news are."
+    },
+    {
+      "id": "19-5",
+      "title_es": "Recomendar",
+      "words": [
+        {"en":"recommend","es":"recomendar","pos":"verb","ex_en":"I highly recommend this book.","ex_es":"Te recomiendo muchísimo este libro."},
+        {"en":"worth watching","es":"que vale la pena ver","pos":"phrase","ex_en":"The new series is definitely worth watching.","ex_es":"La nueva serie definitivamente vale la pena."},
+        {"en":"give it a try","es":"darle una oportunidad","pos":"phrase","ex_en":"You should give it a try, you might like it.","ex_es":"Deberías darle una oportunidad, a lo mejor te gusta."},
+        {"en":"masterpiece","es":"obra maestra","pos":"noun","ex_en":"Many critics call it a masterpiece.","ex_es":"Muchos críticos la consideran una obra maestra."},
+        {"en":"underrated","es":"subestimado","pos":"adj","ex_en":"That singer is so underrated.","ex_es":"Esa cantante está muy subestimada."},
+        {"en":"gripping","es":"atrapante, que te engancha","pos":"adj","ex_en":"The story is gripping from the first page.","ex_es":"La historia te atrapa desde la primera página."},
+        {"en":"heartwarming","es":"conmovedor, enternecedor","pos":"adj","ex_en":"It's a heartwarming story about a big family.","ex_es":"Es una historia conmovedora sobre una familia grande."},
+        {"en":"hidden gem","es":"joya escondida","pos":"noun","ex_en":"This little bookstore is a hidden gem.","ex_es":"Esta pequeña librería es una joya escondida."}
+      ],
+      "sentences": [
+        {"en":"You have to watch it, you'll love it.","es":"Tienes que verla, te va a encantar."},
+        {"en":"If you liked that one, you'll like this one too.","es":"Si te gustó esa, esta también te va a gustar."},
+        {"en":"I'm looking for something light and funny.","es":"Busco algo ligero y divertido."},
+        {"en":"What would you recommend for a rainy Sunday?","es":"¿Qué recomiendas para un domingo lluvioso?"},
+        {"en":"Trust me, you won't regret it.","es":"Créeme, no te vas a arrepentir."}
+      ],
+      "tip_es": "Recommend no funciona como en español con una persona y otro verbo. I recommend you to see it no suena natural. Di I recommend seeing it o I recommend that you see it. En la conversación diaria también se dice You should check it out."
+    },
+    {
+      "id": "19-6",
+      "title_es": "Criticar",
+      "words": [
+        {"en":"critic","es":"crítico","pos":"noun","ex_en":"The critics loved it, but audiences hated it.","ex_es":"A los críticos les encantó, pero el público la odió."},
+        {"en":"predictable","es":"predecible","pos":"adj","ex_en":"The story was so predictable that I guessed the ending.","ex_es":"La historia era tan predecible que adiviné el final."},
+        {"en":"disappointing","es":"decepcionante","pos":"adj","ex_en":"The ending was really disappointing.","ex_es":"El final fue muy decepcionante."},
+        {"en":"overhyped","es":"inflado por la publicidad","pos":"adj","ex_en":"The movie was overhyped, it wasn't that good.","ex_es":"Le dieron demasiado bombo a la película, no estuvo tan buena."},
+        {"en":"drag on","es":"hacerse eterno","pos":"verb","ex_en":"The second half seemed to drag on forever.","ex_es":"La segunda mitad se hizo eterna."},
+        {"en":"plot hole","es":"hueco en la trama","pos":"noun","ex_en":"There's a huge plot hole in the last episode.","ex_es":"Hay un hueco enorme en la trama del último capítulo."},
+        {"en":"performance","es":"actuación, interpretación","pos":"noun","ex_en":"Her performance was the best part of the movie.","ex_es":"Su actuación fue lo mejor de la película."},
+        {"en":"cheesy","es":"cursi, chafa","pos":"adj","ex_en":"The dialogue was so cheesy that we laughed.","ex_es":"Los diálogos eran tan cursis que nos dio risa."}
+      ],
+      "sentences": [
+        {"en":"It wasn't as good as I expected.","es":"No estuvo tan buena como esperaba."},
+        {"en":"The acting was great, but the story was weak.","es":"La actuación fue muy buena, pero la historia fue floja."},
+        {"en":"I fell asleep halfway through.","es":"Me quedé dormido a la mitad."},
+        {"en":"It's not really my cup of tea.","es":"No es mucho lo mío."},
+        {"en":"I wouldn't watch it again.","es":"No la volvería a ver."}
+      ],
+      "tip_es": "Para criticar con tacto se dice mucho It wasn't really my thing o It's not my cup of tea. Error común, confundir bored y boring. I was bored significa me aburrí, y I was boring significa que tú eras el aburrido."
+    },
+    {
+      "id": "19-7",
+      "title_es": "La voz pasiva",
+      "words": [
+        {"en":"release","es":"estrenar, lanzar","pos":"verb","ex_en":"The studio will release the movie in December.","ex_es":"El estudio va a estrenar la película en diciembre."},
+        {"en":"film","es":"filmar","pos":"verb","ex_en":"The series was filmed in Oaxaca.","ex_es":"La serie se filmó en Oaxaca."},
+        {"en":"direct","es":"dirigir","pos":"verb","ex_en":"The movie was directed by a Mexican woman.","ex_es":"La película fue dirigida por una mujer mexicana."},
+        {"en":"award","es":"premio","pos":"noun","ex_en":"The documentary won an award in Cannes.","ex_es":"El documental ganó un premio en Cannes."},
+        {"en":"nominate","es":"nominar","pos":"verb","ex_en":"She was nominated for best actress.","ex_es":"Ella fue nominada a mejor actriz."},
+        {"en":"produce","es":"producir","pos":"verb","ex_en":"The show is produced by a small studio.","ex_es":"La serie la produce un estudio pequeño."},
+        {"en":"translate","es":"traducir","pos":"verb","ex_en":"The novel has been translated into forty languages.","ex_es":"La novela ha sido traducida a cuarenta idiomas."},
+        {"en":"set","es":"ambientar, situar","pos":"verb","ex_en":"The story is set in Mexico City in the eighties.","ex_es":"La historia está ambientada en la Ciudad de México en los ochenta."}
+      ],
+      "sentences": [
+        {"en":"The book was written more than seventy years ago.","es":"El libro fue escrito hace más de setenta años."},
+        {"en":"The song was recorded in just one day.","es":"La canción se grabó en un solo día."},
+        {"en":"The movie will be released next year.","es":"La película se va a estrenar el próximo año."},
+        {"en":"Tickets can be bought online.","es":"Los boletos se pueden comprar en línea."},
+        {"en":"The concert has been canceled because of the rain.","es":"El concierto se canceló por la lluvia."}
+      ],
+      "tip_es": "La voz pasiva se forma con be y el participio, was written, will be released. En español muchas veces usamos se, como en se grabó, pero en inglés hay que usar la pasiva. Error común, decir The song recorded in one day. Lo correcto es The song was recorded in one day."
+    },
+    {
+      "id": "19-8",
+      "title_es": "Libros y lectura",
+      "words": [
+        {"en":"novel","es":"novela","pos":"noun","ex_en":"Her latest novel takes place in Guadalajara.","ex_es":"Su novela más reciente se desarrolla en Guadalajara."},
+        {"en":"author","es":"autor","pos":"noun","ex_en":"The author signed my copy of the book.","ex_es":"El autor firmó mi ejemplar del libro."},
+        {"en":"bestseller","es":"éxito de ventas","pos":"noun","ex_en":"Her first book became a bestseller.","ex_es":"Su primer libro se volvió un éxito de ventas."},
+        {"en":"chapter","es":"capítulo","pos":"noun","ex_en":"I read one chapter every night before bed.","ex_es":"Leo un capítulo cada noche antes de dormir."},
+        {"en":"audiobook","es":"audiolibro","pos":"noun","ex_en":"I listen to audiobooks while I drive.","ex_es":"Escucho audiolibros mientras manejo."},
+        {"en":"paperback","es":"edición de bolsillo","pos":"noun","ex_en":"The paperback is much cheaper than the hardcover.","ex_es":"La edición de bolsillo es mucho más barata que la de pasta dura."},
+        {"en":"put down","es":"dejar de leer, soltar","pos":"verb","ex_en":"It's the kind of book you can't put down.","ex_es":"Es el tipo de libro que no puedes soltar."},
+        {"en":"book club","es":"club de lectura","pos":"noun","ex_en":"Our book club meets once a month.","ex_es":"Nuestro club de lectura se reúne una vez al mes."}
+      ],
+      "sentences": [
+        {"en":"What are you reading these days?","es":"¿Qué estás leyendo últimamente?"},
+        {"en":"The book is much better than the movie.","es":"El libro es mucho mejor que la película."},
+        {"en":"I read on my phone more than on paper.","es":"Leo más en el celular que en papel."},
+        {"en":"I don't have time to read as much as I'd like.","es":"No tengo tiempo de leer tanto como quisiera."},
+        {"en":"I'm halfway through the second book of the series.","es":"Voy a la mitad del segundo libro de la saga."}
+      ],
+      "tip_es": "Novel es solo la novela escrita. La telenovela de la tele es a soap opera. Error común, decir lecture para hablar de la lectura. Lecture es una conferencia o clase, y lectura se dice reading."
+    },
+    {
+      "id": "19-9",
+      "title_es": "Arte y eventos",
+      "words": [
+        {"en":"exhibit","es":"exposición","pos":"noun","ex_en":"The museum has a new exhibit on Frida Kahlo.","ex_es":"El museo tiene una nueva exposición sobre Frida Kahlo."},
+        {"en":"gallery","es":"galería","pos":"noun","ex_en":"Her work is on display at a small gallery.","ex_es":"Su obra está expuesta en una pequeña galería."},
+        {"en":"painting","es":"pintura, cuadro","pos":"noun","ex_en":"This painting is worth millions of dollars.","ex_es":"Este cuadro vale millones de dólares."},
+        {"en":"sculpture","es":"escultura","pos":"noun","ex_en":"There's a huge sculpture in the main square.","ex_es":"Hay una escultura enorme en la plaza principal."},
+        {"en":"festival","es":"festival","pos":"noun","ex_en":"The film festival takes place every October.","ex_es":"El festival de cine se celebra cada octubre."},
+        {"en":"admission","es":"entrada, acceso","pos":"noun","ex_en":"Admission is free on Sundays.","ex_es":"La entrada es gratis los domingos."},
+        {"en":"guided tour","es":"visita guiada","pos":"noun","ex_en":"We took a guided tour of the old city.","ex_es":"Hicimos una visita guiada por el centro histórico."},
+        {"en":"play","es":"obra de teatro","pos":"noun","ex_en":"We saw a play on Broadway last summer.","ex_es":"Vimos una obra en Broadway el verano pasado."}
+      ],
+      "sentences": [
+        {"en":"Is photography allowed inside the museum?","es":"¿Se permite tomar fotos dentro del museo?"},
+        {"en":"The exhibit runs until the end of March.","es":"La exposición estará abierta hasta finales de marzo."},
+        {"en":"I'm not really an art person, but I loved it.","es":"No soy muy de arte, pero me encantó."},
+        {"en":"How much are tickets for students?","es":"¿Cuánto cuestan los boletos para estudiantes?"},
+        {"en":"The show starts at eight, so let's not be late.","es":"La función empieza a las ocho, así que no lleguemos tarde."}
+      ],
+      "tip_es": "Una exposición de arte es an exhibit o an exhibition, no an exposition. Error común, decir I assisted to the concert. Assist significa ayudar. Lo correcto es I attended the concert o I went to the concert."
+    },
+    {
+      "id": "19-10",
+      "title_es": "Medios y cultura pop",
+      "words": [
+        {"en":"podcast","es":"podcast","pos":"noun","ex_en":"I listen to a true crime podcast every morning.","ex_es":"Escucho un podcast de crímenes reales cada mañana."},
+        {"en":"host","es":"conductor, presentador","pos":"noun","ex_en":"The host of the show is very funny.","ex_es":"El conductor del programa es muy chistoso."},
+        {"en":"audience","es":"público","pos":"noun","ex_en":"The audience laughed at every joke.","ex_es":"El público se rió con cada chiste."},
+        {"en":"trend","es":"tendencia","pos":"noun","ex_en":"That dance became a huge trend online.","ex_es":"Ese baile se volvió una gran tendencia en internet."},
+        {"en":"meme","es":"meme","pos":"noun","ex_en":"My mom sends me memes every day.","ex_es":"Mi mamá me manda memes todos los días."},
+        {"en":"celebrity","es":"celebridad, famoso","pos":"noun","ex_en":"A famous celebrity was spotted at a café downtown.","ex_es":"Vieron a una celebridad en un café del centro."},
+        {"en":"reboot","es":"nueva versión","pos":"noun","ex_en":"Hollywood keeps making reboots of old movies.","ex_es":"Hollywood sigue haciendo nuevas versiones de películas viejas."},
+        {"en":"pop culture","es":"cultura pop","pos":"noun","ex_en":"The show had a huge impact on pop culture.","ex_es":"La serie tuvo un gran impacto en la cultura pop."}
+      ],
+      "sentences": [
+        {"en":"Everyone is talking about that show.","es":"Todo el mundo está hablando de esa serie."},
+        {"en":"I don't get the joke, can you explain it?","es":"No entiendo el chiste, ¿me lo explicas?"},
+        {"en":"She became famous thanks to a video on YouTube.","es":"Se hizo famosa gracias a un video en YouTube."},
+        {"en":"Mexican food and music are popular all over the world.","es":"La comida y la música mexicanas son populares en todo el mundo."},
+        {"en":"That reference went over my head.","es":"No entendí esa referencia."}
+      ],
+      "tip_es": "El público de un show es the audience. Public casi siempre es adjetivo, como en public transportation. Error común, decir the public loved the movie. Lo natural es the audience loved the movie. Went over my head significa que no entendiste algo."
+    }
+  ],
+  "dialogue": {
+    "title_es": "¿Qué serie veo?",
+    "setting_es": "Un amigo te pide que le recomiendes una serie para el fin de semana.",
+    "lines": [
+      {"who":"A","en":"I'm bored. Can you recommend a good series?","es":"Estoy aburrido. ¿Me recomiendas una buena serie?"},
+      {"who":"B","en":"Have you seen the new Mexican crime show? It's gripping.","es":"¿Ya viste la nueva serie policiaca mexicana? Te atrapa."},
+      {"who":"A","en":"Not yet. What's it about?","es":"Todavía no. ¿De qué trata?"},
+      {"who":"B","en":"It's about a journalist who discovers a huge scandal.","es":"Trata de una periodista que descubre un escándalo enorme."},
+      {"who":"A","en":"Sounds interesting. Is it based on a true story?","es":"Suena interesante. ¿Está basada en una historia real?"},
+      {"who":"B","en":"Partly. And it was filmed in real locations in Monterrey.","es":"En parte. Y se filmó en lugares reales de Monterrey."},
+      {"who":"A","en":"Is it really worth watching? I hated the last show you recommended.","es":"¿De verdad vale la pena? Odié la última serie que me recomendaste."},
+      {"who":"B","en":"Trust me, this one is different. The cast is amazing.","es":"Créeme, esta es diferente. El elenco es increíble."},
+      {"who":"A","en":"OK, I'll give it a try tonight. How many seasons are there?","es":"Va, le voy a dar una oportunidad hoy. ¿Cuántas temporadas tiene?"},
+      {"who":"B","en":"Just one so far, but they renewed it. No spoilers, I promise!","es":"Solo una por ahora, pero ya la renovaron. ¡Sin spoilers, lo prometo!"}
+    ]
+  }
+}

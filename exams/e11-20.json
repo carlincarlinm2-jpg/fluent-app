@@ -1,0 +1,3043 @@
+{
+ "11": {
+  "reading": {
+   "title": "An email to a friend",
+   "text": "Hi Emma,\n\nSorry I didn't come to your party on Saturday. On Friday night I had a terrible headache and a sore throat, and on Saturday morning I had a fever too. My mom took me to the doctor. She looked at my throat and my ears and said I had an infection. She gave me a prescription for some medicine. I have to take one pill three times a day, after meals. She also said I should drink a lot of water and stay in bed for two days.\n\nI'm feeling much better now, but my back hurts because I stayed in bed all weekend! The doctor said I shouldn't go to the gym this week, so I'm going to watch movies at home. Can you tell me about the party? I want to see your photos.\n\nLove,\nSofia",
+   "questions": [
+    {
+     "q": "Why didn't Sofia go to Emma's party?",
+     "options": [
+      "She had to work.",
+      "She was sick.",
+      "She was at the gym.",
+      "Her mom was sick."
+     ],
+     "answer": 1,
+     "explain_es": "Sofia dice que tenía dolor de cabeza, dolor de garganta y fiebre, o sea, estaba enferma."
+    },
+    {
+     "q": "When did Sofia have a fever?",
+     "options": [
+      "On Sunday",
+      "All week",
+      "On Saturday morning",
+      "On Friday night"
+     ],
+     "answer": 2,
+     "explain_es": "El viernes en la noche tenía dolor de cabeza y de garganta; la fiebre empezó el sábado en la mañana."
+    },
+    {
+     "q": "How often does Sofia take her medicine?",
+     "options": [
+      "Only when her head hurts",
+      "Three times a day, after meals",
+      "Two times a day, with water",
+      "Once a day, before breakfast"
+     ],
+     "answer": 1,
+     "explain_es": "El correo dice: one pill three times a day, after meals, es decir, tres veces al día después de comer."
+    },
+    {
+     "q": "What did the doctor say Sofia shouldn't do this week?",
+     "options": [
+      "Drink a lot of water",
+      "Take her medicine",
+      "Go to the gym",
+      "Stay at home"
+     ],
+     "answer": 2,
+     "explain_es": "La doctora dijo: you shouldn't go to the gym this week. Las otras opciones sí son cosas que debe hacer."
+    },
+    {
+     "q": "Why does Sofia's back hurt?",
+     "options": [
+      "She carried heavy boxes.",
+      "She stayed in bed a lot.",
+      "She fell at the party.",
+      "She went to the gym."
+     ],
+     "answer": 1,
+     "explain_es": "Sofia explica que le duele la espalda porque se quedó en cama todo el fin de semana."
+    }
+   ]
+  },
+  "listening": {
+   "title": "At the doctor's office",
+   "script": [
+    {
+     "who": "A",
+     "en": "Good morning. What's the problem today?"
+    },
+    {
+     "who": "B",
+     "en": "Hi, doctor. I fell while I was playing soccer yesterday, and now my right wrist hurts a lot."
+    },
+    {
+     "who": "A",
+     "en": "I see. Can you move your fingers?"
+    },
+    {
+     "who": "B",
+     "en": "Yes, but it hurts when I move my hand up and down."
+    },
+    {
+     "who": "A",
+     "en": "Did you put any ice on it?"
+    },
+    {
+     "who": "B",
+     "en": "Yes, my sister gave me some ice last night, and I took two pills for the pain."
+    },
+    {
+     "who": "A",
+     "en": "OK. I don't think it's broken, but we should take an X-ray to be sure."
+    },
+    {
+     "who": "B",
+     "en": "Is it going to take a long time? I have to go to work at two."
+    },
+    {
+     "who": "A",
+     "en": "No, about twenty minutes. And you shouldn't play soccer for three weeks."
+    },
+    {
+     "who": "B",
+     "en": "Three weeks? Oh no, we have a big game next Saturday!"
+    },
+    {
+     "who": "A",
+     "en": "I'm sorry, but your health is more important. Are you allergic to any medicine?"
+    },
+    {
+     "who": "B",
+     "en": "No, I'm not."
+    }
+   ],
+   "questions": [
+    {
+     "q": "How did the man hurt himself?",
+     "options": [
+      "He cut his hand at work.",
+      "He fell while he was playing soccer.",
+      "He fell off his bike.",
+      "He hit his hand on a door."
+     ],
+     "answer": 1,
+     "explain_es": "El paciente dice: I fell while I was playing soccer yesterday."
+    },
+    {
+     "q": "What part of his body hurts?",
+     "options": [
+      "His head",
+      "His left foot",
+      "His back",
+      "His right wrist"
+     ],
+     "answer": 3,
+     "explain_es": "Dice claramente que le duele la muñeca derecha: my right wrist hurts a lot."
+    },
+    {
+     "q": "What did he do last night?",
+     "options": [
+      "He went to the hospital.",
+      "He played another game.",
+      "He called the doctor.",
+      "He put ice on it and took some pills."
+     ],
+     "answer": 3,
+     "explain_es": "Su hermana le dio hielo y él se tomó dos pastillas para el dolor."
+    },
+    {
+     "q": "What does the doctor want to do?",
+     "options": [
+      "Call an ambulance",
+      "Take an X-ray",
+      "Send him home",
+      "Give him a prescription"
+     ],
+     "answer": 1,
+     "explain_es": "La doctora dice: we should take an X-ray to be sure, o sea, sacar una radiografía."
+    },
+    {
+     "q": "Why is the man unhappy at the end?",
+     "options": [
+      "The X-ray takes two hours.",
+      "He can't play in a big game.",
+      "He can't go to work.",
+      "He is allergic to the medicine."
+     ],
+     "answer": 1,
+     "explain_es": "No puede jugar futbol por tres semanas y tiene un partido importante el próximo sábado."
+    }
+   ]
+  },
+  "use": [
+   {
+    "q": "My feet ___ because I walked all day.",
+    "options": [
+     "hurted",
+     "hurting",
+     "hurts",
+     "hurt"
+    ],
+    "answer": 3,
+    "explain_es": "Feet es plural, así que el verbo va sin -s: my feet hurt. Hurt es irregular y no existe hurted."
+   },
+   {
+    "q": "I ___ a terrible headache right now.",
+    "options": [
+     "am",
+     "do",
+     "feel of",
+     "have"
+    ],
+    "answer": 3,
+    "explain_es": "Para síntomas se usa have: I have a headache. Nunca I am headache."
+   },
+   {
+    "q": "You ___ see a doctor about that cough.",
+    "options": [
+     "should to",
+     "must to",
+     "shoulds",
+     "should"
+    ],
+    "answer": 3,
+    "explain_es": "Después de should va el verbo base sin to y should no cambia con he, she o it."
+   },
+   {
+    "q": "Can you give me some ___ about my diet?",
+    "options": [
+     "a advices",
+     "advice",
+     "advices",
+     "an advice"
+    ],
+    "answer": 1,
+    "explain_es": "Advice es incontable: some advice o a piece of advice, nunca advices ni an advice."
+   },
+   {
+    "q": "Last week my brother ___ his leg playing basketball.",
+    "options": [
+     "break",
+     "broke",
+     "broken",
+     "breaked"
+    ],
+    "answer": 1,
+    "explain_es": "Break es irregular: el pasado es broke. Broken es el participio."
+   },
+   {
+    "q": "The dentist checked all my ___.",
+    "options": [
+     "tooths",
+     "teeths",
+     "tooth",
+     "teeth"
+    ],
+    "answer": 3,
+    "explain_es": "Tooth tiene plural irregular: one tooth, two teeth, igual que foot y feet."
+   },
+   {
+    "q": "Are you allergic ___ any food?",
+    "options": [
+     "with",
+     "at",
+     "of",
+     "to"
+    ],
+    "answer": 3,
+    "explain_es": "En inglés se dice allergic to, con la preposición to."
+   },
+   {
+    "q": "Don't forget to ___ your medicine after dinner.",
+    "options": [
+     "do",
+     "take",
+     "put",
+     "make"
+    ],
+    "answer": 1,
+    "explain_es": "Con medicinas y pastillas se usa take: take your medicine, take a pill."
+   },
+   {
+    "q": "I ___ off my bike yesterday and cut my knee.",
+    "options": [
+     "felt",
+     "fall",
+     "fell",
+     "falled"
+    ],
+    "answer": 2,
+    "explain_es": "Fall es irregular: fall, fell, fallen. Felt es el pasado de feel (sentir)."
+   },
+   {
+    "q": "The doctor gave me a ___ for some antibiotics.",
+    "options": [
+     "ticket",
+     "recipe",
+     "receipt",
+     "prescription"
+    ],
+    "answer": 3,
+    "explain_es": "La receta del doctor es prescription. Recipe es una receta de cocina y receipt es un comprobante de compra."
+   }
+  ],
+  "writing": {
+   "prompt_es": "Escribe un correo a tu maestra de inglés, la Sra. López. Dile que no puedes ir a clase mañana, explica qué síntomas tienes, cuenta qué te dijo el doctor y pregúntale por la tarea. Escribe de 35 a 60 palabras.",
+   "prompt_en": "You can't go to your English class tomorrow. Write an email to your teacher, Ms. Lopez. In your email: say that you can't go to class, explain how you feel, say what the doctor told you to do, and ask about the homework. Write 35–60 words.",
+   "min_words": 35,
+   "max_words": 60,
+   "model_answer": "Dear Ms. Lopez,\n\nI'm sorry, but I can't come to class tomorrow. I have a fever and a very bad sore throat. I went to the doctor this afternoon, and she said I should stay in bed for two days. Could you tell me the homework, please? I want to do it at home.\n\nThank you,\nDaniel",
+   "checklist_es": [
+    "Saludo y despedida adecuados para una maestra",
+    "Dices que no irás a clase mañana",
+    "Describes tus síntomas con have (I have a fever)",
+    "Cuentas el consejo del doctor con should",
+    "Preguntas por la tarea con una pregunta amable"
+   ]
+  },
+  "speaking": {
+   "read_aloud": [
+    "I have a headache and my throat hurts.",
+    "You should drink a lot of water and get some rest."
+   ],
+   "questions": [
+    "What do you usually do when you have a cold?",
+    "When was the last time you went to the doctor? What happened?",
+    "What should people do to stay healthy? Give some advice."
+   ]
+  }
+ },
+ "12": {
+  "reading": {
+   "title": "The trip where everything went wrong",
+   "text": "Last month I flew from Guadalajara to Chicago for a work conference, and almost everything that could go wrong did. First, my flight was delayed three hours because of a storm, so I missed my connection in Dallas. The airline staff were very helpful, though. They booked me on the next flight and gave me a voucher for dinner. When I finally landed in Chicago, it was after midnight, and my suitcase wasn't on the baggage carousel. I filled out a form at the lost baggage desk and took a taxi to the hotel.\n\nAt the front desk, the receptionist couldn't find my reservation. I showed her the confirmation email, and she realized the booking was under my company's name, not mine. She apologized and gave me a free upgrade to a suite on the twelfth floor, with a view of the lake.\n\nThe next morning, the airline called to say my bag was on its way. It arrived at the hotel before lunch, so I only had to wear the same shirt for one day. My advice? Always pack a change of clothes and your charger in your carry-on. You never know when you might need them.",
+   "questions": [
+    {
+     "q": "Why did the writer miss her connecting flight?",
+     "options": [
+      "The airline canceled it.",
+      "She arrived late at the airport.",
+      "Her first flight was delayed.",
+      "She lost her passport."
+     ],
+     "answer": 2,
+     "explain_es": "El primer vuelo se retrasó tres horas por una tormenta, por eso perdió la conexión en Dallas."
+    },
+    {
+     "q": "What did the airline give her in Dallas?",
+     "options": [
+      "A refund",
+      "A seat in first class",
+      "A hotel room",
+      "A voucher for a meal"
+     ],
+     "answer": 3,
+     "explain_es": "La aerolínea le dio a voucher for dinner, un vale para cenar."
+    },
+    {
+     "q": "Why couldn't the receptionist find the reservation at first?",
+     "options": [
+      "It was under the name of her company.",
+      "She had never made it.",
+      "It was for a different date.",
+      "The computer system was down."
+     ],
+     "answer": 0,
+     "explain_es": "La reservación estaba a nombre de su empresa, no al suyo: under my company's name."
+    },
+    {
+     "q": "What happened to her suitcase?",
+     "options": [
+      "It was delivered to the hotel the next day.",
+      "It stayed in Dallas for a week.",
+      "She picked it up at the airport.",
+      "It was never found."
+     ],
+     "answer": 0,
+     "explain_es": "La aerolínea llamó en la mañana y la maleta llegó al hotel antes de la comida."
+    },
+    {
+     "q": "What is the purpose of the writer's advice at the end?",
+     "options": [
+      "To recommend the hotel in Chicago",
+      "To complain about the airline",
+      "To tell people to avoid connecting flights",
+      "To suggest keeping important things in your hand luggage"
+     ],
+     "answer": 3,
+     "explain_es": "Recomienda llevar ropa extra y el cargador en el equipaje de mano (carry-on) por si pasa algo."
+    }
+   ]
+  },
+  "listening": {
+   "title": "Checking in at a hotel",
+   "script": [
+    {
+     "who": "A",
+     "en": "Good evening, welcome to the Bayview Hotel. Are you checking in?"
+    },
+    {
+     "who": "B",
+     "en": "Yes, I have a reservation under Ramírez. Two nights, a double room."
+    },
+    {
+     "who": "A",
+     "en": "Let me see... Yes, here it is. Room 418, on the fourth floor. Breakfast is served from six thirty to ten in the restaurant."
+    },
+    {
+     "who": "B",
+     "en": "Great. Could you tell me what time checkout is?"
+    },
+    {
+     "who": "A",
+     "en": "It's at eleven. If you need a late checkout, it's twenty dollars extra."
+    },
+    {
+     "who": "B",
+     "en": "That's fine, I'll let you know. Oh, and would you mind calling a taxi for me tomorrow at seven? I have a meeting downtown."
+    },
+    {
+     "who": "A",
+     "en": "No, not at all. The taxi will be waiting at the main entrance."
+    },
+    {
+     "who": "B",
+     "en": "Thank you. One more thing, is the Wi-Fi free?"
+    },
+    {
+     "who": "A",
+     "en": "Yes, it is. The password is on your key card holder. The elevators are just behind you, on the left."
+    },
+    {
+     "who": "B",
+     "en": "Perfect. Thanks so much for your help."
+    }
+   ],
+   "questions": [
+    {
+     "q": "How many nights is the guest staying?",
+     "options": [
+      "Three",
+      "One",
+      "Two",
+      "Four"
+     ],
+     "answer": 2,
+     "explain_es": "El huésped dice: Two nights, a double room."
+    },
+    {
+     "q": "Which floor is the guest's room on?",
+     "options": [
+      "The fourteenth",
+      "The eighth",
+      "The first",
+      "The fourth"
+     ],
+     "answer": 3,
+     "explain_es": "La habitación es la 418, on the fourth floor."
+    },
+    {
+     "q": "What time is checkout?",
+     "options": [
+      "At six thirty",
+      "At eleven",
+      "At ten",
+      "At seven"
+     ],
+     "answer": 1,
+     "explain_es": "La recepcionista dice que la salida es a las once. A las diez termina el desayuno."
+    },
+    {
+     "q": "What does the guest ask the receptionist to do?",
+     "options": [
+      "Change his room",
+      "Call a taxi for him",
+      "Bring breakfast to his room",
+      "Give him a wake-up call"
+     ],
+     "answer": 1,
+     "explain_es": "Pregunta: would you mind calling a taxi for me tomorrow at seven?"
+    },
+    {
+     "q": "Where can the guest find the Wi-Fi password?",
+     "options": [
+      "In a confirmation email",
+      "On the TV in his room",
+      "On his key card holder",
+      "In the restaurant"
+     ],
+     "answer": 2,
+     "explain_es": "La recepcionista dice que la contraseña está en el porta tarjeta de la llave."
+    }
+   ]
+  },
+  "use": [
+   {
+    "q": "We have three pieces of ___.",
+    "options": [
+     "luggages",
+     "suitcase",
+     "baggages",
+     "luggage"
+    ],
+    "answer": 3,
+    "explain_es": "Luggage es incontable, por eso se dice three pieces of luggage y nunca luggages."
+   },
+   {
+    "q": "Our flight is ___ because of the fog.",
+    "options": [
+     "delay",
+     "delayed",
+     "delaying",
+     "late of"
+    ],
+    "answer": 1,
+    "explain_es": "Para retrasos se usa be delayed: our flight is delayed."
+   },
+   {
+    "q": "The plane ___ off at 6:15 this morning.",
+    "options": [
+     "took",
+     "taked",
+     "take",
+     "taken"
+    ],
+    "answer": 0,
+    "explain_es": "Take off es irregular: el pasado es took off."
+   },
+   {
+    "q": "The reservation is ___ my wife's name.",
+    "options": [
+     "in",
+     "on",
+     "under",
+     "at"
+    ],
+    "answer": 2,
+    "explain_es": "Para decir a nombre de se usa under: the reservation is under Martínez."
+   },
+   {
+    "q": "I ___ my flight because there was so much traffic.",
+    "options": [
+     "missed",
+     "left",
+     "failed",
+     "lost"
+    ],
+    "answer": 0,
+    "explain_es": "Perder un vuelo o un camión es miss. Lose es perder un objeto."
+   },
+   {
+    "q": "Would you mind ___ the window, please?",
+    "options": [
+     "open",
+     "opening",
+     "to open",
+     "opened"
+    ],
+    "answer": 1,
+    "explain_es": "Después de would you mind el verbo va con -ing: would you mind opening...?"
+   },
+   {
+    "q": "___ you help me with my bags, please?",
+    "options": [
+     "Must",
+     "Should",
+     "Might",
+     "Could"
+    ],
+    "answer": 3,
+    "explain_es": "Could you...? es la forma amable de pedir un favor a un desconocido."
+   },
+   {
+    "q": "Where can I ___ in for my flight to Cancún?",
+    "options": [
+     "make",
+     "get",
+     "sign",
+     "check"
+    ],
+    "answer": 3,
+    "explain_es": "Registrarse en el aeropuerto o en el hotel es check in."
+   },
+   {
+    "q": "In the US, the ground floor is called the ___ floor.",
+    "options": [
+     "zero",
+     "first",
+     "second",
+     "base"
+    ],
+    "answer": 1,
+    "explain_es": "En Estados Unidos la planta baja es el first floor."
+   },
+   {
+    "q": "I'm sorry, ___ the air conditioning in my room isn't working.",
+    "options": [
+     "but",
+     "because",
+     "so",
+     "and"
+    ],
+    "answer": 0,
+    "explain_es": "Una queja amable suele empezar con I'm sorry, but y luego el problema."
+   }
+  ],
+  "writing": {
+   "prompt_es": "Vas a viajar a San Diego. Escribe un correo al hotel para reservar una habitación. Incluye: las fechas y el tipo de habitación, una petición especial, una pregunta sobre el desayuno y una pregunta sobre el transporte desde el aeropuerto. Escribe de 70 a 100 palabras.",
+   "prompt_en": "You are planning a trip to San Diego. Write an email to a hotel to book a room. In your email: give the dates and type of room, make a special request, ask about breakfast, and ask about transportation from the airport. Write 70–100 words.",
+   "min_words": 70,
+   "max_words": 100,
+   "model_answer": "Dear Sir or Madam,\n\nI would like to book a double room for three nights, from June 12 to June 15. The reservation should be under the name Ana Torres. Could you give me a quiet room on a high floor, if possible? I'm a light sleeper. I would also like to know if breakfast is included in the price. Finally, my flight lands at 10 p.m., so could you tell me if the hotel has an airport shuttle?\n\nThank you in advance for your help.\n\nBest regards,\nAna Torres",
+   "checklist_es": [
+    "Saludo y despedida formales (Dear Sir or Madam / Best regards)",
+    "Fechas, número de noches y tipo de habitación con book",
+    "Una petición especial con could you o would you mind",
+    "Pregunta sobre el desayuno",
+    "Pregunta sobre el transporte desde el aeropuerto"
+   ]
+  },
+  "speaking": {
+   "read_aloud": [
+    "My flight was delayed, so I missed my connection in Houston.",
+    "Would you mind keeping my luggage at the front desk until this afternoon?"
+   ],
+   "questions": [
+    "Describe the last time you traveled by plane or by bus. How was it?",
+    "What is more important to you in a hotel: location, price or comfort? Why?",
+    "Some people say traveling is a waste of money. Do you agree or disagree? Why?"
+   ]
+  }
+ },
+ "13": {
+  "reading": {
+   "title": "A message about future plans",
+   "text": "Hi Marco,\n\nThanks for your message! I can't believe we're graduating in six weeks. You asked about my plans, so here they are. I'm not going to look for a job right away. Instead, I'm going to spend three months in Canada. I've already found a language school in Toronto, and I'm flying there on August 2nd. My classes start on the 5th, so I'll have a few days to get to know the city first.\n\nAfter Canada, I'm planning to come back to Monterrey and work at my uncle's architecture firm. He says I'll probably start as an assistant, but I don't mind. Hopefully, by this time next year, I'll have saved enough money to buy a car.\n\nWhat about you? Your sister told me you might move to Mexico City. Is that true? If you're free next weekend, would you like to come over for a barbecue? A few people from our class are coming on Saturday at four. I really hope you can make it. I'm looking forward to seeing you!\n\nTake care,\nDaniela",
+   "questions": [
+    {
+     "q": "What is Daniela going to do right after she graduates?",
+     "options": [
+      "Buy a car",
+      "Look for a job",
+      "Work at her uncle's firm",
+      "Study English in Canada"
+     ],
+     "answer": 3,
+     "explain_es": "Dice que no va a buscar trabajo de inmediato; primero se va tres meses a Canadá a una escuela de idiomas."
+    },
+    {
+     "q": "Why is Daniela flying to Toronto on August 2nd?",
+     "options": [
+      "Because her classes start that day",
+      "Because her uncle lives there",
+      "To have some time to explore the city before classes",
+      "Because the tickets are cheaper"
+     ],
+     "answer": 2,
+     "explain_es": "Sus clases empiezan el 5, así que llega antes para conocer la ciudad unos días."
+    },
+    {
+     "q": "What does she say about the job at the architecture firm?",
+     "options": [
+      "She will start before she goes to Canada.",
+      "She doesn't want to work there.",
+      "She will probably start in a junior position.",
+      "She is going to be the manager."
+     ],
+     "answer": 2,
+     "explain_es": "Su tío dice que probablemente empezará como asistente, es decir, en un puesto básico."
+    },
+    {
+     "q": "What does Daniela hope to do by next year?",
+     "options": [
+      "Move to Mexico City",
+      "Live in Canada",
+      "Open her own firm",
+      "Save enough money for a car"
+     ],
+     "answer": 3,
+     "explain_es": "Usa el futuro perfecto: by this time next year, I'll have saved enough money to buy a car."
+    },
+    {
+     "q": "What do we know about Marco's plans?",
+     "options": [
+      "He is going to work with Daniela.",
+      "He is definitely coming to the barbecue.",
+      "He has decided to move to Canada.",
+      "He may move to Mexico City."
+     ],
+     "answer": 3,
+     "explain_es": "Daniela usa might: you might move to Mexico City. Es una posibilidad, no algo seguro."
+    }
+   ]
+  },
+  "listening": {
+   "title": "Making weekend plans",
+   "script": [
+    {
+     "who": "A",
+     "en": "Hey, Luis, what are you doing this Saturday?"
+    },
+    {
+     "who": "B",
+     "en": "In the morning I'm helping my dad paint the kitchen. Why?"
+    },
+    {
+     "who": "A",
+     "en": "There's a jazz festival in the park. Would you like to come with us in the afternoon?"
+    },
+    {
+     "who": "B",
+     "en": "I'd love to, but I think the painting will take all day. Maybe Sunday?"
+    },
+    {
+     "who": "A",
+     "en": "The festival is only on Saturday, unfortunately. How about meeting for dinner after you finish, then?"
+    },
+    {
+     "who": "B",
+     "en": "That sounds great. I'll probably be done by seven."
+    },
+    {
+     "who": "A",
+     "en": "Perfect. I'm going to book a table at that new Korean place on Juárez Street."
+    },
+    {
+     "who": "B",
+     "en": "Oh, I've heard it's really good. Should I invite Carla?"
+    },
+    {
+     "who": "A",
+     "en": "Sure, but she might be busy. She said she's working late this weekend."
+    },
+    {
+     "who": "B",
+     "en": "OK, I'll text her tonight. And don't worry, I won't be late this time, I promise."
+    }
+   ],
+   "questions": [
+    {
+     "q": "What is Luis doing on Saturday morning?",
+     "options": [
+      "Going to the jazz festival",
+      "Helping his dad paint the kitchen",
+      "Working late",
+      "Booking a table"
+     ],
+     "answer": 1,
+     "explain_es": "Luis usa presente continuo para un plan acordado: I'm helping my dad paint the kitchen."
+    },
+    {
+     "q": "Why can't Luis go to the festival?",
+     "options": [
+      "He thinks he'll be busy all day.",
+      "There are no tickets left.",
+      "The festival is on Sunday.",
+      "He doesn't like jazz."
+     ],
+     "answer": 0,
+     "explain_es": "Dice que la pintura le va a tomar todo el día: the painting will take all day."
+    },
+    {
+     "q": "What time does Luis think he will finish?",
+     "options": [
+      "By eight",
+      "By five",
+      "By six",
+      "By seven"
+     ],
+     "answer": 3,
+     "explain_es": "Dice: I'll probably be done by seven."
+    },
+    {
+     "q": "What is the woman going to do?",
+     "options": [
+      "Help paint the kitchen",
+      "Invite Carla",
+      "Book a table at a Korean restaurant",
+      "Buy festival tickets"
+     ],
+     "answer": 2,
+     "explain_es": "Ella dice: I'm going to book a table at that new Korean place."
+    },
+    {
+     "q": "What does Luis promise?",
+     "options": [
+      "To go to the festival next year",
+      "To invite Carla to the festival",
+      "To pay for dinner",
+      "Not to be late"
+     ],
+     "answer": 3,
+     "explain_es": "Usa will para una promesa: I won't be late this time, I promise."
+    }
+   ]
+  },
+  "use": [
+   {
+    "q": "Look at those dark clouds! It ___ rain.",
+    "options": [
+     "will to",
+     "might to",
+     "is raining to",
+     "is going to"
+    ],
+    "answer": 3,
+    "explain_es": "Cuando hay una evidencia que ves ahora, usa going to: it's going to rain."
+   },
+   {
+    "q": "The phone is ringing. Don't worry, I ___ answer it.",
+    "options": [
+     "am going to",
+     "am answering",
+     "will",
+     "answered"
+    ],
+    "answer": 2,
+    "explain_es": "Para decisiones tomadas en el momento se usa will: I'll answer it."
+   },
+   {
+    "q": "I'm looking forward to ___ you next week.",
+    "options": [
+     "saw",
+     "be seen",
+     "see",
+     "seeing"
+    ],
+    "answer": 3,
+    "explain_es": "Después de look forward to va el verbo con -ing, porque to aquí es preposición."
+   },
+   {
+    "q": "Would you like ___ to the movies tonight?",
+    "options": [
+     "go",
+     "going",
+     "to go",
+     "went"
+    ],
+    "answer": 2,
+    "explain_es": "Después de would you like va to + verbo: would you like to go?"
+   },
+   {
+    "q": "How about ___ pizza tonight?",
+    "options": [
+     "ordering",
+     "order",
+     "ordered",
+     "to order"
+    ],
+    "answer": 0,
+    "explain_es": "Después de how about el verbo va con -ing: how about ordering?"
+   },
+   {
+    "q": "My train ___ at 7:45 tomorrow morning, so I need to get up early.",
+    "options": [
+     "leaves",
+     "will leaving",
+     "leave",
+     "is leave"
+    ],
+    "answer": 0,
+    "explain_es": "Para horarios oficiales como trenes o vuelos se usa el presente simple: the train leaves at 7:45."
+   },
+   {
+    "q": "I'm not sure yet, but I ___ go to the beach this weekend.",
+    "options": [
+     "might to",
+     "might",
+     "am",
+     "will to"
+    ],
+    "answer": 1,
+    "explain_es": "Might expresa posibilidad y va con el verbo base sin to: I might go."
+   },
+   {
+    "q": "This time tomorrow, I ___ on a beach in Cancún.",
+    "options": [
+     "will lie to",
+     "am lie",
+     "will have lain",
+     "will be lying"
+    ],
+    "answer": 3,
+    "explain_es": "Para una acción en progreso en un momento del futuro se usa will be + -ing."
+   },
+   {
+    "q": "By the end of the year, we ___ the new house.",
+    "options": [
+     "are finishing by",
+     "will finish to",
+     "will have finished",
+     "finish"
+    ],
+    "answer": 2,
+    "explain_es": "Para algo que ya estará terminado antes de cierto momento se usa will have + participio."
+   },
+   {
+    "q": "Sorry, I can't. I ___ my grandparents on Friday. We arranged it last week.",
+    "options": [
+     "visit",
+     "am visiting",
+     "will visiting",
+     "visited"
+    ],
+    "answer": 1,
+    "explain_es": "Para planes ya acordados con alguien se usa el presente continuo: I'm visiting my grandparents."
+   }
+  ],
+  "writing": {
+   "prompt_es": "Tu amigo estadounidense Jake te escribió: ¿Qué vas a hacer en las vacaciones de verano? Me gustaría visitarte. Contéstale: cuéntale tus planes, invítalo, sugiere algo que pueden hacer juntos y pregúntale cuándo puede venir. Escribe de 70 a 100 palabras.",
+   "prompt_en": "Your American friend Jake has written to you: What are you going to do this summer? I'd love to visit you! Write an email to Jake. In your email: tell him about your plans, invite him, suggest something you could do together, and ask when he can come. Write 70–100 words.",
+   "min_words": 70,
+   "max_words": 100,
+   "model_answer": "Hi Jake,\n\nGreat to hear from you! This summer I'm going to work at my aunt's café in the mornings, because I want to save some money. In August, my family is going to spend a week in Oaxaca. Why don't you come and visit us in July? We could go hiking in the mountains, or I could show you the best taco places in my city. I'm sure you'll love it. When is your vacation? Let me know soon so I can tell my parents.\n\nSee you soon,\nAndrés",
+   "checklist_es": [
+    "Planes decididos con going to",
+    "Una invitación clara (Why don't you... / Would you like to...)",
+    "Una sugerencia de actividad con could o how about",
+    "Una pregunta sobre cuándo puede venir",
+    "Saludo y despedida informales"
+   ]
+  },
+  "speaking": {
+   "read_aloud": [
+    "I'm going to spend the summer working at my uncle's restaurant.",
+    "If it doesn't rain, we might have a picnic in the park on Sunday."
+   ],
+   "questions": [
+    "What are your plans for next weekend?",
+    "Where do you think you will be living in five years? Why?",
+    "Is it better to plan everything in advance or to be spontaneous? Why?"
+   ]
+  }
+ },
+ "14": {
+  "reading": {
+   "title": "From the office to the ocean",
+   "text": "Ricardo Fuentes has worked as a diving instructor in Bacalar for six years, but his life used to be very different. 'I used to sit in an office in Mexico City for ten hours a day,' he says. 'I was an accountant, and I was bored all the time.'\n\nIn 2017 he took a vacation in Quintana Roo and tried scuba diving for the first time. 'It was the best day of my life. I had never felt so free,' he remembers. Six months later, he quit his job, sold his car and moved to the coast.\n\nThe first year was hard. He had to get used to earning much less money, and he didn't speak much English, which most of the tourists use. But he has been taking online English classes since he arrived, and his English has improved a lot. 'It's the first time I've really loved my job,' he says.\n\nHas he ever thought about going back? 'Never. My friends from the office have come to visit me, and some of them are jealous!' He has taught more than two thousand students so far, and he has just opened his own diving school.",
+   "questions": [
+    {
+     "q": "What was Ricardo's job before he moved?",
+     "options": [
+      "He sold cars.",
+      "He was an accountant.",
+      "He was an English teacher.",
+      "He was a diving instructor."
+     ],
+     "answer": 1,
+     "explain_es": "Ricardo dice: I was an accountant, era contador."
+    },
+    {
+     "q": "When did he try scuba diving for the first time?",
+     "options": [
+      "During a vacation in 2017",
+      "Six years ago, in Mexico City",
+      "When he was a child",
+      "After he quit his job"
+     ],
+     "answer": 0,
+     "explain_es": "En 2017 se fue de vacaciones a Quintana Roo y buceó por primera vez."
+    },
+    {
+     "q": "What was difficult during his first year?",
+     "options": [
+      "Finding a place to live",
+      "Earning less money and speaking English",
+      "Learning how to dive",
+      "Missing his family"
+     ],
+     "answer": 1,
+     "explain_es": "Tuvo que acostumbrarse a ganar menos dinero y casi no hablaba inglés."
+    },
+    {
+     "q": "What has Ricardo done recently?",
+     "options": [
+      "He has sold his car.",
+      "He has started English classes.",
+      "He has opened his own diving school.",
+      "He has gone back to Mexico City."
+     ],
+     "answer": 2,
+     "explain_es": "Just significa acabar de: he has just opened his own diving school."
+    },
+    {
+     "q": "How do some of his old colleagues feel about his new life?",
+     "options": [
+      "They wish they had a life like his.",
+      "They think he is bored.",
+      "They are angry with him.",
+      "They are worried about him."
+     ],
+     "answer": 0,
+     "explain_es": "Dice que algunos están jealous, celosos o con envidia, o sea, les gustaría tener su vida."
+    }
+   ]
+  },
+  "listening": {
+   "title": "Catching up with an old friend",
+   "script": [
+    {
+     "who": "A",
+     "en": "Mariana! I haven't seen you in ages. How have you been?"
+    },
+    {
+     "who": "B",
+     "en": "Hi, Tom! I've been great, thanks. I've just come back from Japan, actually."
+    },
+    {
+     "who": "A",
+     "en": "Japan? Wow! How long were you there?"
+    },
+    {
+     "who": "B",
+     "en": "Three weeks. It's the first time I've been to Asia. I went to Tokyo, Kyoto and Osaka."
+    },
+    {
+     "who": "A",
+     "en": "Did you eat real ramen? I've always wanted to try it there."
+    },
+    {
+     "who": "B",
+     "en": "Oh, yes, almost every day! What about you? Are you still working at the bank?"
+    },
+    {
+     "who": "A",
+     "en": "No, I quit last year. I've been working as a web designer since January."
+    },
+    {
+     "who": "B",
+     "en": "That's a big change! Do you like it?"
+    },
+    {
+     "who": "A",
+     "en": "I love it. I used to hate Mondays, but now I don't mind them at all."
+    },
+    {
+     "who": "B",
+     "en": "Good for you! Hey, has your brother gone back to Canada?"
+    },
+    {
+     "who": "A",
+     "en": "Yes, he went back in March. He's been living in Vancouver for almost five years now."
+    }
+   ],
+   "questions": [
+    {
+     "q": "How long was Mariana in Japan?",
+     "options": [
+      "Three weeks",
+      "Three days",
+      "Three months",
+      "Five years"
+     ],
+     "answer": 0,
+     "explain_es": "Ella responde: Three weeks."
+    },
+    {
+     "q": "What is true about Mariana's trip?",
+     "options": [
+      "It was her first time in Asia.",
+      "She had been to Asia many times.",
+      "She didn't like the food.",
+      "She only visited Tokyo."
+     ],
+     "answer": 0,
+     "explain_es": "Dice: It's the first time I've been to Asia."
+    },
+    {
+     "q": "When did Tom start his current job?",
+     "options": [
+      "In March",
+      "Last year",
+      "In January",
+      "Five years ago"
+     ],
+     "answer": 2,
+     "explain_es": "Tom dice: I've been working as a web designer since January. Renunció al banco el año pasado."
+    },
+    {
+     "q": "How does Tom feel about Mondays now?",
+     "options": [
+      "He never works on Mondays.",
+      "He prefers them to Fridays.",
+      "He still hates them.",
+      "He doesn't mind them."
+     ],
+     "answer": 3,
+     "explain_es": "Antes los odiaba (used to hate), pero ahora no le molestan: I don't mind them at all."
+    },
+    {
+     "q": "Where is Tom's brother now?",
+     "options": [
+      "At Tom's house",
+      "At the bank",
+      "In Vancouver",
+      "In Japan"
+     ],
+     "answer": 2,
+     "explain_es": "Su hermano regresó a Canadá y vive en Vancouver desde hace casi cinco años."
+    }
+   ]
+  },
+  "use": [
+   {
+    "q": "Have you ___ been to Oaxaca?",
+    "options": [
+     "since",
+     "yet",
+     "ever",
+     "already"
+    ],
+    "answer": 2,
+    "explain_es": "Para preguntar por experiencias de vida se usa ever: Have you ever been...?"
+   },
+   {
+    "q": "I haven't finished my homework ___.",
+    "options": [
+     "already",
+     "just",
+     "ever",
+     "yet"
+    ],
+    "answer": 3,
+    "explain_es": "Yet va al final en negativas y preguntas: I haven't finished yet."
+   },
+   {
+    "q": "We have lived in this apartment ___ 2019.",
+    "options": [
+     "for",
+     "from",
+     "during",
+     "since"
+    ],
+    "answer": 3,
+    "explain_es": "Since se usa con el momento en que empezó algo (since 2019); for con periodos (for five years)."
+   },
+   {
+    "q": "I ___ that movie last weekend.",
+    "options": [
+     "saw",
+     "have saw",
+     "seen",
+     "have seen"
+    ],
+    "answer": 0,
+    "explain_es": "Con una fecha terminada como last weekend se usa past simple: I saw."
+   },
+   {
+    "q": "Ana isn't here. She has ___ to the supermarket, but she'll be back soon.",
+    "options": [
+     "go",
+     "gone",
+     "went",
+     "been"
+    ],
+    "answer": 1,
+    "explain_es": "Has gone to significa que se fue y sigue allá. Has been to significa que fue y ya regresó."
+   },
+   {
+    "q": "I've ___ waiting for the bus for forty minutes!",
+    "options": [
+     "been",
+     "was",
+     "be",
+     "being"
+    ],
+    "answer": 0,
+    "explain_es": "El present perfect continuous se forma con have + been + -ing: I've been waiting."
+   },
+   {
+    "q": "It's the first time I ___ sushi.",
+    "options": [
+     "have eaten",
+     "am eating",
+     "eat",
+     "ate"
+    ],
+    "answer": 0,
+    "explain_es": "Después de It's the first time va present perfect: It's the first time I've eaten..."
+   },
+   {
+    "q": "When I was a kid, I ___ play outside every afternoon.",
+    "options": [
+     "got used to",
+     "use to",
+     "was used to",
+     "used to"
+    ],
+    "answer": 3,
+    "explain_es": "Used to + verbo base habla de hábitos del pasado que ya no ocurren."
+   },
+   {
+    "q": "It took me months to get used to ___ up at 5 a.m.",
+    "options": [
+     "get",
+     "getting",
+     "got",
+     "have gotten"
+    ],
+    "answer": 1,
+    "explain_es": "Get used to significa acostumbrarse y va seguido de un verbo con -ing."
+   },
+   {
+    "q": "My English has ___ a lot since I started this course.",
+    "options": [
+     "improve",
+     "improved",
+     "improving",
+     "improves"
+    ],
+    "answer": 1,
+    "explain_es": "En present perfect se usa have/has + participio: has improved."
+   }
+  ],
+  "writing": {
+   "prompt_es": "Viste este anuncio en una revista en inglés: Buscamos artículos. La mejor experiencia de mi vida. ¿Qué pasó? ¿Por qué fue tan especial? ¿Cómo te cambió? Escribe tu artículo de 70 a 100 palabras.",
+   "prompt_en": "You see this announcement in an English-language magazine: Articles wanted! The best experience of my life. What happened? Why was it so special? How has it changed you? Write your article in 70–100 words.",
+   "min_words": 70,
+   "max_words": 100,
+   "model_answer": "A Morning I Will Never Forget\n\nI've traveled to many places, but the best experience of my life happened close to home. Two years ago, my friends and I climbed the Nevado de Toluca at night to see the sunrise. It was freezing, and I almost gave up twice. When the sun finally appeared over the crater lake, everyone went silent. I had never seen anything so beautiful. Since then, I've climbed four more mountains, and I've learned that I'm stronger than I thought. Have you ever tried something that scared you? You should!",
+   "checklist_es": [
+    "Un título atractivo",
+    "Cuentas qué pasó usando past simple con fechas o momentos concretos",
+    "Explicas por qué fue especial",
+    "Explicas cómo te cambió usando present perfect (Since then, I've...)",
+    "Hablas directamente al lector, por ejemplo con una pregunta"
+   ]
+  },
+  "speaking": {
+   "read_aloud": [
+    "I've never been to Europe, but I've always wanted to go.",
+    "We've been living in Puebla since my father changed jobs."
+   ],
+   "questions": [
+    "What is the most interesting place you have ever visited?",
+    "Have you ever done something that really scared you? What happened?",
+    "How has your town or city changed in the last ten years?"
+   ]
+  }
+ },
+ "15": {
+  "reading": {
+   "title": "Why I love quiet weekends",
+   "text": "Most of my friends think I'm boring because I'd rather stay home on Saturday nights than go to a club. To be honest, I used to feel embarrassed about it. Now I don't care. For me, a quiet evening with a good book is far more relaxing than a noisy party, and it's much cheaper too.\n\nDon't get me wrong, I'm not lonely. I just enjoy being alone sometimes. My sister, Paola, disagrees with me. She says going out is the best way to meet people, and she gets bored if she spends more than one night at home. We argue about it all the time, but we both agree on one thing: the worst plan is a night out with people you don't like.\n\nPersonally, I think the important thing is to know yourself. If parties make you nervous, there's no need to force yourself. And if staying home makes you anxious, go out! Last weekend I tried a new board game café near my house. It was quieter than a bar but a lot more fun than my sofa. Was it worth it? Definitely. I'd go again.",
+   "questions": [
+    {
+     "q": "How did the writer feel about staying home in the past?",
+     "options": [
+      "Excited",
+      "Scared",
+      "Proud",
+      "Embarrassed"
+     ],
+     "answer": 3,
+     "explain_es": "El autor dice: I used to feel embarrassed about it, antes le daba pena."
+    },
+    {
+     "q": "What does the writer say about being alone?",
+     "options": [
+      "They only do it on weekdays.",
+      "It makes them feel sad and lonely.",
+      "They enjoy it sometimes, but they aren't lonely.",
+      "They hate it, but it's cheaper."
+     ],
+     "answer": 2,
+     "explain_es": "Dice que no se siente solo ni triste (lonely), solo disfruta estar solo (alone) a veces."
+    },
+    {
+     "q": "What do the writer and Paola agree about?",
+     "options": [
+      "Going out with people you don't like is the worst plan.",
+      "Going out is the best way to meet people.",
+      "Board games are boring.",
+      "Staying home is more relaxing."
+     ],
+     "answer": 0,
+     "explain_es": "Aunque discuten, coinciden en que lo peor es salir con gente que no te cae bien."
+    },
+    {
+     "q": "What is the writer's main advice?",
+     "options": [
+      "Spend less money at parties.",
+      "Go out every weekend.",
+      "Do what suits your personality.",
+      "Always stay home on Saturdays."
+     ],
+     "answer": 2,
+     "explain_es": "Dice que lo importante es conocerte a ti mismo y no forzarte."
+    },
+    {
+     "q": "What did the writer think of the board game café?",
+     "options": [
+      "It was too expensive.",
+      "It was too noisy.",
+      "It was worth going and they would go again.",
+      "It was more relaxing than staying home."
+     ],
+     "answer": 2,
+     "explain_es": "Pregunta si valió la pena y responde Definitely. I'd go again."
+    }
+   ]
+  },
+  "listening": {
+   "title": "Talking about a new restaurant",
+   "script": [
+    {
+     "who": "A",
+     "en": "So, what did you think of the new Italian restaurant?"
+    },
+    {
+     "who": "B",
+     "en": "Honestly, I was a bit disappointed. The pasta was good, but it was so expensive."
+    },
+    {
+     "who": "A",
+     "en": "Really? I thought the prices were OK. It's much cheaper than Bella Roma."
+    },
+    {
+     "who": "B",
+     "en": "That's true, but Bella Roma is the best restaurant in the city. The service there is amazing."
+    },
+    {
+     "who": "A",
+     "en": "I don't agree. Last time I went to Bella Roma, we waited forty minutes for our food. I was furious."
+    },
+    {
+     "who": "B",
+     "en": "Oh no, I didn't know that. That's a shame."
+    },
+    {
+     "who": "A",
+     "en": "Anyway, the dessert at the new place was incredible. The tiramisu was worth every peso."
+    },
+    {
+     "who": "B",
+     "en": "I agree with you there. It was the most delicious tiramisu I've ever had."
+    },
+    {
+     "who": "A",
+     "en": "So, would you go back?"
+    },
+    {
+     "who": "B",
+     "en": "Maybe for dessert! But for dinner, I'd rather cook at home."
+    }
+   ],
+   "questions": [
+    {
+     "q": "What was the man's main problem with the new restaurant?",
+     "options": [
+      "It was too expensive.",
+      "The service was slow.",
+      "It was too far away.",
+      "The pasta was bad."
+     ],
+     "answer": 0,
+     "explain_es": "Dice que la pasta estaba buena, pero era muy cara."
+    },
+    {
+     "q": "What does the woman think about the prices?",
+     "options": [
+      "They are the same as at Bella Roma.",
+      "They are too high.",
+      "She doesn't remember them.",
+      "They are reasonable."
+     ],
+     "answer": 3,
+     "explain_es": "Ella dice que los precios estaban bien y que es mucho más barato que Bella Roma."
+    },
+    {
+     "q": "Why does the woman disagree about Bella Roma?",
+     "options": [
+      "It was too expensive.",
+      "It was closed.",
+      "The food was cold.",
+      "She had to wait a long time for her food."
+     ],
+     "answer": 3,
+     "explain_es": "Esperó cuarenta minutos la comida y se puso furiosa."
+    },
+    {
+     "q": "What do they both agree on?",
+     "options": [
+      "The dessert was excellent.",
+      "The new restaurant is too expensive.",
+      "The pasta was the best.",
+      "Bella Roma has great service."
+     ],
+     "answer": 0,
+     "explain_es": "Él dice I agree with you there sobre el tiramisú."
+    },
+    {
+     "q": "What will the man probably do?",
+     "options": [
+      "Go back only for dessert",
+      "Go to Bella Roma instead",
+      "Go back for dinner",
+      "Never go back"
+     ],
+     "answer": 0,
+     "explain_es": "Dice que quizá regrese por el postre, pero para cenar prefiere cocinar en casa."
+    }
+   ]
+  },
+  "use": [
+   {
+    "q": "The movie was so ___ that I fell asleep.",
+    "options": [
+     "bored",
+     "boredom",
+     "bore",
+     "boring"
+    ],
+    "answer": 3,
+    "explain_es": "Los adjetivos con -ing describen lo que causa el sentimiento: the movie was boring."
+   },
+   {
+    "q": "What do you ___ about the new mall?",
+    "options": [
+     "believe of",
+     "think",
+     "say of",
+     "opinion"
+    ],
+    "answer": 1,
+    "explain_es": "Para pedir opinión se dice What do you think about...?"
+   },
+   {
+    "q": "I ___ with you completely.",
+    "options": [
+     "agree",
+     "agreed to",
+     "am agreeing",
+     "am agree"
+    ],
+    "answer": 0,
+    "explain_es": "Agree es verbo: I agree. Nunca I am agree."
+   },
+   {
+    "q": "This phone is ___ than my old one.",
+    "options": [
+     "better",
+     "more good",
+     "more better",
+     "best"
+    ],
+    "answer": 0,
+    "explain_es": "Good tiene comparativo irregular: better. Nunca more better."
+   },
+   {
+    "q": "It's the tallest building ___ the city.",
+    "options": [
+     "in",
+     "of",
+     "at",
+     "from"
+    ],
+    "answer": 0,
+    "explain_es": "Con superlativos y lugares se usa in: the tallest in the city."
+   },
+   {
+    "q": "My little brother is scared ___ the dark.",
+    "options": [
+     "about",
+     "of",
+     "from",
+     "with"
+    ],
+    "answer": 1,
+    "explain_es": "Scared lleva la preposición of: scared of the dark."
+   },
+   {
+    "q": "I can't stand ___ in long lines.",
+    "options": [
+     "waited",
+     "to waiting",
+     "waiting",
+     "wait"
+    ],
+    "answer": 2,
+    "explain_es": "Después de can't stand el verbo va con -ing."
+   },
+   {
+    "q": "I'd rather ___ home tonight.",
+    "options": [
+     "staying",
+     "stay",
+     "stayed",
+     "to stay"
+    ],
+    "answer": 1,
+    "explain_es": "Would rather va con el verbo base sin to: I'd rather stay."
+   },
+   {
+    "q": "The new apartment is ___ bigger than the old one.",
+    "options": [
+     "very",
+     "too",
+     "much",
+     "more"
+    ],
+    "answer": 2,
+    "explain_es": "Para reforzar un comparativo se usa much, a lot o a bit. Nunca very bigger."
+   },
+   {
+    "q": "The museum is really worth ___.",
+    "options": [
+     "visit",
+     "visiting",
+     "to visit",
+     "visited"
+    ],
+    "answer": 1,
+    "explain_es": "Después de worth el verbo va con -ing: it's worth visiting."
+   }
+  ],
+  "writing": {
+   "prompt_es": "Tu amiga Emily te escribe: Me aceptaron en dos universidades, una en una ciudad grande y otra en un pueblo pequeño. ¿Cuál crees que debo elegir? Contéstale dando tu opinión, compara las dos opciones y dale un consejo final. Escribe de 70 a 100 palabras.",
+   "prompt_en": "Your friend Emily has written to you: I've been accepted at two universities, one in a big city and one in a small town. Which one do you think I should choose? Write an email to Emily. Give your opinion, compare the two options and give her some final advice. Write 70–100 words.",
+   "min_words": 70,
+   "max_words": 100,
+   "model_answer": "Hi Emily,\n\nThanks for asking my opinion! To be honest, I think you should choose the university in the small town. It's much cheaper than the one in the city, and the rent is a lot lower too. In my opinion, it's also easier to make friends in a small place, because everyone knows each other. I know you might get bored at first, but you can always visit the city on weekends. Personally, I'd rather live somewhere quiet and focus on my studies. It's worth it!\n\nGood luck,\nFernanda",
+   "checklist_es": [
+    "Das tu opinión con I think, In my opinion o Personally",
+    "Comparas las opciones con comparativos (cheaper, much easier)",
+    "Mencionas una desventaja o el otro punto de vista",
+    "Das un consejo final",
+    "Saludo y despedida informales"
+   ]
+  },
+  "speaking": {
+   "read_aloud": [
+    "I was really disappointed with the ending of the movie.",
+    "In my opinion, living in a small town is much more relaxing than living in a big city."
+   ],
+   "questions": [
+    "What makes you feel stressed, and what do you do about it?",
+    "What is the best restaurant in your town? Why do you like it?",
+    "Do you think social media makes people happier or sadder? Why?"
+   ]
+  }
+ },
+ "16": {
+  "reading": {
+   "title": "What recruiters really notice",
+   "text": "After fifteen years as a recruiter for a logistics company in Monterrey, Verónica Salas has interviewed more than three thousand candidates. Surprisingly, she says the people who get hired are rarely the ones with the most impressive résumés.\n\n'A résumé gets you through the door, but it doesn't get you the job,' she explains. 'What I'm really listening for is how candidates talk about their mistakes.' According to Salas, many applicants freeze when asked about a project that went wrong, or they simply blame their former boss. The candidates who impress her admit what happened and explain what they would have done differently if they had known more at the time.\n\nShe is equally direct about follow-up emails. In her experience, candidates who send a short thank-you message within twenty-four hours are far more likely to be remembered. However, she warns against sounding desperate. 'One email is professional. Three emails in a week is a red flag.'\n\nSalary negotiation is another area where people make avoidable errors. Rather than naming a figure too early, she recommends asking about the full package first, including benefits and opportunities for training. 'If you accept the first offer without asking a single question, I start to wonder how you'll negotiate with our clients.'\n\nHer final piece of advice may sound obvious, but she insists it is ignored more often than not: research the company before the interview. Nothing ends a conversation faster, she says, than a candidate asking what exactly the company does.",
+   "questions": [
+    {
+     "q": "According to Salas, what matters most during an interview?",
+     "options": [
+      "Asking for a high salary",
+      "Having an impressive résumé",
+      "How candidates talk about their past mistakes",
+      "Getting a reference from a former boss"
+     ],
+     "answer": 2,
+     "explain_es": "Ella dice que lo que realmente escucha es cómo hablan los candidatos de sus errores."
+    },
+    {
+     "q": "Why does the writer use the word 'Surprisingly' in the first paragraph?",
+     "options": [
+      "Most people would expect the best résumés to get the job.",
+      "Salas has interviewed fewer people than expected.",
+      "Logistics companies rarely hire new people.",
+      "Salas doesn't read résumés at all."
+     ],
+     "answer": 0,
+     "explain_es": "Es una inferencia: lo sorprendente es que no siempre contratan a quien tiene el mejor currículum, que es lo que la mayoría esperaría."
+    },
+    {
+     "q": "What is Salas's view on follow-up emails?",
+     "options": [
+      "Candidates should send one every day.",
+      "Candidates should never send them.",
+      "They are only useful for senior positions.",
+      "One quick thank-you is good, but too many create a bad impression."
+     ],
+     "answer": 3,
+     "explain_es": "Recomienda un correo de agradecimiento en 24 horas, pero tres correos en una semana son una señal de alerta (red flag)."
+    },
+    {
+     "q": "Why does Salas worry about candidates who accept the first offer immediately?",
+     "options": [
+      "It suggests they may not negotiate well for the company.",
+      "It shows they don't need the job.",
+      "It proves they didn't read the job ad.",
+      "It means they will ask for a raise soon."
+     ],
+     "answer": 0,
+     "explain_es": "Se pregunta cómo negociarían con los clientes si no hacen ni una pregunta sobre su propia oferta."
+    },
+    {
+     "q": "What can we infer about a candidate who asks what the company does?",
+     "options": [
+      "They are very curious and creative.",
+      "They want to change departments.",
+      "They are likely to get the job.",
+      "They haven't prepared properly for the interview."
+     ],
+     "answer": 3,
+     "explain_es": "Si preguntan eso, demuestran que no investigaron a la empresa, el consejo final del texto."
+    }
+   ]
+  },
+  "listening": {
+   "title": "A business phone call",
+   "script": [
+    {
+     "who": "A",
+     "en": "Good morning, Pacific Logistics. This is Daniel speaking."
+    },
+    {
+     "who": "B",
+     "en": "Hi, Daniel, it's Karen Liu from Brightline Foods. Could you put me through to Ms. Ortega, please?"
+    },
+    {
+     "who": "A",
+     "en": "I'm afraid she's in a meeting until eleven. Can I take a message?"
+    },
+    {
+     "who": "B",
+     "en": "Yes, please. I was wondering if we could move Thursday's meeting to Friday. Our CFO can't make it on Thursday."
+    },
+    {
+     "who": "A",
+     "en": "I'll let her know. Friday might be tricky, though. She's flying to Chicago that afternoon, so it would have to be before ten."
+    },
+    {
+     "who": "B",
+     "en": "Nine thirty would work for us. If we met at nine thirty, would we have enough time to go through the whole agenda?"
+    },
+    {
+     "who": "A",
+     "en": "I think so, as long as the presentation doesn't run over twenty minutes."
+    },
+    {
+     "who": "B",
+     "en": "That's fine. Also, would you mind sending me the updated price list beforehand? We'd like to review it with our team."
+    },
+    {
+     "who": "A",
+     "en": "Not at all. I'll email it to you this afternoon. And if Ms. Ortega has any problems with Friday, she'll call you back directly."
+    },
+    {
+     "who": "B",
+     "en": "Perfect. I really appreciate your help, Daniel."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Why can't Karen speak to Ms. Ortega?",
+     "options": [
+      "She's on vacation.",
+      "Karen called the wrong extension.",
+      "She's in a meeting.",
+      "She's on a plane."
+     ],
+     "answer": 2,
+     "explain_es": "Daniel dice: I'm afraid she's in a meeting until eleven."
+    },
+    {
+     "q": "Why does Karen want to change the meeting?",
+     "options": [
+      "She has to fly to Chicago.",
+      "The price list isn't ready.",
+      "Her CFO isn't available on Thursday.",
+      "The agenda is too long."
+     ],
+     "answer": 2,
+     "explain_es": "Karen explica: Our CFO can't make it on Thursday."
+    },
+    {
+     "q": "Why does the Friday meeting have to be early?",
+     "options": [
+      "Ms. Ortega is traveling that afternoon.",
+      "The office closes at ten.",
+      "Karen has another meeting.",
+      "The CFO prefers mornings."
+     ],
+     "answer": 0,
+     "explain_es": "Ms. Ortega vuela a Chicago esa tarde, por eso tiene que ser antes de las diez."
+    },
+    {
+     "q": "What does Karen ask Daniel to send her?",
+     "options": [
+      "The updated price list",
+      "The meeting agenda",
+      "Ms. Ortega's flight details",
+      "The presentation slides"
+     ],
+     "answer": 0,
+     "explain_es": "Pregunta: would you mind sending me the updated price list beforehand?"
+    },
+    {
+     "q": "What will happen if Ms. Ortega can't meet on Friday?",
+     "options": [
+      "The meeting will stay on Thursday.",
+      "She will call Karen herself.",
+      "Karen will call again at eleven.",
+      "Daniel will cancel the meeting."
+     ],
+     "answer": 1,
+     "explain_es": "Daniel dice que si hay problema, she'll call you back directly."
+    }
+   ]
+  },
+  "use": [
+   {
+    "q": "I have worked ___ marketing for over six years.",
+    "options": [
+     "at",
+     "in",
+     "of",
+     "on"
+    ],
+    "answer": 1,
+    "explain_es": "Para el área o sector se usa in: I've worked in marketing, experience in sales."
+   },
+   {
+    "q": "I look forward to ___ from you.",
+    "options": [
+     "hear",
+     "hearing",
+     "be heard",
+     "have heard"
+    ],
+    "answer": 1,
+    "explain_es": "Después de look forward to va -ing: I look forward to hearing from you."
+   },
+   {
+    "q": "If I ___ you, I would ask for a raise.",
+    "options": [
+     "would be",
+     "were",
+     "will be",
+     "am"
+    ],
+    "answer": 1,
+    "explain_es": "En el segundo condicional formal se dice If I were you, would + verbo."
+   },
+   {
+    "q": "If we had left earlier, we ___ the train.",
+    "options": [
+     "would catch",
+     "would have caught",
+     "had caught",
+     "caught"
+    ],
+    "answer": 1,
+    "explain_es": "Tercer condicional: If + had + participio, would have + participio."
+   },
+   {
+    "q": "Could you put me ___ to the sales department, please?",
+    "options": [
+     "across",
+     "up",
+     "through",
+     "over"
+    ],
+    "answer": 2,
+    "explain_es": "Put someone through significa comunicar o transferir una llamada."
+   },
+   {
+    "q": "Neither side got everything it wanted, but we reached a ___.",
+    "options": [
+     "compromise",
+     "commitment",
+     "promise",
+     "compromission"
+    ],
+    "answer": 0,
+    "explain_es": "Compromise es un acuerdo donde ambas partes ceden. Commitment es un compromiso u obligación."
+   },
+   {
+    "q": "I'll ___ base with you next week to see how the project is going.",
+    "options": [
+     "keep",
+     "touch",
+     "make",
+     "get"
+    ],
+    "answer": 1,
+    "explain_es": "Touch base es una expresión de oficina que significa ponerse en contacto brevemente."
+   },
+   {
+    "q": "I would appreciate it ___ you could send the report by Friday.",
+    "options": [
+     "when",
+     "whether",
+     "that",
+     "if"
+    ],
+    "answer": 3,
+    "explain_es": "La frase fija es I'd appreciate it if you could..."
+   },
+   {
+    "q": "I will now ___ you the results of the survey.",
+    "options": [
+     "show",
+     "introduce",
+     "explain",
+     "present"
+    ],
+    "answer": 0,
+    "explain_es": "Show you the results es correcto. Present, explain e introduce necesitan to: present the results to you."
+   },
+   {
+    "q": "Her ___ to work under pressure impressed the interviewers.",
+    "options": [
+     "unable",
+     "enable",
+     "able",
+     "ability"
+    ],
+    "answer": 3,
+    "explain_es": "Se necesita un sustantivo después de her: ability (habilidad), que viene del adjetivo able."
+   }
+  ],
+  "writing": {
+   "prompt_es": "Viste un anuncio para el puesto de Coordinador(a) de Atención al Cliente Bilingüe en una empresa estadounidense. Escribe un correo formal a la gerente de Recursos Humanos, la Sra. Carter. Incluye: tu experiencia, por qué eres buen candidato, cuándo puedes empezar y una pregunta sobre el puesto. Escribe de 120 a 160 palabras.",
+   "prompt_en": "You have seen an advertisement for a Bilingual Customer Service Coordinator at an American company. Write an email to the HR manager, Ms. Carter, applying for the job. Include: your relevant experience, why you would be suitable, when you could start, and a question about the position. Write 120–160 words.",
+   "min_words": 120,
+   "max_words": 160,
+   "model_answer": "Dear Ms. Carter,\n\nI am writing to apply for the position of Bilingual Customer Service Coordinator, which I saw advertised on your website.\n\nI have worked in customer service for four years, and I currently lead a team of six agents at a telecommunications company in Guadalajara. In this role, I have handled complaints by phone and email in both English and Spanish, and I have trained new employees. Last year, our team reduced response times by thirty percent.\n\nI believe I would be a good fit for your company because I am organized, patient and comfortable working under pressure.\n\nI am available to start in one month. I was wondering if you could tell me whether the position offers the possibility of working remotely some days.\n\nI look forward to hearing from you.\n\nBest regards,\nMariana Gómez",
+   "checklist_es": [
+    "Saludo formal (Dear Ms. Carter) y cierre formal (Best regards)",
+    "Experiencia con present perfect y past simple bien usados",
+    "Razones claras por las que eres adecuado para el puesto",
+    "Disponibilidad para empezar",
+    "Una pregunta cortés con I was wondering if...",
+    "Cierre con I look forward to hearing from you"
+   ]
+  },
+  "speaking": {
+   "read_aloud": [
+    "I've been working in customer service for five years, and I'm looking for a new challenge.",
+    "If we ordered more units, would you be willing to offer us a discount?"
+   ],
+   "questions": [
+    "Describe your ideal job. What would you be doing every day?",
+    "What are the advantages and disadvantages of working for a large company?",
+    "Some people say a good salary is the most important thing in a job. How far do you agree?"
+   ]
+  }
+ },
+ "17": {
+  "reading": {
+   "title": "Logging off: one week without social media",
+   "text": "Last month, after realizing I'd checked my phone over a hundred times in a single day, I decided to try something drastic: one full week without social media, streaming or unnecessary apps. I kept my phone for calls and texts, since my job requires it, but I deleted everything else and asked my team to email me instead.\n\nThe first two days were genuinely uncomfortable. I kept reaching for my phone without thinking, and I felt anxious that I was missing something important. By Wednesday, though, something shifted. I finished a novel I had abandoned months ago, and I noticed I was sleeping better, probably because I was no longer scrolling in bed until midnight.\n\nNot everything was positive. I missed a friend's birthday dinner because the invitation was only posted in a group chat, and I felt terrible when she mentioned it. It made me realize how much of our social lives now depends on platforms that most of us claim to dislike.\n\nWhen the week ended, I didn't go back to my old habits completely. I've reinstalled only two apps, and I've turned off almost all notifications. I also back up my photos manually once a week instead of letting my phone do it automatically, which has made me more aware of how much data I generate.\n\nWould I recommend the experiment? Yes, but with one warning: tell your friends first.",
+   "questions": [
+    {
+     "q": "Why did the writer keep her phone during the experiment?",
+     "options": [
+      "Her friends asked her to keep it.",
+      "She wanted to take photos.",
+      "She needed it for calls and texts at work.",
+      "She needed it to read novels."
+     ],
+     "answer": 2,
+     "explain_es": "Dice que se quedó con el teléfono para llamadas y mensajes porque su trabajo lo requiere."
+    },
+    {
+     "q": "What changed by the middle of the week?",
+     "options": [
+      "She stopped going to work.",
+      "She felt more anxious than before.",
+      "She reinstalled her favorite apps.",
+      "She started reading again and slept better."
+     ],
+     "answer": 3,
+     "explain_es": "Para el miércoles terminó una novela y dormía mejor."
+    },
+    {
+     "q": "Why did the writer miss her friend's birthday dinner?",
+     "options": [
+      "She forgot the date.",
+      "The invitation was shared on an app she wasn't using.",
+      "Her friend didn't invite her.",
+      "She was working late that night."
+     ],
+     "answer": 1,
+     "explain_es": "La invitación solo se publicó en un chat grupal, y ella había borrado esas apps."
+    },
+    {
+     "q": "What point does the writer make in the third paragraph?",
+     "options": [
+      "Group chats should be banned.",
+      "Birthday parties are less important than work.",
+      "Most people don't use social media anymore.",
+      "People depend on social media even though they say they dislike it."
+     ],
+     "answer": 3,
+     "explain_es": "Se da cuenta de cuánto depende nuestra vida social de plataformas que decimos que no nos gustan."
+    },
+    {
+     "q": "What is the writer's overall attitude to the experiment?",
+     "options": [
+      "Positive, but she recommends a practical precaution",
+      "Completely negative",
+      "Neutral, because nothing changed",
+      "Enthusiastic, and she has quit all apps forever"
+     ],
+     "answer": 0,
+     "explain_es": "Sí lo recomienda, pero con una advertencia: avisar a tus amigos antes."
+    }
+   ]
+  },
+  "listening": {
+   "title": "Tech problems on a video call",
+   "script": [
+    {
+     "who": "A",
+     "en": "Hi, Sam, can you hear me? Your video keeps freezing."
+    },
+    {
+     "who": "B",
+     "en": "Sorry, my connection is really slow today. Is that better? I've turned off my camera."
+    },
+    {
+     "who": "A",
+     "en": "Yes, much better. By the way, did you get my email about the new password policy?"
+    },
+    {
+     "who": "B",
+     "en": "I did, but I couldn't log in this morning. I think my account got locked."
+    },
+    {
+     "who": "A",
+     "en": "That happens if you type the wrong password three times. Did you try resetting it?"
+    },
+    {
+     "who": "B",
+     "en": "I tried, but the reset link went to my old email address, the one I don't use anymore."
+    },
+    {
+     "who": "A",
+     "en": "OK, I'll ask IT to update it. In the meantime, you can use the shared drive. The server was down earlier, but it's back up now."
+    },
+    {
+     "who": "B",
+     "en": "Great. Oh, and should I back up the client files before Friday's update?"
+    },
+    {
+     "who": "A",
+     "en": "Definitely. Save everything to the cloud, not just your laptop. Last time, two people lost a whole week of work."
+    },
+    {
+     "who": "B",
+     "en": "Got it, Maria. I'll do it this afternoon, as soon as this call is over."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Why did Sam turn off his camera?",
+     "options": [
+      "Maria asked him to save data.",
+      "His video kept freezing because of a slow connection.",
+      "He was not dressed for work.",
+      "His camera was broken."
+     ],
+     "answer": 1,
+     "explain_es": "La conexión estaba muy lenta y el video se congelaba, así que apagó la cámara."
+    },
+    {
+     "q": "Why couldn't Sam log in this morning?",
+     "options": [
+      "He forgot his username.",
+      "His laptop was broken.",
+      "His account was locked.",
+      "The server was down."
+     ],
+     "answer": 2,
+     "explain_es": "Sam dice: I think my account got locked."
+    },
+    {
+     "q": "What was the problem with the reset link?",
+     "options": [
+      "IT never sent it.",
+      "It expired after three minutes.",
+      "It was sent to an email address he no longer uses.",
+      "It didn't work on his phone."
+     ],
+     "answer": 2,
+     "explain_es": "El enlace llegó a su correo viejo, el que ya no usa."
+    },
+    {
+     "q": "What does Maria say about the server?",
+     "options": [
+      "It was down earlier but works now.",
+      "It has been hacked.",
+      "It will be updated today.",
+      "It is still down."
+     ],
+     "answer": 0,
+     "explain_es": "Dice: The server was down earlier, but it's back up now."
+    },
+    {
+     "q": "Why does Maria insist on saving files to the cloud?",
+     "options": [
+      "Laptops are not allowed at the office.",
+      "Some colleagues lost work in a previous update.",
+      "The shared drive is full.",
+      "The client asked for it."
+     ],
+     "answer": 1,
+     "explain_es": "La última vez dos personas perdieron una semana completa de trabajo."
+    }
+   ]
+  },
+  "use": [
+   {
+    "q": "I can't open the website. I think the server is ___.",
+    "options": [
+     "broken",
+     "off",
+     "down",
+     "out"
+    ],
+    "answer": 2,
+    "explain_es": "Para decir que un sistema no funciona se usa is down."
+   },
+   {
+    "q": "You're ___ mute, so we can't hear you.",
+    "options": [
+     "with",
+     "at",
+     "in",
+     "on"
+    ],
+    "answer": 3,
+    "explain_es": "La frase es you're on mute."
+   },
+   {
+    "q": "I saw the news ___ Instagram this morning.",
+    "options": [
+     "at",
+     "by",
+     "in",
+     "on"
+    ],
+    "answer": 3,
+    "explain_es": "Con plataformas y redes sociales se usa on: on Instagram, on social media."
+   },
+   {
+    "q": "All the data ___ automatically every night.",
+    "options": [
+     "is backed up",
+     "is backup",
+     "are back up",
+     "backs up"
+    ],
+    "answer": 0,
+    "explain_es": "Data es incontable (verbo en singular) y aquí se usa pasiva con el phrasal verb back up."
+   },
+   {
+    "q": "My email account ___ last week, so I changed all my passwords.",
+    "options": [
+     "was hacked",
+     "has hacking",
+     "hacked",
+     "was hack"
+    ],
+    "answer": 0,
+    "explain_es": "Para decir que te robaron la cuenta se usa la pasiva: my account was hacked."
+   },
+   {
+    "q": "You need to ___ before you can download the file.",
+    "options": [
+     "log in",
+     "log on in",
+     "logging",
+     "login"
+    ],
+    "answer": 0,
+    "explain_es": "Log in separado es el verbo; login junto es el sustantivo."
+   },
+   {
+    "q": "The ___ version of the app has some great new features.",
+    "options": [
+     "current",
+     "actual",
+     "present-day of",
+     "nowadays"
+    ],
+    "answer": 0,
+    "explain_es": "Actual es falso amigo: significa real. Versión actual se dice current version."
+   },
+   {
+    "q": "I'll ___ you the address when I get home.",
+    "options": [
+     "text",
+     "message to",
+     "write",
+     "say"
+    ],
+    "answer": 0,
+    "explain_es": "En EE. UU. text funciona como verbo: I'll text you."
+   },
+   {
+    "q": "I'm trying to cut ___ on screen time before bed.",
+    "options": [
+     "down",
+     "up",
+     "off",
+     "out"
+    ],
+    "answer": 0,
+    "explain_es": "Cut down on significa reducir algo: cut down on screen time."
+   },
+   {
+    "q": "Teenagers spend far too much time ___.",
+    "options": [
+     "at online",
+     "in online",
+     "online",
+     "on online"
+    ],
+    "answer": 2,
+    "explain_es": "Online funciona como adverbio y no lleva preposición."
+   }
+  ],
+  "writing": {
+   "prompt_es": "En tu clase de inglés hablaron de este tema: La tecnología ha hecho nuestras vidas más estresantes, no más fáciles. Escribe un ensayo dando tu opinión. Habla de: 1. el trabajo, 2. las relaciones personales, 3. una idea propia. Escribe de 120 a 160 palabras.",
+   "prompt_en": "In your English class you have been talking about technology. Now your teacher has asked you to write an essay. Technology has made our lives more stressful, not easier. Do you agree? Notes: write about 1. work, 2. relationships, 3. your own idea. Write 120–160 words.",
+   "min_words": 120,
+   "max_words": 160,
+   "model_answer": "It is often said that technology was supposed to make life easier, yet many people feel more stressed than ever. In my view, this is only partly true.\n\nOn the one hand, technology has changed the way we work. Thanks to email and video calls, many people can work remotely, which saves time and money. However, it also means we are always available, and it is hard to disconnect when your boss can text you at ten at night.\n\nOn the other hand, social media has affected our relationships. It allows us to stay in touch with friends who live far away, but it can also make us compare our lives with others and feel anxious.\n\nIn conclusion, I believe technology itself is not the problem. The real issue is how we use it, so we need clear limits, such as turning off notifications after work.",
+   "checklist_es": [
+    "Introducción que presenta el tema y tu postura",
+    "Un párrafo sobre el trabajo con ventajas y desventajas",
+    "Un párrafo sobre las relaciones personales",
+    "Una idea propia (por ejemplo, poner límites o la privacidad)",
+    "Conectores como However, On the other hand, In conclusion",
+    "Conclusión clara que responde a la pregunta"
+   ]
+  },
+  "speaking": {
+   "read_aloud": [
+    "My laptop froze in the middle of the presentation, so I had to restart it.",
+    "If you don't back up your files regularly, you might lose everything."
+   ],
+   "questions": [
+    "Which app could you not live without, and why?",
+    "How has technology changed the way people work in your country?",
+    "Should children under twelve be allowed to have smartphones? Why or why not?"
+   ]
+  }
+ },
+ "18": {
+  "reading": {
+   "title": "From market stall to online store",
+   "text": "When Lucía Pérez lost her office job in 2020, she had enough savings to cover three months of rent and very little else. What she did have was her grandmother's recipe for mole and a small kitchen in Puebla. Four years later, her company ships jars of sauce to customers across Mexico and the southern United States.\n\n'At first I sold at a weekend market, and I barely broke even,' she admits. 'After paying for ingredients, the stall and transportation, there was almost no profit.' Instead of giving up, she started tracking every peso in a simple spreadsheet. She discovered that her most popular product was also the one with the lowest margin, so she raised its price slightly. To her surprise, sales hardly dropped.\n\nThe real turning point came when she began selling online. Shipping costs were a constant headache, and an early batch of jars broke in transit, leading to a wave of complaints and refund requests. Rather than arguing with customers, she apologized publicly, replaced every order free of charge and redesigned her packaging. 'It cost me a fortune that month,' she says, 'but many of those customers are still loyal today.'\n\nLucía has turned down two offers from investors who wanted a majority stake in the business. 'They were generous,' she says, 'but I'd rather grow slowly and keep control.' Her advice to future entrepreneurs is refreshingly practical: 'Know your numbers before you worry about your logo.'",
+   "questions": [
+    {
+     "q": "What does Lucía mean when she says she 'barely broke even' at first?",
+     "options": [
+      "She made a large profit.",
+      "She broke many jars.",
+      "She earned just enough to cover her costs.",
+      "She lost all her savings."
+     ],
+     "answer": 2,
+     "explain_es": "Break even significa no ganar ni perder: apenas cubría sus gastos, casi sin ganancia."
+    },
+    {
+     "q": "What did Lucía's spreadsheet show her?",
+     "options": [
+      "Online sales were higher than market sales.",
+      "Her customers preferred cheaper products.",
+      "She was spending too much on rent.",
+      "Her best-selling product earned her very little per sale."
+     ],
+     "answer": 3,
+     "explain_es": "Descubrió que su producto más popular era el que tenía el margen más bajo."
+    },
+    {
+     "q": "How did customers react when she raised the price?",
+     "options": [
+      "Sales stayed almost the same.",
+      "Sales fell dramatically.",
+      "Many customers complained.",
+      "Sales doubled."
+     ],
+     "answer": 0,
+     "explain_es": "Dice que, para su sorpresa, las ventas casi no bajaron (hardly dropped)."
+    },
+    {
+     "q": "Why does Lucía feel the broken-jar problem was worth the cost in the end?",
+     "options": [
+      "It made her stop selling online.",
+      "The shipping company paid for everything.",
+      "It helped her find investors.",
+      "Her response won her loyal customers."
+     ],
+     "answer": 3,
+     "explain_es": "Le costó una fortuna, pero muchos de esos clientes siguen siendo leales hoy."
+    },
+    {
+     "q": "What can we infer about Lucía's attitude toward investors?",
+     "options": [
+      "She needs money urgently.",
+      "She values independence more than fast growth.",
+      "She thinks investors are dishonest.",
+      "She is waiting for a better offer."
+     ],
+     "answer": 1,
+     "explain_es": "Rechazó ofertas generosas porque prefiere crecer despacio y mantener el control."
+    }
+   ]
+  },
+  "listening": {
+   "title": "A customer service call",
+   "script": [
+    {
+     "who": "A",
+     "en": "Thank you for calling ShopNow customer service. My name's Andre. How can I help you today?"
+    },
+    {
+     "who": "B",
+     "en": "Hi. I ordered a coffee maker two weeks ago, and it still hasn't arrived. The website said delivery would take three to five days."
+    },
+    {
+     "who": "A",
+     "en": "I'm sorry to hear that. Could I have your order number, please?"
+    },
+    {
+     "who": "B",
+     "en": "Sure, it's 4-7-2-9-1. And I paid nine dollars extra for express shipping."
+    },
+    {
+     "who": "A",
+     "en": "Thank you. I can see the package was sent to an old address on your account, on Pine Street."
+    },
+    {
+     "who": "B",
+     "en": "Pine Street? I moved out of there in January. I updated my address before I placed the order."
+    },
+    {
+     "who": "A",
+     "en": "I apologize. It looks like the system didn't save the change. I can either send you a new coffee maker today or give you a full refund."
+    },
+    {
+     "who": "B",
+     "en": "I'd prefer a refund, to be honest. I found one cheaper at a local store anyway."
+    },
+    {
+     "who": "A",
+     "en": "Of course. You'll get the full amount, including the shipping fee, back on your credit card within five to seven business days."
+    },
+    {
+     "who": "B",
+     "en": "Great. Could you email me a receipt for the refund?"
+    },
+    {
+     "who": "A",
+     "en": "Absolutely. You'll receive it in the next few minutes."
+    }
+   ],
+   "questions": [
+    {
+     "q": "When did the woman place her order?",
+     "options": [
+      "Five days ago",
+      "In January",
+      "Yesterday",
+      "Two weeks ago"
+     ],
+     "answer": 3,
+     "explain_es": "Ella dice: I ordered a coffee maker two weeks ago."
+    },
+    {
+     "q": "Why hasn't the package arrived?",
+     "options": [
+      "It was lost by the shipping company.",
+      "The coffee maker was out of stock.",
+      "It was sent to her old address.",
+      "She gave the wrong order number."
+     ],
+     "answer": 2,
+     "explain_es": "El paquete se envió a su dirección anterior en Pine Street."
+    },
+    {
+     "q": "What does the woman say about her address?",
+     "options": [
+      "She had updated it before ordering.",
+      "She forgot to change it.",
+      "She moved after placing the order.",
+      "She still lives on Pine Street."
+     ],
+     "answer": 0,
+     "explain_es": "Dice que actualizó su dirección antes de hacer el pedido, pero el sistema no guardó el cambio."
+    },
+    {
+     "q": "Why does she choose a refund?",
+     "options": [
+      "She doesn't need a coffee maker anymore.",
+      "The agent recommended it.",
+      "The new one would take too long.",
+      "She found a cheaper one in a local store."
+     ],
+     "answer": 3,
+     "explain_es": "Prefiere el reembolso porque encontró una más barata en una tienda local."
+    },
+    {
+     "q": "How much money will she get back?",
+     "options": [
+      "Only the shipping fee",
+      "The price of the product plus the shipping fee",
+      "Half of the total",
+      "Only the price of the product"
+     ],
+     "answer": 1,
+     "explain_es": "Andre dice que recibirá el monto completo, including the shipping fee."
+    }
+   ]
+  },
+  "use": [
+   {
+    "q": "I need to ___ some cash from the ATM.",
+    "options": [
+     "remove",
+     "withdraw",
+     "take off",
+     "retire"
+    ],
+    "answer": 1,
+    "explain_es": "Retirar dinero es withdraw (o take out money). Retire significa jubilarse."
+   },
+   {
+    "q": "I'd love that car, but I can't ___ it right now.",
+    "options": [
+     "reach",
+     "afford",
+     "buy for",
+     "pay"
+    ],
+    "answer": 1,
+    "explain_es": "I can't afford it significa no me alcanza. No se dice the money doesn't reach."
+   },
+   {
+    "q": "Can I see your ___? You need it to return the shoes.",
+    "options": [
+     "recipe",
+     "note",
+     "receipt",
+     "ticket"
+    ],
+    "answer": 2,
+    "explain_es": "El comprobante de compra es receipt. Ticket es un boleto y recipe una receta de cocina."
+   },
+   {
+    "q": "I'd like to make a ___ about the service I received.",
+    "options": [
+     "reclamation",
+     "complain",
+     "claim of",
+     "complaint"
+    ],
+    "answer": 3,
+    "explain_es": "Hacer un reclamo es make a complaint. Complain es el verbo."
+   },
+   {
+    "q": "She ___ a lot of money as a software engineer.",
+    "options": [
+     "earns",
+     "wins",
+     "wins up",
+     "gains to"
+    ],
+    "answer": 0,
+    "explain_es": "Ganar dinero trabajando es earn o make money. Win es para premios o apuestas."
+   },
+   {
+    "q": "The company's ___ grew by 20%, but its profit stayed the same because costs rose.",
+    "options": [
+     "benefit",
+     "budget",
+     "revenue",
+     "receipt"
+    ],
+    "answer": 2,
+    "explain_es": "Revenue es todo el dinero que entra; profit es lo que queda después de los gastos."
+   },
+   {
+    "q": "We need a 10% down ___ to buy the apartment.",
+    "options": [
+     "paying",
+     "pay",
+     "paid",
+     "payment"
+    ],
+    "answer": 3,
+    "explain_es": "El enganche se dice down payment."
+   },
+   {
+    "q": "After two years, my boss finally gave me a ___.",
+    "options": [
+     "grown",
+     "rise up",
+     "raise",
+     "raising"
+    ],
+    "answer": 2,
+    "explain_es": "Un aumento de sueldo en EE. UU. es a raise."
+   },
+   {
+    "q": "This laptop is very ___ for the quality you get.",
+    "options": [
+     "afford",
+     "affordably",
+     "affordability",
+     "affordable"
+    ],
+    "answer": 3,
+    "explain_es": "Se necesita un adjetivo: affordable, barato pero bueno. Cheap puede sonar a mala calidad."
+   },
+   {
+    "q": "She left her job to ___ her own business.",
+    "options": [
+     "start",
+     "make up",
+     "do",
+     "undertake"
+    ],
+    "answer": 0,
+    "explain_es": "Emprender un negocio es start o launch a business; undertake casi no se usa así."
+   }
+  ],
+  "writing": {
+   "prompt_es": "Trabajas en una empresa pequeña y tu jefa te pidió un reporte con sugerencias para reducir costos sin afectar la calidad del servicio. Escribe el reporte con títulos para cada sección e incluye una recomendación final. Escribe de 120 a 160 palabras.",
+   "prompt_en": "You work for a small company. Your manager has asked you to write a report suggesting ways the company could reduce its costs without affecting the quality of its service. Use headings and include a final recommendation. Write 120–160 words.",
+   "min_words": 120,
+   "max_words": 160,
+   "model_answer": "Introduction\nThe aim of this report is to suggest ways in which our company could reduce its costs without affecting the quality of our service.\n\nOffice expenses\nAt present, we spend a large part of our budget on electricity and office supplies. If employees worked from home two days a week, we could rent a smaller office and save on bills.\n\nSuppliers\nOur contracts with suppliers have not been reviewed for three years. I recommend negotiating new terms or asking for discounts on larger orders. Several competitors have already done this successfully.\n\nTravel\nMany business trips could easily be replaced by video calls, which would save both money and time.\n\nRecommendation\nI would suggest starting with a review of our supplier contracts, as this would have the biggest impact on our profit in the shortest time.",
+   "checklist_es": [
+    "Introducción que explica el propósito del reporte",
+    "Títulos claros para cada sección",
+    "Al menos tres sugerencias concretas",
+    "Vocabulario de negocios (budget, profit, discount, costs)",
+    "Lenguaje formal e impersonal, con condicionales (If..., we could...)",
+    "Una recomendación final justificada"
+   ]
+  },
+  "speaking": {
+   "read_aloud": [
+    "I can't afford a new car right now, so I'm saving for a down payment.",
+    "The company's revenue increased last year, but its profits actually fell."
+   ],
+   "questions": [
+    "Do you prefer shopping online or in stores? Why?",
+    "What advice would you give someone who wants to start their own business?",
+    "Some people think schools should teach students how to manage money. Do you agree?"
+   ]
+  }
+ },
+ "19": {
+  "reading": {
+   "title": "Review: The Salt Road, season one",
+   "text": "When it was announced that the bestselling novel The Salt Road would be adapted into a series, fans of the book were nervous. Novels that depend so heavily on a narrator's inner thoughts rarely survive the move to the screen. I'm pleased to report that, for the most part, those worries were unnecessary.\n\nThe eight-episode first season, which was filmed almost entirely on the coast of Baja California, follows Inés, a marine biologist who returns to her hometown after her father disappears at sea. Newcomer Camila Ríos is outstanding in the lead role, and she carries scenes that could easily have felt slow. The supporting cast is solid, although her brother's character is so underwritten that you sometimes forget he's there.\n\nVisually, the show is stunning. The ocean feels both beautiful and threatening, and the soundtrack, composed by a local folk musician, is used sparingly and to great effect. I found myself looking up the lyrics of the opening song after the first episode.\n\nWhere the series stumbles is in its final two episodes. The writers have added a subplot about a corrupt politician that isn't in the book, and it feels rushed and out of place. Readers who loved the novel's ambiguous ending may also be frustrated that everything is explained so neatly here.\n\nStill, these are minor complaints. If you're into slow-burning mysteries, I'd definitely recommend giving it a try. A second season has already been confirmed.",
+   "questions": [
+    {
+     "q": "Why were fans of the novel worried about the series?",
+     "options": [
+      "It was filmed far from the original setting.",
+      "The actors were unknown.",
+      "The author didn't approve the project.",
+      "Books that rely on a narrator's thoughts are hard to adapt."
+     ],
+     "answer": 3,
+     "explain_es": "El texto dice que las novelas que dependen de los pensamientos del narrador rara vez funcionan en pantalla."
+    },
+    {
+     "q": "What does the reviewer say about the character of the brother?",
+     "options": [
+      "He only appears in the last episode.",
+      "He is the most interesting character.",
+      "He is not developed enough.",
+      "He was played by a famous actor."
+     ],
+     "answer": 2,
+     "explain_es": "Underwritten significa que el personaje está poco desarrollado; a veces se te olvida que existe."
+    },
+    {
+     "q": "What does the reviewer suggest about the opening song?",
+     "options": [
+      "It was too loud and repetitive.",
+      "It was taken from a famous movie.",
+      "It was only played once.",
+      "She liked it so much that she wanted to know the words."
+     ],
+     "answer": 3,
+     "explain_es": "Buscó la letra (lyrics) después del primer episodio, lo que indica que le gustó mucho."
+    },
+    {
+     "q": "What is the reviewer's main criticism?",
+     "options": [
+      "The last episodes add a rushed storyline that isn't in the book.",
+      "The photography is disappointing.",
+      "The acting is weak overall.",
+      "The series is too short."
+     ],
+     "answer": 0,
+     "explain_es": "Critica la subtrama del político corrupto en los dos últimos episodios: se siente apresurada y fuera de lugar."
+    },
+    {
+     "q": "Who would the reviewer most likely recommend the series to?",
+     "options": [
+      "People who enjoy slow mysteries",
+      "People who want a fast action series",
+      "Children and young teenagers",
+      "Only readers of the novel"
+     ],
+     "answer": 0,
+     "explain_es": "Dice: If you're into slow-burning mysteries, I'd definitely recommend giving it a try."
+    }
+   ]
+  },
+  "listening": {
+   "title": "Talking about a concert",
+   "script": [
+    {
+     "who": "A",
+     "en": "Did you end up going to the Natalia Lafourcade concert on Saturday?"
+    },
+    {
+     "who": "B",
+     "en": "I did! It was held at the Auditorio Nacional, and honestly, it was one of the best shows I've ever been to."
+    },
+    {
+     "who": "A",
+     "en": "Lucky you. The tickets sold out in about ten minutes, so I couldn't get one."
+    },
+    {
+     "who": "B",
+     "en": "Seriously? I bought mine the day the tour was announced. Anyway, the audience knew every single song. People were singing the lyrics louder than she was."
+    },
+    {
+     "who": "A",
+     "en": "Did she play anything from the new album? I've been listening to it nonstop."
+    },
+    {
+     "who": "B",
+     "en": "Only three songs. Most of the set list was older stuff, which I loved. The new album isn't really my thing, to be honest."
+    },
+    {
+     "who": "A",
+     "en": "Really? I think it's her most interesting work. The reviews have been great too."
+    },
+    {
+     "who": "B",
+     "en": "Maybe I need to give it another chance. Hey, are you watching anything good these days?"
+    },
+    {
+     "who": "A",
+     "en": "I just finished a Korean series about a chef. I'd recommend watching it with subtitles, though. The dubbed version is awful."
+    },
+    {
+     "who": "B",
+     "en": "Sounds good. Send me the name and I'll check it out this weekend."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Why didn't the woman go to the concert?",
+     "options": [
+      "She doesn't like the singer.",
+      "The tickets sold out very quickly.",
+      "She had to work on Saturday.",
+      "The concert was canceled."
+     ],
+     "answer": 1,
+     "explain_es": "Ella dice que los boletos se agotaron en unos diez minutos."
+    },
+    {
+     "q": "What impressed the man about the audience?",
+     "options": [
+      "They were mostly teenagers.",
+      "They were very quiet.",
+      "They left early.",
+      "They sang along very loudly."
+     ],
+     "answer": 3,
+     "explain_es": "Dice que el público cantaba las letras más fuerte que la cantante."
+    },
+    {
+     "q": "What does the man think of the new album?",
+     "options": [
+      "The lyrics are too sad.",
+      "He hasn't heard it.",
+      "It's not really to his taste.",
+      "It's her best work."
+     ],
+     "answer": 2,
+     "explain_es": "Dice: The new album isn't really my thing, o sea, no es de su gusto."
+    },
+    {
+     "q": "How are the two friends' opinions different?",
+     "options": [
+      "He thinks the reviews are wrong.",
+      "She prefers older songs.",
+      "He liked the concert more than she did.",
+      "She likes the new album much more than he does."
+     ],
+     "answer": 3,
+     "explain_es": "Ella lo considera su trabajo más interesante; a él no le convence."
+    },
+    {
+     "q": "What does the woman recommend?",
+     "options": [
+      "Watching a Korean series with subtitles",
+      "Watching the dubbed version of a series",
+      "Reading the album reviews",
+      "Buying concert tickets early"
+     ],
+     "answer": 0,
+     "explain_es": "Recomienda una serie coreana, pero con subtítulos, porque el doblaje es malísimo."
+    }
+   ]
+  },
+  "use": [
+   {
+    "q": "Who ___ in the new superhero movie?",
+    "options": [
+     "acts of",
+     "stars",
+     "casts",
+     "plays of"
+    ],
+    "answer": 1,
+    "explain_es": "Para preguntar quién actúa se dice Who stars in it? o Who's in it?"
+   },
+   {
+    "q": "I fell asleep during ___ five, so I have to watch it again.",
+    "options": [
+     "chapter",
+     "capitule",
+     "edition",
+     "episode"
+    ],
+    "answer": 3,
+    "explain_es": "El capítulo de una serie es episode; chapter es solo para libros."
+   },
+   {
+    "q": "The ___ of this song are really beautiful.",
+    "options": [
+     "letters",
+     "words of",
+     "letter",
+     "lyrics"
+    ],
+    "answer": 3,
+    "explain_es": "La letra de una canción es lyrics, siempre en plural."
+   },
+   {
+    "q": "The news ___ really surprising today.",
+    "options": [
+     "were",
+     "are",
+     "is",
+     "have been"
+    ],
+    "answer": 2,
+    "explain_es": "News es incontable y lleva verbo en singular: the news is."
+   },
+   {
+    "q": "I recommend ___ the book before you see the movie.",
+    "options": [
+     "to read",
+     "reading",
+     "you to read",
+     "read"
+    ],
+    "answer": 1,
+    "explain_es": "Después de recommend va -ing o that + sujeto: I recommend reading it."
+   },
+   {
+    "q": "The song ___ in a small studio in Oaxaca.",
+    "options": [
+     "was recorded",
+     "was record",
+     "has recorded",
+     "recorded"
+    ],
+    "answer": 0,
+    "explain_es": "Se grabó se dice con voz pasiva: was recorded (be + participio)."
+   },
+   {
+    "q": "The band's new album ___ next month.",
+    "options": [
+     "releases",
+     "will release",
+     "will be released",
+     "will be release"
+    ],
+    "answer": 2,
+    "explain_es": "El álbum no se lanza solo; se usa pasiva en futuro: will be released."
+   },
+   {
+    "q": "We ___ the concert last night and it was amazing.",
+    "options": [
+     "assisted",
+     "attended",
+     "assisted to",
+     "attended to"
+    ],
+    "answer": 1,
+    "explain_es": "Asistir a un evento es attend. Assist significa ayudar."
+   },
+   {
+    "q": "The ___ applauded for ten minutes after the play ended.",
+    "options": [
+     "publics",
+     "spectating",
+     "public",
+     "audience"
+    ],
+    "answer": 3,
+    "explain_es": "El público de un espectáculo es the audience."
+   },
+   {
+    "q": "My grandmother watches a ___ every night at nine.",
+    "options": [
+     "soap opera",
+     "telenovel",
+     "novel",
+     "romance book"
+    ],
+    "answer": 0,
+    "explain_es": "La telenovela es a soap opera. Novel es una novela escrita."
+   }
+  ],
+  "writing": {
+   "prompt_es": "Un sitio web en inglés busca reseñas de series o películas que recomendarías a otros jóvenes. Escribe una reseña: describe de qué trata, qué te gustó, qué no te gustó tanto y a quién se la recomendarías. Escribe de 120 a 160 palabras.",
+   "prompt_en": "You see this announcement on an English-language website: Reviews wanted! Tell us about a series or movie you would recommend to other young people. What is it about? What did you like and not like about it? Who would enjoy it? Write your review in 120–160 words.",
+   "min_words": 120,
+   "max_words": 160,
+   "model_answer": "If you are into stories that make you think, I would strongly recommend the Mexican series Rooftops, which is available on most streaming platforms.\n\nThe series follows three teenage friends who live in the same apartment building in Mexico City in the 1980s. It was filmed on location, and the attention to detail is impressive, from the clothes to the music. The young cast is brilliant, especially the actress who plays Lupita, a shy girl who dreams of becoming a singer.\n\nMy only criticism is that the last two episodes are a bit slow, and one storyline is never fully explained.\n\nOverall, it is a moving and funny show that will appeal to teenagers and their parents alike. Even if dramas aren't usually your cup of tea, give the first episode a try. You might be surprised.",
+   "checklist_es": [
+    "Introducción que atrae al lector y nombra la serie o película",
+    "Resumen breve de la trama sin contar el final",
+    "Algo positivo con detalles (actores, música, fotografía)",
+    "Una crítica con tacto",
+    "Al menos una oración en voz pasiva (It was filmed...)",
+    "Recomendación final y a quién le gustaría"
+   ]
+  },
+  "speaking": {
+   "read_aloud": [
+    "The movie was directed by a young Mexican filmmaker and was released last year.",
+    "It's not really my cup of tea, but I can see why so many people love it."
+   ],
+   "questions": [
+    "What kind of music are you into these days?",
+    "Describe a movie or series you would recommend to a friend, and explain why.",
+    "Do you think streaming services have been good or bad for the movie industry?"
+   ]
+  }
+ },
+ "20": {
+  "reading": {
+   "title": "In defense of changing your mind",
+   "text": "There is a peculiar contempt reserved, in public life especially, for people who change their minds. Politicians are accused of flip-flopping; executives who reverse a strategy are seen as weak. Yet the ability to revise one's views in light of new evidence is arguably the defining feature of a mature thinker, not a flaw to be concealed.\n\nPart of the problem, I'd argue, lies in how we frame disagreement. Debates are staged as contests to be won, and conceding a point is treated as losing face. Despite decades of research showing that people rarely abandon a belief when confronted aggressively, we persist in arguing as if volume were a substitute for persuasion. Had we been taught to see a well-made counterargument as a gift rather than an attack, many of our public conversations would look quite different.\n\nNone of this is to suggest that every opinion should be held loosely. Some convictions are rightly firm, and someone who changes position with every passing trend is not so much open-minded as unanchored. The distinction lies in the reason for the change. Shifting because a more compelling piece of evidence has emerged is intellectual honesty; shifting because it has become socially convenient is something else entirely.\n\nWhat, then, would a healthier culture look like? For a start, it would make room for phrases such as 'I hadn't considered that' or 'I may have been wrong' without treating them as admissions of defeat. It would reward leaders who explain why they reconsidered, rather than punishing them for having done so. Eventually, perhaps, we might come to regard the person who has never changed their mind not as admirably consistent, but as someone who has simply stopped paying attention.",
+   "questions": [
+    {
+     "q": "What is the writer's main argument?",
+     "options": [
+      "All opinions should be held loosely.",
+      "Revising your views in response to evidence is a sign of maturity.",
+      "Public debates are generally productive.",
+      "Politicians should never change their minds."
+     ],
+     "answer": 1,
+     "explain_es": "La idea central es que cambiar de opinión ante nueva evidencia es señal de un pensador maduro, no un defecto."
+    },
+    {
+     "q": "What does the writer suggest about arguing aggressively?",
+     "options": [
+      "It is necessary in politics.",
+      "It has only recently become common.",
+      "It is the most effective way to persuade.",
+      "It seldom succeeds in changing people's beliefs."
+     ],
+     "answer": 3,
+     "explain_es": "Menciona investigaciones que muestran que la gente casi nunca abandona una creencia cuando la confrontan de forma agresiva."
+    },
+    {
+     "q": "In the third paragraph, what distinction does the writer make?",
+     "options": [
+      "Between firm and weak leaders",
+      "Between changing views for good reasons and for convenience",
+      "Between politicians and executives",
+      "Between research and personal experience"
+     ],
+     "answer": 1,
+     "explain_es": "Distingue entre cambiar por evidencia más convincente (honestidad intelectual) y cambiar porque es socialmente conveniente."
+    },
+    {
+     "q": "What does the word 'unanchored' most nearly mean in the text?",
+     "options": [
+      "Stubborn and inflexible",
+      "Extremely open-minded",
+      "Well informed",
+      "Lacking stable principles"
+     ],
+     "answer": 3,
+     "explain_es": "Por el contexto, alguien que cambia con cada moda no tiene principios firmes que lo sostengan, como un barco sin ancla."
+    },
+    {
+     "q": "What does the final sentence imply about people who never change their minds?",
+     "options": [
+      "They may no longer be engaging with new information.",
+      "They have better arguments than others.",
+      "They deserve admiration for their consistency.",
+      "They are usually good leaders."
+     ],
+     "answer": 0,
+     "explain_es": "Es una inferencia irónica: quien nunca cambia de opinión quizá simplemente dejó de prestar atención."
+    }
+   ]
+  },
+  "listening": {
+   "title": "After a difficult product launch",
+   "script": [
+    {
+     "who": "A",
+     "en": "So, be honest with me. What did you make of the launch yesterday?"
+    },
+    {
+     "who": "B",
+     "en": "Well, I mean, it wasn't a disaster, but I'm not sure it went quite as well as we'd hoped."
+    },
+    {
+     "who": "A",
+     "en": "That's putting it mildly. Half the demo crashed in front of the investors."
+    },
+    {
+     "who": "B",
+     "en": "True, but to be fair, nobody could have predicted the server issue. If we'd had another week of testing, we'd probably have caught it."
+    },
+    {
+     "who": "A",
+     "en": "Which is exactly what I said back in March. I asked for the deadline to be put off, and I got shot down."
+    },
+    {
+     "who": "B",
+     "en": "I remember. And, arguably, you were right. But hindsight is twenty-twenty, you know?"
+    },
+    {
+     "who": "A",
+     "en": "I suppose. I just feel like we keep making the same mistake. We promise the moon and then scramble at the last minute."
+    },
+    {
+     "who": "B",
+     "en": "Look, let's take this offline and put together a proper review. If we can figure out where the process broke down, we can pitch a more realistic timeline next quarter."
+    },
+    {
+     "who": "A",
+     "en": "Fine. But I want leadership kept in the loop this time, not just told after the fact."
+    },
+    {
+     "who": "B",
+     "en": "Agreed. I'll set something up for Thursday and make sure they're on the invite."
+    }
+   ],
+   "questions": [
+    {
+     "q": "How does the man first describe the launch?",
+     "options": [
+      "As a great success",
+      "As a complete disaster",
+      "Diplomatically, admitting it fell short of expectations",
+      "As better than the investors expected"
+     ],
+     "answer": 2,
+     "explain_es": "Usa lenguaje suavizado: it wasn't a disaster, but I'm not sure it went quite as well as we'd hoped."
+    },
+    {
+     "q": "According to the man, what could have prevented the problem?",
+     "options": [
+      "A shorter demo",
+      "A different server provider",
+      "Fewer investors at the launch",
+      "More time for testing"
+     ],
+     "answer": 3,
+     "explain_es": "Usa el tercer condicional: If we'd had another week of testing, we'd probably have caught it."
+    },
+    {
+     "q": "What does the woman imply by mentioning March?",
+     "options": [
+      "She joined the team in March.",
+      "The launch was originally planned for March.",
+      "She had already warned that the deadline was unrealistic.",
+      "The investors were contacted in March."
+     ],
+     "answer": 2,
+     "explain_es": "En marzo pidió posponer la fecha límite y rechazaron su propuesta (I got shot down)."
+    },
+    {
+     "q": "What does 'take this offline' mean in this conversation?",
+     "options": [
+      "Stop using the internet",
+      "Cancel the project",
+      "Turn off the servers",
+      "Discuss it later, separately and in more detail"
+     ],
+     "answer": 3,
+     "explain_es": "Take this offline significa hablar del tema después y en privado, no tiene que ver con internet."
+    },
+    {
+     "q": "What does the woman insist on?",
+     "options": [
+      "Presenting the review herself",
+      "Keeping leadership informed throughout the process",
+      "Changing the launch date immediately",
+      "Inviting the investors on Thursday"
+     ],
+     "answer": 1,
+     "explain_es": "Quiere que los directivos estén al tanto (kept in the loop) y no que se enteren después."
+    }
+   ]
+  },
+  "use": [
+   {
+    "q": "That designer watch must have cost ___.",
+    "options": [
+     "the head and shoulders",
+     "an eye of the face",
+     "an arm and a leg",
+     "a hand and a foot"
+    ],
+    "answer": 2,
+    "explain_es": "Costar un ojo de la cara en inglés es cost an arm and a leg. Los modismos no se traducen literal."
+   },
+   {
+    "q": "___ the heavy rain, the match went ahead as planned.",
+    "options": [
+     "Despite of",
+     "Despite",
+     "However",
+     "Although"
+    ],
+    "answer": 1,
+    "explain_es": "Despite va seguido de un sustantivo y nunca lleva of. Although necesitaría un verbo (although it rained)."
+   },
+   {
+    "q": "If I ___ about the traffic, I would have left earlier.",
+    "options": [
+     "would know",
+     "had known",
+     "would have known",
+     "knew"
+    ],
+    "answer": 1,
+    "explain_es": "Tercer condicional: If + had + participio, would have + participio. Nunca would en la parte del if."
+   },
+   {
+    "q": "We need to ___ a decision by the end of the week.",
+    "options": [
+     "give",
+     "put",
+     "do",
+     "make"
+    ],
+    "answer": 3,
+    "explain_es": "La collocation correcta es make a decision, no take ni do."
+   },
+   {
+    "q": "The client isn't ready yet, so we'll have to put ___ until next month.",
+    "options": [
+     "the meeting off",
+     "it out",
+     "out the meeting",
+     "off it"
+    ],
+    "answer": 0,
+    "explain_es": "Put off significa posponer. Si el objeto es pronombre va en medio (put it off), nunca put off it."
+   },
+   {
+    "q": "There isn't enough ___ to prove he was involved.",
+    "options": [
+     "an evidence",
+     "evidences",
+     "evidence",
+     "proofs of"
+    ],
+    "answer": 2,
+    "explain_es": "Evidence es incontable: enough evidence o a piece of evidence, nunca evidences."
+   },
+   {
+    "q": "I'm not sure that's ___ right. Could we check the figures again?",
+    "options": [
+     "much",
+     "so",
+     "too",
+     "quite"
+    ],
+    "answer": 3,
+    "explain_es": "I'm not sure that's quite right es una forma suave y educada de decir que algo está mal."
+   },
+   {
+    "q": "After months of negotiations, the two sides ___ reached an agreement.",
+    "options": [
+     "actually",
+     "currently",
+     "presently",
+     "eventually"
+    ],
+    "answer": 3,
+    "explain_es": "Eventually significa al final o con el tiempo. Eventualmente en español es occasionally."
+   },
+   {
+    "q": "Our team needs to come ___ a better solution before Friday.",
+    "options": [
+     "up to",
+     "out for",
+     "up with",
+     "down on"
+    ],
+    "answer": 2,
+    "explain_es": "Come up with significa idear o proponer una solución. Es un phrasal verb de tres partes."
+   },
+   {
+    "q": "The proposal was rejected due to doubts about its ___.",
+    "options": [
+     "unfeasible",
+     "feasibility",
+     "feasibly",
+     "feasible"
+    ],
+    "answer": 1,
+    "explain_es": "Después de its se necesita un sustantivo: feasibility (viabilidad), formado de feasible."
+   }
+  ],
+  "writing": {
+   "prompt_es": "Después de un debate en clase, tu profesor te pide un ensayo sobre esta pregunta: ¿Deberían las ciudades prohibir los coches en sus centros históricos? Elige dos de estos aspectos y explica cuál es más importante, con razones: la calidad del aire, los negocios locales, la vida de los residentes. Usa conectores formales y lenguaje matizado. Escribe de 180 a 220 palabras.",
+   "prompt_en": "Your class has watched a panel discussion about cities banning cars from their historic centers. You have made the notes below. Notes: air quality, local businesses, residents' quality of life. Write an essay discussing two of the points in your notes. Explain which point you think is more important, giving reasons to support your opinion. Write 180–220 words.",
+   "min_words": 180,
+   "max_words": 220,
+   "model_answer": "In recent years, a number of cities have chosen to close their historic centers to private cars. While the policy is often controversial, I would argue that its benefits clearly outweigh its drawbacks.\n\nThe most compelling argument in its favor concerns air quality. Historic centers tend to have narrow streets in which pollution accumulates, and the evidence linking traffic fumes to respiratory illness is difficult to dispute. Removing cars would not only make these areas healthier but would also help preserve old buildings, which are gradually damaged by exhaust.\n\nOpponents frequently claim that local businesses would suffer if customers could no longer drive to them. This concern is understandable, yet experience elsewhere suggests that it is somewhat exaggerated. Pedestrian streets generally attract more visitors, who tend to stay longer and spend more. Indeed, in several European cities, shop owners who initially protested are now among the plan's strongest supporters.\n\nThat said, such a ban can only succeed if it is accompanied by reliable public transport and adequate access for residents, deliveries and people with disabilities.\n\nOn balance, therefore, I believe air quality is the decisive factor. Provided that the transition is managed carefully, banning cars from historic centers is a measure that cities should seriously consider.",
+   "checklist_es": [
+    "Introducción con tu postura general",
+    "Desarrollas dos de los tres aspectos con argumentos y ejemplos",
+    "Presentas y respondes un contraargumento",
+    "Conectores formales (however, yet, therefore, that said, despite)",
+    "Lenguaje matizado (arguably, somewhat, tend to, I would argue)",
+    "Conclusión que dice cuál aspecto es más importante y por qué"
+   ]
+  },
+  "speaking": {
+   "read_aloud": [
+    "Had I known how tight the deadline was, I would have turned the project down.",
+    "Despite the criticism, the proposal arguably remains the most realistic option we have."
+   ],
+   "questions": [
+    "Tell me about a decision you made that turned out better or worse than you expected.",
+    "To what extent should people adapt the way they speak to different situations, such as work, family or social media?",
+    "Some argue that experience matters more than formal education. How far would you agree?"
+   ]
+  }
+ }
+}

@@ -136,6 +136,94 @@
         {"en": "Our new house isn't noisy, it's quiet.", "es": "Nuestra casa nueva no es ruidosa, es tranquila."}
       ],
       "tip_es": "Comfortable se dice en tres sílabas, algo como KÓMF-ter-bol, no com-for-ta-ble. Y recuerda que el adjetivo va antes del sustantivo: a new house es una casa nueva."
+    },
+    {
+      "id": "4-7",
+      "title_es": "En la cocina",
+      "words": [
+        {"en": "fridge", "es": "refri, refrigerador", "pos": "noun", "ex_en": "Our fridge is new.", "ex_es": "Nuestro refri es nuevo."},
+        {"en": "stove", "es": "estufa", "pos": "noun", "ex_en": "The stove is dirty.", "ex_es": "La estufa está sucia."},
+        {"en": "sink", "es": "fregadero, lavabo", "pos": "noun", "ex_en": "The plates are in the sink.", "ex_es": "Los platos están en el fregadero."},
+        {"en": "microwave", "es": "microondas", "pos": "noun", "ex_en": "Is there a microwave?", "ex_es": "¿Hay microondas?"},
+        {"en": "plate", "es": "plato", "pos": "noun", "ex_en": "There are four plates.", "ex_es": "Hay cuatro platos."},
+        {"en": "cup", "es": "taza", "pos": "noun", "ex_en": "My cup is on the table.", "ex_es": "Mi taza está en la mesa."},
+        {"en": "glass", "es": "vaso", "pos": "noun", "ex_en": "There's a glass on the desk.", "ex_es": "Hay un vaso en el escritorio."},
+        {"en": "spoon", "es": "cuchara", "pos": "noun", "ex_en": "Where are the spoons?", "ex_es": "¿Dónde están las cucharas?"}
+      ],
+      "sentences": [
+        {"en": "There's a microwave in the kitchen.", "es": "Hay un microondas en la cocina."},
+        {"en": "The dirty plates are in the sink.", "es": "Los platos sucios están en el fregadero."},
+        {"en": "Is there a glass on the table?", "es": "¿Hay un vaso en la mesa?"},
+        {"en": "The fridge is between the stove and the window.", "es": "El refri está entre la estufa y la ventana."},
+        {"en": "How many cups are there? There are five.", "es": "¿Cuántas tazas hay? Hay cinco."}
+      ],
+      "tip_es": "Glass es vaso y cup es taza, para bebidas calientes. Ojo, glasses en plural también significa lentes. Fridge es la forma corta de refrigerator, igual que decir refri."
+    },
+    {
+      "id": "4-8",
+      "title_es": "El baño y la recámara",
+      "words": [
+        {"en": "shower", "es": "regadera", "pos": "noun", "ex_en": "The shower is very small.", "ex_es": "La regadera es muy chica."},
+        {"en": "bathtub", "es": "tina", "pos": "noun", "ex_en": "Is there a bathtub?", "ex_es": "¿Hay tina?"},
+        {"en": "toilet", "es": "excusado, taza del baño", "pos": "noun", "ex_en": "The toilet is clean.", "ex_es": "El excusado está limpio."},
+        {"en": "towel", "es": "toalla", "pos": "noun", "ex_en": "Your towel is behind the door.", "ex_es": "Tu toalla está detrás de la puerta."},
+        {"en": "soap", "es": "jabón", "pos": "noun", "ex_en": "There's no soap.", "ex_es": "No hay jabón."},
+        {"en": "pillow", "es": "almohada", "pos": "noun", "ex_en": "My pillow is very comfortable.", "ex_es": "Mi almohada es muy cómoda."},
+        {"en": "blanket", "es": "cobija", "pos": "noun", "ex_en": "There's a blanket on the bed.", "ex_es": "Hay una cobija en la cama."},
+        {"en": "rug", "es": "tapete", "pos": "noun", "ex_en": "The rug is under the bed.", "ex_es": "El tapete está debajo de la cama."}
+      ],
+      "sentences": [
+        {"en": "The bathroom has a shower, not a bathtub.", "es": "El baño tiene regadera, no tina."},
+        {"en": "Is there soap next to the sink?", "es": "¿Hay jabón junto al lavabo?"},
+        {"en": "There are two towels in the closet.", "es": "Hay dos toallas en el clóset."},
+        {"en": "My blanket and pillows are on the floor.", "es": "Mi cobija y mis almohadas están en el piso."},
+        {"en": "There's a small rug in front of the toilet.", "es": "Hay un tapete chico enfrente del excusado."}
+      ],
+      "tip_es": "En una casa el baño es bathroom, pero en un lugar público en Estados Unidos se dice restroom. Para decir que no hay algo usa there's no, por ejemplo there's no soap."
+    },
+    {
+      "id": "4-9",
+      "title_es": "Arriba, abajo, adentro y afuera",
+      "words": [
+        {"en": "upstairs", "es": "arriba (en el piso de arriba)", "pos": "adv", "ex_en": "The bedrooms are upstairs.", "ex_es": "Las recámaras están arriba."},
+        {"en": "downstairs", "es": "abajo (en el piso de abajo)", "pos": "adv", "ex_en": "The kitchen is downstairs.", "ex_es": "La cocina está abajo."},
+        {"en": "wall", "es": "pared", "pos": "noun", "ex_en": "There's a clock on the wall.", "ex_es": "Hay un reloj en la pared."},
+        {"en": "corner", "es": "rincón, esquina", "pos": "noun", "ex_en": "The lamp is in the corner.", "ex_es": "La lámpara está en el rincón."},
+        {"en": "ceiling", "es": "techo (por dentro)", "pos": "noun", "ex_en": "The ceiling is very high.", "ex_es": "El techo está muy alto."},
+        {"en": "above", "es": "arriba de, encima de", "pos": "prep", "ex_en": "The mirror is above the sink.", "ex_es": "El espejo está arriba del lavabo."},
+        {"en": "inside", "es": "adentro", "pos": "adv", "ex_en": "The dog is inside.", "ex_es": "El perro está adentro."},
+        {"en": "outside", "es": "afuera", "pos": "adv", "ex_en": "The kids are outside.", "ex_es": "Los niños están afuera."}
+      ],
+      "sentences": [
+        {"en": "Is the bathroom upstairs or downstairs?", "es": "¿El baño está arriba o abajo?"},
+        {"en": "There are three mirrors on the wall.", "es": "Hay tres espejos en la pared."},
+        {"en": "The plant is in the corner, near the window.", "es": "La planta está en el rincón, cerca de la ventana."},
+        {"en": "There's a lamp above the table.", "es": "Hay una lámpara arriba de la mesa."},
+        {"en": "The dog isn't inside. He's outside in the yard.", "es": "El perro no está adentro. Está afuera en el patio."}
+      ],
+      "tip_es": "Se dice on the wall porque la cosa está pegada a la pared, e in the corner para el rincón de un cuarto. Upstairs y downstairs no llevan in ni on, así que se dice the kitchen is downstairs."
+    },
+    {
+      "id": "4-10",
+      "title_es": "En la vida real, buscar departamento",
+      "words": [
+        {"en": "rent", "es": "renta", "pos": "noun", "ex_en": "How much is the rent?", "ex_es": "¿Cuánto es la renta?"},
+        {"en": "building", "es": "edificio", "pos": "noun", "ex_en": "The building is new.", "ex_es": "El edificio es nuevo."},
+        {"en": "elevator", "es": "elevador", "pos": "noun", "ex_en": "Is there an elevator?", "ex_es": "¿Hay elevador?"},
+        {"en": "neighborhood", "es": "colonia, barrio", "pos": "noun", "ex_en": "It's a quiet neighborhood.", "ex_es": "Es una colonia tranquila."},
+        {"en": "parking", "es": "estacionamiento", "pos": "noun", "ex_en": "There's parking for two cars.", "ex_es": "Hay estacionamiento para dos coches."},
+        {"en": "furnished", "es": "amueblado, amueblada", "pos": "adj", "ex_en": "The apartment is furnished.", "ex_es": "El departamento está amueblado."},
+        {"en": "sunny", "es": "soleado, con mucho sol", "pos": "adj", "ex_en": "The living room is very sunny.", "ex_es": "A la sala le entra mucho sol."},
+        {"en": "cheap", "es": "barato, barata", "pos": "adj", "ex_en": "The rent isn't cheap.", "ex_es": "La renta no es barata."}
+      ],
+      "sentences": [
+        {"en": "Hi! Is there an apartment for rent?", "es": "¡Hola! ¿Hay un departamento en renta?"},
+        {"en": "Yes. It has two bedrooms and one bathroom.", "es": "Sí. Tiene dos recámaras y un baño."},
+        {"en": "Is there an elevator in the building?", "es": "¿Hay elevador en el edificio?"},
+        {"en": "The kitchen is small, but it's furnished.", "es": "La cocina es chica, pero está amueblada."},
+        {"en": "It's a quiet neighborhood, and the rent is cheap.", "es": "Es una colonia tranquila y la renta es barata."}
+      ],
+      "tip_es": "For rent significa en renta y es lo que ves en los letreros en Estados Unidos. Para preguntar si hay algo usa is there o are there, por ejemplo Is there parking?"
     }
   ],
   "dialogue": {

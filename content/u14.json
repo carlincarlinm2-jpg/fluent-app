@@ -9,21 +9,84 @@
       "id": "14-1",
       "title_es": "¿Alguna vez has...?",
       "words": [
-        {"en":"ever","es":"alguna vez","pos":"adv","ex_en":"Have you ever seen a ghost?","ex_es":"¿Alguna vez has visto un fantasma?"},
-        {"en":"been to","es":"haber ido a, conocer (un lugar)","pos":"phrase","ex_en":"Have you ever been to Guadalajara?","ex_es":"¿Alguna vez has ido a Guadalajara?"},
-        {"en":"go skydiving","es":"aventarse en paracaídas","pos":"phrase","ex_en":"I want to go skydiving before I turn forty.","ex_es":"Quiero aventarme en paracaídas antes de cumplir cuarenta."},
-        {"en":"ride a horse","es":"montar a caballo","pos":"phrase","ex_en":"I learned to ride a horse at my grandpa's ranch.","ex_es":"Aprendí a montar a caballo en el rancho de mi abuelo."},
-        {"en":"grasshopper","es":"chapulín","pos":"noun","ex_en":"Grasshoppers are a popular snack in Oaxaca.","ex_es":"Los chapulines son una botana muy popular en Oaxaca."},
-        {"en":"celebrity","es":"celebridad, famoso","pos":"noun","ex_en":"Have you ever met a celebrity?","ex_es":"¿Alguna vez has conocido a un famoso?"},
-        {"en":"once","es":"una vez","pos":"adv","ex_en":"I've been to New York once.","ex_es":"He ido a Nueva York una vez."},
-        {"en":"twice","es":"dos veces","pos":"adv","ex_en":"She has visited Spain twice.","ex_es":"Ella ha visitado España dos veces."}
+        {
+          "en": "ever",
+          "es": "alguna vez",
+          "pos": "adv",
+          "ex_en": "Have you ever seen a ghost?",
+          "ex_es": "¿Alguna vez has visto un fantasma?"
+        },
+        {
+          "en": "been to",
+          "es": "haber ido a, conocer (un lugar)",
+          "pos": "phrase",
+          "ex_en": "Have you ever been to Guadalajara?",
+          "ex_es": "¿Alguna vez has ido a Guadalajara?"
+        },
+        {
+          "en": "go skydiving",
+          "es": "aventarse en paracaídas",
+          "pos": "phrase",
+          "ex_en": "I want to go skydiving before I turn forty.",
+          "ex_es": "Quiero aventarme en paracaídas antes de cumplir cuarenta."
+        },
+        {
+          "en": "ride a horse",
+          "es": "montar a caballo",
+          "pos": "phrase",
+          "ex_en": "I learned to ride a horse at my grandpa's ranch.",
+          "ex_es": "Aprendí a montar a caballo en el rancho de mi abuelo."
+        },
+        {
+          "en": "grasshopper",
+          "es": "chapulín",
+          "pos": "noun",
+          "ex_en": "Grasshoppers are a popular snack in Oaxaca.",
+          "ex_es": "Los chapulines son una botana muy popular en Oaxaca."
+        },
+        {
+          "en": "celebrity",
+          "es": "celebridad, famoso",
+          "pos": "noun",
+          "ex_en": "Have you ever met a celebrity?",
+          "ex_es": "¿Alguna vez has conocido a un famoso?"
+        },
+        {
+          "en": "once",
+          "es": "una vez",
+          "pos": "adv",
+          "ex_en": "I've been to New York once.",
+          "ex_es": "He ido a Nueva York una vez."
+        },
+        {
+          "en": "twice",
+          "es": "dos veces",
+          "pos": "adv",
+          "ex_en": "She has visited Spain twice.",
+          "ex_es": "Ella ha visitado España dos veces."
+        }
       ],
       "sentences": [
-        {"en":"Have you ever been to a baseball game?","es":"¿Alguna vez has ido a un partido de béisbol?"},
-        {"en":"Yes, I have. I went to one last summer.","es":"Sí. Fui a uno el verano pasado."},
-        {"en":"I've never eaten grasshoppers, but I want to try them.","es":"Nunca he comido chapulines, pero quiero probarlos."},
-        {"en":"My sister has met two famous singers.","es":"Mi hermana ha conocido a dos cantantes famosos."},
-        {"en":"How many times have you flown on a plane?","es":"¿Cuántas veces te has subido a un avión?"}
+        {
+          "en": "Have you ever been to a baseball game?",
+          "es": "¿Alguna vez has ido a un partido de béisbol?"
+        },
+        {
+          "en": "Yes, I have. I went to one last summer.",
+          "es": "Sí. Fui a uno el verano pasado."
+        },
+        {
+          "en": "I've never eaten grasshoppers, but I want to try them.",
+          "es": "Nunca he comido chapulines, pero quiero probarlos."
+        },
+        {
+          "en": "My sister has met two famous singers.",
+          "es": "Mi hermana ha conocido a dos cantantes famosos."
+        },
+        {
+          "en": "How many times have you flown on a plane?",
+          "es": "¿Cuántas veces te has subido a un avión?"
+        }
       ],
       "tip_es": "Para hablar de experiencias de tu vida sin decir cuándo pasaron, usa have o has + participio: I have seen, she has gone. Responde corto con Yes, I have o No, I haven't, en lugar de solo Yes o No."
     },
@@ -31,21 +94,84 @@
       "id": "14-2",
       "title_es": "Already, yet y just",
       "words": [
-        {"en":"already","es":"ya","pos":"adv","ex_en":"I've already finished my homework.","ex_es":"Ya terminé mi tarea."},
-        {"en":"yet","es":"todavía, ya (en preguntas)","pos":"adv","ex_en":"Have you had lunch yet?","ex_es":"¿Ya comiste?"},
-        {"en":"just","es":"acabar de","pos":"adv","ex_en":"He's just arrived home.","ex_es":"Él acaba de llegar a la casa."},
-        {"en":"still","es":"todavía, aún","pos":"adv","ex_en":"I still haven't called my mom.","ex_es":"Todavía no le he llamado a mi mamá."},
-        {"en":"wrap up","es":"terminar, cerrar","pos":"verb","ex_en":"Let's wrap up the meeting in five minutes.","ex_es":"Cerremos la junta en cinco minutos."},
-        {"en":"hand in","es":"entregar","pos":"verb","ex_en":"Don't forget to hand in your essay on Monday.","ex_es":"No olvides entregar tu ensayo el lunes."},
-        {"en":"sort out","es":"resolver, arreglar","pos":"verb","ex_en":"I need to sort out my papers before the trip.","ex_es":"Necesito arreglar mis papeles antes del viaje."},
-        {"en":"to-do list","es":"lista de pendientes","pos":"noun","ex_en":"My to-do list is very long today.","ex_es":"Mi lista de pendientes está muy larga hoy."}
+        {
+          "en": "already",
+          "es": "ya",
+          "pos": "adv",
+          "ex_en": "I've already finished my homework.",
+          "ex_es": "Ya terminé mi tarea."
+        },
+        {
+          "en": "yet",
+          "es": "todavía, ya (en preguntas)",
+          "pos": "adv",
+          "ex_en": "Have you had lunch yet?",
+          "ex_es": "¿Ya comiste?"
+        },
+        {
+          "en": "just",
+          "es": "acabar de",
+          "pos": "adv",
+          "ex_en": "He's just arrived home.",
+          "ex_es": "Él acaba de llegar a la casa."
+        },
+        {
+          "en": "still",
+          "es": "todavía, aún",
+          "pos": "adv",
+          "ex_en": "I still haven't called my mom.",
+          "ex_es": "Todavía no le he llamado a mi mamá."
+        },
+        {
+          "en": "wrap up",
+          "es": "terminar, cerrar",
+          "pos": "verb",
+          "ex_en": "Let's wrap up the meeting in five minutes.",
+          "ex_es": "Cerremos la junta en cinco minutos."
+        },
+        {
+          "en": "hand in",
+          "es": "entregar",
+          "pos": "verb",
+          "ex_en": "Don't forget to hand in your essay on Monday.",
+          "ex_es": "No olvides entregar tu ensayo el lunes."
+        },
+        {
+          "en": "sort out",
+          "es": "resolver, arreglar",
+          "pos": "verb",
+          "ex_en": "I need to sort out my papers before the trip.",
+          "ex_es": "Necesito arreglar mis papeles antes del viaje."
+        },
+        {
+          "en": "to-do list",
+          "es": "lista de pendientes",
+          "pos": "noun",
+          "ex_en": "My to-do list is very long today.",
+          "ex_es": "Mi lista de pendientes está muy larga hoy."
+        }
       ],
       "sentences": [
-        {"en":"Have you finished the report yet?","es":"¿Ya terminaste el reporte?"},
-        {"en":"No, I haven't finished it yet.","es":"No, todavía no lo he terminado."},
-        {"en":"I've already sent the email to the client.","es":"Ya le mandé el correo al cliente."},
-        {"en":"The bus has just left. We missed it!","es":"El camión acaba de irse. ¡Lo perdimos!"},
-        {"en":"She still hasn't sorted out her visa.","es":"Ella todavía no ha resuelto lo de su visa."}
+        {
+          "en": "Have you finished the report yet?",
+          "es": "¿Ya terminaste el reporte?"
+        },
+        {
+          "en": "No, I haven't finished it yet.",
+          "es": "No, todavía no lo he terminado."
+        },
+        {
+          "en": "I've already sent the email to the client.",
+          "es": "Ya le mandé el correo al cliente."
+        },
+        {
+          "en": "The bus has just left. We missed it!",
+          "es": "El camión acaba de irse. ¡Lo perdimos!"
+        },
+        {
+          "en": "She still hasn't sorted out her visa.",
+          "es": "Ella todavía no ha resuelto lo de su visa."
+        }
       ],
       "tip_es": "Already va normalmente entre have y el participio: I've already eaten. Yet va al final en preguntas y negativas: Have you eaten yet? I haven't eaten yet. Just significa acabar de: I've just arrived es Acabo de llegar."
     },
@@ -53,21 +179,84 @@
       "id": "14-3",
       "title_es": "For y since",
       "words": [
-        {"en":"for","es":"durante, desde hace","pos":"prep","ex_en":"I've lived here for five years.","ex_es":"Llevo cinco años viviendo aquí."},
-        {"en":"since","es":"desde","pos":"prep","ex_en":"She has worked here since 2019.","ex_es":"Ella trabaja aquí desde 2019."},
-        {"en":"how long","es":"cuánto tiempo","pos":"phrase","ex_en":"How long have you known Pedro?","ex_es":"¿Desde hace cuánto conoces a Pedro?"},
-        {"en":"decade","es":"década","pos":"noun","ex_en":"They've been friends for over a decade.","ex_es":"Han sido amigos por más de una década."},
-        {"en":"childhood","es":"infancia","pos":"noun","ex_en":"We've known each other since childhood.","ex_es":"Nos conocemos desde la infancia."},
-        {"en":"ages","es":"mucho tiempo, siglos","pos":"noun","ex_en":"I haven't seen you for ages!","ex_es":"¡Hace siglos que no te veo!"},
-        {"en":"get to know","es":"conocer (a alguien poco a poco)","pos":"phrase","ex_en":"I'd like to get to know your family better.","ex_es":"Me gustaría conocer mejor a tu familia."},
-        {"en":"lately","es":"últimamente","pos":"adv","ex_en":"Have you been busy lately?","ex_es":"¿Has estado ocupado últimamente?"}
+        {
+          "en": "for",
+          "es": "durante, desde hace",
+          "pos": "prep",
+          "ex_en": "I've lived here for five years.",
+          "ex_es": "Llevo cinco años viviendo aquí."
+        },
+        {
+          "en": "since",
+          "es": "desde",
+          "pos": "prep",
+          "ex_en": "She has worked here since 2019.",
+          "ex_es": "Ella trabaja aquí desde 2019."
+        },
+        {
+          "en": "how long",
+          "es": "cuánto tiempo",
+          "pos": "phrase",
+          "ex_en": "How long have you known Pedro?",
+          "ex_es": "¿Desde hace cuánto conoces a Pedro?"
+        },
+        {
+          "en": "decade",
+          "es": "década",
+          "pos": "noun",
+          "ex_en": "They've been friends for over a decade.",
+          "ex_es": "Han sido amigos por más de una década."
+        },
+        {
+          "en": "childhood",
+          "es": "infancia",
+          "pos": "noun",
+          "ex_en": "We've known each other since childhood.",
+          "ex_es": "Nos conocemos desde la infancia."
+        },
+        {
+          "en": "ages",
+          "es": "mucho tiempo, siglos",
+          "pos": "noun",
+          "ex_en": "I haven't seen you for ages!",
+          "ex_es": "¡Hace siglos que no te veo!"
+        },
+        {
+          "en": "get to know",
+          "es": "conocer (a alguien poco a poco)",
+          "pos": "phrase",
+          "ex_en": "I'd like to get to know your family better.",
+          "ex_es": "Me gustaría conocer mejor a tu familia."
+        },
+        {
+          "en": "lately",
+          "es": "últimamente",
+          "pos": "adv",
+          "ex_en": "Have you been busy lately?",
+          "ex_es": "¿Has estado ocupado últimamente?"
+        }
       ],
       "sentences": [
-        {"en":"How long have you lived in Monterrey?","es":"¿Cuánto tiempo llevas viviendo en Monterrey?"},
-        {"en":"I've lived here for almost ten years.","es":"Llevo casi diez años viviendo aquí."},
-        {"en":"We've been married since 2015.","es":"Estamos casados desde 2015."},
-        {"en":"I haven't seen my cousins since Christmas.","es":"No he visto a mis primos desde Navidad."},
-        {"en":"She's been learning English for six months.","es":"Ella lleva seis meses aprendiendo inglés."}
+        {
+          "en": "How long have you lived in Monterrey?",
+          "es": "¿Cuánto tiempo llevas viviendo en Monterrey?"
+        },
+        {
+          "en": "I've lived here for almost ten years.",
+          "es": "Llevo casi diez años viviendo aquí."
+        },
+        {
+          "en": "We've been married since 2015.",
+          "es": "Estamos casados desde 2015."
+        },
+        {
+          "en": "I haven't seen my cousins since Christmas.",
+          "es": "No he visto a mis primos desde Navidad."
+        },
+        {
+          "en": "She's been learning English for six months.",
+          "es": "Ella lleva seis meses aprendiendo inglés."
+        }
       ],
       "tip_es": "Usa for con periodos de tiempo (for two years, for a week) y since con el momento en que empezó (since Monday, since 2010). Error común: I live here since 2010. Lo correcto es I have lived here since 2010."
     },
@@ -75,21 +264,84 @@
       "id": "14-4",
       "title_es": "¿Present perfect o pasado simple?",
       "words": [
-        {"en":"recently","es":"recientemente","pos":"adv","ex_en":"Have you seen any good movies recently?","ex_es":"¿Has visto alguna película buena recientemente?"},
-        {"en":"so far","es":"hasta ahora","pos":"phrase","ex_en":"So far, I've read three books this month.","ex_es":"Hasta ahora, he leído tres libros este mes."},
-        {"en":"in my life","es":"en mi vida","pos":"phrase","ex_en":"I've never been so tired in my life.","ex_es":"Nunca he estado tan cansado en mi vida."},
-        {"en":"once in a lifetime","es":"única en la vida","pos":"phrase","ex_en":"Seeing the whales was a once in a lifetime experience.","ex_es":"Ver las ballenas fue una experiencia única en la vida."},
-        {"en":"unforgettable","es":"inolvidable","pos":"adj","ex_en":"Our trip to Chiapas was unforgettable.","ex_es":"Nuestro viaje a Chiapas fue inolvidable."},
-        {"en":"go through","es":"pasar por, vivir","pos":"verb","ex_en":"Many students go through stress during exams.","ex_es":"Muchos estudiantes pasan por estrés durante los exámenes."},
-        {"en":"experience","es":"experiencia","pos":"noun","ex_en":"Working in a hotel was a great experience.","ex_es":"Trabajar en un hotel fue una gran experiencia."},
-        {"en":"the other day","es":"el otro día","pos":"phrase","ex_en":"I saw your brother the other day.","ex_es":"Vi a tu hermano el otro día."}
+        {
+          "en": "recently",
+          "es": "recientemente",
+          "pos": "adv",
+          "ex_en": "Have you seen any good movies recently?",
+          "ex_es": "¿Has visto alguna película buena recientemente?"
+        },
+        {
+          "en": "so far",
+          "es": "hasta ahora",
+          "pos": "phrase",
+          "ex_en": "So far, I've read three books this month.",
+          "ex_es": "Hasta ahora, he leído tres libros este mes."
+        },
+        {
+          "en": "in my life",
+          "es": "en mi vida",
+          "pos": "phrase",
+          "ex_en": "I've never been so tired in my life.",
+          "ex_es": "Nunca he estado tan cansado en mi vida."
+        },
+        {
+          "en": "once in a lifetime",
+          "es": "única en la vida",
+          "pos": "phrase",
+          "ex_en": "Seeing the whales was a once in a lifetime experience.",
+          "ex_es": "Ver las ballenas fue una experiencia única en la vida."
+        },
+        {
+          "en": "unforgettable",
+          "es": "inolvidable",
+          "pos": "adj",
+          "ex_en": "Our trip to Chiapas was unforgettable.",
+          "ex_es": "Nuestro viaje a Chiapas fue inolvidable."
+        },
+        {
+          "en": "go through",
+          "es": "pasar por, vivir",
+          "pos": "verb",
+          "ex_en": "Many students go through stress during exams.",
+          "ex_es": "Muchos estudiantes pasan por estrés durante los exámenes."
+        },
+        {
+          "en": "experience",
+          "es": "experiencia",
+          "pos": "noun",
+          "ex_en": "Working in a hotel was a great experience.",
+          "ex_es": "Trabajar en un hotel fue una gran experiencia."
+        },
+        {
+          "en": "the other day",
+          "es": "el otro día",
+          "pos": "phrase",
+          "ex_en": "I saw your brother the other day.",
+          "ex_es": "Vi a tu hermano el otro día."
+        }
       ],
       "sentences": [
-        {"en":"I've been to Puerto Vallarta, but I went there years ago.","es":"He ido a Puerto Vallarta, pero fue hace años."},
-        {"en":"Have you seen the new superhero movie? Yes, I saw it Sunday.","es":"¿Ya viste la nueva película de superhéroes? Sí, la vi el domingo."},
-        {"en":"So far, this year has been really good.","es":"Hasta ahora, este año ha sido muy bueno."},
-        {"en":"I've never had such an unforgettable experience in my life.","es":"Nunca he tenido una experiencia tan inolvidable en mi vida."},
-        {"en":"When did you start working here?","es":"¿Cuándo empezaste a trabajar aquí?"}
+        {
+          "en": "I've been to Puerto Vallarta, but I went there years ago.",
+          "es": "He ido a Puerto Vallarta, pero fue hace años."
+        },
+        {
+          "en": "Have you seen the new superhero movie? Yes, I saw it Sunday.",
+          "es": "¿Ya viste la nueva película de superhéroes? Sí, la vi el domingo."
+        },
+        {
+          "en": "So far, this year has been really good.",
+          "es": "Hasta ahora, este año ha sido muy bueno."
+        },
+        {
+          "en": "I've never had such an unforgettable experience in my life.",
+          "es": "Nunca he tenido una experiencia tan inolvidable en mi vida."
+        },
+        {
+          "en": "When did you start working here?",
+          "es": "¿Cuándo empezaste a trabajar aquí?"
+        }
       ],
       "tip_es": "Si dices cuándo pasó (yesterday, in 2020, last week, the other day), usa past simple: I saw it yesterday. Si no importa cuándo o el periodo sigue abierto (this year, so far, ever), usa present perfect. Nunca digas I have seen it yesterday."
     },
@@ -97,21 +349,84 @@
       "id": "14-5",
       "title_es": "Logros y cambios",
       "words": [
-        {"en":"accomplish","es":"lograr, cumplir","pos":"verb","ex_en":"It feels great to accomplish a big goal.","ex_es":"Se siente increíble cumplir una meta grande."},
-        {"en":"improve","es":"mejorar","pos":"verb","ex_en":"I want to improve my pronunciation.","ex_es":"Quiero mejorar mi pronunciación."},
-        {"en":"graduate","es":"graduarse","pos":"verb","ex_en":"She has just graduated from college.","ex_es":"Ella acaba de graduarse de la universidad."},
-        {"en":"get promoted","es":"recibir un ascenso","pos":"phrase","ex_en":"I hope to get promoted next year.","ex_es":"Espero recibir un ascenso el próximo año."},
-        {"en":"quit","es":"dejar (un hábito o trabajo)","pos":"verb","ex_en":"My dad has quit smoking.","ex_es":"Mi papá ya dejó de fumar."},
-        {"en":"take up","es":"empezar (un pasatiempo)","pos":"verb","ex_en":"I want to take up painting this year.","ex_es":"Quiero empezar a pintar este año."},
-        {"en":"grow up","es":"crecer","pos":"verb","ex_en":"Where did you grow up?","ex_es":"¿Dónde creciste?"},
-        {"en":"proud","es":"orgulloso","pos":"adj","ex_en":"I'm so proud of you!","ex_es":"¡Estoy muy orgulloso de ti!"}
+        {
+          "en": "accomplish",
+          "es": "lograr, cumplir",
+          "pos": "verb",
+          "ex_en": "It feels great to accomplish a big goal.",
+          "ex_es": "Se siente increíble cumplir una meta grande."
+        },
+        {
+          "en": "improve",
+          "es": "mejorar",
+          "pos": "verb",
+          "ex_en": "I want to improve my pronunciation.",
+          "ex_es": "Quiero mejorar mi pronunciación."
+        },
+        {
+          "en": "graduate",
+          "es": "graduarse",
+          "pos": "verb",
+          "ex_en": "She has just graduated from college.",
+          "ex_es": "Ella acaba de graduarse de la universidad."
+        },
+        {
+          "en": "get promoted",
+          "es": "recibir un ascenso",
+          "pos": "phrase",
+          "ex_en": "I hope to get promoted next year.",
+          "ex_es": "Espero recibir un ascenso el próximo año."
+        },
+        {
+          "en": "quit",
+          "es": "dejar (un hábito o trabajo)",
+          "pos": "verb",
+          "ex_en": "My dad has quit smoking.",
+          "ex_es": "Mi papá ya dejó de fumar."
+        },
+        {
+          "en": "take up",
+          "es": "empezar (un pasatiempo)",
+          "pos": "verb",
+          "ex_en": "I want to take up painting this year.",
+          "ex_es": "Quiero empezar a pintar este año."
+        },
+        {
+          "en": "grow up",
+          "es": "crecer",
+          "pos": "verb",
+          "ex_en": "Where did you grow up?",
+          "ex_es": "¿Dónde creciste?"
+        },
+        {
+          "en": "proud",
+          "es": "orgulloso",
+          "pos": "adj",
+          "ex_en": "I'm so proud of you!",
+          "ex_es": "¡Estoy muy orgulloso de ti!"
+        }
       ],
       "sentences": [
-        {"en":"My English has improved a lot since I started this course.","es":"Mi inglés ha mejorado mucho desde que empecé este curso."},
-        {"en":"Have you taken up any new hobbies lately?","es":"¿Has empezado algún pasatiempo nuevo últimamente?"},
-        {"en":"He has just graduated, and his parents are very proud.","es":"Acaba de graduarse y sus papás están muy orgullosos."},
-        {"en":"I've quit drinking soda, and I feel much better.","es":"Dejé de tomar refresco y me siento mucho mejor."},
-        {"en":"How has your city changed since you were a kid?","es":"¿Cómo ha cambiado tu ciudad desde que eras niño?"}
+        {
+          "en": "My English has improved a lot since I started this course.",
+          "es": "Mi inglés ha mejorado mucho desde que empecé este curso."
+        },
+        {
+          "en": "Have you taken up any new hobbies lately?",
+          "es": "¿Has empezado algún pasatiempo nuevo últimamente?"
+        },
+        {
+          "en": "He has just graduated, and his parents are very proud.",
+          "es": "Acaba de graduarse y sus papás están muy orgullosos."
+        },
+        {
+          "en": "I've quit drinking soda, and I feel much better.",
+          "es": "Dejé de tomar refresco y me siento mucho mejor."
+        },
+        {
+          "en": "How has your city changed since you were a kid?",
+          "es": "¿Cómo ha cambiado tu ciudad desde que eras niño?"
+        }
       ],
       "tip_es": "El present perfect es ideal para cambios con un resultado visible hoy: My English has improved. Aprende los participios irregulares más comunes: grow, grew, grown. take, took, taken. quit, quit, quit."
     },
@@ -119,39 +434,482 @@
       "id": "14-6",
       "title_es": "Viajes y aventuras",
       "words": [
-        {"en":"abroad","es":"en el extranjero","pos":"adv","ex_en":"Have you ever lived abroad?","ex_es":"¿Alguna vez has vivido en el extranjero?"},
-        {"en":"sightseeing","es":"recorrido turístico","pos":"noun","ex_en":"We did a lot of sightseeing in Rome.","ex_es":"Hicimos muchos recorridos turísticos en Roma."},
-        {"en":"bucket list","es":"lista de cosas por hacer en la vida","pos":"noun","ex_en":"Visiting Japan is on my bucket list.","ex_es":"Conocer Japón está en mi lista de cosas por hacer en la vida."},
-        {"en":"breathtaking","es":"impresionante","pos":"adj","ex_en":"The view from the pyramid was breathtaking.","ex_es":"La vista desde la pirámide fue impresionante."},
-        {"en":"get lost","es":"perderse","pos":"phrase","ex_en":"It's easy to get lost in Mexico City.","ex_es":"Es fácil perderse en la Ciudad de México."},
-        {"en":"backpack","es":"viajar de mochilazo","pos":"verb","ex_en":"They want to backpack through South America.","ex_es":"Quieren viajar de mochilazo por Sudamérica."},
-        {"en":"off the beaten path","es":"poco turístico","pos":"phrase","ex_en":"We like towns that are off the beaten path.","ex_es":"Nos gustan los pueblos poco turísticos."},
-        {"en":"culture shock","es":"choque cultural","pos":"noun","ex_en":"I had a big culture shock when I moved to Canada.","ex_es":"Tuve un gran choque cultural cuando me mudé a Canadá."}
+        {
+          "en": "abroad",
+          "es": "en el extranjero",
+          "pos": "adv",
+          "ex_en": "Have you ever lived abroad?",
+          "ex_es": "¿Alguna vez has vivido en el extranjero?"
+        },
+        {
+          "en": "sightseeing",
+          "es": "recorrido turístico",
+          "pos": "noun",
+          "ex_en": "We did a lot of sightseeing in Rome.",
+          "ex_es": "Hicimos muchos recorridos turísticos en Roma."
+        },
+        {
+          "en": "bucket list",
+          "es": "lista de cosas por hacer en la vida",
+          "pos": "noun",
+          "ex_en": "Visiting Japan is on my bucket list.",
+          "ex_es": "Conocer Japón está en mi lista de cosas por hacer en la vida."
+        },
+        {
+          "en": "breathtaking",
+          "es": "impresionante",
+          "pos": "adj",
+          "ex_en": "The view from the pyramid was breathtaking.",
+          "ex_es": "La vista desde la pirámide fue impresionante."
+        },
+        {
+          "en": "get lost",
+          "es": "perderse",
+          "pos": "phrase",
+          "ex_en": "It's easy to get lost in Mexico City.",
+          "ex_es": "Es fácil perderse en la Ciudad de México."
+        },
+        {
+          "en": "backpack",
+          "es": "viajar de mochilazo",
+          "pos": "verb",
+          "ex_en": "They want to backpack through South America.",
+          "ex_es": "Quieren viajar de mochilazo por Sudamérica."
+        },
+        {
+          "en": "off the beaten path",
+          "es": "poco turístico",
+          "pos": "phrase",
+          "ex_en": "We like towns that are off the beaten path.",
+          "ex_es": "Nos gustan los pueblos poco turísticos."
+        },
+        {
+          "en": "culture shock",
+          "es": "choque cultural",
+          "pos": "noun",
+          "ex_en": "I had a big culture shock when I moved to Canada.",
+          "ex_es": "Tuve un gran choque cultural cuando me mudé a Canadá."
+        }
       ],
       "sentences": [
-        {"en":"Have you ever traveled abroad by yourself?","es":"¿Alguna vez has viajado solo al extranjero?"},
-        {"en":"My parents have gone to Spain. They come back next week.","es":"Mis papás se fueron a España. Regresan la próxima semana."},
-        {"en":"I've been to Spain twice, and I loved it.","es":"He ido a España dos veces y me encantó."},
-        {"en":"We've gotten lost three times today!","es":"¡Nos hemos perdido tres veces hoy!"},
-        {"en":"Seeing the northern lights is at the top of my bucket list.","es":"Ver la aurora boreal es lo primero en mi lista de sueños."}
+        {
+          "en": "Have you ever traveled abroad by yourself?",
+          "es": "¿Alguna vez has viajado solo al extranjero?"
+        },
+        {
+          "en": "My parents have gone to Spain. They come back next week.",
+          "es": "Mis papás se fueron a España. Regresan la próxima semana."
+        },
+        {
+          "en": "I've been to Spain twice, and I loved it.",
+          "es": "He ido a España dos veces y me encantó."
+        },
+        {
+          "en": "We've gotten lost three times today!",
+          "es": "¡Nos hemos perdido tres veces hoy!"
+        },
+        {
+          "en": "Seeing the northern lights is at the top of my bucket list.",
+          "es": "Ver la aurora boreal es lo primero en mi lista de sueños."
+        }
       ],
       "tip_es": "Has been to significa que la persona fue y ya regresó. Has gone to significa que se fue y sigue allá. She has been to Paris (ya volvió). She has gone to Paris (todavía está en París)."
+    },
+    {
+      "id": "14-7",
+      "title_es": "¿Cuánto tiempo llevas haciéndolo?",
+      "words": [
+        {
+          "en": "all day",
+          "es": "todo el día",
+          "pos": "phrase",
+          "ex_en": "I've been studying all day, and my head hurts.",
+          "ex_es": "He estado estudiando todo el día y me duele la cabeza."
+        },
+        {
+          "en": "worn out",
+          "es": "agotado, rendido",
+          "pos": "adj",
+          "ex_en": "You look worn out. Have you been working late?",
+          "ex_es": "Te ves agotado. ¿Has estado trabajando hasta tarde?"
+        },
+        {
+          "en": "nonstop",
+          "es": "sin parar",
+          "pos": "adv",
+          "ex_en": "It has been raining nonstop since Tuesday.",
+          "ex_es": "Ha estado lloviendo sin parar desde el martes."
+        },
+        {
+          "en": "wait in line",
+          "es": "hacer fila",
+          "pos": "verb",
+          "ex_en": "How long did you have to wait in line?",
+          "ex_es": "¿Cuánto tiempo tuviste que hacer fila?"
+        },
+        {
+          "en": "work out",
+          "es": "hacer ejercicio",
+          "pos": "verb",
+          "ex_en": "I've started to work out three times a week.",
+          "ex_es": "Empecé a hacer ejercicio tres veces por semana."
+        },
+        {
+          "en": "put on weight",
+          "es": "subir de peso",
+          "pos": "phrase",
+          "ex_en": "I've put on weight since I stopped running.",
+          "ex_es": "He subido de peso desde que dejé de correr."
+        },
+        {
+          "en": "practice",
+          "es": "practicar",
+          "pos": "verb",
+          "ex_en": "I've been trying to practice every day.",
+          "ex_es": "He estado tratando de practicar todos los días."
+        },
+        {
+          "en": "sore",
+          "es": "adolorido",
+          "pos": "adj",
+          "ex_en": "My legs are sore because I've been running a lot.",
+          "ex_es": "Tengo las piernas adoloridas porque he estado corriendo mucho."
+        }
+      ],
+      "sentences": [
+        {
+          "en": "I've been learning to play the guitar for a year.",
+          "es": "Llevo un año aprendiendo a tocar la guitarra."
+        },
+        {
+          "en": "How long have you been waiting for the bus?",
+          "es": "¿Cuánto tiempo llevas esperando el camión?"
+        },
+        {
+          "en": "She's tired because she's been working nonstop.",
+          "es": "Está cansada porque ha estado trabajando sin parar."
+        },
+        {
+          "en": "We've been looking for an apartment since March.",
+          "es": "Llevamos buscando departamento desde marzo."
+        },
+        {
+          "en": "My back is sore. I've been sitting all day.",
+          "es": "Me duele la espalda. He estado sentado todo el día."
+        }
+      ],
+      "tip_es": "El present perfect continuous se forma con have o has + been + verbo con -ing. Se usa para acciones que empezaron en el pasado y siguen, o que acaban de terminar y se nota el resultado. Llevo una hora esperando se dice I've been waiting for an hour."
+    },
+    {
+      "id": "14-8",
+      "title_es": "Primeras veces y anécdotas",
+      "words": [
+        {
+          "en": "the first time",
+          "es": "la primera vez",
+          "pos": "phrase",
+          "ex_en": "This is the first time I've eaten mole.",
+          "ex_es": "Es la primera vez que como mole."
+        },
+        {
+          "en": "by accident",
+          "es": "por accidente, sin querer",
+          "pos": "phrase",
+          "ex_en": "I've deleted all my photos by accident!",
+          "ex_es": "¡Borré todas mis fotos sin querer!"
+        },
+        {
+          "en": "run into",
+          "es": "encontrarse con, toparse con",
+          "pos": "verb",
+          "ex_en": "I've just run into my old teacher at the mall.",
+          "ex_es": "Me acabo de encontrar a mi antigua maestra en la plaza."
+        },
+        {
+          "en": "embarrassing",
+          "es": "vergonzoso",
+          "pos": "adj",
+          "ex_en": "The most embarrassing thing that has happened to me was at school.",
+          "ex_es": "Lo más vergonzoso que me ha pasado fue en la escuela."
+        },
+        {
+          "en": "hilarious",
+          "es": "graciosísimo, chistosísimo",
+          "pos": "adj",
+          "ex_en": "Her story about the wedding was hilarious.",
+          "ex_es": "Su historia de la boda estuvo chistosísima."
+        },
+        {
+          "en": "never forget",
+          "es": "nunca olvidar",
+          "pos": "phrase",
+          "ex_en": "I'll never forget the day I met her.",
+          "ex_es": "Nunca voy a olvidar el día que la conocí."
+        },
+        {
+          "en": "story",
+          "es": "historia, anécdota",
+          "pos": "noun",
+          "ex_en": "Have you heard the story about my trip to Chiapas?",
+          "ex_es": "¿Ya oíste la anécdota de mi viaje a Chiapas?"
+        },
+        {
+          "en": "scary",
+          "es": "aterrador, que da miedo",
+          "pos": "adj",
+          "ex_en": "The flight was really scary because of the storm.",
+          "ex_es": "El vuelo dio mucho miedo por la tormenta."
+        }
+      ],
+      "sentences": [
+        {
+          "en": "It's the first time I've driven on the highway.",
+          "es": "Es la primera vez que manejo en la carretera."
+        },
+        {
+          "en": "Have you ever run into an ex at a party?",
+          "es": "¿Alguna vez te has topado con un ex en una fiesta?"
+        },
+        {
+          "en": "I've sent a message to my boss by accident before.",
+          "es": "Ya me ha pasado mandarle un mensaje a mi jefe por accidente."
+        },
+        {
+          "en": "That's the funniest story I've heard all week.",
+          "es": "Es la historia más chistosa que he oído en toda la semana."
+        },
+        {
+          "en": "I'll never forget the first time I saw the ocean.",
+          "es": "Nunca voy a olvidar la primera vez que vi el mar."
+        }
+      ],
+      "tip_es": "Después de It's the first time se usa present perfect, aunque en español digamos presente: Es la primera vez que vengo se dice It's the first time I've come, no It's the first time I come."
+    },
+    {
+      "id": "14-9",
+      "title_es": "Hábitos que han cambiado",
+      "words": [
+        {
+          "en": "used to",
+          "es": "solía",
+          "pos": "phrase",
+          "ex_en": "I used to live in Puebla, but I've moved.",
+          "ex_es": "Yo vivía en Puebla, pero ya me mudé."
+        },
+        {
+          "en": "get used to",
+          "es": "acostumbrarse a",
+          "pos": "phrase",
+          "ex_en": "It took me months to get used to the cold.",
+          "ex_es": "Me tomó meses acostumbrarme al frío."
+        },
+        {
+          "en": "anymore",
+          "es": "ya no",
+          "pos": "adv",
+          "ex_en": "I don't eat meat anymore.",
+          "ex_es": "Ya no como carne."
+        },
+        {
+          "en": "no longer",
+          "es": "ya no",
+          "pos": "phrase",
+          "ex_en": "She no longer works here. She has retired.",
+          "ex_es": "Ella ya no trabaja aquí. Se jubiló."
+        },
+        {
+          "en": "habit",
+          "es": "hábito, costumbre",
+          "pos": "noun",
+          "ex_en": "Reading before bed has become a good habit.",
+          "ex_es": "Leer antes de dormir se ha vuelto un buen hábito."
+        },
+        {
+          "en": "cut down on",
+          "es": "reducir, bajarle a",
+          "pos": "verb",
+          "ex_en": "I've decided to cut down on sugar.",
+          "ex_es": "Decidí bajarle al azúcar."
+        },
+        {
+          "en": "switch to",
+          "es": "cambiarse a",
+          "pos": "verb",
+          "ex_en": "Why did you switch to a new phone company?",
+          "ex_es": "¿Por qué te cambiaste a otra compañía de teléfono?"
+        },
+        {
+          "en": "routine",
+          "es": "rutina",
+          "pos": "noun",
+          "ex_en": "My morning routine has changed a lot this year.",
+          "ex_es": "Mi rutina de la mañana ha cambiado mucho este año."
+        }
+      ],
+      "sentences": [
+        {
+          "en": "I used to smoke, but I haven't smoked since 2019.",
+          "es": "Antes fumaba, pero no he fumado desde 2019."
+        },
+        {
+          "en": "Have you gotten used to living alone yet?",
+          "es": "¿Ya te acostumbraste a vivir solo?"
+        },
+        {
+          "en": "He doesn't play soccer anymore because of his knee.",
+          "es": "Ya no juega futbol por su rodilla."
+        },
+        {
+          "en": "I've cut down on coffee, and I sleep much better.",
+          "es": "Le he bajado al café y duermo mucho mejor."
+        },
+        {
+          "en": "Exercise has become part of my daily routine.",
+          "es": "El ejercicio se ha vuelto parte de mi rutina diaria."
+        }
+      ],
+      "tip_es": "Used to + verbo base habla de hábitos del pasado que ya no ocurren: I used to smoke, antes fumaba. Get used to significa acostumbrarse y después lleva sustantivo o verbo con -ing: I got used to waking up early. Anymore va al final de una oración negativa."
+    },
+    {
+      "id": "14-10",
+      "title_es": "Ponerse al día en la vida real",
+      "words": [
+        {
+          "en": "catch up",
+          "es": "ponerse al día",
+          "pos": "verb",
+          "ex_en": "Let's get coffee and catch up soon.",
+          "ex_es": "Vamos por un café para ponernos al día pronto."
+        },
+        {
+          "en": "long time no see",
+          "es": "cuánto tiempo sin verte",
+          "pos": "phrase",
+          "ex_en": "Long time no see! How have you been?",
+          "ex_es": "¡Cuánto tiempo sin verte! ¿Cómo has estado?"
+        },
+        {
+          "en": "what have you been up to",
+          "es": "qué has hecho, en qué andas",
+          "pos": "phrase",
+          "ex_en": "So, what have you been up to these days?",
+          "ex_es": "Bueno, ¿en qué andas estos días?"
+        },
+        {
+          "en": "keep busy",
+          "es": "mantenerse ocupado",
+          "pos": "phrase",
+          "ex_en": "I've been trying to keep busy with work.",
+          "ex_es": "He tratado de mantenerme ocupado con el trabajo."
+        },
+        {
+          "en": "change jobs",
+          "es": "cambiar de trabajo",
+          "pos": "phrase",
+          "ex_en": "I decided to change jobs last year.",
+          "ex_es": "Decidí cambiar de trabajo el año pasado."
+        },
+        {
+          "en": "get engaged",
+          "es": "comprometerse",
+          "pos": "phrase",
+          "ex_en": "They're going to get engaged in December.",
+          "ex_es": "Se van a comprometer en diciembre."
+        },
+        {
+          "en": "fill me in",
+          "es": "cuéntame, ponme al tanto",
+          "pos": "phrase",
+          "ex_en": "Come on, fill me in on everything!",
+          "ex_es": "¡Ándale, cuéntame todo!"
+        },
+        {
+          "en": "since then",
+          "es": "desde entonces",
+          "pos": "phrase",
+          "ex_en": "We met in college, and we've been friends since then.",
+          "ex_es": "Nos conocimos en la universidad y desde entonces somos amigos."
+        }
+      ],
+      "sentences": [
+        {
+          "en": "Long time no see! You haven't changed at all.",
+          "es": "¡Cuánto tiempo sin verte! No has cambiado nada."
+        },
+        {
+          "en": "What have you been up to since we graduated?",
+          "es": "¿Qué has hecho desde que nos graduamos?"
+        },
+        {
+          "en": "I've changed jobs twice, and now I work from home.",
+          "es": "He cambiado de trabajo dos veces y ahora trabajo desde casa."
+        },
+        {
+          "en": "Have you heard from Carlos? I haven't talked to him in ages.",
+          "es": "¿Has sabido algo de Carlos? Hace siglos que no hablo con él."
+        },
+        {
+          "en": "We should catch up more often. It's been too long.",
+          "es": "Deberíamos ponernos al día más seguido. Ha pasado mucho tiempo."
+        }
+      ],
+      "tip_es": "Cuando ves a alguien después de mucho tiempo, pregunta How have you been? en lugar de How are you? porque hablas de todo el periodo. Hace mucho que no lo veo se dice I haven't seen him in a long time, con present perfect."
     }
   ],
   "dialogue": {
     "title_es": "Reencuentro en el café",
     "setting_es": "Te encuentras en un café a un amigo que no veías desde hace mucho.",
     "lines": [
-      {"who":"A","en":"Hey! I haven't seen you for ages!","es":"¡Hola! ¡Hace siglos que no te veo!"},
-      {"who":"B","en":"I know! How have you been?","es":"¡Ya sé! ¿Cómo has estado?"},
-      {"who":"A","en":"Great, thanks. I've just come back from Peru.","es":"Muy bien, gracias. Acabo de regresar de Perú."},
-      {"who":"B","en":"Wow! Have you been to Machu Picchu?","es":"¡Órale! ¿Fuiste a Machu Picchu?"},
-      {"who":"A","en":"Yes, I have. It was breathtaking. Have you ever been there?","es":"Sí. Fue impresionante. ¿Tú has ido alguna vez?"},
-      {"who":"B","en":"No, I haven't, but it's on my bucket list.","es":"No, pero está en mi lista de sueños."},
-      {"who":"A","en":"You should go. So, what's new with you?","es":"Deberías ir. ¿Y qué hay de nuevo contigo?"},
-      {"who":"B","en":"I've changed jobs. I've worked at a bank since March.","es":"Cambié de trabajo. Trabajo en un banco desde marzo."},
-      {"who":"A","en":"That's great! Do you like it?","es":"¡Qué bien! ¿Te gusta?"},
-      {"who":"B","en":"Yes, so far it's been a great experience.","es":"Sí, hasta ahora ha sido una gran experiencia."}
+      {
+        "who": "A",
+        "en": "Hey! I haven't seen you for ages!",
+        "es": "¡Hola! ¡Hace siglos que no te veo!"
+      },
+      {
+        "who": "B",
+        "en": "I know! How have you been?",
+        "es": "¡Ya sé! ¿Cómo has estado?"
+      },
+      {
+        "who": "A",
+        "en": "Great, thanks. I've just come back from Peru.",
+        "es": "Muy bien, gracias. Acabo de regresar de Perú."
+      },
+      {
+        "who": "B",
+        "en": "Wow! Have you been to Machu Picchu?",
+        "es": "¡Órale! ¿Fuiste a Machu Picchu?"
+      },
+      {
+        "who": "A",
+        "en": "Yes, I have. It was breathtaking. Have you ever been there?",
+        "es": "Sí. Fue impresionante. ¿Tú has ido alguna vez?"
+      },
+      {
+        "who": "B",
+        "en": "No, I haven't, but it's on my bucket list.",
+        "es": "No, pero está en mi lista de sueños."
+      },
+      {
+        "who": "A",
+        "en": "You should go. So, what's new with you?",
+        "es": "Deberías ir. ¿Y qué hay de nuevo contigo?"
+      },
+      {
+        "who": "B",
+        "en": "I've changed jobs. I've worked at a bank since March.",
+        "es": "Cambié de trabajo. Trabajo en un banco desde marzo."
+      },
+      {
+        "who": "A",
+        "en": "That's great! Do you like it?",
+        "es": "¡Qué bien! ¿Te gusta?"
+      },
+      {
+        "who": "B",
+        "en": "Yes, so far it's been a great experience.",
+        "es": "Sí, hasta ahora ha sido una gran experiencia."
+      }
     ]
   }
 }

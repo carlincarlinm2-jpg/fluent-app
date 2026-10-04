@@ -1,0 +1,245 @@
+{
+  "id": 17,
+  "title_es": "Tecnología, internet y redes sociales",
+  "title_en": "Technology and the internet",
+  "level": "B2",
+  "goal_es": "Al terminar podrás hablar de apps y dispositivos, resolver problemas técnicos, trabajar a distancia, cuidar tu privacidad y opinar sobre la tecnología.",
+  "lessons": [
+    {
+      "id": "17-1",
+      "title_es": "Apps y dispositivos",
+      "words": [
+        {"en":"device","es":"dispositivo","pos":"noun","ex_en":"You can use the app on any device.","ex_es":"Puedes usar la app en cualquier dispositivo."},
+        {"en":"download","es":"descargar","pos":"verb","ex_en":"Download the app and create a free account.","ex_es":"Descarga la app y crea una cuenta gratis."},
+        {"en":"install","es":"instalar","pos":"verb","ex_en":"It only takes a minute to install the new version.","ex_es":"Solo toma un minuto instalar la nueva versión."},
+        {"en":"update","es":"actualización","pos":"noun","ex_en":"My phone needs an update before I can use it.","ex_es":"Mi teléfono necesita una actualización antes de poder usarlo."},
+        {"en":"storage","es":"almacenamiento","pos":"noun","ex_en":"I'm running out of storage on my phone.","ex_es":"Me estoy quedando sin almacenamiento en mi teléfono."},
+        {"en":"charger","es":"cargador","pos":"noun","ex_en":"Can I borrow your charger? My battery is almost dead.","ex_es":"¿Me prestas tu cargador? Ya casi no tengo batería."},
+        {"en":"intuitive","es":"intuitivo","pos":"adj","ex_en":"The new app is really intuitive and easy to use.","ex_es":"La nueva app es muy intuitiva y fácil de usar."},
+        {"en":"settings","es":"configuración, ajustes","pos":"noun","ex_en":"You can change the language in the settings.","ex_es":"Puedes cambiar el idioma en la configuración."}
+      ],
+      "sentences": [
+        {"en":"Which apps do you use the most?","es":"¿Qué apps usas más?"},
+        {"en":"I deleted some photos because my phone was full.","es":"Borré algunas fotos porque mi teléfono estaba lleno."},
+        {"en":"Turn on notifications in the settings menu.","es":"Activa las notificaciones en el menú de configuración."},
+        {"en":"This laptop is light, but the battery doesn't last long.","es":"Esta laptop es ligera, pero la batería no dura mucho."},
+        {"en":"Is the app available for both iPhone and Android?","es":"¿La app está disponible para iPhone y Android?"}
+      ],
+      "tip_es": "Download es bajar algo de internet e install es ponerlo a funcionar en tu dispositivo. App es contable, an app, two apps. Error común, decir my cellular. En EE. UU. se dice phone o cell phone, y la pila del celular es the battery."
+    },
+    {
+      "id": "17-2",
+      "title_es": "Problemas técnicos",
+      "words": [
+        {"en":"freeze","es":"trabarse, congelarse","pos":"verb","ex_en":"My laptop tends to freeze when I open too many tabs.","ex_es":"Mi laptop suele trabarse cuando abro demasiadas pestañas."},
+        {"en":"crash","es":"fallar, cerrarse de golpe","pos":"verb","ex_en":"The app may crash if you don't update it.","ex_es":"La app puede cerrarse sola si no la actualizas."},
+        {"en":"restart","es":"reiniciar","pos":"verb","ex_en":"Try to restart your computer and see if it works.","ex_es":"Intenta reiniciar tu computadora y ve si funciona."},
+        {"en":"glitch","es":"falla, error menor","pos":"noun","ex_en":"There was a glitch, so the video stopped.","ex_es":"Hubo una falla y el video se detuvo."},
+        {"en":"bug","es":"error de programa","pos":"noun","ex_en":"The developers fixed the bug in the latest version.","ex_es":"Los desarrolladores corrigieron el error en la última versión."},
+        {"en":"connection","es":"conexión","pos":"noun","ex_en":"My connection keeps dropping during video calls.","ex_es":"Mi conexión se cae a cada rato en las videollamadas."},
+        {"en":"tech support","es":"soporte técnico","pos":"noun","ex_en":"I called tech support, but nobody answered.","ex_es":"Llamé a soporte técnico, pero nadie contestó."},
+        {"en":"troubleshoot","es":"buscar y resolver fallas","pos":"verb","ex_en":"Let me troubleshoot the problem before we call anyone.","ex_es":"Déjame revisar la falla antes de llamar a alguien."}
+      ],
+      "sentences": [
+        {"en":"Have you tried turning it off and on again?","es":"¿Ya intentaste apagarlo y volverlo a prender?"},
+        {"en":"The screen went black and nothing happened.","es":"La pantalla se puso negra y no pasó nada."},
+        {"en":"I think the problem is the router, not the laptop.","es":"Creo que el problema es el módem, no la laptop."},
+        {"en":"The website is down for maintenance until tonight.","es":"El sitio está caído por mantenimiento hasta la noche."},
+        {"en":"Every time I open the app, it crashes.","es":"Cada vez que abro la app, se cierra sola."}
+      ],
+      "tip_es": "Para decir que un sistema no funciona se usa mucho is down, como en The server is down. Error común, decir The computer is broken cuando solo está trabada. Broken significa dañada. Si solo no responde, di It froze o It's not responding."
+    },
+    {
+      "id": "17-3",
+      "title_es": "Trabajo remoto",
+      "words": [
+        {"en":"work from home","es":"trabajar desde casa","pos":"phrase","ex_en":"I work from home three days a week.","ex_es":"Trabajo desde casa tres días a la semana."},
+        {"en":"remote","es":"remoto, a distancia","pos":"adj","ex_en":"Our whole team is remote now.","ex_es":"Todo nuestro equipo trabaja a distancia ahora."},
+        {"en":"video call","es":"videollamada","pos":"noun","ex_en":"Let's jump on a video call this afternoon.","ex_es":"Hagamos una videollamada en la tarde."},
+        {"en":"mute","es":"silenciar","pos":"verb","ex_en":"Please mute your microphone when you're not speaking.","ex_es":"Por favor, silencia tu micrófono cuando no estés hablando."},
+        {"en":"share your screen","es":"compartir tu pantalla","pos":"phrase","ex_en":"Can you share your screen so we can see it?","ex_es":"¿Puedes compartir tu pantalla para que lo veamos?"},
+        {"en":"time zone","es":"zona horaria","pos":"noun","ex_en":"My boss lives in a different time zone.","ex_es":"Mi jefa vive en otra zona horaria."},
+        {"en":"coworking space","es":"espacio de coworking","pos":"noun","ex_en":"I rent a desk at a coworking space downtown.","ex_es":"Rento un escritorio en un espacio de coworking del centro."},
+        {"en":"commute","es":"trayecto al trabajo","pos":"noun","ex_en":"I don't miss my long commute at all.","ex_es":"No extraño para nada mi largo trayecto al trabajo."}
+      ],
+      "sentences": [
+        {"en":"You're on mute, we can't hear you.","es":"Estás en silencio, no te escuchamos."},
+        {"en":"Sorry, my internet is unstable today.","es":"Perdón, mi internet está inestable hoy."},
+        {"en":"Can everyone see my screen?","es":"¿Todos pueden ver mi pantalla?"},
+        {"en":"Let's schedule the call for ten a.m. my time.","es":"Agendemos la llamada a las diez de la mañana, hora de aquí."},
+        {"en":"Working remotely saves me a lot of time and money.","es":"Trabajar a distancia me ahorra mucho tiempo y dinero."}
+      ],
+      "tip_es": "You're on mute es probablemente la frase más repetida en videollamadas. Para decir que trabajas desde casa usa work from home o work remotely. Error común, decir I work in my house. Lo natural es I work from home, con from."
+    },
+    {
+      "id": "17-4",
+      "title_es": "Redes sociales",
+      "words": [
+        {"en":"post","es":"publicar","pos":"verb","ex_en":"She likes to post photos of her trips.","ex_es":"A ella le gusta publicar fotos de sus viajes."},
+        {"en":"follower","es":"seguidor","pos":"noun","ex_en":"He has more than ten thousand followers.","ex_es":"Tiene más de diez mil seguidores."},
+        {"en":"go viral","es":"hacerse viral","pos":"phrase","ex_en":"Nobody expected that video to go viral.","ex_es":"Nadie esperaba que ese video se hiciera viral."},
+        {"en":"comment","es":"comentario","pos":"noun","ex_en":"Some of the comments were really rude.","ex_es":"Algunos comentarios fueron muy groseros."},
+        {"en":"feed","es":"inicio, muro","pos":"noun","ex_en":"My feed is full of ads lately.","ex_es":"Mi inicio está lleno de anuncios últimamente."},
+        {"en":"influencer","es":"influencer","pos":"noun","ex_en":"That influencer promotes products she never uses.","ex_es":"Esa influencer promueve productos que nunca usa."},
+        {"en":"tag","es":"etiquetar","pos":"verb","ex_en":"Please don't tag me in that photo.","ex_es":"Por favor, no me etiquetes en esa foto."},
+        {"en":"scroll","es":"deslizar la pantalla","pos":"verb","ex_en":"I can scroll through videos for hours.","ex_es":"Puedo pasar horas deslizando videos."}
+      ],
+      "sentences": [
+        {"en":"Did you see what she posted last night?","es":"¿Viste lo que publicó anoche?"},
+        {"en":"I unfollowed him because he only posts ads.","es":"Dejé de seguirlo porque solo publica anuncios."},
+        {"en":"How many likes did your photo get?","es":"¿Cuántos likes tuvo tu foto?"},
+        {"en":"I'm trying to spend less time on social media.","es":"Estoy tratando de pasar menos tiempo en redes sociales."},
+        {"en":"Send me the link and I'll share it.","es":"Mándame el link y lo comparto."}
+      ],
+      "tip_es": "En la conversación diaria se dice social media, no social networks. Con las plataformas se usa on, on Instagram, on social media. Error común, decir I saw it in Facebook. Lo correcto es I saw it on Facebook."
+    },
+    {
+      "id": "17-5",
+      "title_es": "Privacidad y seguridad",
+      "words": [
+        {"en":"password","es":"contraseña","pos":"noun","ex_en":"Use a strong password with numbers and symbols.","ex_es":"Usa una contraseña segura con números y símbolos."},
+        {"en":"hack","es":"hackear","pos":"verb","ex_en":"Someone tried to hack my email account.","ex_es":"Alguien intentó hackear mi cuenta de correo."},
+        {"en":"scam","es":"estafa, fraude","pos":"noun","ex_en":"That message about a prize is obviously a scam.","ex_es":"Ese mensaje sobre un premio obviamente es una estafa."},
+        {"en":"personal data","es":"datos personales","pos":"noun","ex_en":"Many apps collect a lot of personal data.","ex_es":"Muchas apps recopilan muchos datos personales."},
+        {"en":"verification code","es":"código de verificación","pos":"noun","ex_en":"Enter the verification code we sent to your phone.","ex_es":"Ingresa el código de verificación que enviamos a tu teléfono."},
+        {"en":"privacy","es":"privacidad","pos":"noun","ex_en":"I'm worried about my privacy online.","ex_es":"Me preocupa mi privacidad en internet."},
+        {"en":"suspicious","es":"sospechoso","pos":"adj","ex_en":"Never click on a suspicious link.","ex_es":"Nunca des clic en un enlace sospechoso."},
+        {"en":"breach","es":"filtración, violación de seguridad","pos":"noun","ex_en":"The company admitted there was a data breach.","ex_es":"La empresa admitió que hubo una filtración de datos."}
+      ],
+      "sentences": [
+        {"en":"Never share your password with anyone.","es":"Nunca compartas tu contraseña con nadie."},
+        {"en":"I think my account was hacked last night.","es":"Creo que hackearon mi cuenta anoche."},
+        {"en":"Read the privacy policy before you accept.","es":"Lee el aviso de privacidad antes de aceptar."},
+        {"en":"Banks will never ask for your PIN by email.","es":"Los bancos nunca te pedirán tu NIP por correo."},
+        {"en":"Change your passwords every few months to stay safe.","es":"Cambia tus contraseñas cada pocos meses para estar seguro."}
+      ],
+      "tip_es": "Data se usa como incontable en el habla diaria, the data is, nunca the datas. Para decir que te robaron la cuenta se usa la voz pasiva, My account was hacked, o la forma informal I got hacked. Error común, decir My account was hacking."
+    },
+    {
+      "id": "17-6",
+      "title_es": "Phrasal verbs de tecnología",
+      "words": [
+        {"en":"log in","es":"iniciar sesión","pos":"verb","ex_en":"I can't log in because I forgot my password.","ex_es":"No puedo iniciar sesión porque olvidé mi contraseña."},
+        {"en":"log out","es":"cerrar sesión","pos":"verb","ex_en":"Always log out when you use a public computer.","ex_es":"Siempre cierra sesión cuando uses una computadora pública."},
+        {"en":"sign up","es":"registrarse","pos":"verb","ex_en":"It's free to sign up for the newsletter.","ex_es":"Registrarse al boletín es gratis."},
+        {"en":"back up","es":"respaldar","pos":"verb","ex_en":"Remember to back up your files every week.","ex_es":"Acuérdate de respaldar tus archivos cada semana."},
+        {"en":"set up","es":"configurar, instalar","pos":"verb","ex_en":"Can you help me set up my new printer?","ex_es":"¿Me ayudas a configurar mi impresora nueva?"},
+        {"en":"plug in","es":"conectar, enchufar","pos":"verb","ex_en":"Plug in your laptop before the battery dies.","ex_es":"Conecta tu laptop antes de que se acabe la batería."},
+        {"en":"shut down","es":"apagar por completo","pos":"verb","ex_en":"Save your work before you shut down the computer.","ex_es":"Guarda tu trabajo antes de apagar la computadora."},
+        {"en":"free up","es":"liberar","pos":"verb","ex_en":"Delete old videos to free up space.","ex_es":"Borra videos viejos para liberar espacio."}
+      ],
+      "sentences": [
+        {"en":"I signed up with my email address.","es":"Me registré con mi correo electrónico."},
+        {"en":"Did you back up your photos before the update?","es":"¿Respaldaste tus fotos antes de la actualización?"},
+        {"en":"It took me an hour to set everything up.","es":"Me tomó una hora configurar todo."},
+        {"en":"Please log out of my account when you finish.","es":"Por favor, cierra sesión en mi cuenta cuando termines."},
+        {"en":"The computer shut down by itself in the middle of my work.","es":"La computadora se apagó sola a la mitad de mi trabajo."}
+      ],
+      "tip_es": "Muchos phrasal verbs tienen un sustantivo que se escribe junto. Log in es el verbo y login el sustantivo, back up es el verbo y backup el sustantivo. Error común, escribir I need to login. Como verbo va separado, I need to log in."
+    },
+    {
+      "id": "17-7",
+      "title_es": "Inteligencia artificial",
+      "words": [
+        {"en":"artificial intelligence","es":"inteligencia artificial","pos":"noun","ex_en":"Artificial intelligence is changing the way we work.","ex_es":"La inteligencia artificial está cambiando nuestra forma de trabajar."},
+        {"en":"chatbot","es":"chatbot, asistente virtual","pos":"noun","ex_en":"I asked the chatbot to summarize the article.","ex_es":"Le pedí al chatbot que resumiera el artículo."},
+        {"en":"automate","es":"automatizar","pos":"verb","ex_en":"We want to automate the boring parts of the job.","ex_es":"Queremos automatizar las partes aburridas del trabajo."},
+        {"en":"replace","es":"reemplazar","pos":"verb","ex_en":"Do you think robots will replace teachers?","ex_es":"¿Crees que los robots van a reemplazar a los maestros?"},
+        {"en":"tool","es":"herramienta","pos":"noun","ex_en":"This tool translates long documents in seconds.","ex_es":"Esta herramienta traduce documentos largos en segundos."},
+        {"en":"accurate","es":"preciso, correcto","pos":"adj","ex_en":"The answer sounded good, but it wasn't accurate.","ex_es":"La respuesta sonaba bien, pero no era correcta."},
+        {"en":"prompt","es":"instrucción, indicación","pos":"noun","ex_en":"If you write a clear prompt, you get better results.","ex_es":"Si escribes una instrucción clara, obtienes mejores resultados."},
+        {"en":"breakthrough","es":"gran avance","pos":"noun","ex_en":"Scientists call it a major breakthrough in medicine.","ex_es":"Los científicos lo consideran un gran avance en la medicina."}
+      ],
+      "sentences": [
+        {"en":"AI can help you write, but you still need to check it.","es":"La IA te puede ayudar a escribir, pero tienes que revisarlo."},
+        {"en":"Many jobs will change in the next ten years.","es":"Muchos trabajos van a cambiar en los próximos diez años."},
+        {"en":"I use AI to plan my meals for the week.","es":"Uso IA para planear mis comidas de la semana."},
+        {"en":"Some people are afraid machines will replace them.","es":"Algunas personas temen que las máquinas las reemplacen."},
+        {"en":"Always check the facts before you share them.","es":"Siempre verifica los datos antes de compartirlos."}
+      ],
+      "tip_es": "En inglés se dice AI y se pronuncia ei ai. Ojo con el falso amigo actual. The current version es la versión actual, pero the actual version significa la versión real. Accurate se usa para datos o respuestas correctas, no para personas acertadas."
+    },
+    {
+      "id": "17-8",
+      "title_es": "Opinar sobre tecnología",
+      "words": [
+        {"en":"addictive","es":"adictivo","pos":"adj","ex_en":"Some games are designed to be addictive.","ex_es":"Algunos juegos están diseñados para ser adictivos."},
+        {"en":"convenient","es":"práctico, cómodo","pos":"adj","ex_en":"Paying with your phone is really convenient.","ex_es":"Pagar con el celular es muy práctico."},
+        {"en":"overrated","es":"sobrevalorado","pos":"adj","ex_en":"In my opinion, smart watches are overrated.","ex_es":"En mi opinión, los relojes inteligentes están sobrevalorados."},
+        {"en":"drawback","es":"desventaja","pos":"noun","ex_en":"The main drawback is the price.","ex_es":"La principal desventaja es el precio."},
+        {"en":"upside","es":"ventaja, lo bueno","pos":"noun","ex_en":"The upside is that you can work from anywhere.","ex_es":"Lo bueno es que puedes trabajar desde cualquier lugar."},
+        {"en":"game changer","es":"algo que lo cambia todo","pos":"noun","ex_en":"Fast internet in rural areas would be a game changer.","ex_es":"El internet rápido en zonas rurales lo cambiaría todo."},
+        {"en":"outdated","es":"obsoleto, anticuado","pos":"adj","ex_en":"The computers at my school are totally outdated.","ex_es":"Las computadoras de mi escuela son totalmente obsoletas."},
+        {"en":"on the fence","es":"indeciso","pos":"phrase","ex_en":"I'm still on the fence about buying an electric car.","ex_es":"Todavía estoy indeciso sobre comprar un carro eléctrico."}
+      ],
+      "sentences": [
+        {"en":"Technology makes our lives easier, but not always better.","es":"La tecnología nos facilita la vida, pero no siempre la mejora."},
+        {"en":"To be honest, I can't live without my phone.","es":"Para ser honesto, no puedo vivir sin mi celular."},
+        {"en":"On the one hand it's useful, on the other it's expensive.","es":"Por un lado es útil, por otro es caro."},
+        {"en":"I see your point, but I disagree.","es":"Entiendo tu punto, pero no estoy de acuerdo."},
+        {"en":"Kids shouldn't have smartphones until they're teenagers.","es":"Los niños no deberían tener smartphone hasta que sean adolescentes."}
+      ],
+      "tip_es": "Convenient no significa conveniente en el sentido de recomendable, significa práctico o cómodo. Para decir que algo te conviene usa It's a good idea. Error común, decir I am agree. Lo correcto es I agree, sin am."
+    },
+    {
+      "id": "17-9",
+      "title_es": "Mensajes y comunicación digital",
+      "words": [
+        {"en":"text","es":"mandar un mensaje","pos":"verb","ex_en":"Text me when you get home.","ex_es":"Mándame un mensaje cuando llegues a tu casa."},
+        {"en":"voice message","es":"mensaje de voz","pos":"noun","ex_en":"She sent me a really long voice message.","ex_es":"Me mandó un mensaje de voz larguísimo."},
+        {"en":"group chat","es":"chat grupal","pos":"noun","ex_en":"The family group chat never stops.","ex_es":"El chat de la familia nunca para."},
+        {"en":"emoji","es":"emoji","pos":"noun","ex_en":"He just replied with a laughing emoji.","ex_es":"Solo contestó con un emoji de risa."},
+        {"en":"reply","es":"responder","pos":"verb","ex_en":"Sorry, I forgot to reply to your message.","ex_es":"Perdón, se me olvidó responder tu mensaje."},
+        {"en":"on read","es":"en visto","pos":"phrase","ex_en":"She left me on read again.","ex_es":"Me volvió a dejar en visto."},
+        {"en":"attachment","es":"archivo adjunto","pos":"noun","ex_en":"I can't open the attachment you sent.","ex_es":"No puedo abrir el archivo adjunto que mandaste."},
+        {"en":"inbox","es":"bandeja de entrada","pos":"noun","ex_en":"My inbox has over two thousand unread emails.","ex_es":"Mi bandeja de entrada tiene más de dos mil correos sin leer."}
+      ],
+      "sentences": [
+        {"en":"Did you get my message?","es":"¿Te llegó mi mensaje?"},
+        {"en":"I'll text you the address in a minute.","es":"Ahorita te mando la dirección por mensaje."},
+        {"en":"Why didn't you answer my call?","es":"¿Por qué no contestaste mi llamada?"},
+        {"en":"Sorry for the late reply, I was really busy.","es":"Perdón por responder tarde, estaba muy ocupado."},
+        {"en":"Please don't add me to any more group chats.","es":"Por favor, ya no me agreguen a más chats grupales."}
+      ],
+      "tip_es": "En EE. UU. text funciona como verbo, Text me o I'll text you. Dejar en visto se dice leave someone on read. Error común, decir I will write you para un mensaje del celular. Es más natural I'll text you o I'll message you."
+    },
+    {
+      "id": "17-10",
+      "title_es": "Bienestar digital",
+      "words": [
+        {"en":"screen time","es":"tiempo en pantalla","pos":"noun","ex_en":"My screen time is almost six hours a day.","ex_es":"Mi tiempo en pantalla es de casi seis horas al día."},
+        {"en":"unplug","es":"desconectarse","pos":"verb","ex_en":"On weekends I try to unplug completely.","ex_es":"Los fines de semana trato de desconectarme por completo."},
+        {"en":"distraction","es":"distracción","pos":"noun","ex_en":"My phone is my biggest distraction at work.","ex_es":"Mi celular es mi mayor distracción en el trabajo."},
+        {"en":"cut down on","es":"reducir","pos":"verb","ex_en":"I'm trying to cut down on social media.","ex_es":"Estoy tratando de reducir el uso de redes sociales."},
+        {"en":"notification","es":"notificación","pos":"noun","ex_en":"I turned off every notification except calls.","ex_es":"Desactivé todas las notificaciones excepto las llamadas."},
+        {"en":"burnout","es":"agotamiento, desgaste","pos":"noun","ex_en":"Being online all the time can lead to burnout.","ex_es":"Estar conectado todo el tiempo puede causar agotamiento."},
+        {"en":"habit","es":"hábito","pos":"noun","ex_en":"Checking my phone in bed is a bad habit.","ex_es":"Revisar el celular en la cama es un mal hábito."},
+        {"en":"balance","es":"equilibrio","pos":"noun","ex_en":"It's hard to find a balance between work and rest.","ex_es":"Es difícil encontrar un equilibrio entre el trabajo y el descanso."}
+      ],
+      "sentences": [
+        {"en":"I leave my phone in another room when I sleep.","es":"Dejo mi celular en otro cuarto cuando duermo."},
+        {"en":"The first thing I do in the morning is check my phone.","es":"Lo primero que hago en la mañana es revisar mi celular."},
+        {"en":"Let's have dinner without phones tonight.","es":"Cenemos sin celulares esta noche."},
+        {"en":"I deleted the app for a month, and I feel great.","es":"Borré la app por un mes y me siento súper bien."},
+        {"en":"Do you think you spend too much time online?","es":"¿Crees que pasas demasiado tiempo en línea?"}
+      ],
+      "tip_es": "Online funciona como adverbio y no lleva preposición, I spend too much time online, no in online. Para reducir algo se usa cut down on, por ejemplo cut down on sugar. Error común, olvidar el on y decir I want to cut down social media."
+    }
+  ],
+  "dialogue": {
+    "title_es": "No puedo entrar a la junta",
+    "setting_es": "Una compañera de trabajo te pide ayuda porque no puede conectarse a una videollamada importante.",
+    "lines": [
+      {"who":"A","en":"Hey, do you have a minute? I can't log in to the meeting app.","es":"Oye, ¿tienes un minuto? No puedo entrar a la app de juntas."},
+      {"who":"B","en":"Sure. Did you try restarting your laptop?","es":"Claro. ¿Ya intentaste reiniciar tu laptop?"},
+      {"who":"A","en":"Yes, twice. Now it says my password is wrong.","es":"Sí, dos veces. Ahora dice que mi contraseña está mal."},
+      {"who":"B","en":"Maybe you need to reset it. Click on forgot password.","es":"Tal vez tienes que cambiarla. Da clic en olvidé mi contraseña."},
+      {"who":"A","en":"OK, it says they sent a verification code to my phone.","es":"Ok, dice que mandaron un código de verificación a mi teléfono."},
+      {"who":"B","en":"Great. Enter the code and create a new password.","es":"Perfecto. Ingresa el código y crea una contraseña nueva."},
+      {"who":"A","en":"Done! I'm in. But now nobody can hear me.","es":"¡Listo! Ya entré. Pero ahora nadie me escucha."},
+      {"who":"B","en":"I think you're on mute. Check the microphone icon.","es":"Creo que estás en silencio. Revisa el ícono del micrófono."},
+      {"who":"A","en":"You're right! Thanks, you're a lifesaver.","es":"¡Tienes razón! Gracias, me salvaste la vida."},
+      {"who":"B","en":"No problem. Next time, set it up before the meeting.","es":"De nada. La próxima vez, configúralo antes de la junta."}
+    ]
+  }
+}

@@ -136,6 +136,94 @@
         {"en":"Keep your receipt, please.","es":"Guarde su ticket, por favor."}
       ],
       "tip_es": "En receipt la p no suena: se pronuncia ri-sít. En México decimos ticket de compra, pero en inglés ticket es un boleto o una multa. Para el comprobante de pago di receipt."
+    },
+    {
+      "id": "7-7",
+      "title_es": "Más ropa y accesorios",
+      "words": [
+        {"en":"jeans","es":"pantalones de mezclilla","pos":"noun","ex_en":"These jeans are my favorite.","ex_es":"Estos pantalones de mezclilla son mis favoritos."},
+        {"en":"skirt","es":"falda","pos":"noun","ex_en":"She's wearing a long skirt.","ex_es":"Ella trae una falda larga."},
+        {"en":"shorts","es":"shorts","pos":"noun","ex_en":"I wear shorts in the summer.","ex_es":"Uso shorts en el verano."},
+        {"en":"coat","es":"abrigo","pos":"noun","ex_en":"Take your coat. It's cold.","ex_es":"Llévate tu abrigo. Hace frío."},
+        {"en":"boots","es":"botas","pos":"noun","ex_en":"I need new boots for winter.","ex_es":"Necesito botas nuevas para el invierno."},
+        {"en":"sneakers","es":"tenis","pos":"noun","ex_en":"He always wears white sneakers.","ex_es":"Él siempre usa tenis blancos."},
+        {"en":"scarf","es":"bufanda","pos":"noun","ex_en":"I wear a scarf in winter.","ex_es":"Uso bufanda en invierno."},
+        {"en":"sunglasses","es":"lentes de sol","pos":"noun","ex_en":"Where are my sunglasses?","ex_es":"¿Dónde están mis lentes de sol?"}
+      ],
+      "sentences": [
+        {"en":"I usually wear jeans and sneakers.","es":"Normalmente uso pantalones de mezclilla y tenis."},
+        {"en":"Are these boots on sale?","es":"¿Estas botas están en oferta?"},
+        {"en":"She's wearing a black skirt today.","es":"Hoy ella trae una falda negra."},
+        {"en":"Don't forget your coat and scarf.","es":"No olvides tu abrigo y tu bufanda."},
+        {"en":"How much are those sunglasses?","es":"¿Cuánto cuestan esos lentes de sol?"}
+      ],
+      "tip_es": "Igual que pants, las palabras jeans, shorts y sunglasses siempre son plurales: These jeans are new. Ojo, en México decimos tenis, pero en inglés son sneakers, y tennis es el deporte."
+    },
+    {
+      "id": "7-8",
+      "title_es": "Cómo es la ropa",
+      "words": [
+        {"en":"comfortable","es":"cómodo","pos":"adj","ex_en":"These shoes are very comfortable.","ex_es":"Estos zapatos son muy cómodos."},
+        {"en":"loose","es":"holgado, flojo","pos":"adj","ex_en":"This shirt is a little loose.","ex_es":"Esta camisa me queda un poco floja."},
+        {"en":"long","es":"largo","pos":"adj","ex_en":"I like long dresses.","ex_es":"Me gustan los vestidos largos."},
+        {"en":"short","es":"corto","pos":"adj","ex_en":"The sleeves are too short.","ex_es":"Las mangas están demasiado cortas."},
+        {"en":"cotton","es":"algodón","pos":"noun","ex_en":"I prefer cotton socks.","ex_es":"Prefiero los calcetines de algodón."},
+        {"en":"pretty","es":"bonito","pos":"adj","ex_en":"What a pretty dress!","ex_es":"¡Qué vestido tan bonito!"},
+        {"en":"plain","es":"liso","pos":"adj","ex_en":"I want a plain white shirt.","ex_es":"Quiero una camisa blanca lisa."},
+        {"en":"striped","es":"a rayas","pos":"adj","ex_en":"He has a striped sweater.","ex_es":"Él tiene un suéter a rayas."}
+      ],
+      "sentences": [
+        {"en":"These sneakers are really comfortable.","es":"Estos tenis son muy cómodos."},
+        {"en":"Is this shirt cotton?","es":"¿Esta camisa es de algodón?"},
+        {"en":"The skirt is pretty, but it's too short.","es":"La falda está bonita, pero está demasiado corta."},
+        {"en":"Do you have this in a plain color?","es":"¿Lo tiene en un color liso?"},
+        {"en":"I like loose pants for the weekend.","es":"Me gustan los pantalones holgados para el fin de semana."}
+      ],
+      "tip_es": "En comfortable la sílaba fuerte es la primera y suena como cámf-ter-bol. Cuando hay varios adjetivos, la opinión va primero y el material al final: a pretty cotton dress."
+    },
+    {
+      "id": "7-9",
+      "title_es": "Comparar y escoger",
+      "words": [
+        {"en":"bigger","es":"más grande","pos":"adj","ex_en":"I need a bigger size.","ex_es":"Necesito una talla más grande."},
+        {"en":"smaller","es":"más chico","pos":"adj","ex_en":"Do you have a smaller one?","ex_es":"¿Tiene uno más chico?"},
+        {"en":"cheaper","es":"más barato","pos":"adj","ex_en":"This bag is cheaper.","ex_es":"Esta bolsa es más barata."},
+        {"en":"more expensive","es":"más caro","pos":"adj","ex_en":"The black coat is more expensive.","ex_es":"El abrigo negro es más caro."},
+        {"en":"better","es":"mejor","pos":"adj","ex_en":"This color is better on you.","ex_es":"Este color se te ve mejor."},
+        {"en":"than","es":"que","pos":"conj","ex_en":"Boots are warmer than sneakers.","ex_es":"Las botas son más calientitas que los tenis."},
+        {"en":"prefer","es":"preferir","pos":"verb","ex_en":"I prefer the blue one.","ex_es":"Prefiero el azul."},
+        {"en":"which one","es":"cuál","pos":"phrase","ex_en":"Which one do you like?","ex_es":"¿Cuál te gusta?"}
+      ],
+      "sentences": [
+        {"en":"Which one is cheaper?","es":"¿Cuál es más barato?"},
+        {"en":"The red dress is prettier than the green one.","es":"El vestido rojo es más bonito que el verde."},
+        {"en":"These jeans are more expensive than those.","es":"Estos pantalones son más caros que esos."},
+        {"en":"I prefer this jacket. It's more comfortable.","es":"Prefiero esta chamarra. Es más cómoda."},
+        {"en":"Do you have these shoes in a smaller size?","es":"¿Tiene estos zapatos en una talla más chica?"}
+      ],
+      "tip_es": "Con adjetivos cortos agrega -er: cheap, cheaper. Con adjetivos largos usa more: more expensive. Good cambia a better. Para comparar dos cosas usa than, no that."
+    },
+    {
+      "id": "7-10",
+      "title_es": "En la vida real: de compras",
+      "words": [
+        {"en":"mall","es":"centro comercial","pos":"noun","ex_en":"Let's go to the mall on Saturday.","ex_es":"Vamos al centro comercial el sábado."},
+        {"en":"online","es":"en línea","pos":"adv","ex_en":"I buy a lot of clothes online.","ex_es":"Compro mucha ropa en línea."},
+        {"en":"buy","es":"comprar","pos":"verb","ex_en":"I want to buy a new dress.","ex_es":"Quiero comprar un vestido nuevo."},
+        {"en":"look for","es":"buscar","pos":"verb","ex_en":"Can you help me look for my size?","ex_es":"¿Me ayuda a buscar mi talla?"},
+        {"en":"just looking","es":"solo estoy viendo","pos":"phrase","ex_en":"No, thanks. I'm just looking.","ex_es":"No, gracias. Solo estoy viendo."},
+        {"en":"gift","es":"regalo","pos":"noun","ex_en":"This is a gift for my sister.","ex_es":"Es un regalo para mi hermana."},
+        {"en":"exchange","es":"cambiar","pos":"verb","ex_en":"Can I exchange these shoes?","ex_es":"¿Puedo cambiar estos zapatos?"},
+        {"en":"refund","es":"reembolso","pos":"noun","ex_en":"I'd like a refund, please.","ex_es":"Quiero un reembolso, por favor."}
+      ],
+      "sentences": [
+        {"en":"Can I help you? No, thanks, I'm just looking.","es":"¿Le ayudo? No, gracias, solo estoy viendo."},
+        {"en":"I'm looking for a gift for my mom.","es":"Busco un regalo para mi mamá."},
+        {"en":"Is it cheaper online or at the mall?","es":"¿Es más barato en línea o en el centro comercial?"},
+        {"en":"Can I exchange this for a bigger size?","es":"¿Puedo cambiar esto por una talla más grande?"},
+        {"en":"Here's my receipt. Can I get a refund?","es":"Aquí está mi ticket. ¿Me pueden reembolsar?"}
+      ],
+      "tip_es": "Si un vendedor te pregunta Can I help you? y no necesitas nada, contesta I'm just looking. Exchange es cambiar por otra cosa y refund es que te devuelvan el dinero."
     }
   ],
   "dialogue": {

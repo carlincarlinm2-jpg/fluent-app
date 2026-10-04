@@ -1,0 +1,245 @@
+{
+  "id": 18,
+  "title_es": "Dinero, negocios y consumo",
+  "title_en": "Money and business",
+  "level": "B2",
+  "goal_es": "Al terminar podrás hacer trámites en el banco, manejar un presupuesto, comprar en línea, hacer reclamos, negociar y usar vocabulario básico de negocios.",
+  "lessons": [
+    {
+      "id": "18-1",
+      "title_es": "En el banco",
+      "words": [
+        {"en":"checking account","es":"cuenta de cheques","pos":"noun","ex_en":"I opened a checking account at a local bank.","ex_es":"Abrí una cuenta de cheques en un banco local."},
+        {"en":"savings account","es":"cuenta de ahorro","pos":"noun","ex_en":"I put part of my salary in a savings account.","ex_es":"Pongo parte de mi sueldo en una cuenta de ahorro."},
+        {"en":"deposit","es":"depositar","pos":"verb","ex_en":"I need to deposit this check today.","ex_es":"Necesito depositar este cheque hoy."},
+        {"en":"withdraw","es":"retirar","pos":"verb","ex_en":"You can withdraw cash at any ATM.","ex_es":"Puedes retirar efectivo en cualquier cajero."},
+        {"en":"balance","es":"saldo","pos":"noun","ex_en":"Check your balance before you pay.","ex_es":"Revisa tu saldo antes de pagar."},
+        {"en":"transfer","es":"transferencia","pos":"noun","ex_en":"I'll send you a bank transfer tonight.","ex_es":"Te mando una transferencia en la noche."},
+        {"en":"fee","es":"comisión, cargo","pos":"noun","ex_en":"The bank charges a monthly fee for this card.","ex_es":"El banco cobra una comisión mensual por esta tarjeta."},
+        {"en":"debit card","es":"tarjeta de débito","pos":"noun","ex_en":"I lost my debit card at the supermarket.","ex_es":"Perdí mi tarjeta de débito en el súper."}
+      ],
+      "sentences": [
+        {"en":"I'd like to open an account, please.","es":"Quisiera abrir una cuenta, por favor."},
+        {"en":"Is there an ATM near here?","es":"¿Hay un cajero por aquí cerca?"},
+        {"en":"What's the interest rate on this account?","es":"¿Cuál es la tasa de interés de esta cuenta?"},
+        {"en":"My card was declined, but I have money.","es":"Rechazaron mi tarjeta, pero sí tengo dinero."},
+        {"en":"How long does an international transfer take?","es":"¿Cuánto tarda una transferencia internacional?"}
+      ],
+      "tip_es": "El cajero automático es ATM y la persona que te atiende en el banco es teller. Cashier es el cajero de una tienda. Withdraw es retirar dinero, y en el habla diaria también se dice take out money. Error común, decir take money from the cashier."
+    },
+    {
+      "id": "18-2",
+      "title_es": "Presupuesto y ahorro",
+      "words": [
+        {"en":"budget","es":"presupuesto","pos":"noun","ex_en":"We made a monthly budget to control our spending.","ex_es":"Hicimos un presupuesto mensual para controlar nuestros gastos."},
+        {"en":"save up","es":"ahorrar para algo","pos":"verb","ex_en":"I'm trying to save up for a new car.","ex_es":"Estoy tratando de ahorrar para un carro nuevo."},
+        {"en":"afford","es":"alcanzar para, darse el lujo","pos":"verb","ex_en":"We can't afford a vacation this year.","ex_es":"No nos alcanza para irnos de vacaciones este año."},
+        {"en":"expense","es":"gasto","pos":"noun","ex_en":"Rent is my biggest expense every month.","ex_es":"La renta es mi mayor gasto cada mes."},
+        {"en":"income","es":"ingresos","pos":"noun","ex_en":"Half of my income goes to rent and food.","ex_es":"La mitad de mis ingresos se va en renta y comida."},
+        {"en":"debt","es":"deuda","pos":"noun","ex_en":"He's finally out of debt after five years.","ex_es":"Por fin salió de sus deudas después de cinco años."},
+        {"en":"make ends meet","es":"llegar a fin de mes","pos":"phrase","ex_en":"Many families struggle to make ends meet.","ex_es":"Muchas familias batallan para llegar a fin de mes."},
+        {"en":"splurge","es":"darse un gusto, derrochar","pos":"verb","ex_en":"I decided to splurge on a nice dinner.","ex_es":"Decidí darme el gusto de una buena cena."}
+      ],
+      "sentences": [
+        {"en":"I spend too much money on food delivery.","es":"Gasto demasiado dinero en comida a domicilio."},
+        {"en":"We need to cut back on unnecessary expenses.","es":"Tenemos que recortar gastos innecesarios."},
+        {"en":"I save ten percent of my paycheck every month.","es":"Ahorro el diez por ciento de mi sueldo cada mes."},
+        {"en":"That phone is way too expensive for me.","es":"Ese celular está carísimo para mí."},
+        {"en":"Once I pay off my credit card, I'll feel much better.","es":"Cuando termine de pagar mi tarjeta, me voy a sentir mucho mejor."}
+      ],
+      "tip_es": "Afford casi siempre va con can o can't. I can't afford it significa no me alcanza. Error común, traducir literal y decir the money doesn't reach me. Lo natural es I can't afford it o I'm short on money this month."
+    },
+    {
+      "id": "18-3",
+      "title_es": "Compras en línea",
+      "words": [
+        {"en":"order","es":"pedido","pos":"noun","ex_en":"My order should arrive on Thursday.","ex_es":"Mi pedido debería llegar el jueves."},
+        {"en":"shipping","es":"envío","pos":"noun","ex_en":"Shipping is free on orders over fifty dollars.","ex_es":"El envío es gratis en pedidos de más de cincuenta dólares."},
+        {"en":"checkout","es":"pago, caja","pos":"noun","ex_en":"Enter the discount code at checkout.","ex_es":"Ingresa el código de descuento al pagar."},
+        {"en":"track","es":"rastrear","pos":"verb","ex_en":"You can track your package with this number.","ex_es":"Puedes rastrear tu paquete con este número."},
+        {"en":"in stock","es":"disponible, en existencia","pos":"phrase","ex_en":"Sorry, that size isn't in stock right now.","ex_es":"Lo siento, esa talla no está disponible ahorita."},
+        {"en":"cart","es":"carrito","pos":"noun","ex_en":"I have three things in my cart, but I haven't paid.","ex_es":"Tengo tres cosas en mi carrito, pero no he pagado."},
+        {"en":"review","es":"reseña","pos":"noun","ex_en":"I always read the reviews before I buy anything.","ex_es":"Siempre leo las reseñas antes de comprar algo."},
+        {"en":"deal","es":"oferta, buen precio","pos":"noun","ex_en":"I got a great deal on these headphones.","ex_es":"Conseguí estos audífonos a muy buen precio."}
+      ],
+      "sentences": [
+        {"en":"I bought it online, and it arrived in two days.","es":"Lo compré en línea y llegó en dos días."},
+        {"en":"The site says delivery takes five to seven business days.","es":"El sitio dice que la entrega tarda de cinco a siete días hábiles."},
+        {"en":"Is it safe to pay with my card on this site?","es":"¿Es seguro pagar con mi tarjeta en este sitio?"},
+        {"en":"I'll wait for Black Friday to buy a new TV.","es":"Voy a esperar al Black Friday para comprar una tele nueva."},
+        {"en":"The tracking number isn't working.","es":"El número de rastreo no funciona."}
+      ],
+      "tip_es": "Shipping es el envío o su costo, y delivery es la entrega. Online no lleva preposición, I bought it online. Error común, decir I bought it by internet o in internet."
+    },
+    {
+      "id": "18-4",
+      "title_es": "Reclamos y devoluciones",
+      "words": [
+        {"en":"refund","es":"reembolso","pos":"noun","ex_en":"The product didn't work, so I asked for a refund.","ex_es":"El producto no funcionó, así que pedí un reembolso."},
+        {"en":"return","es":"devolver","pos":"verb","ex_en":"Can I return these shoes if they don't fit?","ex_es":"¿Puedo devolver estos zapatos si no me quedan?"},
+        {"en":"receipt","es":"ticket, recibo","pos":"noun","ex_en":"Do you still have the receipt?","ex_es":"¿Todavía tiene el ticket?"},
+        {"en":"damaged","es":"dañado","pos":"adj","ex_en":"The box arrived damaged and wet.","ex_es":"La caja llegó dañada y mojada."},
+        {"en":"complaint","es":"queja, reclamo","pos":"noun","ex_en":"I want to make a complaint about the service.","ex_es":"Quiero poner una queja sobre el servicio."},
+        {"en":"exchange","es":"cambiar","pos":"verb","ex_en":"Can I exchange this shirt for a bigger size?","ex_es":"¿Puedo cambiar esta camisa por una talla más grande?"},
+        {"en":"warranty","es":"garantía","pos":"noun","ex_en":"The laptop is still under warranty.","ex_es":"La laptop todavía está en garantía."},
+        {"en":"store credit","es":"saldo a favor en la tienda","pos":"noun","ex_en":"They didn't give me cash, only store credit.","ex_es":"No me dieron efectivo, solo saldo a favor en la tienda."}
+      ],
+      "sentences": [
+        {"en":"This isn't what I ordered.","es":"Esto no es lo que pedí."},
+        {"en":"I was charged twice for the same item.","es":"Me cobraron dos veces el mismo artículo."},
+        {"en":"I'd like to speak to a manager, please.","es":"Quisiera hablar con un gerente, por favor."},
+        {"en":"How long do I have to return it?","es":"¿Cuánto tiempo tengo para devolverlo?"},
+        {"en":"I'm not satisfied with the quality of this product.","es":"No estoy satisfecho con la calidad de este producto."}
+      ],
+      "tip_es": "Ticket en inglés es un boleto. El comprobante de compra se llama receipt, y la p no se pronuncia, ri SIIT. Error común, decir I want to make a reclamation. Lo correcto es make a complaint o file a complaint."
+    },
+    {
+      "id": "18-5",
+      "title_es": "Negociar",
+      "words": [
+        {"en":"negotiate","es":"negociar","pos":"verb","ex_en":"We need to negotiate a better price.","ex_es":"Tenemos que negociar un mejor precio."},
+        {"en":"offer","es":"oferta, propuesta","pos":"noun","ex_en":"That's a fair offer, but I need more time.","ex_es":"Es una propuesta justa, pero necesito más tiempo."},
+        {"en":"counteroffer","es":"contraoferta","pos":"noun","ex_en":"They rejected our counteroffer this morning.","ex_es":"Rechazaron nuestra contraoferta esta mañana."},
+        {"en":"discount","es":"descuento","pos":"noun","ex_en":"Can you give me a discount if I pay cash?","ex_es":"¿Me puede hacer un descuento si pago en efectivo?"},
+        {"en":"compromise","es":"punto medio, acuerdo","pos":"noun","ex_en":"Let's find a compromise that works for both of us.","ex_es":"Busquemos un punto medio que nos funcione a los dos."},
+        {"en":"bottom line","es":"lo esencial, el límite","pos":"noun","ex_en":"The bottom line is that we can't go any lower.","ex_es":"Lo esencial es que no podemos bajar más."},
+        {"en":"meet halfway","es":"quedar en un punto medio","pos":"phrase","ex_en":"Could we meet halfway on the price?","ex_es":"¿Podemos quedar en un punto medio con el precio?"},
+        {"en":"deal breaker","es":"motivo para no cerrar un trato","pos":"noun","ex_en":"The long contract is a deal breaker for us.","ex_es":"El contrato tan largo es motivo suficiente para no aceptar."}
+      ],
+      "sentences": [
+        {"en":"Is this your best price?","es":"¿Es su mejor precio?"},
+        {"en":"What if I buy two of them?","es":"¿Y si compro dos?"},
+        {"en":"I'm afraid that's a little over our budget.","es":"Me temo que eso está un poco por encima de nuestro presupuesto."},
+        {"en":"Let me think about it and get back to you.","es":"Déjeme pensarlo y le aviso."},
+        {"en":"If you lower the price, we can sign today.","es":"Si baja el precio, podemos firmar hoy."}
+      ],
+      "tip_es": "Compromise no es compromiso. Significa ceder un poco para llegar a un acuerdo. Compromiso en el sentido de obligación es commitment. Error común, decir I have a compromise tonight cuando quieres decir que tienes planes. Lo natural es I have plans tonight."
+    },
+    {
+      "id": "18-6",
+      "title_es": "Vocabulario de negocios",
+      "words": [
+        {"en":"revenue","es":"ingresos totales","pos":"noun","ex_en":"Our revenue grew twenty percent this year.","ex_es":"Nuestros ingresos crecieron veinte por ciento este año."},
+        {"en":"profit","es":"ganancia","pos":"noun","ex_en":"The store barely makes a profit.","ex_es":"La tienda apenas tiene ganancias."},
+        {"en":"loss","es":"pérdida","pos":"noun","ex_en":"The company reported a loss for the second year.","ex_es":"La empresa reportó pérdidas por segundo año."},
+        {"en":"startup","es":"empresa emergente","pos":"noun","ex_en":"She quit her job to create a startup.","ex_es":"Renunció a su trabajo para crear una empresa emergente."},
+        {"en":"launch","es":"lanzar","pos":"verb","ex_en":"We'll launch the new product in March.","ex_es":"Vamos a lanzar el nuevo producto en marzo."},
+        {"en":"competitor","es":"competidor","pos":"noun","ex_en":"Our main competitor just lowered its prices.","ex_es":"Nuestro principal competidor acaba de bajar sus precios."},
+        {"en":"market share","es":"participación de mercado","pos":"noun","ex_en":"We want to increase our market share in Mexico.","ex_es":"Queremos aumentar nuestra participación de mercado en México."},
+        {"en":"stakeholder","es":"parte interesada","pos":"noun","ex_en":"Every stakeholder needs to approve the changes.","ex_es":"Cada parte interesada tiene que aprobar los cambios."}
+      ],
+      "sentences": [
+        {"en":"Sales went up after the new ad campaign.","es":"Las ventas subieron después de la nueva campaña publicitaria."},
+        {"en":"We're expanding into new markets next year.","es":"Vamos a expandirnos a nuevos mercados el próximo año."},
+        {"en":"The company is struggling to stay competitive.","es":"La empresa batalla para mantenerse competitiva."},
+        {"en":"Who are your target customers?","es":"¿Quiénes son sus clientes objetivo?"},
+        {"en":"Small businesses are the backbone of the economy.","es":"Los pequeños negocios son la base de la economía."}
+      ],
+      "tip_es": "Revenue es todo el dinero que entra y profit es lo que queda después de pagar los gastos. Error común, decir win money. Ganar dinero trabajando es earn money o make money. Win se usa para premios, apuestas o juegos."
+    },
+    {
+      "id": "18-7",
+      "title_es": "Crédito y préstamos",
+      "words": [
+        {"en":"credit card","es":"tarjeta de crédito","pos":"noun","ex_en":"I only use my credit card for emergencies.","ex_es":"Solo uso mi tarjeta de crédito para emergencias."},
+        {"en":"loan","es":"préstamo","pos":"noun","ex_en":"We asked the bank for a loan to buy a house.","ex_es":"Le pedimos un préstamo al banco para comprar una casa."},
+        {"en":"interest","es":"intereses","pos":"noun","ex_en":"This card charges very high interest.","ex_es":"Esta tarjeta cobra intereses muy altos."},
+        {"en":"pay off","es":"liquidar, terminar de pagar","pos":"verb","ex_en":"It took me three years to pay off my car.","ex_es":"Me tomó tres años terminar de pagar mi carro."},
+        {"en":"installment","es":"mensualidad, pago a plazos","pos":"noun","ex_en":"You can pay in twelve monthly installments.","ex_es":"Puedes pagar en doce mensualidades."},
+        {"en":"credit score","es":"puntaje de crédito","pos":"noun","ex_en":"A good credit score helps you get better loans.","ex_es":"Un buen puntaje de crédito te ayuda a conseguir mejores préstamos."},
+        {"en":"down payment","es":"enganche","pos":"noun","ex_en":"We need a bigger down payment for the house.","ex_es":"Necesitamos un enganche más grande para la casa."},
+        {"en":"mortgage","es":"hipoteca, crédito hipotecario","pos":"noun","ex_en":"Their mortgage payment is higher than my rent.","ex_es":"El pago de su hipoteca es más alto que mi renta."}
+      ],
+      "sentences": [
+        {"en":"Can I pay in installments with no interest?","es":"¿Puedo pagar a meses sin intereses?"},
+        {"en":"I always pay my full balance every month.","es":"Siempre pago el total de mi tarjeta cada mes."},
+        {"en":"Missing a payment can hurt your credit.","es":"No hacer un pago puede afectar tu historial crediticio."},
+        {"en":"How much is the minimum payment?","es":"¿De cuánto es el pago mínimo?"},
+        {"en":"They approved my loan in just two days.","es":"Me aprobaron el préstamo en solo dos días."}
+      ],
+      "tip_es": "El enganche se dice down payment y una mensualidad es a monthly payment. Lo que en México llamamos meses sin intereses en EE. UU. se conoce como no interest financing. Error común, decir borrow money to the bank. Lo correcto es borrow money from the bank, o the bank lends me money."
+    },
+    {
+      "id": "18-8",
+      "title_es": "Sueldo y prestaciones",
+      "words": [
+        {"en":"salary","es":"sueldo, salario","pos":"noun","ex_en":"The salary is good, but the hours are long.","ex_es":"El sueldo es bueno, pero el horario es largo."},
+        {"en":"raise","es":"aumento de sueldo","pos":"noun","ex_en":"I'm going to ask my boss for a raise.","ex_es":"Le voy a pedir un aumento a mi jefe."},
+        {"en":"bonus","es":"bono","pos":"noun","ex_en":"Everyone got a bonus at the end of the year.","ex_es":"Todos recibieron un bono a fin de año."},
+        {"en":"paycheck","es":"pago de nómina","pos":"noun","ex_en":"My paycheck arrives every other Friday.","ex_es":"Mi pago llega cada dos viernes."},
+        {"en":"benefits","es":"prestaciones","pos":"noun","ex_en":"The job offers great benefits, like health insurance.","ex_es":"El trabajo ofrece muy buenas prestaciones, como seguro médico."},
+        {"en":"taxes","es":"impuestos","pos":"noun","ex_en":"A big part of my salary goes to taxes.","ex_es":"Una gran parte de mi sueldo se va en impuestos."},
+        {"en":"freelance","es":"independiente, por tu cuenta","pos":"adj","ex_en":"I do freelance work on weekends.","ex_es":"Hago trabajos por mi cuenta los fines de semana."},
+        {"en":"overtime","es":"horas extra","pos":"noun","ex_en":"They don't pay overtime at my company.","ex_es":"En mi empresa no pagan horas extra."}
+      ],
+      "sentences": [
+        {"en":"In the U.S. it's rude to ask how much someone makes.","es":"En EE. UU. es de mala educación preguntar cuánto gana alguien."},
+        {"en":"I get paid every two weeks.","es":"Me pagan cada quincena."},
+        {"en":"I earn more now, but I also spend more.","es":"Gano más ahora, pero también gasto más."},
+        {"en":"She negotiated a higher salary before accepting the job.","es":"Ella negoció un sueldo más alto antes de aceptar el trabajo."},
+        {"en":"Do you get paid vacation at your job?","es":"¿Tienes vacaciones pagadas en tu trabajo?"}
+      ],
+      "tip_es": "Las prestaciones se llaman benefits, no prestations. Un aumento de sueldo es a raise. Error común, decir I win a good salary. Con el sueldo se usa earn o make, como en I make good money."
+    },
+    {
+      "id": "18-9",
+      "title_es": "Hábitos de consumo",
+      "words": [
+        {"en":"impulse buy","es":"compra impulsiva","pos":"noun","ex_en":"That jacket was an impulse buy, and I regret it.","ex_es":"Esa chamarra fue una compra impulsiva y me arrepiento."},
+        {"en":"bargain","es":"ganga","pos":"noun","ex_en":"These boots were a real bargain.","ex_es":"Estas botas fueron una verdadera ganga."},
+        {"en":"ripoff","es":"robo, precio abusivo","pos":"noun","ex_en":"Ten dollars for a coffee is a ripoff.","ex_es":"Diez dólares por un café es un robo."},
+        {"en":"brand","es":"marca","pos":"noun","ex_en":"I don't care about the brand, I care about quality.","ex_es":"No me importa la marca, me importa la calidad."},
+        {"en":"secondhand","es":"de segunda mano","pos":"adj","ex_en":"I buy most of my clothes secondhand.","ex_es":"Compro casi toda mi ropa de segunda mano."},
+        {"en":"worth it","es":"que vale la pena","pos":"phrase","ex_en":"It was expensive, but it was totally worth it.","ex_es":"Fue caro, pero valió totalmente la pena."},
+        {"en":"shop around","es":"comparar precios","pos":"verb","ex_en":"Shop around before you buy a new phone.","ex_es":"Compara precios antes de comprar un celular nuevo."},
+        {"en":"subscription","es":"suscripción","pos":"noun","ex_en":"I canceled a subscription I never used.","ex_es":"Cancelé una suscripción que nunca usaba."}
+      ],
+      "sentences": [
+        {"en":"I only buy things when they're on sale.","es":"Solo compro cosas cuando están en oferta."},
+        {"en":"Is it cheaper to buy it online or in the store?","es":"¿Es más barato comprarlo en línea o en la tienda?"},
+        {"en":"That's a lot of money for such a small thing.","es":"Es mucho dinero por algo tan pequeño."},
+        {"en":"I try to support local businesses when I can.","es":"Trato de apoyar a los negocios locales cuando puedo."},
+        {"en":"He's always buying gadgets he doesn't need.","es":"Siempre está comprando aparatos que no necesita."}
+      ],
+      "tip_es": "Cheap puede sonar negativo, como de mala calidad. Para algo barato pero bueno usa affordable o a good price. Error común, decir He is very cheap pensando en precios. Aplicado a una persona, cheap significa tacaño."
+    },
+    {
+      "id": "18-10",
+      "title_es": "Emprender",
+      "words": [
+        {"en":"business plan","es":"plan de negocios","pos":"noun","ex_en":"Every new company needs a solid business plan.","ex_es":"Toda empresa nueva necesita un plan de negocios sólido."},
+        {"en":"investor","es":"inversionista","pos":"noun","ex_en":"We're meeting with an investor next week.","ex_es":"Nos vamos a reunir con un inversionista la próxima semana."},
+        {"en":"pitch","es":"presentar una propuesta","pos":"verb","ex_en":"She will pitch her idea to the board tomorrow.","ex_es":"Mañana va a presentar su idea al consejo."},
+        {"en":"funding","es":"financiamiento","pos":"noun","ex_en":"We're still looking for funding.","ex_es":"Todavía estamos buscando financiamiento."},
+        {"en":"break even","es":"no ganar ni perder","pos":"verb","ex_en":"We expect to break even in the first year.","ex_es":"Esperamos no tener pérdidas ni ganancias el primer año."},
+        {"en":"scale","es":"crecer, escalar","pos":"verb","ex_en":"It's hard to scale a business without money.","ex_es":"Es difícil hacer crecer un negocio sin dinero."},
+        {"en":"risk","es":"riesgo","pos":"noun","ex_en":"Starting a business is always a risk.","ex_es":"Empezar un negocio siempre es un riesgo."},
+        {"en":"entrepreneur","es":"emprendedor","pos":"noun","ex_en":"My aunt is an entrepreneur with three restaurants.","ex_es":"Mi tía es una emprendedora con tres restaurantes."}
+      ],
+      "sentences": [
+        {"en":"What problem does your product solve?","es":"¿Qué problema resuelve tu producto?"},
+        {"en":"We're looking for a partner with experience in sales.","es":"Buscamos un socio con experiencia en ventas."},
+        {"en":"Our goal is to grow without taking on too much debt.","es":"Nuestra meta es crecer sin endeudarnos demasiado."},
+        {"en":"How much money do you need to get started?","es":"¿Cuánto dinero necesitas para empezar?"},
+        {"en":"Most new businesses fail in the first few years.","es":"La mayoría de los negocios nuevos fracasan en los primeros años."}
+      ],
+      "tip_es": "Entrepreneur se pronuncia on tre pre NUR. Emprender un negocio se dice start a business o launch a business. Error común, traducir emprender como undertake, que casi no se usa en ese sentido."
+    }
+  ],
+  "dialogue": {
+    "title_es": "Una devolución",
+    "setting_es": "Regresas a una tienda departamental para devolver una cafetera que no funciona.",
+    "lines": [
+      {"who":"A","en":"Hi, how can I help you today?","es":"Hola, ¿en qué le puedo ayudar hoy?"},
+      {"who":"B","en":"Hi. I bought this coffee maker last week, and it doesn't work.","es":"Hola. Compré esta cafetera la semana pasada y no funciona."},
+      {"who":"A","en":"I'm sorry to hear that. Do you have the receipt?","es":"Lamento escuchar eso. ¿Tiene el ticket?"},
+      {"who":"B","en":"Yes, here it is. I paid with my debit card.","es":"Sí, aquí está. Pagué con mi tarjeta de débito."},
+      {"who":"A","en":"Thanks. Would you like an exchange or a refund?","es":"Gracias. ¿Prefiere un cambio o un reembolso?"},
+      {"who":"B","en":"I'd prefer a refund, if that's possible.","es":"Prefiero un reembolso, si es posible."},
+      {"who":"A","en":"Sure. The money will be back in your account in three days.","es":"Claro. El dinero regresará a su cuenta en tres días."},
+      {"who":"B","en":"Three days? Is there any way to get cash today?","es":"¿Tres días? ¿Hay alguna forma de recibir efectivo hoy?"},
+      {"who":"A","en":"I'm afraid not, but I can give you store credit right now.","es":"Me temo que no, pero le puedo dar saldo a favor ahora mismo."},
+      {"who":"B","en":"That's OK, I'll wait for the refund. Thanks for your help.","es":"Está bien, espero el reembolso. Gracias por su ayuda."}
+    ]
+  }
+}

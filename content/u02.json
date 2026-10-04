@@ -136,6 +136,94 @@
         {"en": "We're Mexican. What city are you from?", "es": "Somos mexicanos. ¿De qué ciudad eres?"}
       ],
       "tip_es": "Países y nacionalidades siempre llevan mayúscula en inglés: Mexico, Mexican, American. La pregunta termina con from: Where are you from?, que literalmente es dónde eres de."
+    },
+    {
+      "id": "2-7",
+      "title_es": "Países y nacionalidades",
+      "words": [
+        {"en": "Canada", "es": "Canadá", "pos": "noun", "ex_en": "Emma is from Canada.", "ex_es": "Emma es de Canadá."},
+        {"en": "Canadian", "es": "canadiense", "pos": "adj", "ex_en": "He's Canadian.", "ex_es": "Él es canadiense."},
+        {"en": "Spain", "es": "España", "pos": "noun", "ex_en": "My teacher is from Spain.", "ex_es": "Mi maestro es de España."},
+        {"en": "Spanish", "es": "español, española", "pos": "adj", "ex_en": "She's Spanish, from Madrid.", "ex_es": "Ella es española, de Madrid."},
+        {"en": "Colombia", "es": "Colombia", "pos": "noun", "ex_en": "Are you from Colombia?", "ex_es": "¿Eres de Colombia?"},
+        {"en": "Colombian", "es": "colombiano, colombiana", "pos": "adj", "ex_en": "We're Colombian.", "ex_es": "Somos colombianos."},
+        {"en": "Brazil", "es": "Brasil", "pos": "noun", "ex_en": "They're from Brazil.", "ex_es": "Ellos son de Brasil."},
+        {"en": "Brazilian", "es": "brasileño, brasileña", "pos": "adj", "ex_en": "Is your friend Brazilian?", "ex_es": "¿Tu amigo es brasileño?"}
+      ],
+      "sentences": [
+        {"en": "Is she Canadian or American?", "es": "¿Ella es canadiense o estadounidense?"},
+        {"en": "They aren't Spanish. They're Mexican.", "es": "No son españoles. Son mexicanos."},
+        {"en": "Where is he from? He's from Brazil.", "es": "¿De dónde es él? Es de Brasil."},
+        {"en": "My friend is Colombian, from Bogotá.", "es": "Mi amiga es colombiana, de Bogotá."},
+        {"en": "We're from Spain, but we live in Mexico.", "es": "Somos de España, pero vivimos en México."}
+      ],
+      "tip_es": "Muchas veces el idioma y la nacionalidad son la misma palabra. Spanish es el idioma español y también una persona española. Recuerda que países y nacionalidades siempre llevan mayúscula."
+    },
+    {
+      "id": "2-8",
+      "title_es": "Meses y fechas",
+      "words": [
+        {"en": "month", "es": "mes", "pos": "noun", "ex_en": "My birthday is this month.", "ex_es": "Mi cumpleaños es este mes."},
+        {"en": "year", "es": "año", "pos": "noun", "ex_en": "It's a new year!", "ex_es": "¡Es un año nuevo!"},
+        {"en": "date", "es": "fecha", "pos": "noun", "ex_en": "What's the date today?", "ex_es": "¿Qué fecha es hoy?"},
+        {"en": "today", "es": "hoy", "pos": "adv", "ex_en": "Today is my birthday!", "ex_es": "¡Hoy es mi cumpleaños!"},
+        {"en": "January", "es": "enero", "pos": "noun", "ex_en": "My birthday is in January.", "ex_es": "Mi cumpleaños es en enero."},
+        {"en": "April", "es": "abril", "pos": "noun", "ex_en": "Is it April or May?", "ex_es": "¿Es abril o mayo?"},
+        {"en": "August", "es": "agosto", "pos": "noun", "ex_en": "We're in Mexico in August.", "ex_es": "Estamos en México en agosto."},
+        {"en": "December", "es": "diciembre", "pos": "noun", "ex_en": "Her birthday is in December.", "ex_es": "Su cumpleaños es en diciembre."}
+      ],
+      "sentences": [
+        {"en": "When is your birthday?", "es": "¿Cuándo es tu cumpleaños?"},
+        {"en": "My birthday is in April.", "es": "Mi cumpleaños es en abril."},
+        {"en": "Is your birthday in January or August?", "es": "¿Tu cumpleaños es en enero o en agosto?"},
+        {"en": "Today is my birthday. I'm twenty!", "es": "Hoy es mi cumpleaños. ¡Cumplo veinte!"},
+        {"en": "A year has twelve months.", "es": "Un año tiene doce meses."}
+      ],
+      "tip_es": "Los meses en inglés siempre se escriben con mayúscula, como January o December. Para decir en qué mes pasa algo usa in, por ejemplo in April o in August."
+    },
+    {
+      "id": "2-9",
+      "title_es": "Datos personales y formularios",
+      "words": [
+        {"en": "married", "es": "casado, casada", "pos": "adj", "ex_en": "Are you married?", "ex_es": "¿Eres casado?"},
+        {"en": "single", "es": "soltero, soltera", "pos": "adj", "ex_en": "No, I'm single.", "ex_es": "No, soy soltera."},
+        {"en": "job", "es": "trabajo, empleo", "pos": "noun", "ex_en": "What's your job?", "ex_es": "¿Cuál es tu trabajo?"},
+        {"en": "street", "es": "calle", "pos": "noun", "ex_en": "I live on Juárez Street.", "ex_es": "Vivo en la calle Juárez."},
+        {"en": "zip code", "es": "código postal", "pos": "phrase", "ex_en": "What's your zip code?", "ex_es": "¿Cuál es tu código postal?"},
+        {"en": "form", "es": "formulario", "pos": "noun", "ex_en": "Here is the form.", "ex_es": "Aquí está el formulario."},
+        {"en": "information", "es": "información, datos", "pos": "noun", "ex_en": "Your information, please.", "ex_es": "Sus datos, por favor."},
+        {"en": "sign", "es": "firmar", "pos": "verb", "ex_en": "Sign here, please.", "ex_es": "Firme aquí, por favor."}
+      ],
+      "sentences": [
+        {"en": "Are you married or single?", "es": "¿Es casado o soltero?"},
+        {"en": "What's your job? I'm a teacher.", "es": "¿A qué se dedica? Soy maestra."},
+        {"en": "My address is forty Juárez Street.", "es": "Mi dirección es calle Juárez número cuarenta."},
+        {"en": "My zip code is four, four, one, zero, zero.", "es": "Mi código postal es cuatro, cuatro, uno, cero, cero."},
+        {"en": "Please sign the form here.", "es": "Por favor, firme el formulario aquí."}
+      ],
+      "tip_es": "En los formularios de Estados Unidos te piden first name, last name y zip code. La dirección se escribe al revés que en México, primero el número y luego la calle, como 40 Juárez Street."
+    },
+    {
+      "id": "2-10",
+      "title_es": "En la vida real, en la recepción",
+      "words": [
+        {"en": "help", "es": "ayudar", "pos": "verb", "ex_en": "Can I help you?", "ex_es": "¿Le puedo ayudar?"},
+        {"en": "ID", "es": "identificación, INE", "pos": "noun", "ex_en": "Your ID, please.", "ex_es": "Su identificación, por favor."},
+        {"en": "card", "es": "tarjeta", "pos": "noun", "ex_en": "Here's your card.", "ex_es": "Aquí está su tarjeta."},
+        {"en": "member", "es": "socio, miembro", "pos": "noun", "ex_en": "Are you a member?", "ex_es": "¿Es usted socio?"},
+        {"en": "correct", "es": "correcto, correcta", "pos": "adj", "ex_en": "Is your email correct?", "ex_es": "¿Su correo es correcto?"},
+        {"en": "wrong", "es": "equivocado, mal", "pos": "adj", "ex_en": "Sorry, the number is wrong.", "ex_es": "Perdón, el número está mal."},
+        {"en": "moment", "es": "momento", "pos": "noun", "ex_en": "One moment, please.", "ex_es": "Un momento, por favor."},
+        {"en": "ready", "es": "listo, lista", "pos": "adj", "ex_en": "Your card is ready.", "ex_es": "Su tarjeta está lista."}
+      ],
+      "sentences": [
+        {"en": "Hi! Can I help you?", "es": "¡Hola! ¿Le puedo ayudar?"},
+        {"en": "Yes, I'm a new member.", "es": "Sí, soy socia nueva."},
+        {"en": "What's your phone number and email?", "es": "¿Cuál es su teléfono y su correo?"},
+        {"en": "Sorry, that's wrong. It's sixty, not sixteen.", "es": "Perdón, eso está mal. Es sesenta, no dieciséis."},
+        {"en": "One moment, please. Your card is ready.", "es": "Un momento, por favor. Su tarjeta está lista."}
+      ],
+      "tip_es": "Can I help you? es lo que te dicen en una recepción o en una tienda. Para corregir un dato usa not, como It's sixty, not sixteen. Di los números despacio, porque sixty y sixteen se confunden mucho."
     }
   ],
   "dialogue": {

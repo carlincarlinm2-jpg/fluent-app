@@ -9,21 +9,84 @@
       "id": "15-1",
       "title_es": "¿Cómo te sientes?",
       "words": [
-        {"en":"excited","es":"emocionado","pos":"adj","ex_en":"I'm so excited about the concert!","ex_es":"¡Estoy muy emocionado por el concierto!"},
-        {"en":"disappointed","es":"decepcionado","pos":"adj","ex_en":"She was disappointed with her grade.","ex_es":"Ella estaba decepcionada con su calificación."},
-        {"en":"worried","es":"preocupado","pos":"adj","ex_en":"My mom is worried because I came home late.","ex_es":"Mi mamá está preocupada porque llegué tarde a la casa."},
-        {"en":"embarrassed","es":"apenado, avergonzado","pos":"adj","ex_en":"I was so embarrassed when I fell in the street.","ex_es":"Me dio muchísima pena cuando me caí en la calle."},
-        {"en":"frustrated","es":"frustrado","pos":"adj","ex_en":"He gets frustrated when the internet is slow.","ex_es":"Se frustra cuando el internet está lento."},
-        {"en":"relieved","es":"aliviado","pos":"adj","ex_en":"I felt relieved when the exam was over.","ex_es":"Me sentí aliviado cuando terminó el examen."},
-        {"en":"annoyed","es":"molesto, irritado","pos":"adj","ex_en":"I'm annoyed because my neighbor's music is too loud.","ex_es":"Estoy molesto porque la música de mi vecino está muy fuerte."},
-        {"en":"overwhelmed","es":"abrumado","pos":"adj","ex_en":"I feel overwhelmed with so much work.","ex_es":"Me siento abrumado con tanto trabajo."}
+        {
+          "en": "excited",
+          "es": "emocionado",
+          "pos": "adj",
+          "ex_en": "I'm so excited about the concert!",
+          "ex_es": "¡Estoy muy emocionado por el concierto!"
+        },
+        {
+          "en": "disappointed",
+          "es": "decepcionado",
+          "pos": "adj",
+          "ex_en": "She was disappointed with her grade.",
+          "ex_es": "Ella estaba decepcionada con su calificación."
+        },
+        {
+          "en": "worried",
+          "es": "preocupado",
+          "pos": "adj",
+          "ex_en": "My mom is worried because I came home late.",
+          "ex_es": "Mi mamá está preocupada porque llegué tarde a la casa."
+        },
+        {
+          "en": "embarrassed",
+          "es": "apenado, avergonzado",
+          "pos": "adj",
+          "ex_en": "I was so embarrassed when I fell in the street.",
+          "ex_es": "Me dio muchísima pena cuando me caí en la calle."
+        },
+        {
+          "en": "frustrated",
+          "es": "frustrado",
+          "pos": "adj",
+          "ex_en": "He gets frustrated when the internet is slow.",
+          "ex_es": "Se frustra cuando el internet está lento."
+        },
+        {
+          "en": "relieved",
+          "es": "aliviado",
+          "pos": "adj",
+          "ex_en": "I felt relieved when the exam was over.",
+          "ex_es": "Me sentí aliviado cuando terminó el examen."
+        },
+        {
+          "en": "annoyed",
+          "es": "molesto, irritado",
+          "pos": "adj",
+          "ex_en": "I'm annoyed because my neighbor's music is too loud.",
+          "ex_es": "Estoy molesto porque la música de mi vecino está muy fuerte."
+        },
+        {
+          "en": "overwhelmed",
+          "es": "abrumado",
+          "pos": "adj",
+          "ex_en": "I feel overwhelmed with so much work.",
+          "ex_es": "Me siento abrumado con tanto trabajo."
+        }
       ],
       "sentences": [
-        {"en":"The movie was boring, so I was bored.","es":"La película estaba aburrida, así que me aburrí."},
-        {"en":"I'm really excited about my new job.","es":"Estoy muy emocionado por mi nuevo trabajo."},
-        {"en":"Why do you look so worried?","es":"¿Por qué te ves tan preocupado?"},
-        {"en":"It was an exhausting day, and now I'm exhausted.","es":"Fue un día agotador y ahora estoy agotado."},
-        {"en":"She felt embarrassed when she forgot his name.","es":"Le dio pena cuando olvidó el nombre de él."}
+        {
+          "en": "The movie was boring, so I was bored.",
+          "es": "La película estaba aburrida, así que me aburrí."
+        },
+        {
+          "en": "I'm really excited about my new job.",
+          "es": "Estoy muy emocionado por mi nuevo trabajo."
+        },
+        {
+          "en": "Why do you look so worried?",
+          "es": "¿Por qué te ves tan preocupado?"
+        },
+        {
+          "en": "It was an exhausting day, and now I'm exhausted.",
+          "es": "Fue un día agotador y ahora estoy agotado."
+        },
+        {
+          "en": "She felt embarrassed when she forgot his name.",
+          "es": "Le dio pena cuando olvidó el nombre de él."
+        }
       ],
       "tip_es": "Los adjetivos con -ed describen cómo te sientes (I'm bored, estoy aburrido) y los de -ing describen lo que causa el sentimiento (The class is boring). Cuidado: embarrassed significa apenado, no embarazada, que en inglés es pregnant."
     },
@@ -31,21 +94,84 @@
       "id": "15-2",
       "title_es": "Dar tu opinión",
       "words": [
-        {"en":"in my opinion","es":"en mi opinión","pos":"phrase","ex_en":"In my opinion, the book is better than the movie.","ex_es":"En mi opinión, el libro es mejor que la película."},
-        {"en":"personally","es":"personalmente","pos":"adv","ex_en":"Personally, I don't like spicy food.","ex_es":"Personalmente, no me gusta la comida picante."},
-        {"en":"as far as I know","es":"que yo sepa","pos":"phrase","ex_en":"As far as I know, the store opens at nine.","ex_es":"Que yo sepa, la tienda abre a las nueve."},
-        {"en":"it seems to me","es":"me parece que","pos":"phrase","ex_en":"It seems to me that he's very tired.","ex_es":"Me parece que él está muy cansado."},
-        {"en":"point of view","es":"punto de vista","pos":"noun","ex_en":"From my point of view, it's a good idea.","ex_es":"Desde mi punto de vista, es una buena idea."},
-        {"en":"believe","es":"creer","pos":"verb","ex_en":"I believe everyone deserves a second chance.","ex_es":"Creo que todos merecen una segunda oportunidad."},
-        {"en":"honestly","es":"honestamente, la verdad","pos":"adv","ex_en":"Honestly, I didn't like the ending.","ex_es":"La verdad, no me gustó el final."},
-        {"en":"make sense","es":"tener sentido","pos":"phrase","ex_en":"That doesn't make sense.","ex_es":"Eso no tiene sentido."}
+        {
+          "en": "in my opinion",
+          "es": "en mi opinión",
+          "pos": "phrase",
+          "ex_en": "In my opinion, the book is better than the movie.",
+          "ex_es": "En mi opinión, el libro es mejor que la película."
+        },
+        {
+          "en": "personally",
+          "es": "personalmente",
+          "pos": "adv",
+          "ex_en": "Personally, I don't like spicy food.",
+          "ex_es": "Personalmente, no me gusta la comida picante."
+        },
+        {
+          "en": "as far as I know",
+          "es": "que yo sepa",
+          "pos": "phrase",
+          "ex_en": "As far as I know, the store opens at nine.",
+          "ex_es": "Que yo sepa, la tienda abre a las nueve."
+        },
+        {
+          "en": "it seems to me",
+          "es": "me parece que",
+          "pos": "phrase",
+          "ex_en": "It seems to me that he's very tired.",
+          "ex_es": "Me parece que él está muy cansado."
+        },
+        {
+          "en": "point of view",
+          "es": "punto de vista",
+          "pos": "noun",
+          "ex_en": "From my point of view, it's a good idea.",
+          "ex_es": "Desde mi punto de vista, es una buena idea."
+        },
+        {
+          "en": "believe",
+          "es": "creer",
+          "pos": "verb",
+          "ex_en": "I believe everyone deserves a second chance.",
+          "ex_es": "Creo que todos merecen una segunda oportunidad."
+        },
+        {
+          "en": "honestly",
+          "es": "honestamente, la verdad",
+          "pos": "adv",
+          "ex_en": "Honestly, I didn't like the ending.",
+          "ex_es": "La verdad, no me gustó el final."
+        },
+        {
+          "en": "make sense",
+          "es": "tener sentido",
+          "pos": "phrase",
+          "ex_en": "That doesn't make sense.",
+          "ex_es": "Eso no tiene sentido."
+        }
       ],
       "sentences": [
-        {"en":"In my opinion, public transportation in this city needs to improve.","es":"En mi opinión, el transporte público de esta ciudad necesita mejorar."},
-        {"en":"Personally, I prefer living in a small town.","es":"Personalmente, prefiero vivir en un pueblo."},
-        {"en":"What do you think about working from home?","es":"¿Qué opinas de trabajar desde casa?"},
-        {"en":"It seems to me that people are always in a hurry.","es":"Me parece que la gente siempre anda con prisa."},
-        {"en":"Honestly, his plan doesn't make sense to me.","es":"Honestamente, su plan no tiene sentido para mí."}
+        {
+          "en": "In my opinion, public transportation in this city needs to improve.",
+          "es": "En mi opinión, el transporte público de esta ciudad necesita mejorar."
+        },
+        {
+          "en": "Personally, I prefer living in a small town.",
+          "es": "Personalmente, prefiero vivir en un pueblo."
+        },
+        {
+          "en": "What do you think about working from home?",
+          "es": "¿Qué opinas de trabajar desde casa?"
+        },
+        {
+          "en": "It seems to me that people are always in a hurry.",
+          "es": "Me parece que la gente siempre anda con prisa."
+        },
+        {
+          "en": "Honestly, his plan doesn't make sense to me.",
+          "es": "Honestamente, su plan no tiene sentido para mí."
+        }
       ],
       "tip_es": "Para pedir una opinión se dice What do you think about...?, no How do you think...? Para dar la tuya usa I think..., In my opinion... o Personally... y evita traducir literal según yo como according to me."
     },
@@ -53,21 +179,84 @@
       "id": "15-3",
       "title_es": "De acuerdo y en desacuerdo",
       "words": [
-        {"en":"agree","es":"estar de acuerdo","pos":"verb","ex_en":"I agree with you about the new schedule.","ex_es":"Estoy de acuerdo contigo sobre el nuevo horario."},
-        {"en":"disagree","es":"no estar de acuerdo","pos":"verb","ex_en":"My brother and I often disagree about politics.","ex_es":"Mi hermano y yo seguido no estamos de acuerdo sobre política."},
-        {"en":"exactly","es":"exacto","pos":"adv","ex_en":"Exactly! That's what I was trying to say.","ex_es":"¡Exacto! Eso es lo que trataba de decir."},
-        {"en":"I see your point","es":"entiendo tu punto","pos":"phrase","ex_en":"I see your point, but I still think it's expensive.","ex_es":"Entiendo tu punto, pero sigo pensando que es caro."},
-        {"en":"on the other hand","es":"por otro lado","pos":"phrase","ex_en":"The city is noisy. On the other hand, there's a lot to do.","ex_es":"La ciudad es ruidosa. Por otro lado, hay mucho que hacer."},
-        {"en":"fair enough","es":"es justo, está bien","pos":"phrase","ex_en":"You want to leave early? Fair enough.","ex_es":"¿Te quieres ir temprano? Está bien, es justo."},
-        {"en":"not necessarily","es":"no necesariamente","pos":"phrase","ex_en":"Expensive things are not necessarily better.","ex_es":"Las cosas caras no necesariamente son mejores."},
-        {"en":"argue","es":"discutir, pelear","pos":"verb","ex_en":"My parents argue about money sometimes.","ex_es":"Mis papás a veces discuten por dinero."}
+        {
+          "en": "agree",
+          "es": "estar de acuerdo",
+          "pos": "verb",
+          "ex_en": "I agree with you about the new schedule.",
+          "ex_es": "Estoy de acuerdo contigo sobre el nuevo horario."
+        },
+        {
+          "en": "disagree",
+          "es": "no estar de acuerdo",
+          "pos": "verb",
+          "ex_en": "My brother and I often disagree about politics.",
+          "ex_es": "Mi hermano y yo seguido no estamos de acuerdo sobre política."
+        },
+        {
+          "en": "exactly",
+          "es": "exacto",
+          "pos": "adv",
+          "ex_en": "Exactly! That's what I was trying to say.",
+          "ex_es": "¡Exacto! Eso es lo que trataba de decir."
+        },
+        {
+          "en": "I see your point",
+          "es": "entiendo tu punto",
+          "pos": "phrase",
+          "ex_en": "I see your point, but I still think it's expensive.",
+          "ex_es": "Entiendo tu punto, pero sigo pensando que es caro."
+        },
+        {
+          "en": "on the other hand",
+          "es": "por otro lado",
+          "pos": "phrase",
+          "ex_en": "The city is noisy. On the other hand, there's a lot to do.",
+          "ex_es": "La ciudad es ruidosa. Por otro lado, hay mucho que hacer."
+        },
+        {
+          "en": "fair enough",
+          "es": "es justo, está bien",
+          "pos": "phrase",
+          "ex_en": "You want to leave early? Fair enough.",
+          "ex_es": "¿Te quieres ir temprano? Está bien, es justo."
+        },
+        {
+          "en": "not necessarily",
+          "es": "no necesariamente",
+          "pos": "phrase",
+          "ex_en": "Expensive things are not necessarily better.",
+          "ex_es": "Las cosas caras no necesariamente son mejores."
+        },
+        {
+          "en": "argue",
+          "es": "discutir, pelear",
+          "pos": "verb",
+          "ex_en": "My parents argue about money sometimes.",
+          "ex_es": "Mis papás a veces discuten por dinero."
+        }
       ],
       "sentences": [
-        {"en":"I totally agree with you.","es":"Estoy totalmente de acuerdo contigo."},
-        {"en":"I'm sorry, but I don't agree with that idea.","es":"Perdón, pero no estoy de acuerdo con esa idea."},
-        {"en":"You're right, but on the other hand, it's very far.","es":"Tienes razón, pero por otro lado, queda muy lejos."},
-        {"en":"I see your point, but I think we need more time.","es":"Entiendo tu punto, pero creo que necesitamos más tiempo."},
-        {"en":"We don't have to agree on everything.","es":"No tenemos que estar de acuerdo en todo."}
+        {
+          "en": "I totally agree with you.",
+          "es": "Estoy totalmente de acuerdo contigo."
+        },
+        {
+          "en": "I'm sorry, but I don't agree with that idea.",
+          "es": "Perdón, pero no estoy de acuerdo con esa idea."
+        },
+        {
+          "en": "You're right, but on the other hand, it's very far.",
+          "es": "Tienes razón, pero por otro lado, queda muy lejos."
+        },
+        {
+          "en": "I see your point, but I think we need more time.",
+          "es": "Entiendo tu punto, pero creo que necesitamos más tiempo."
+        },
+        {
+          "en": "We don't have to agree on everything.",
+          "es": "No tenemos que estar de acuerdo en todo."
+        }
       ],
       "tip_es": "Agree es un verbo, así que se dice I agree, nunca I am agree. En negativo di I don't agree o I disagree. Ojo: argue significa discutir o pelear con palabras, no argumentar de forma tranquila."
     },
@@ -75,21 +264,84 @@
       "id": "15-4",
       "title_es": "Comparar cosas",
       "words": [
-        {"en":"than","es":"que (en comparaciones)","pos":"conj","ex_en":"My new apartment is bigger than my old one.","ex_es":"Mi departamento nuevo es más grande que el anterior."},
-        {"en":"less","es":"menos","pos":"adv","ex_en":"This phone is less expensive than that one.","ex_es":"Este celular es menos caro que ese."},
-        {"en":"as good as","es":"tan bueno como","pos":"phrase","ex_en":"The sequel isn't as good as the first movie.","ex_es":"La secuela no es tan buena como la primera película."},
-        {"en":"worse","es":"peor","pos":"adj","ex_en":"The traffic is worse on Fridays.","ex_es":"El tráfico está peor los viernes."},
-        {"en":"crowded","es":"lleno de gente","pos":"adj","ex_en":"The subway is very crowded at rush hour.","ex_es":"El metro está muy lleno en hora pico."},
-        {"en":"convenient","es":"práctico, conveniente","pos":"adj","ex_en":"Living near work is very convenient.","ex_es":"Vivir cerca del trabajo es muy práctico."},
-        {"en":"affordable","es":"accesible (de precio)","pos":"adj","ex_en":"It's hard to find affordable housing downtown.","ex_es":"Es difícil encontrar vivienda accesible en el centro."},
-        {"en":"similar","es":"parecido","pos":"adj","ex_en":"Your bag is similar to mine.","ex_es":"Tu bolsa es parecida a la mía."}
+        {
+          "en": "than",
+          "es": "que (en comparaciones)",
+          "pos": "conj",
+          "ex_en": "My new apartment is bigger than my old one.",
+          "ex_es": "Mi departamento nuevo es más grande que el anterior."
+        },
+        {
+          "en": "less",
+          "es": "menos",
+          "pos": "adv",
+          "ex_en": "This phone is less expensive than that one.",
+          "ex_es": "Este celular es menos caro que ese."
+        },
+        {
+          "en": "as good as",
+          "es": "tan bueno como",
+          "pos": "phrase",
+          "ex_en": "The sequel isn't as good as the first movie.",
+          "ex_es": "La secuela no es tan buena como la primera película."
+        },
+        {
+          "en": "worse",
+          "es": "peor",
+          "pos": "adj",
+          "ex_en": "The traffic is worse on Fridays.",
+          "ex_es": "El tráfico está peor los viernes."
+        },
+        {
+          "en": "crowded",
+          "es": "lleno de gente",
+          "pos": "adj",
+          "ex_en": "The subway is very crowded at rush hour.",
+          "ex_es": "El metro está muy lleno en hora pico."
+        },
+        {
+          "en": "convenient",
+          "es": "práctico, conveniente",
+          "pos": "adj",
+          "ex_en": "Living near work is very convenient.",
+          "ex_es": "Vivir cerca del trabajo es muy práctico."
+        },
+        {
+          "en": "affordable",
+          "es": "accesible (de precio)",
+          "pos": "adj",
+          "ex_en": "It's hard to find affordable housing downtown.",
+          "ex_es": "Es difícil encontrar vivienda accesible en el centro."
+        },
+        {
+          "en": "similar",
+          "es": "parecido",
+          "pos": "adj",
+          "ex_en": "Your bag is similar to mine.",
+          "ex_es": "Tu bolsa es parecida a la mía."
+        }
       ],
       "sentences": [
-        {"en":"Puebla is smaller than Mexico City, but it's very pretty.","es":"Puebla es más chica que la Ciudad de México, pero es muy bonita."},
-        {"en":"Learning English is easier than I thought.","es":"Aprender inglés es más fácil de lo que pensaba."},
-        {"en":"This restaurant is more affordable than the one downtown.","es":"Este restaurante es más accesible que el del centro."},
-        {"en":"My cold is getting worse, not better.","es":"Mi gripa está cada vez peor, no mejor."},
-        {"en":"The bus is cheaper, but the subway is more convenient.","es":"El camión es más barato, pero el metro es más práctico."}
+        {
+          "en": "Puebla is smaller than Mexico City, but it's very pretty.",
+          "es": "Puebla es más chica que la Ciudad de México, pero es muy bonita."
+        },
+        {
+          "en": "Learning English is easier than I thought.",
+          "es": "Aprender inglés es más fácil de lo que pensaba."
+        },
+        {
+          "en": "This restaurant is more affordable than the one downtown.",
+          "es": "Este restaurante es más accesible que el del centro."
+        },
+        {
+          "en": "My cold is getting worse, not better.",
+          "es": "Mi gripa está cada vez peor, no mejor."
+        },
+        {
+          "en": "The bus is cheaper, but the subway is more convenient.",
+          "es": "El camión es más barato, pero el metro es más práctico."
+        }
       ],
       "tip_es": "Los adjetivos cortos agregan -er (cheaper, bigger) y los largos usan more (more convenient). Irregulares: good, better y bad, worse. Error común: more better o more cheap. Nunca combines more con -er."
     },
@@ -97,21 +349,84 @@
       "id": "15-5",
       "title_es": "Lo mejor y lo peor",
       "words": [
-        {"en":"the best","es":"el mejor","pos":"phrase","ex_en":"This is the best taco place in town.","ex_es":"Esta es la mejor taquería de la ciudad."},
-        {"en":"the worst","es":"el peor","pos":"phrase","ex_en":"Monday is the worst day of the week.","ex_es":"El lunes es el peor día de la semana."},
-        {"en":"the most","es":"el más","pos":"phrase","ex_en":"What's the most beautiful place you've visited?","ex_es":"¿Cuál es el lugar más bonito que has visitado?"},
-        {"en":"the least","es":"el menos","pos":"phrase","ex_en":"This is the least expensive option on the menu.","ex_es":"Esta es la opción menos cara del menú."},
-        {"en":"by far","es":"por mucho","pos":"phrase","ex_en":"This is by far the hottest summer I remember.","ex_es":"Este es por mucho el verano más caluroso que recuerdo."},
-        {"en":"one of the","es":"uno de los","pos":"phrase","ex_en":"Tokyo is one of the biggest cities in the world.","ex_es":"Tokio es una de las ciudades más grandes del mundo."},
-        {"en":"talented","es":"talentoso","pos":"adj","ex_en":"My cousin is a very talented guitar player.","ex_es":"Mi primo es un guitarrista muy talentoso."},
-        {"en":"impressive","es":"impresionante","pos":"adj","ex_en":"The view from the top was really impressive.","ex_es":"La vista desde arriba fue realmente impresionante."}
+        {
+          "en": "the best",
+          "es": "el mejor",
+          "pos": "phrase",
+          "ex_en": "This is the best taco place in town.",
+          "ex_es": "Esta es la mejor taquería de la ciudad."
+        },
+        {
+          "en": "the worst",
+          "es": "el peor",
+          "pos": "phrase",
+          "ex_en": "Monday is the worst day of the week.",
+          "ex_es": "El lunes es el peor día de la semana."
+        },
+        {
+          "en": "the most",
+          "es": "el más",
+          "pos": "phrase",
+          "ex_en": "What's the most beautiful place you've visited?",
+          "ex_es": "¿Cuál es el lugar más bonito que has visitado?"
+        },
+        {
+          "en": "the least",
+          "es": "el menos",
+          "pos": "phrase",
+          "ex_en": "This is the least expensive option on the menu.",
+          "ex_es": "Esta es la opción menos cara del menú."
+        },
+        {
+          "en": "by far",
+          "es": "por mucho",
+          "pos": "phrase",
+          "ex_en": "This is by far the hottest summer I remember.",
+          "ex_es": "Este es por mucho el verano más caluroso que recuerdo."
+        },
+        {
+          "en": "one of the",
+          "es": "uno de los",
+          "pos": "phrase",
+          "ex_en": "Tokyo is one of the biggest cities in the world.",
+          "ex_es": "Tokio es una de las ciudades más grandes del mundo."
+        },
+        {
+          "en": "talented",
+          "es": "talentoso",
+          "pos": "adj",
+          "ex_en": "My cousin is a very talented guitar player.",
+          "ex_es": "Mi primo es un guitarrista muy talentoso."
+        },
+        {
+          "en": "impressive",
+          "es": "impresionante",
+          "pos": "adj",
+          "ex_en": "The view from the top was really impressive.",
+          "ex_es": "La vista desde arriba fue realmente impresionante."
+        }
       ],
       "sentences": [
-        {"en":"What's the best movie you've ever seen?","es":"¿Cuál es la mejor película que has visto?"},
-        {"en":"January is the coldest month of the year here.","es":"Enero es el mes más frío del año aquí."},
-        {"en":"That was the worst meal I've ever had.","es":"Fue la peor comida que he probado en mi vida."},
-        {"en":"She's the most talented singer in the band.","es":"Ella es la cantante más talentosa del grupo."},
-        {"en":"Frida Kahlo is one of the most famous Mexican artists.","es":"Frida Kahlo es una de las artistas mexicanas más famosas."}
+        {
+          "en": "What's the best movie you've ever seen?",
+          "es": "¿Cuál es la mejor película que has visto?"
+        },
+        {
+          "en": "January is the coldest month of the year here.",
+          "es": "Enero es el mes más frío del año aquí."
+        },
+        {
+          "en": "That was the worst meal I've ever had.",
+          "es": "Fue la peor comida que he probado en mi vida."
+        },
+        {
+          "en": "She's the most talented singer in the band.",
+          "es": "Ella es la cantante más talentosa del grupo."
+        },
+        {
+          "en": "Frida Kahlo is one of the most famous Mexican artists.",
+          "es": "Frida Kahlo es una de las artistas mexicanas más famosas."
+        }
       ],
       "tip_es": "El superlativo se forma con the + adjetivo con -est (the tallest) o the most + adjetivo largo (the most interesting). Para lugares o grupos usa in, no of: the best in the world. Se combina mucho con present perfect: the best I've ever seen."
     },
@@ -119,39 +434,482 @@
       "id": "15-6",
       "title_es": "Reaccionar y mostrar empatía",
       "words": [
-        {"en":"that's a shame","es":"qué lástima","pos":"phrase","ex_en":"You missed the concert? That's a shame.","ex_es":"¿Te perdiste el concierto? Qué lástima."},
-        {"en":"I'm sorry to hear that","es":"lamento escuchar eso","pos":"phrase","ex_en":"Your dog is sick? I'm sorry to hear that.","ex_es":"¿Tu perro está enfermo? Lamento escuchar eso."},
-        {"en":"no way","es":"¡no manches!, ¡no puede ser!","pos":"interj","ex_en":"No way! You won the lottery?","ex_es":"¡No manches! ¿Te ganaste la lotería?"},
-        {"en":"cheer up","es":"animarse","pos":"verb","ex_en":"Cheer up! Tomorrow will be a better day.","ex_es":"¡Ánimo! Mañana va a ser un mejor día."},
-        {"en":"hang in there","es":"aguanta, échale ganas","pos":"phrase","ex_en":"Hang in there. The semester is almost over.","ex_es":"Échale ganas. Ya casi se acaba el semestre."},
-        {"en":"good for you","es":"qué bien por ti","pos":"phrase","ex_en":"You got the job? Good for you!","ex_es":"¿Te quedaste con el trabajo? ¡Qué bien por ti!"},
-        {"en":"I know how you feel","es":"sé cómo te sientes","pos":"phrase","ex_en":"I know how you feel. I was nervous too.","ex_es":"Sé cómo te sientes. Yo también estaba nervioso."},
-        {"en":"upset","es":"molesto, triste","pos":"adj","ex_en":"She was upset because nobody called her.","ex_es":"Ella estaba triste porque nadie le llamó."}
+        {
+          "en": "that's a shame",
+          "es": "qué lástima",
+          "pos": "phrase",
+          "ex_en": "You missed the concert? That's a shame.",
+          "ex_es": "¿Te perdiste el concierto? Qué lástima."
+        },
+        {
+          "en": "I'm sorry to hear that",
+          "es": "lamento escuchar eso",
+          "pos": "phrase",
+          "ex_en": "Your dog is sick? I'm sorry to hear that.",
+          "ex_es": "¿Tu perro está enfermo? Lamento escuchar eso."
+        },
+        {
+          "en": "no way",
+          "es": "¡no manches!, ¡no puede ser!",
+          "pos": "interj",
+          "ex_en": "No way! You won the lottery?",
+          "ex_es": "¡No manches! ¿Te ganaste la lotería?"
+        },
+        {
+          "en": "cheer up",
+          "es": "animarse",
+          "pos": "verb",
+          "ex_en": "Cheer up! Tomorrow will be a better day.",
+          "ex_es": "¡Ánimo! Mañana va a ser un mejor día."
+        },
+        {
+          "en": "hang in there",
+          "es": "aguanta, échale ganas",
+          "pos": "phrase",
+          "ex_en": "Hang in there. The semester is almost over.",
+          "ex_es": "Échale ganas. Ya casi se acaba el semestre."
+        },
+        {
+          "en": "good for you",
+          "es": "qué bien por ti",
+          "pos": "phrase",
+          "ex_en": "You got the job? Good for you!",
+          "ex_es": "¿Te quedaste con el trabajo? ¡Qué bien por ti!"
+        },
+        {
+          "en": "I know how you feel",
+          "es": "sé cómo te sientes",
+          "pos": "phrase",
+          "ex_en": "I know how you feel. I was nervous too.",
+          "ex_es": "Sé cómo te sientes. Yo también estaba nervioso."
+        },
+        {
+          "en": "upset",
+          "es": "molesto, triste",
+          "pos": "adj",
+          "ex_en": "She was upset because nobody called her.",
+          "ex_es": "Ella estaba triste porque nadie le llamó."
+        }
       ],
       "sentences": [
-        {"en":"I'm sorry to hear about your grandma.","es":"Lamento mucho lo de tu abuelita."},
-        {"en":"That's great news! Congratulations!","es":"¡Qué buena noticia! ¡Felicidades!"},
-        {"en":"Don't be so hard on yourself.","es":"No seas tan duro contigo mismo."},
-        {"en":"What's wrong? You seem a little upset.","es":"¿Qué pasa? Te ves un poco triste."},
-        {"en":"If you need to talk, I'm here for you.","es":"Si necesitas hablar, aquí estoy para ti."}
+        {
+          "en": "I'm sorry to hear about your grandma.",
+          "es": "Lamento mucho lo de tu abuelita."
+        },
+        {
+          "en": "That's great news! Congratulations!",
+          "es": "¡Qué buena noticia! ¡Felicidades!"
+        },
+        {
+          "en": "Don't be so hard on yourself.",
+          "es": "No seas tan duro contigo mismo."
+        },
+        {
+          "en": "What's wrong? You seem a little upset.",
+          "es": "¿Qué pasa? Te ves un poco triste."
+        },
+        {
+          "en": "If you need to talk, I'm here for you.",
+          "es": "Si necesitas hablar, aquí estoy para ti."
+        }
       ],
       "tip_es": "En inglés se reacciona mucho con frases cortas como That's a shame, Good for you o No way! Ojo: I'm sorry no solo sirve para pedir perdón, también se usa para dar el pésame o mostrar compasión."
+    },
+    {
+      "id": "15-7",
+      "title_es": "Emociones intensas",
+      "words": [
+        {
+          "en": "thrilled",
+          "es": "emocionadísimo, encantado",
+          "pos": "adj",
+          "ex_en": "I was thrilled when I got the job.",
+          "ex_es": "Me puse feliz de la vida cuando me dieron el trabajo."
+        },
+        {
+          "en": "furious",
+          "es": "furioso",
+          "pos": "adj",
+          "ex_en": "My dad was furious about the broken window.",
+          "ex_es": "Mi papá estaba furioso por la ventana rota."
+        },
+        {
+          "en": "jealous",
+          "es": "celoso, envidioso",
+          "pos": "adj",
+          "ex_en": "Are you jealous of your sister's success?",
+          "ex_es": "¿Le tienes envidia al éxito de tu hermana?"
+        },
+        {
+          "en": "lonely",
+          "es": "solo, que se siente solo",
+          "pos": "adj",
+          "ex_en": "She felt lonely after she moved to a new city.",
+          "ex_es": "Se sintió sola después de mudarse a una ciudad nueva."
+        },
+        {
+          "en": "nervous",
+          "es": "nervioso",
+          "pos": "adj",
+          "ex_en": "I always get nervous before an exam.",
+          "ex_es": "Siempre me pongo nervioso antes de un examen."
+        },
+        {
+          "en": "grateful",
+          "es": "agradecido",
+          "pos": "adj",
+          "ex_en": "I'm really grateful for your help.",
+          "ex_es": "Te estoy muy agradecido por tu ayuda."
+        },
+        {
+          "en": "homesick",
+          "es": "que extraña su casa",
+          "pos": "adj",
+          "ex_en": "Many students feel homesick during their first year.",
+          "ex_es": "Muchos estudiantes extrañan su casa durante el primer año."
+        },
+        {
+          "en": "scared",
+          "es": "asustado, con miedo",
+          "pos": "adj",
+          "ex_en": "My son is scared of the dark.",
+          "ex_es": "A mi hijo le da miedo la oscuridad."
+        }
+      ],
+      "sentences": [
+        {
+          "en": "I'm so thrilled about the concert on Friday!",
+          "es": "¡Estoy emocionadísimo por el concierto del viernes!"
+        },
+        {
+          "en": "He gets really jealous when his girlfriend talks to other guys.",
+          "es": "Se pone muy celoso cuando su novia habla con otros chavos."
+        },
+        {
+          "en": "I felt lonely during my first months in Chicago.",
+          "es": "Me sentí solo durante mis primeros meses en Chicago."
+        },
+        {
+          "en": "Why are you so nervous? You'll do great.",
+          "es": "¿Por qué estás tan nervioso? Te va a ir muy bien."
+        },
+        {
+          "en": "I'm grateful to have such good friends.",
+          "es": "Estoy agradecido de tener tan buenos amigos."
+        }
+      ],
+      "tip_es": "Muchas emociones llevan una preposición fija: scared of, jealous of, nervous about, grateful for, furious about. Ojo: lonely significa sentirse solo y triste, mientras que alone solo significa estar sin compañía."
+    },
+    {
+      "id": "15-8",
+      "title_es": "Gustos y preferencias",
+      "words": [
+        {
+          "en": "can't stand",
+          "es": "no soportar",
+          "pos": "phrase",
+          "ex_en": "I can't stand people who talk during movies.",
+          "ex_es": "No soporto a la gente que habla durante las películas."
+        },
+        {
+          "en": "into",
+          "es": "clavado en, fan de",
+          "pos": "prep",
+          "ex_en": "I'm really into Korean dramas right now.",
+          "ex_es": "Ahorita estoy muy clavado con los doramas coreanos."
+        },
+        {
+          "en": "would rather",
+          "es": "preferiría",
+          "pos": "phrase",
+          "ex_en": "I would rather walk than take a taxi.",
+          "ex_es": "Preferiría caminar que tomar un taxi."
+        },
+        {
+          "en": "fond of",
+          "es": "encariñado con, aficionado a",
+          "pos": "adj",
+          "ex_en": "My grandma is very fond of her garden.",
+          "ex_es": "Mi abuela le tiene mucho cariño a su jardín."
+        },
+        {
+          "en": "mind",
+          "es": "molestar, importar",
+          "pos": "verb",
+          "ex_en": "I don't mind waiting a few minutes.",
+          "ex_es": "No me molesta esperar unos minutos."
+        },
+        {
+          "en": "crazy about",
+          "es": "loco por",
+          "pos": "phrase",
+          "ex_en": "My kids are crazy about dinosaurs.",
+          "ex_es": "Mis hijos están locos por los dinosaurios."
+        },
+        {
+          "en": "not a big fan of",
+          "es": "no muy fan de",
+          "pos": "phrase",
+          "ex_en": "I'm not a big fan of spicy food, honestly.",
+          "ex_es": "La verdad, no soy muy fan de la comida picante."
+        },
+        {
+          "en": "it depends",
+          "es": "depende",
+          "pos": "phrase",
+          "ex_en": "Do I like camping? Well, it depends.",
+          "ex_es": "¿Si me gusta acampar? Pues, depende."
+        }
+      ],
+      "sentences": [
+        {
+          "en": "I'd rather watch a movie than go to a club.",
+          "es": "Prefiero ver una película que ir a un antro."
+        },
+        {
+          "en": "She can't stand waking up early on weekends.",
+          "es": "No soporta levantarse temprano los fines de semana."
+        },
+        {
+          "en": "I don't mind cooking, but I hate washing the dishes.",
+          "es": "No me molesta cocinar, pero odio lavar los trastes."
+        },
+        {
+          "en": "My brother is really into video games.",
+          "es": "Mi hermano está muy metido en los videojuegos."
+        },
+        {
+          "en": "Which do you prefer, the beach or the mountains?",
+          "es": "¿Qué prefieres, la playa o la montaña?"
+        }
+      ],
+      "tip_es": "Después de can't stand, don't mind, love y hate puedes usar el verbo con -ing: I don't mind waiting. En cambio, would rather va con verbo base y sin to: I'd rather stay home, no I'd rather to stay."
+    },
+    {
+      "id": "15-9",
+      "title_es": "Comparaciones más precisas",
+      "words": [
+        {
+          "en": "much",
+          "es": "mucho",
+          "pos": "adv",
+          "ex_en": "This phone is much faster than my old one.",
+          "ex_es": "Este celular es mucho más rápido que el que tenía."
+        },
+        {
+          "en": "a bit",
+          "es": "un poco",
+          "pos": "phrase",
+          "ex_en": "Could you speak a bit slower, please?",
+          "ex_es": "¿Podrías hablar un poco más despacio, por favor?"
+        },
+        {
+          "en": "far",
+          "es": "mucho, por mucho",
+          "pos": "adv",
+          "ex_en": "Your new apartment is far nicer than the old one.",
+          "ex_es": "Tu nuevo departamento es mucho más bonito que el anterior."
+        },
+        {
+          "en": "twice as",
+          "es": "el doble de",
+          "pos": "phrase",
+          "ex_en": "The new bridge is twice as long as the old one.",
+          "ex_es": "El puente nuevo es el doble de largo que el viejo."
+        },
+        {
+          "en": "the same as",
+          "es": "igual que",
+          "pos": "phrase",
+          "ex_en": "Your shoes are the same as mine!",
+          "ex_es": "¡Tus zapatos son iguales a los míos!"
+        },
+        {
+          "en": "different from",
+          "es": "diferente de",
+          "pos": "phrase",
+          "ex_en": "Life in the city is very different from life in a village.",
+          "ex_es": "La vida en la ciudad es muy diferente de la vida en un pueblo."
+        },
+        {
+          "en": "the more",
+          "es": "entre más",
+          "pos": "phrase",
+          "ex_en": "The more you practice, the better you get.",
+          "ex_es": "Entre más practicas, mejor te sale."
+        },
+        {
+          "en": "nowhere near",
+          "es": "ni de lejos",
+          "pos": "phrase",
+          "ex_en": "This copy is nowhere near as good as the original.",
+          "ex_es": "Esta copia no es ni de lejos tan buena como la original."
+        }
+      ],
+      "sentences": [
+        {
+          "en": "The new mall is much bigger than the old one.",
+          "es": "La plaza nueva es mucho más grande que la vieja."
+        },
+        {
+          "en": "My city isn't as dangerous as people think.",
+          "es": "Mi ciudad no es tan peligrosa como la gente cree."
+        },
+        {
+          "en": "Prices are getting higher and higher every year.",
+          "es": "Los precios están cada vez más altos cada año."
+        },
+        {
+          "en": "The more I read in English, the more I understand.",
+          "es": "Entre más leo en inglés, más entiendo."
+        },
+        {
+          "en": "Tickets cost twice as much as last year.",
+          "es": "Los boletos cuestan el doble que el año pasado."
+        }
+      ],
+      "tip_es": "Para reforzar un comparativo usa much, a lot, far o a bit: much bigger, a bit cheaper. Nunca digas very bigger. Para decir cada vez más, repite el comparativo: higher and higher. Entre más..., más... se dice The more..., the more..."
+    },
+    {
+      "id": "15-10",
+      "title_es": "Opinar en la vida real",
+      "words": [
+        {
+          "en": "to be honest",
+          "es": "la verdad, para ser honesto",
+          "pos": "phrase",
+          "ex_en": "To be honest, I didn't like the ending.",
+          "ex_es": "La verdad, no me gustó el final."
+        },
+        {
+          "en": "sounds good",
+          "es": "suena bien, va",
+          "pos": "phrase",
+          "ex_en": "Pizza tonight? Sounds good to me.",
+          "ex_es": "¿Pizza hoy en la noche? Va, me late."
+        },
+        {
+          "en": "it's up to you",
+          "es": "tú decides",
+          "pos": "phrase",
+          "ex_en": "Tacos or sushi? It's up to you.",
+          "ex_es": "¿Tacos o sushi? Tú decides."
+        },
+        {
+          "en": "either way",
+          "es": "de cualquier forma",
+          "pos": "phrase",
+          "ex_en": "We can take the bus or a taxi. Either way is fine.",
+          "ex_es": "Podemos tomar el camión o un taxi. Cualquiera de las dos está bien."
+        },
+        {
+          "en": "I'd go with",
+          "es": "yo me iría por",
+          "pos": "phrase",
+          "ex_en": "If I were you, I'd go with the blue one.",
+          "ex_es": "Yo que tú, me iría por el azul."
+        },
+        {
+          "en": "overrated",
+          "es": "sobrevalorado",
+          "pos": "adj",
+          "ex_en": "In my opinion, that restaurant is overrated.",
+          "ex_es": "En mi opinión, ese restaurante está sobrevalorado."
+        },
+        {
+          "en": "worth it",
+          "es": "valer la pena",
+          "pos": "phrase",
+          "ex_en": "The tickets were expensive, but the show was worth it.",
+          "ex_es": "Los boletos estaban caros, pero el show valió la pena."
+        },
+        {
+          "en": "torn between",
+          "es": "indeciso entre",
+          "pos": "phrase",
+          "ex_en": "I'm torn between the two apartments.",
+          "ex_es": "Estoy indeciso entre los dos departamentos."
+        }
+      ],
+      "sentences": [
+        {
+          "en": "To be honest, I think the second option is better.",
+          "es": "La verdad, creo que la segunda opción es mejor."
+        },
+        {
+          "en": "That place is the most popular, but I think it's overrated.",
+          "es": "Ese lugar es el más popular, pero creo que está sobrevalorado."
+        },
+        {
+          "en": "I'm not sure. The beach is nice, but it's more expensive.",
+          "es": "No estoy seguro. La playa está bonita, pero es más cara."
+        },
+        {
+          "en": "It was the longest line I've ever seen, but it was worth it.",
+          "es": "Fue la fila más larga que he visto, pero valió la pena."
+        },
+        {
+          "en": "I agree with you. Let's go with the cheaper one.",
+          "es": "Estoy de acuerdo contigo. Vámonos por el más barato."
+        }
+      ],
+      "tip_es": "Para opinar sin sonar muy directo, empieza con To be honest o I think, y para recomendar usa I'd go with... Vale la pena se dice It's worth it. Si va un verbo después, usa -ing: It's worth visiting."
     }
   ],
   "dialogue": {
     "title_es": "¿Ciudad grande o pequeña?",
     "setting_es": "Platicas con un amigo de Querétaro sobre vivir en la capital.",
     "lines": [
-      {"who":"A","en":"So, how do you like living in Mexico City?","es":"Y qué tal, ¿te gusta vivir en la Ciudad de México?"},
-      {"who":"B","en":"Honestly, I love it. There's always something to do.","es":"La verdad, me encanta. Siempre hay algo que hacer."},
-      {"who":"A","en":"Really? I think it's too crowded and noisy.","es":"¿En serio? Yo creo que hay demasiada gente y mucho ruido."},
-      {"who":"B","en":"I see your point, but the food is the best in the country.","es":"Entiendo tu punto, pero la comida es la mejor del país."},
-      {"who":"A","en":"Fair enough. But the traffic is much worse than in Querétaro.","es":"Es justo. Pero el tráfico está mucho peor que en Querétaro."},
-      {"who":"B","en":"That's true. On the other hand, the subway is very convenient.","es":"Es cierto. Por otro lado, el metro es muy práctico."},
-      {"who":"A","en":"Maybe. Personally, I prefer a quieter life.","es":"Puede ser. Personalmente, prefiero una vida más tranquila."},
-      {"who":"B","en":"I understand. Smaller cities are more relaxing.","es":"Te entiendo. Las ciudades más chicas son más relajantes."},
-      {"who":"A","en":"Exactly! You should visit me in Querétaro sometime.","es":"¡Exacto! Deberías visitarme en Querétaro algún día."},
-      {"who":"B","en":"I'd love to! I'm sure I'll be impressed.","es":"¡Me encantaría! Seguro me va a impresionar."}
+      {
+        "who": "A",
+        "en": "So, how do you like living in Mexico City?",
+        "es": "Y qué tal, ¿te gusta vivir en la Ciudad de México?"
+      },
+      {
+        "who": "B",
+        "en": "Honestly, I love it. There's always something to do.",
+        "es": "La verdad, me encanta. Siempre hay algo que hacer."
+      },
+      {
+        "who": "A",
+        "en": "Really? I think it's too crowded and noisy.",
+        "es": "¿En serio? Yo creo que hay demasiada gente y mucho ruido."
+      },
+      {
+        "who": "B",
+        "en": "I see your point, but the food is the best in the country.",
+        "es": "Entiendo tu punto, pero la comida es la mejor del país."
+      },
+      {
+        "who": "A",
+        "en": "Fair enough. But the traffic is much worse than in Querétaro.",
+        "es": "Es justo. Pero el tráfico está mucho peor que en Querétaro."
+      },
+      {
+        "who": "B",
+        "en": "That's true. On the other hand, the subway is very convenient.",
+        "es": "Es cierto. Por otro lado, el metro es muy práctico."
+      },
+      {
+        "who": "A",
+        "en": "Maybe. Personally, I prefer a quieter life.",
+        "es": "Puede ser. Personalmente, prefiero una vida más tranquila."
+      },
+      {
+        "who": "B",
+        "en": "I understand. Smaller cities are more relaxing.",
+        "es": "Te entiendo. Las ciudades más chicas son más relajantes."
+      },
+      {
+        "who": "A",
+        "en": "Exactly! You should visit me in Querétaro sometime.",
+        "es": "¡Exacto! Deberías visitarme en Querétaro algún día."
+      },
+      {
+        "who": "B",
+        "en": "I'd love to! I'm sure I'll be impressed.",
+        "es": "¡Me encantaría! Seguro me va a impresionar."
+      }
     ]
   }
 }

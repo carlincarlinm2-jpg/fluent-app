@@ -9,21 +9,84 @@
       "id": "11-1",
       "title_es": "El cuerpo",
       "words": [
-        {"en": "head", "es": "cabeza", "pos": "noun", "ex_en": "I hit my head on the door.", "ex_es": "Me pegué en la cabeza con la puerta."},
-        {"en": "arm", "es": "brazo", "pos": "noun", "ex_en": "My arm is very tired.", "ex_es": "Tengo el brazo muy cansado."},
-        {"en": "leg", "es": "pierna", "pos": "noun", "ex_en": "He has long legs.", "ex_es": "Tiene las piernas largas."},
-        {"en": "hand", "es": "mano", "pos": "noun", "ex_en": "Raise your hand, please.", "ex_es": "Levanta la mano, por favor."},
-        {"en": "foot", "es": "pie", "pos": "noun", "ex_en": "My left foot is cold.", "ex_es": "Tengo el pie izquierdo frío."},
-        {"en": "back", "es": "espalda", "pos": "noun", "ex_en": "Carrying heavy boxes is bad for your back.", "ex_es": "Cargar cajas pesadas es malo para la espalda."},
-        {"en": "neck", "es": "cuello", "pos": "noun", "ex_en": "The giraffe has a very long neck.", "ex_es": "La jirafa tiene el cuello muy largo."},
-        {"en": "shoulder", "es": "hombro", "pos": "noun", "ex_en": "Put the bag on your shoulder.", "ex_es": "Ponte la bolsa en el hombro."}
+        {
+          "en": "head",
+          "es": "cabeza",
+          "pos": "noun",
+          "ex_en": "I hit my head on the door.",
+          "ex_es": "Me pegué en la cabeza con la puerta."
+        },
+        {
+          "en": "arm",
+          "es": "brazo",
+          "pos": "noun",
+          "ex_en": "My arm is very tired.",
+          "ex_es": "Tengo el brazo muy cansado."
+        },
+        {
+          "en": "leg",
+          "es": "pierna",
+          "pos": "noun",
+          "ex_en": "He has long legs.",
+          "ex_es": "Tiene las piernas largas."
+        },
+        {
+          "en": "hand",
+          "es": "mano",
+          "pos": "noun",
+          "ex_en": "Raise your hand, please.",
+          "ex_es": "Levanta la mano, por favor."
+        },
+        {
+          "en": "foot",
+          "es": "pie",
+          "pos": "noun",
+          "ex_en": "My left foot is cold.",
+          "ex_es": "Tengo el pie izquierdo frío."
+        },
+        {
+          "en": "back",
+          "es": "espalda",
+          "pos": "noun",
+          "ex_en": "Carrying heavy boxes is bad for your back.",
+          "ex_es": "Cargar cajas pesadas es malo para la espalda."
+        },
+        {
+          "en": "neck",
+          "es": "cuello",
+          "pos": "noun",
+          "ex_en": "The giraffe has a very long neck.",
+          "ex_es": "La jirafa tiene el cuello muy largo."
+        },
+        {
+          "en": "shoulder",
+          "es": "hombro",
+          "pos": "noun",
+          "ex_en": "Put the bag on your shoulder.",
+          "ex_es": "Ponte la bolsa en el hombro."
+        }
       ],
       "sentences": [
-        {"en": "Wash your hands before dinner.", "es": "Lávate las manos antes de cenar."},
-        {"en": "My feet are tired.", "es": "Tengo los pies cansados."},
-        {"en": "Touch your head with your right hand.", "es": "Tócate la cabeza con la mano derecha."},
-        {"en": "I walked a lot and my legs are tired.", "es": "Caminé mucho y tengo las piernas cansadas."},
-        {"en": "He carried his son on his shoulders.", "es": "Cargó a su hijo en los hombros."}
+        {
+          "en": "Wash your hands before dinner.",
+          "es": "Lávate las manos antes de cenar."
+        },
+        {
+          "en": "My feet are tired.",
+          "es": "Tengo los pies cansados."
+        },
+        {
+          "en": "Touch your head with your right hand.",
+          "es": "Tócate la cabeza con la mano derecha."
+        },
+        {
+          "en": "I walked a lot and my legs are tired.",
+          "es": "Caminé mucho y tengo las piernas cansadas."
+        },
+        {
+          "en": "He carried his son on his shoulders.",
+          "es": "Cargó a su hijo en los hombros."
+        }
       ],
       "tip_es": "En inglés se usa el posesivo con las partes del cuerpo: wash your hands, I hit my head. En español decimos la mano, pero en inglés the hand suena raro en estos casos. Ojo con el plural irregular: one foot, two feet."
     },
@@ -31,21 +94,84 @@
       "id": "11-2",
       "title_es": "Más partes del cuerpo",
       "words": [
-        {"en": "knee", "es": "rodilla", "pos": "noun", "ex_en": "I hit my knee on the table.", "ex_es": "Me pegué en la rodilla con la mesa."},
-        {"en": "finger", "es": "dedo (de la mano)", "pos": "noun", "ex_en": "She has a ring on every finger.", "ex_es": "Tiene un anillo en cada dedo."},
-        {"en": "toe", "es": "dedo del pie", "pos": "noun", "ex_en": "I hit my toe on the bed.", "ex_es": "Me pegué en el dedo del pie con la cama."},
-        {"en": "stomach", "es": "estómago", "pos": "noun", "ex_en": "My stomach is making noise.", "ex_es": "Me está sonando el estómago."},
-        {"en": "tooth", "es": "diente", "pos": "noun", "ex_en": "My son lost his first tooth.", "ex_es": "A mi hijo se le cayó su primer diente."},
-        {"en": "ear", "es": "oreja, oído", "pos": "noun", "ex_en": "She has small ears.", "ex_es": "Tiene las orejas pequeñas."},
-        {"en": "nose", "es": "nariz", "pos": "noun", "ex_en": "My nose is red because of the cold.", "ex_es": "Tengo la nariz roja por el frío."},
-        {"en": "chest", "es": "pecho", "pos": "noun", "ex_en": "The ball hit him in the chest.", "ex_es": "La pelota le pegó en el pecho."}
+        {
+          "en": "knee",
+          "es": "rodilla",
+          "pos": "noun",
+          "ex_en": "I hit my knee on the table.",
+          "ex_es": "Me pegué en la rodilla con la mesa."
+        },
+        {
+          "en": "finger",
+          "es": "dedo (de la mano)",
+          "pos": "noun",
+          "ex_en": "She has a ring on every finger.",
+          "ex_es": "Tiene un anillo en cada dedo."
+        },
+        {
+          "en": "toe",
+          "es": "dedo del pie",
+          "pos": "noun",
+          "ex_en": "I hit my toe on the bed.",
+          "ex_es": "Me pegué en el dedo del pie con la cama."
+        },
+        {
+          "en": "stomach",
+          "es": "estómago",
+          "pos": "noun",
+          "ex_en": "My stomach is making noise.",
+          "ex_es": "Me está sonando el estómago."
+        },
+        {
+          "en": "tooth",
+          "es": "diente",
+          "pos": "noun",
+          "ex_en": "My son lost his first tooth.",
+          "ex_es": "A mi hijo se le cayó su primer diente."
+        },
+        {
+          "en": "ear",
+          "es": "oreja, oído",
+          "pos": "noun",
+          "ex_en": "She has small ears.",
+          "ex_es": "Tiene las orejas pequeñas."
+        },
+        {
+          "en": "nose",
+          "es": "nariz",
+          "pos": "noun",
+          "ex_en": "My nose is red because of the cold.",
+          "ex_es": "Tengo la nariz roja por el frío."
+        },
+        {
+          "en": "chest",
+          "es": "pecho",
+          "pos": "noun",
+          "ex_en": "The ball hit him in the chest.",
+          "ex_es": "La pelota le pegó en el pecho."
+        }
       ],
       "sentences": [
-        {"en": "Brush your teeth after every meal.", "es": "Lávate los dientes después de cada comida."},
-        {"en": "Babies have very small fingers.", "es": "Los bebés tienen dedos muy pequeños."},
-        {"en": "Close your eyes and touch your nose.", "es": "Cierra los ojos y tócate la nariz."},
-        {"en": "The dentist checked all my teeth.", "es": "El dentista revisó todos mis dientes."},
-        {"en": "Wear a hat to cover your ears.", "es": "Ponte un gorro para taparte las orejas."}
+        {
+          "en": "Brush your teeth after every meal.",
+          "es": "Lávate los dientes después de cada comida."
+        },
+        {
+          "en": "Babies have very small fingers.",
+          "es": "Los bebés tienen dedos muy pequeños."
+        },
+        {
+          "en": "Close your eyes and touch your nose.",
+          "es": "Cierra los ojos y tócate la nariz."
+        },
+        {
+          "en": "The dentist checked all my teeth.",
+          "es": "El dentista revisó todos mis dientes."
+        },
+        {
+          "en": "Wear a hat to cover your ears.",
+          "es": "Ponte un gorro para taparte las orejas."
+        }
       ],
       "tip_es": "Tooth tiene plural irregular: one tooth, two teeth (igual que foot, feet). Finger son los dedos de la mano y toe los del pie. Ear puede ser oreja u oído, según el contexto."
     },
@@ -53,21 +179,84 @@
       "id": "11-3",
       "title_es": "¿Cómo te sientes? Síntomas",
       "words": [
-        {"en": "sick", "es": "enfermo", "pos": "adj", "ex_en": "I feel sick today.", "ex_es": "Hoy me siento enfermo."},
-        {"en": "headache", "es": "dolor de cabeza", "pos": "noun", "ex_en": "I have a terrible headache.", "ex_es": "Tengo un dolor de cabeza terrible."},
-        {"en": "fever", "es": "fiebre", "pos": "noun", "ex_en": "The baby has a fever.", "ex_es": "El bebé tiene fiebre."},
-        {"en": "cough", "es": "tos", "pos": "noun", "ex_en": "My cough is worse at night.", "ex_es": "Mi tos empeora en la noche."},
-        {"en": "cold", "es": "gripa, resfriado", "pos": "noun", "ex_en": "I think I have a cold.", "ex_es": "Creo que tengo gripa."},
-        {"en": "sore throat", "es": "dolor de garganta", "pos": "noun", "ex_en": "I have a sore throat and I can't talk.", "ex_es": "Me duele la garganta y no puedo hablar."},
-        {"en": "hurt", "es": "doler", "pos": "verb", "ex_en": "My back hurts a lot.", "ex_es": "Me duele mucho la espalda."},
-        {"en": "dizzy", "es": "mareado", "pos": "adj", "ex_en": "I feel dizzy when I stand up.", "ex_es": "Me mareo cuando me paro."}
+        {
+          "en": "sick",
+          "es": "enfermo",
+          "pos": "adj",
+          "ex_en": "I feel sick today.",
+          "ex_es": "Hoy me siento enfermo."
+        },
+        {
+          "en": "headache",
+          "es": "dolor de cabeza",
+          "pos": "noun",
+          "ex_en": "I have a terrible headache.",
+          "ex_es": "Tengo un dolor de cabeza terrible."
+        },
+        {
+          "en": "fever",
+          "es": "fiebre",
+          "pos": "noun",
+          "ex_en": "The baby has a fever.",
+          "ex_es": "El bebé tiene fiebre."
+        },
+        {
+          "en": "cough",
+          "es": "tos",
+          "pos": "noun",
+          "ex_en": "My cough is worse at night.",
+          "ex_es": "Mi tos empeora en la noche."
+        },
+        {
+          "en": "cold",
+          "es": "gripa, resfriado",
+          "pos": "noun",
+          "ex_en": "I think I have a cold.",
+          "ex_es": "Creo que tengo gripa."
+        },
+        {
+          "en": "sore throat",
+          "es": "dolor de garganta",
+          "pos": "noun",
+          "ex_en": "I have a sore throat and I can't talk.",
+          "ex_es": "Me duele la garganta y no puedo hablar."
+        },
+        {
+          "en": "hurt",
+          "es": "doler",
+          "pos": "verb",
+          "ex_en": "My back hurts a lot.",
+          "ex_es": "Me duele mucho la espalda."
+        },
+        {
+          "en": "dizzy",
+          "es": "mareado",
+          "pos": "adj",
+          "ex_en": "I feel dizzy when I stand up.",
+          "ex_es": "Me mareo cuando me paro."
+        }
       ],
       "sentences": [
-        {"en": "What's wrong?", "es": "¿Qué tienes?"},
-        {"en": "How do you feel today?", "es": "¿Cómo te sientes hoy?"},
-        {"en": "My head hurts and I feel dizzy.", "es": "Me duele la cabeza y me siento mareado."},
-        {"en": "She stayed home because she had a fever.", "es": "Se quedó en casa porque tenía fiebre."},
-        {"en": "I have a bad cough and a sore throat.", "es": "Tengo mucha tos y me duele la garganta."}
+        {
+          "en": "What's wrong?",
+          "es": "¿Qué tienes?"
+        },
+        {
+          "en": "How do you feel today?",
+          "es": "¿Cómo te sientes hoy?"
+        },
+        {
+          "en": "My head hurts and I feel dizzy.",
+          "es": "Me duele la cabeza y me siento mareado."
+        },
+        {
+          "en": "She stayed home because she had a fever.",
+          "es": "Se quedó en casa porque tenía fiebre."
+        },
+        {
+          "en": "I have a bad cough and a sore throat.",
+          "es": "Tengo mucha tos y me duele la garganta."
+        }
       ],
       "tip_es": "Para los síntomas se usa have: I have a headache, I have a fever, nunca I am fever. Con hurt, la parte del cuerpo es el sujeto: my head hurts, my feet hurt. No digas me hurts the head."
     },
@@ -75,21 +264,84 @@
       "id": "11-4",
       "title_es": "En el doctor",
       "words": [
-        {"en": "appointment", "es": "cita", "pos": "noun", "ex_en": "I have a doctor's appointment at four.", "ex_es": "Tengo cita con el doctor a las cuatro."},
-        {"en": "patient", "es": "paciente", "pos": "noun", "ex_en": "The doctor has many patients today.", "ex_es": "El doctor tiene muchos pacientes hoy."},
-        {"en": "medicine", "es": "medicina", "pos": "noun", "ex_en": "Take this medicine after meals.", "ex_es": "Tómate esta medicina después de las comidas."},
-        {"en": "pill", "es": "pastilla", "pos": "noun", "ex_en": "Take one pill every eight hours.", "ex_es": "Tómate una pastilla cada ocho horas."},
-        {"en": "prescription", "es": "receta médica", "pos": "noun", "ex_en": "You need a prescription for this medicine.", "ex_es": "Necesitas receta para esta medicina."},
-        {"en": "pharmacy", "es": "farmacia", "pos": "noun", "ex_en": "Is there a pharmacy near here?", "ex_es": "¿Hay una farmacia cerca de aquí?"},
-        {"en": "temperature", "es": "temperatura", "pos": "noun", "ex_en": "The nurse took my temperature.", "ex_es": "La enfermera me tomó la temperatura."},
-        {"en": "allergic", "es": "alérgico", "pos": "adj", "ex_en": "I'm allergic to penicillin.", "ex_es": "Soy alérgico a la penicilina."}
+        {
+          "en": "appointment",
+          "es": "cita",
+          "pos": "noun",
+          "ex_en": "I have a doctor's appointment at four.",
+          "ex_es": "Tengo cita con el doctor a las cuatro."
+        },
+        {
+          "en": "patient",
+          "es": "paciente",
+          "pos": "noun",
+          "ex_en": "The doctor has many patients today.",
+          "ex_es": "El doctor tiene muchos pacientes hoy."
+        },
+        {
+          "en": "medicine",
+          "es": "medicina",
+          "pos": "noun",
+          "ex_en": "Take this medicine after meals.",
+          "ex_es": "Tómate esta medicina después de las comidas."
+        },
+        {
+          "en": "pill",
+          "es": "pastilla",
+          "pos": "noun",
+          "ex_en": "Take one pill every eight hours.",
+          "ex_es": "Tómate una pastilla cada ocho horas."
+        },
+        {
+          "en": "prescription",
+          "es": "receta médica",
+          "pos": "noun",
+          "ex_en": "You need a prescription for this medicine.",
+          "ex_es": "Necesitas receta para esta medicina."
+        },
+        {
+          "en": "pharmacy",
+          "es": "farmacia",
+          "pos": "noun",
+          "ex_en": "Is there a pharmacy near here?",
+          "ex_es": "¿Hay una farmacia cerca de aquí?"
+        },
+        {
+          "en": "temperature",
+          "es": "temperatura",
+          "pos": "noun",
+          "ex_en": "The nurse took my temperature.",
+          "ex_es": "La enfermera me tomó la temperatura."
+        },
+        {
+          "en": "allergic",
+          "es": "alérgico",
+          "pos": "adj",
+          "ex_en": "I'm allergic to penicillin.",
+          "ex_es": "Soy alérgico a la penicilina."
+        }
       ],
       "sentences": [
-        {"en": "I'd like to make an appointment, please.", "es": "Quisiera hacer una cita, por favor."},
-        {"en": "What are your symptoms?", "es": "¿Cuáles son sus síntomas?"},
-        {"en": "Are you allergic to any medicine?", "es": "¿Es alérgico a alguna medicina?"},
-        {"en": "The doctor gave me a prescription for my cough.", "es": "El doctor me dio una receta para la tos."},
-        {"en": "I bought the pills at the pharmacy yesterday.", "es": "Compré las pastillas en la farmacia ayer."}
+        {
+          "en": "I'd like to make an appointment, please.",
+          "es": "Quisiera hacer una cita, por favor."
+        },
+        {
+          "en": "What are your symptoms?",
+          "es": "¿Cuáles son sus síntomas?"
+        },
+        {
+          "en": "Are you allergic to any medicine?",
+          "es": "¿Es alérgico a alguna medicina?"
+        },
+        {
+          "en": "The doctor gave me a prescription for my cough.",
+          "es": "El doctor me dio una receta para la tos."
+        },
+        {
+          "en": "I bought the pills at the pharmacy yesterday.",
+          "es": "Compré las pastillas en la farmacia ayer."
+        }
       ],
       "tip_es": "Ojo con este falso amigo: la receta del doctor es prescription, y la receta de cocina es recipe. Con medicinas se usa el verbo take: take a pill, take this medicine. Y alérgico a se dice allergic to."
     },
@@ -97,21 +349,84 @@
       "id": "11-5",
       "title_es": "Consejos: should y shouldn't",
       "words": [
-        {"en": "should", "es": "deberías, debería", "pos": "verb", "ex_en": "You should see a doctor.", "ex_es": "Deberías ir al doctor."},
-        {"en": "shouldn't", "es": "no deberías", "pos": "verb", "ex_en": "You shouldn't eat so much sugar.", "ex_es": "No deberías comer tanta azúcar."},
-        {"en": "rest", "es": "descansar", "pos": "verb", "ex_en": "You should rest for two days.", "ex_es": "Deberías descansar dos días."},
-        {"en": "advice", "es": "consejo", "pos": "noun", "ex_en": "Can I give you some advice?", "ex_es": "¿Te puedo dar un consejo?"},
-        {"en": "healthy", "es": "saludable, sano", "pos": "adj", "ex_en": "Fruit and vegetables are healthy.", "ex_es": "Las frutas y verduras son saludables."},
-        {"en": "exercise", "es": "hacer ejercicio", "pos": "verb", "ex_en": "I exercise three times a week.", "ex_es": "Hago ejercicio tres veces por semana."},
-        {"en": "stay in bed", "es": "quedarse en cama", "pos": "phrase", "ex_en": "The doctor told me to stay in bed.", "ex_es": "El doctor me dijo que me quedara en cama."},
-        {"en": "junk food", "es": "comida chatarra", "pos": "noun", "ex_en": "Kids shouldn't eat a lot of junk food.", "ex_es": "Los niños no deberían comer mucha comida chatarra."}
+        {
+          "en": "should",
+          "es": "deberías, debería",
+          "pos": "verb",
+          "ex_en": "You should see a doctor.",
+          "ex_es": "Deberías ir al doctor."
+        },
+        {
+          "en": "shouldn't",
+          "es": "no deberías",
+          "pos": "verb",
+          "ex_en": "You shouldn't eat so much sugar.",
+          "ex_es": "No deberías comer tanta azúcar."
+        },
+        {
+          "en": "rest",
+          "es": "descansar",
+          "pos": "verb",
+          "ex_en": "You should rest for two days.",
+          "ex_es": "Deberías descansar dos días."
+        },
+        {
+          "en": "advice",
+          "es": "consejo",
+          "pos": "noun",
+          "ex_en": "Can I give you some advice?",
+          "ex_es": "¿Te puedo dar un consejo?"
+        },
+        {
+          "en": "healthy",
+          "es": "saludable, sano",
+          "pos": "adj",
+          "ex_en": "Fruit and vegetables are healthy.",
+          "ex_es": "Las frutas y verduras son saludables."
+        },
+        {
+          "en": "exercise",
+          "es": "hacer ejercicio",
+          "pos": "verb",
+          "ex_en": "I exercise three times a week.",
+          "ex_es": "Hago ejercicio tres veces por semana."
+        },
+        {
+          "en": "stay in bed",
+          "es": "quedarse en cama",
+          "pos": "phrase",
+          "ex_en": "The doctor told me to stay in bed.",
+          "ex_es": "El doctor me dijo que me quedara en cama."
+        },
+        {
+          "en": "junk food",
+          "es": "comida chatarra",
+          "pos": "noun",
+          "ex_en": "Kids shouldn't eat a lot of junk food.",
+          "ex_es": "Los niños no deberían comer mucha comida chatarra."
+        }
       ],
       "sentences": [
-        {"en": "You should drink more water.", "es": "Deberías tomar más agua."},
-        {"en": "What should I do?", "es": "¿Qué debería hacer?"},
-        {"en": "You shouldn't go to work with a fever.", "es": "No deberías ir a trabajar con fiebre."},
-        {"en": "Should I take this medicine with food?", "es": "¿Debo tomar esta medicina con comida?"},
-        {"en": "My doctor gave me good advice about healthy food.", "es": "Mi doctor me dio buenos consejos sobre comida saludable."}
+        {
+          "en": "You should drink more water.",
+          "es": "Deberías tomar más agua."
+        },
+        {
+          "en": "What should I do?",
+          "es": "¿Qué debería hacer?"
+        },
+        {
+          "en": "You shouldn't go to work with a fever.",
+          "es": "No deberías ir a trabajar con fiebre."
+        },
+        {
+          "en": "Should I take this medicine with food?",
+          "es": "¿Debo tomar esta medicina con comida?"
+        },
+        {
+          "en": "My doctor gave me good advice about healthy food.",
+          "es": "Mi doctor me dio buenos consejos sobre comida saludable."
+        }
       ],
       "tip_es": "Should sirve para dar consejos y va seguido del verbo sin to: you should rest, no you should to rest. Advice es incontable: se dice some advice o a piece of advice, nunca an advice ni advices."
     },
@@ -119,39 +434,482 @@
       "id": "11-6",
       "title_es": "Accidentes y emergencias",
       "words": [
-        {"en": "emergency", "es": "emergencia", "pos": "noun", "ex_en": "Call 911, it's an emergency!", "ex_es": "¡Llama al 911, es una emergencia!"},
-        {"en": "ambulance", "es": "ambulancia", "pos": "noun", "ex_en": "The ambulance arrived in ten minutes.", "ex_es": "La ambulancia llegó en diez minutos."},
-        {"en": "hospital", "es": "hospital", "pos": "noun", "ex_en": "They took him to the hospital.", "ex_es": "Lo llevaron al hospital."},
-        {"en": "break / broke", "es": "romper / me rompí", "pos": "verb", "ex_en": "I broke my arm playing soccer.", "ex_es": "Me rompí el brazo jugando futbol."},
-        {"en": "cut", "es": "cortar, cortarse", "pos": "verb", "ex_en": "Be careful, you can cut your finger.", "ex_es": "Cuidado, te puedes cortar el dedo."},
-        {"en": "fall / fell", "es": "caerse / me caí", "pos": "verb", "ex_en": "My grandpa fell down the stairs.", "ex_es": "Mi abuelo se cayó de las escaleras."},
-        {"en": "burn", "es": "quemar, quemarse", "pos": "verb", "ex_en": "Don't touch the pan, you can burn your hand.", "ex_es": "No toques el sartén, te puedes quemar la mano."},
-        {"en": "bandage", "es": "venda, curita", "pos": "noun", "ex_en": "Put a bandage on that cut.", "ex_es": "Ponte una venda en esa cortada."}
+        {
+          "en": "emergency",
+          "es": "emergencia",
+          "pos": "noun",
+          "ex_en": "Call 911, it's an emergency!",
+          "ex_es": "¡Llama al 911, es una emergencia!"
+        },
+        {
+          "en": "ambulance",
+          "es": "ambulancia",
+          "pos": "noun",
+          "ex_en": "The ambulance arrived in ten minutes.",
+          "ex_es": "La ambulancia llegó en diez minutos."
+        },
+        {
+          "en": "hospital",
+          "es": "hospital",
+          "pos": "noun",
+          "ex_en": "They took him to the hospital.",
+          "ex_es": "Lo llevaron al hospital."
+        },
+        {
+          "en": "break / broke",
+          "es": "romper / me rompí",
+          "pos": "verb",
+          "ex_en": "I broke my arm playing soccer.",
+          "ex_es": "Me rompí el brazo jugando futbol."
+        },
+        {
+          "en": "cut",
+          "es": "cortar, cortarse",
+          "pos": "verb",
+          "ex_en": "Be careful, you can cut your finger.",
+          "ex_es": "Cuidado, te puedes cortar el dedo."
+        },
+        {
+          "en": "fall / fell",
+          "es": "caerse / me caí",
+          "pos": "verb",
+          "ex_en": "My grandpa fell down the stairs.",
+          "ex_es": "Mi abuelo se cayó de las escaleras."
+        },
+        {
+          "en": "burn",
+          "es": "quemar, quemarse",
+          "pos": "verb",
+          "ex_en": "Don't touch the pan, you can burn your hand.",
+          "ex_es": "No toques el sartén, te puedes quemar la mano."
+        },
+        {
+          "en": "bandage",
+          "es": "venda, curita",
+          "pos": "noun",
+          "ex_en": "Put a bandage on that cut.",
+          "ex_es": "Ponte una venda en esa cortada."
+        }
       ],
       "sentences": [
-        {"en": "Help! Call an ambulance!", "es": "¡Ayuda! ¡Llamen a una ambulancia!"},
-        {"en": "Are you OK? Did you fall?", "es": "¿Estás bien? ¿Te caíste?"},
-        {"en": "I cut my finger with a knife.", "es": "Me corté el dedo con un cuchillo."},
-        {"en": "You should go to the hospital right now.", "es": "Deberías ir al hospital ahora mismo."},
-        {"en": "She fell off her bike and broke her wrist.", "es": "Se cayó de la bici y se rompió la muñeca."}
+        {
+          "en": "Help! Call an ambulance!",
+          "es": "¡Ayuda! ¡Llamen a una ambulancia!"
+        },
+        {
+          "en": "Are you OK? Did you fall?",
+          "es": "¿Estás bien? ¿Te caíste?"
+        },
+        {
+          "en": "I cut my finger with a knife.",
+          "es": "Me corté el dedo con un cuchillo."
+        },
+        {
+          "en": "You should go to the hospital right now.",
+          "es": "Deberías ir al hospital ahora mismo."
+        },
+        {
+          "en": "She fell off her bike and broke her wrist.",
+          "es": "Se cayó de la bici y se rompió la muñeca."
+        }
       ],
       "tip_es": "Break, fall y cut son verbos irregulares: broke, fell y cut (cut no cambia en pasado). Para decir me rompí el brazo se usa el posesivo: I broke my arm. En Estados Unidos el número de emergencias también es 911."
+    },
+    {
+      "id": "11-7",
+      "title_es": "Malestares comunes",
+      "words": [
+        {
+          "en": "stomachache",
+          "es": "dolor de estómago",
+          "pos": "noun",
+          "ex_en": "I have a stomachache after lunch.",
+          "ex_es": "Me duele el estómago después de la comida."
+        },
+        {
+          "en": "toothache",
+          "es": "dolor de muelas",
+          "pos": "noun",
+          "ex_en": "He has a bad toothache.",
+          "ex_es": "Él tiene un dolor de muelas muy fuerte."
+        },
+        {
+          "en": "runny nose",
+          "es": "escurrimiento nasal",
+          "pos": "phrase",
+          "ex_en": "My daughter has a runny nose.",
+          "ex_es": "A mi hija le escurre la nariz."
+        },
+        {
+          "en": "sneeze",
+          "es": "estornudar",
+          "pos": "verb",
+          "ex_en": "I sneeze a lot in the spring.",
+          "ex_es": "Estornudo mucho en primavera."
+        },
+        {
+          "en": "itchy",
+          "es": "que da comezón",
+          "pos": "adj",
+          "ex_en": "My eyes are red and itchy.",
+          "ex_es": "Tengo los ojos rojos y con comezón."
+        },
+        {
+          "en": "swollen",
+          "es": "hinchado",
+          "pos": "adj",
+          "ex_en": "My ankle is swollen.",
+          "ex_es": "Tengo el tobillo hinchado."
+        },
+        {
+          "en": "rash",
+          "es": "ronchas, sarpullido",
+          "pos": "noun",
+          "ex_en": "The baby has a rash on her arm.",
+          "ex_es": "La bebé tiene ronchas en el brazo."
+        },
+        {
+          "en": "throw up",
+          "es": "vomitar",
+          "pos": "verb",
+          "ex_en": "I feel like I'm going to throw up.",
+          "ex_es": "Siento que voy a vomitar."
+        }
+      ],
+      "sentences": [
+        {
+          "en": "I have a stomachache and a fever.",
+          "es": "Tengo dolor de estómago y fiebre."
+        },
+        {
+          "en": "Do you have a runny nose?",
+          "es": "¿Te escurre la nariz?"
+        },
+        {
+          "en": "My skin is itchy because of the rash.",
+          "es": "Me da comezón la piel por las ronchas."
+        },
+        {
+          "en": "You should take something for that toothache.",
+          "es": "Deberías tomar algo para ese dolor de muelas."
+        },
+        {
+          "en": "My knee is swollen and it hurts a lot.",
+          "es": "Tengo la rodilla hinchada y me duele mucho."
+        }
+      ],
+      "tip_es": "Muchos dolores se forman con ache: stomachache, toothache, headache. Para decir que tienes un síntoma se usa have: I have a rash. Con adjetivos como itchy o swollen se usa to be: My eyes are itchy."
+    },
+    {
+      "id": "11-8",
+      "title_es": "En el dentista y el oculista",
+      "words": [
+        {
+          "en": "dentist",
+          "es": "dentista",
+          "pos": "noun",
+          "ex_en": "I have an appointment with the dentist.",
+          "ex_es": "Tengo cita con el dentista."
+        },
+        {
+          "en": "cavity",
+          "es": "caries",
+          "pos": "noun",
+          "ex_en": "The dentist found a cavity.",
+          "ex_es": "El dentista encontró una caries."
+        },
+        {
+          "en": "brush",
+          "es": "cepillar, lavarse (los dientes)",
+          "pos": "verb",
+          "ex_en": "Brush your teeth after every meal.",
+          "ex_es": "Lávate los dientes después de cada comida."
+        },
+        {
+          "en": "floss",
+          "es": "usar hilo dental",
+          "pos": "verb",
+          "ex_en": "You should floss every night.",
+          "ex_es": "Deberías usar hilo dental todas las noches."
+        },
+        {
+          "en": "eye doctor",
+          "es": "oculista",
+          "pos": "noun",
+          "ex_en": "I need to see an eye doctor.",
+          "ex_es": "Necesito ir al oculista."
+        },
+        {
+          "en": "glasses",
+          "es": "lentes",
+          "pos": "noun",
+          "ex_en": "She wears glasses to read.",
+          "ex_es": "Ella usa lentes para leer."
+        },
+        {
+          "en": "blurry",
+          "es": "borroso",
+          "pos": "adj",
+          "ex_en": "Everything looks blurry without my glasses.",
+          "ex_es": "Todo se ve borroso sin mis lentes."
+        },
+        {
+          "en": "check-up",
+          "es": "chequeo, revisión",
+          "pos": "noun",
+          "ex_en": "It's time for your yearly check-up.",
+          "ex_es": "Ya te toca tu revisión anual."
+        }
+      ],
+      "sentences": [
+        {
+          "en": "How often do you brush your teeth?",
+          "es": "¿Cada cuánto te lavas los dientes?"
+        },
+        {
+          "en": "I think I have a cavity.",
+          "es": "Creo que tengo una caries."
+        },
+        {
+          "en": "My vision is blurry, so I need glasses.",
+          "es": "Veo borroso, así que necesito lentes."
+        },
+        {
+          "en": "You should get a check-up every year.",
+          "es": "Deberías hacerte un chequeo cada año."
+        },
+        {
+          "en": "The eye doctor gave me a new prescription.",
+          "es": "El oculista me dio una nueva receta."
+        }
+      ],
+      "tip_es": "En México decimos lentes, y en inglés de Estados Unidos se dice glasses, siempre en plural: My glasses are new. Brush your teeth es lavarse los dientes. Floss también es verbo: I floss every day."
+    },
+    {
+      "id": "11-9",
+      "title_es": "Hábitos saludables",
+      "words": [
+        {
+          "en": "diet",
+          "es": "alimentación, dieta",
+          "pos": "noun",
+          "ex_en": "Her diet has a lot of vegetables.",
+          "ex_es": "Su alimentación tiene muchas verduras."
+        },
+        {
+          "en": "sugar",
+          "es": "azúcar",
+          "pos": "noun",
+          "ex_en": "This soda has too much sugar.",
+          "ex_es": "Este refresco tiene demasiada azúcar."
+        },
+        {
+          "en": "gym",
+          "es": "gimnasio",
+          "pos": "noun",
+          "ex_en": "I go to the gym three times a week.",
+          "ex_es": "Voy al gimnasio tres veces por semana."
+        },
+        {
+          "en": "stretch",
+          "es": "estirarse",
+          "pos": "verb",
+          "ex_en": "Stretch your legs before you run.",
+          "ex_es": "Estira las piernas antes de correr."
+        },
+        {
+          "en": "lose weight",
+          "es": "bajar de peso",
+          "pos": "phrase",
+          "ex_en": "My doctor says I should lose weight.",
+          "ex_es": "Mi doctor dice que debería bajar de peso."
+        },
+        {
+          "en": "stress",
+          "es": "estrés",
+          "pos": "noun",
+          "ex_en": "Work gives me a lot of stress.",
+          "ex_es": "El trabajo me da mucho estrés."
+        },
+        {
+          "en": "quit smoking",
+          "es": "dejar de fumar",
+          "pos": "phrase",
+          "ex_en": "My uncle wants to quit smoking.",
+          "ex_es": "Mi tío quiere dejar de fumar."
+        },
+        {
+          "en": "get enough sleep",
+          "es": "dormir lo suficiente",
+          "pos": "phrase",
+          "ex_en": "Teenagers need to get enough sleep.",
+          "ex_es": "Los adolescentes necesitan dormir lo suficiente."
+        }
+      ],
+      "sentences": [
+        {
+          "en": "You should eat less sugar.",
+          "es": "Deberías comer menos azúcar."
+        },
+        {
+          "en": "I stretch every morning before work.",
+          "es": "Me estiro todas las mañanas antes del trabajo."
+        },
+        {
+          "en": "Exercise is good for stress.",
+          "es": "El ejercicio es bueno contra el estrés."
+        },
+        {
+          "en": "He quit smoking and feels much better.",
+          "es": "Dejó de fumar y se siente mucho mejor."
+        },
+        {
+          "en": "To lose weight, change your diet and exercise.",
+          "es": "Para bajar de peso, cambia tu alimentación y haz ejercicio."
+        }
+      ],
+      "tip_es": "Después de quit y stop el verbo va con ing: quit smoking, stop eating junk food. Lose weight es bajar de peso y gain weight es subir de peso. Sugar es incontable, por eso se dice too much sugar."
+    },
+    {
+      "id": "11-10",
+      "title_es": "En la vida real: en el consultorio",
+      "words": [
+        {
+          "en": "how do you feel",
+          "es": "cómo te sientes",
+          "pos": "phrase",
+          "ex_en": "How do you feel today?",
+          "ex_es": "¿Cómo te sientes hoy?"
+        },
+        {
+          "en": "feel better",
+          "es": "sentirse mejor",
+          "pos": "phrase",
+          "ex_en": "I hope you feel better soon.",
+          "ex_es": "Espero que te sientas mejor pronto."
+        },
+        {
+          "en": "get well soon",
+          "es": "que te mejores pronto",
+          "pos": "phrase",
+          "ex_en": "Get well soon, Grandma!",
+          "ex_es": "¡Que te mejores pronto, abuelita!"
+        },
+        {
+          "en": "health insurance",
+          "es": "seguro médico",
+          "pos": "noun",
+          "ex_en": "Do you have health insurance?",
+          "ex_es": "¿Tienes seguro médico?"
+        },
+        {
+          "en": "blood pressure",
+          "es": "presión arterial",
+          "pos": "noun",
+          "ex_en": "The nurse checked my blood pressure.",
+          "ex_es": "La enfermera me tomó la presión."
+        },
+        {
+          "en": "side effect",
+          "es": "efecto secundario",
+          "pos": "noun",
+          "ex_en": "Sleepiness is a side effect of this pill.",
+          "ex_es": "La somnolencia es un efecto secundario de esta pastilla."
+        },
+        {
+          "en": "twice a day",
+          "es": "dos veces al día",
+          "pos": "phrase",
+          "ex_en": "Take this pill twice a day.",
+          "ex_es": "Toma esta pastilla dos veces al día."
+        },
+        {
+          "en": "waiting room",
+          "es": "sala de espera",
+          "pos": "noun",
+          "ex_en": "Please wait in the waiting room.",
+          "ex_es": "Por favor espere en la sala de espera."
+        }
+      ],
+      "sentences": [
+        {
+          "en": "Good morning, I have an appointment at ten.",
+          "es": "Buenos días, tengo cita a las diez."
+        },
+        {
+          "en": "Your blood pressure is a little high.",
+          "es": "Su presión está un poco alta."
+        },
+        {
+          "en": "Take this medicine twice a day for a week.",
+          "es": "Tome esta medicina dos veces al día por una semana."
+        },
+        {
+          "en": "You shouldn't drive. It can make you dizzy.",
+          "es": "No debería manejar. Le puede causar mareo."
+        },
+        {
+          "en": "Rest at home and you'll feel better soon.",
+          "es": "Descanse en casa y pronto se sentirá mejor."
+        }
+      ],
+      "tip_es": "El doctor puede preguntar How do you feel? o What's wrong? Para despedirte de alguien enfermo se dice Get well soon! En los consultorios de Estados Unidos casi siempre te piden tu health insurance al llegar."
     }
   ],
   "dialogue": {
     "title_es": "En el consultorio",
     "setting_es": "No te sientes bien y vas con el doctor.",
     "lines": [
-      {"who": "A", "en": "Good morning. What's wrong?", "es": "Buenos días. ¿Qué tiene?"},
-      {"who": "B", "en": "I feel sick. I have a headache and fever.", "es": "Me siento mal. Tengo dolor de cabeza y fiebre."},
-      {"who": "A", "en": "When did it start?", "es": "¿Cuándo empezó?"},
-      {"who": "B", "en": "Two days ago. I also have a bad cough.", "es": "Hace dos días. También tengo mucha tos."},
-      {"who": "A", "en": "Let me check your throat. Does it hurt?", "es": "Déjeme revisarle la garganta. ¿Le duele?"},
-      {"who": "B", "en": "Yes, a little. Is it serious?", "es": "Sí, un poco. ¿Es grave?"},
-      {"who": "A", "en": "No, it's just a bad cold.", "es": "No, es solo una gripa fuerte."},
-      {"who": "B", "en": "What should I do?", "es": "¿Qué debo hacer?"},
-      {"who": "A", "en": "You should rest and drink a lot of water.", "es": "Debe descansar y tomar mucha agua."},
-      {"who": "B", "en": "OK. Do I need a prescription?", "es": "Está bien. ¿Necesito receta?"}
+      {
+        "who": "A",
+        "en": "Good morning. What's wrong?",
+        "es": "Buenos días. ¿Qué tiene?"
+      },
+      {
+        "who": "B",
+        "en": "I feel sick. I have a headache and fever.",
+        "es": "Me siento mal. Tengo dolor de cabeza y fiebre."
+      },
+      {
+        "who": "A",
+        "en": "When did it start?",
+        "es": "¿Cuándo empezó?"
+      },
+      {
+        "who": "B",
+        "en": "Two days ago. I also have a bad cough.",
+        "es": "Hace dos días. También tengo mucha tos."
+      },
+      {
+        "who": "A",
+        "en": "Let me check your throat. Does it hurt?",
+        "es": "Déjeme revisarle la garganta. ¿Le duele?"
+      },
+      {
+        "who": "B",
+        "en": "Yes, a little. Is it serious?",
+        "es": "Sí, un poco. ¿Es grave?"
+      },
+      {
+        "who": "A",
+        "en": "No, it's just a bad cold.",
+        "es": "No, es solo una gripa fuerte."
+      },
+      {
+        "who": "B",
+        "en": "What should I do?",
+        "es": "¿Qué debo hacer?"
+      },
+      {
+        "who": "A",
+        "en": "You should rest and drink a lot of water.",
+        "es": "Debe descansar y tomar mucha agua."
+      },
+      {
+        "who": "B",
+        "en": "OK. Do I need a prescription?",
+        "es": "Está bien. ¿Necesito receta?"
+      }
     ]
   }
 }

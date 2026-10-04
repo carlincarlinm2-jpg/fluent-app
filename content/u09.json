@@ -9,21 +9,84 @@
       "id": "9-1",
       "title_es": "Ayer: was y were",
       "words": [
-        {"en": "yesterday", "es": "ayer", "pos": "adv", "ex_en": "I was very busy yesterday.", "ex_es": "Ayer estuve muy ocupado."},
-        {"en": "last night", "es": "anoche", "pos": "phrase", "ex_en": "Where were you last night?", "ex_es": "¿Dónde estabas anoche?"},
-        {"en": "last week", "es": "la semana pasada", "pos": "phrase", "ex_en": "We were in Puebla last week.", "ex_es": "Estuvimos en Puebla la semana pasada."},
-        {"en": "last month", "es": "el mes pasado", "pos": "phrase", "ex_en": "My cousin was here last month.", "ex_es": "Mi primo estuvo aquí el mes pasado."},
-        {"en": "ago", "es": "hace (tiempo)", "pos": "adv", "ex_en": "I was in Cancún two years ago.", "ex_es": "Estuve en Cancún hace dos años."},
-        {"en": "the day before yesterday", "es": "antier", "pos": "phrase", "ex_en": "The day before yesterday was my birthday.", "ex_es": "Antier fue mi cumpleaños."},
-        {"en": "born", "es": "nacido", "pos": "adj", "ex_en": "I was born in Monterrey.", "ex_es": "Nací en Monterrey."},
-        {"en": "bored", "es": "aburrido", "pos": "adj", "ex_en": "The kids were bored at home.", "ex_es": "Los niños estaban aburridos en casa."}
+        {
+          "en": "yesterday",
+          "es": "ayer",
+          "pos": "adv",
+          "ex_en": "I was very busy yesterday.",
+          "ex_es": "Ayer estuve muy ocupado."
+        },
+        {
+          "en": "last night",
+          "es": "anoche",
+          "pos": "phrase",
+          "ex_en": "Where were you last night?",
+          "ex_es": "¿Dónde estabas anoche?"
+        },
+        {
+          "en": "last week",
+          "es": "la semana pasada",
+          "pos": "phrase",
+          "ex_en": "We were in Puebla last week.",
+          "ex_es": "Estuvimos en Puebla la semana pasada."
+        },
+        {
+          "en": "last month",
+          "es": "el mes pasado",
+          "pos": "phrase",
+          "ex_en": "My cousin was here last month.",
+          "ex_es": "Mi primo estuvo aquí el mes pasado."
+        },
+        {
+          "en": "ago",
+          "es": "hace (tiempo)",
+          "pos": "adv",
+          "ex_en": "I was in Cancún two years ago.",
+          "ex_es": "Estuve en Cancún hace dos años."
+        },
+        {
+          "en": "the day before yesterday",
+          "es": "antier",
+          "pos": "phrase",
+          "ex_en": "The day before yesterday was my birthday.",
+          "ex_es": "Antier fue mi cumpleaños."
+        },
+        {
+          "en": "born",
+          "es": "nacido",
+          "pos": "adj",
+          "ex_en": "I was born in Monterrey.",
+          "ex_es": "Nací en Monterrey."
+        },
+        {
+          "en": "bored",
+          "es": "aburrido",
+          "pos": "adj",
+          "ex_en": "The kids were bored at home.",
+          "ex_es": "Los niños estaban aburridos en casa."
+        }
       ],
       "sentences": [
-        {"en": "I was at home last night.", "es": "Estuve en casa anoche."},
-        {"en": "Were you tired yesterday?", "es": "¿Estabas cansado ayer?"},
-        {"en": "The movie was very good.", "es": "La película estuvo muy buena."},
-        {"en": "We weren't at school last week.", "es": "No estuvimos en la escuela la semana pasada."},
-        {"en": "Where was your sister born?", "es": "¿Dónde nació tu hermana?"}
+        {
+          "en": "I was at home last night.",
+          "es": "Estuve en casa anoche."
+        },
+        {
+          "en": "Were you tired yesterday?",
+          "es": "¿Estabas cansado ayer?"
+        },
+        {
+          "en": "The movie was very good.",
+          "es": "La película estuvo muy buena."
+        },
+        {
+          "en": "We weren't at school last week.",
+          "es": "No estuvimos en la escuela la semana pasada."
+        },
+        {
+          "en": "Where was your sister born?",
+          "es": "¿Dónde nació tu hermana?"
+        }
       ],
       "tip_es": "El pasado de to be tiene dos formas: was (con I, he, she, it) y were (con you, we, they). Para decir hace dos años, ago va después del tiempo: two years ago, nunca ago two years. Y para decir nací se usa I was born."
     },
@@ -31,21 +94,84 @@
       "id": "9-2",
       "title_es": "Verbos regulares con -ed",
       "words": [
-        {"en": "watch / watched", "es": "ver / vi", "pos": "verb", "ex_en": "We watched a movie last night.", "ex_es": "Vimos una película anoche."},
-        {"en": "visit / visited", "es": "visitar / visité", "pos": "verb", "ex_en": "I visited my grandma on Sunday.", "ex_es": "Visité a mi abuela el domingo."},
-        {"en": "play / played", "es": "jugar / jugué", "pos": "verb", "ex_en": "They played soccer in the park.", "ex_es": "Jugaron futbol en el parque."},
-        {"en": "stay / stayed", "es": "quedarse / me quedé", "pos": "verb", "ex_en": "She stayed home all weekend.", "ex_es": "Se quedó en casa todo el fin de semana."},
-        {"en": "clean / cleaned", "es": "limpiar / limpié", "pos": "verb", "ex_en": "I cleaned my room yesterday.", "ex_es": "Limpié mi cuarto ayer."},
-        {"en": "cook / cooked", "es": "cocinar / cociné", "pos": "verb", "ex_en": "My dad cooked enchiladas for us.", "ex_es": "Mi papá nos cocinó enchiladas."},
-        {"en": "study / studied", "es": "estudiar / estudié", "pos": "verb", "ex_en": "Luis studied English last night.", "ex_es": "Luis estudió inglés anoche."},
-        {"en": "call / called", "es": "llamar / llamé", "pos": "verb", "ex_en": "I called my mom this morning.", "ex_es": "Le hablé a mi mamá esta mañana."}
+        {
+          "en": "watch / watched",
+          "es": "ver / vi",
+          "pos": "verb",
+          "ex_en": "We watched a movie last night.",
+          "ex_es": "Vimos una película anoche."
+        },
+        {
+          "en": "visit / visited",
+          "es": "visitar / visité",
+          "pos": "verb",
+          "ex_en": "I visited my grandma on Sunday.",
+          "ex_es": "Visité a mi abuela el domingo."
+        },
+        {
+          "en": "play / played",
+          "es": "jugar / jugué",
+          "pos": "verb",
+          "ex_en": "They played soccer in the park.",
+          "ex_es": "Jugaron futbol en el parque."
+        },
+        {
+          "en": "stay / stayed",
+          "es": "quedarse / me quedé",
+          "pos": "verb",
+          "ex_en": "She stayed home all weekend.",
+          "ex_es": "Se quedó en casa todo el fin de semana."
+        },
+        {
+          "en": "clean / cleaned",
+          "es": "limpiar / limpié",
+          "pos": "verb",
+          "ex_en": "I cleaned my room yesterday.",
+          "ex_es": "Limpié mi cuarto ayer."
+        },
+        {
+          "en": "cook / cooked",
+          "es": "cocinar / cociné",
+          "pos": "verb",
+          "ex_en": "My dad cooked enchiladas for us.",
+          "ex_es": "Mi papá nos cocinó enchiladas."
+        },
+        {
+          "en": "study / studied",
+          "es": "estudiar / estudié",
+          "pos": "verb",
+          "ex_en": "Luis studied English last night.",
+          "ex_es": "Luis estudió inglés anoche."
+        },
+        {
+          "en": "call / called",
+          "es": "llamar / llamé",
+          "pos": "verb",
+          "ex_en": "I called my mom this morning.",
+          "ex_es": "Le hablé a mi mamá esta mañana."
+        }
       ],
       "sentences": [
-        {"en": "I worked late on Friday.", "es": "Trabajé tarde el viernes."},
-        {"en": "We walked to the market.", "es": "Caminamos al mercado."},
-        {"en": "She listened to music all afternoon.", "es": "Escuchó música toda la tarde."},
-        {"en": "They watched TV and cooked dinner.", "es": "Vieron la tele y cocinaron la cena."},
-        {"en": "I visited Oaxaca with my family last summer.", "es": "Visité Oaxaca con mi familia el verano pasado."}
+        {
+          "en": "I worked late on Friday.",
+          "es": "Trabajé tarde el viernes."
+        },
+        {
+          "en": "We walked to the market.",
+          "es": "Caminamos al mercado."
+        },
+        {
+          "en": "She listened to music all afternoon.",
+          "es": "Escuchó música toda la tarde."
+        },
+        {
+          "en": "They watched TV and cooked dinner.",
+          "es": "Vieron la tele y cocinaron la cena."
+        },
+        {
+          "en": "I visited Oaxaca with my family last summer.",
+          "es": "Visité Oaxaca con mi familia el verano pasado."
+        }
       ],
       "tip_es": "Los verbos regulares forman el pasado con -ed y es igual para todas las personas: I played, she played. Si terminan en consonante + y, cambian a -ied (study, studied), pero play y stay solo agregan -ed. Ojo: en worked y cooked la -ed suena como una t, no como sílaba extra."
     },
@@ -53,21 +179,84 @@
       "id": "9-3",
       "title_es": "Verbos irregulares",
       "words": [
-        {"en": "go / went", "es": "ir / fui", "pos": "verb", "ex_en": "We went to the movies on Saturday.", "ex_es": "Fuimos al cine el sábado."},
-        {"en": "have / had", "es": "tener / tuve", "pos": "verb", "ex_en": "I had a great weekend.", "ex_es": "Tuve un fin de semana excelente."},
-        {"en": "eat / ate", "es": "comer / comí", "pos": "verb", "ex_en": "They ate tacos al pastor last night.", "ex_es": "Comieron tacos al pastor anoche."},
-        {"en": "see / saw", "es": "ver / vi", "pos": "verb", "ex_en": "I saw your brother at the mall.", "ex_es": "Vi a tu hermano en la plaza."},
-        {"en": "buy / bought", "es": "comprar / compré", "pos": "verb", "ex_en": "She bought new shoes yesterday.", "ex_es": "Compró zapatos nuevos ayer."},
-        {"en": "get / got", "es": "llegar, conseguir / llegué", "pos": "verb", "ex_en": "I got home at eleven.", "ex_es": "Llegué a casa a las once."},
-        {"en": "make / made", "es": "hacer / hice", "pos": "verb", "ex_en": "My grandma made tamales for everyone.", "ex_es": "Mi abuela hizo tamales para todos."},
-        {"en": "drink / drank", "es": "tomar, beber / tomé", "pos": "verb", "ex_en": "We drank coffee after lunch.", "ex_es": "Tomamos café después de comer."}
+        {
+          "en": "go / went",
+          "es": "ir / fui",
+          "pos": "verb",
+          "ex_en": "We went to the movies on Saturday.",
+          "ex_es": "Fuimos al cine el sábado."
+        },
+        {
+          "en": "have / had",
+          "es": "tener / tuve",
+          "pos": "verb",
+          "ex_en": "I had a great weekend.",
+          "ex_es": "Tuve un fin de semana excelente."
+        },
+        {
+          "en": "eat / ate",
+          "es": "comer / comí",
+          "pos": "verb",
+          "ex_en": "They ate tacos al pastor last night.",
+          "ex_es": "Comieron tacos al pastor anoche."
+        },
+        {
+          "en": "see / saw",
+          "es": "ver / vi",
+          "pos": "verb",
+          "ex_en": "I saw your brother at the mall.",
+          "ex_es": "Vi a tu hermano en la plaza."
+        },
+        {
+          "en": "buy / bought",
+          "es": "comprar / compré",
+          "pos": "verb",
+          "ex_en": "She bought new shoes yesterday.",
+          "ex_es": "Compró zapatos nuevos ayer."
+        },
+        {
+          "en": "get / got",
+          "es": "llegar, conseguir / llegué",
+          "pos": "verb",
+          "ex_en": "I got home at eleven.",
+          "ex_es": "Llegué a casa a las once."
+        },
+        {
+          "en": "make / made",
+          "es": "hacer / hice",
+          "pos": "verb",
+          "ex_en": "My grandma made tamales for everyone.",
+          "ex_es": "Mi abuela hizo tamales para todos."
+        },
+        {
+          "en": "drink / drank",
+          "es": "tomar, beber / tomé",
+          "pos": "verb",
+          "ex_en": "We drank coffee after lunch.",
+          "ex_es": "Tomamos café después de comer."
+        }
       ],
       "sentences": [
-        {"en": "I went to bed early.", "es": "Me fui a dormir temprano."},
-        {"en": "We had breakfast at a café.", "es": "Desayunamos en un café."},
-        {"en": "He bought a gift for his wife.", "es": "Compró un regalo para su esposa."},
-        {"en": "I saw a great movie last weekend.", "es": "Vi una película muy buena el fin de semana pasado."},
-        {"en": "My friends came over and we made pizza.", "es": "Mis amigos vinieron y hicimos pizza."}
+        {
+          "en": "I went to bed early.",
+          "es": "Me fui a dormir temprano."
+        },
+        {
+          "en": "We had breakfast at a café.",
+          "es": "Desayunamos en un café."
+        },
+        {
+          "en": "He bought a gift for his wife.",
+          "es": "Compró un regalo para su esposa."
+        },
+        {
+          "en": "I saw a great movie last weekend.",
+          "es": "Vi una película muy buena el fin de semana pasado."
+        },
+        {
+          "en": "My friends came over and we made pizza.",
+          "es": "Mis amigos vinieron y hicimos pizza."
+        }
       ],
       "tip_es": "Los verbos irregulares no usan -ed y hay que memorizarlos: go se vuelve went, eat se vuelve ate y buy se vuelve bought. La buena noticia es que la forma es igual para todas las personas: I went, she went, they went."
     },
@@ -75,21 +264,84 @@
       "id": "9-4",
       "title_es": "Preguntas y negativos con did",
       "words": [
-        {"en": "did", "es": "auxiliar del pasado", "pos": "verb", "ex_en": "Did you have a good weekend?", "ex_es": "¿Pasaste un buen fin de semana?"},
-        {"en": "didn't", "es": "no (en pasado)", "pos": "verb", "ex_en": "I didn't go to the party.", "ex_es": "No fui a la fiesta."},
-        {"en": "what did you do", "es": "qué hiciste", "pos": "phrase", "ex_en": "What did you do on Sunday?", "ex_es": "¿Qué hiciste el domingo?"},
-        {"en": "how was", "es": "qué tal estuvo", "pos": "phrase", "ex_en": "How was your trip to Guadalajara?", "ex_es": "¿Qué tal tu viaje a Guadalajara?"},
-        {"en": "fun", "es": "divertido", "pos": "adj", "ex_en": "The party was really fun.", "ex_es": "La fiesta estuvo muy divertida."},
-        {"en": "boring", "es": "aburrido", "pos": "adj", "ex_en": "The class was long and boring.", "ex_es": "La clase fue larga y aburrida."},
-        {"en": "relax / relaxed", "es": "relajarse / me relajé", "pos": "verb", "ex_en": "We relaxed at home on Sunday.", "ex_es": "Nos relajamos en casa el domingo."},
-        {"en": "sleep / slept", "es": "dormir / dormí", "pos": "verb", "ex_en": "I slept ten hours last night.", "ex_es": "Dormí diez horas anoche."}
+        {
+          "en": "did",
+          "es": "auxiliar del pasado",
+          "pos": "verb",
+          "ex_en": "Did you have a good weekend?",
+          "ex_es": "¿Pasaste un buen fin de semana?"
+        },
+        {
+          "en": "didn't",
+          "es": "no (en pasado)",
+          "pos": "verb",
+          "ex_en": "I didn't go to the party.",
+          "ex_es": "No fui a la fiesta."
+        },
+        {
+          "en": "what did you do",
+          "es": "qué hiciste",
+          "pos": "phrase",
+          "ex_en": "What did you do on Sunday?",
+          "ex_es": "¿Qué hiciste el domingo?"
+        },
+        {
+          "en": "how was",
+          "es": "qué tal estuvo",
+          "pos": "phrase",
+          "ex_en": "How was your trip to Guadalajara?",
+          "ex_es": "¿Qué tal tu viaje a Guadalajara?"
+        },
+        {
+          "en": "fun",
+          "es": "divertido",
+          "pos": "adj",
+          "ex_en": "The party was really fun.",
+          "ex_es": "La fiesta estuvo muy divertida."
+        },
+        {
+          "en": "boring",
+          "es": "aburrido",
+          "pos": "adj",
+          "ex_en": "The class was long and boring.",
+          "ex_es": "La clase fue larga y aburrida."
+        },
+        {
+          "en": "relax / relaxed",
+          "es": "relajarse / me relajé",
+          "pos": "verb",
+          "ex_en": "We relaxed at home on Sunday.",
+          "ex_es": "Nos relajamos en casa el domingo."
+        },
+        {
+          "en": "sleep / slept",
+          "es": "dormir / dormí",
+          "pos": "verb",
+          "ex_en": "I slept ten hours last night.",
+          "ex_es": "Dormí diez horas anoche."
+        }
       ],
       "sentences": [
-        {"en": "Did you sleep well?", "es": "¿Dormiste bien?"},
-        {"en": "She didn't call me yesterday.", "es": "No me habló ayer."},
-        {"en": "Where did you go last weekend?", "es": "¿A dónde fuiste el fin de semana pasado?"},
-        {"en": "We didn't eat at home last night.", "es": "No cenamos en casa anoche."},
-        {"en": "Did they like the movie? Yes, they did.", "es": "¿Les gustó la película? Sí, les gustó."}
+        {
+          "en": "Did you sleep well?",
+          "es": "¿Dormiste bien?"
+        },
+        {
+          "en": "She didn't call me yesterday.",
+          "es": "No me habló ayer."
+        },
+        {
+          "en": "Where did you go last weekend?",
+          "es": "¿A dónde fuiste el fin de semana pasado?"
+        },
+        {
+          "en": "We didn't eat at home last night.",
+          "es": "No cenamos en casa anoche."
+        },
+        {
+          "en": "Did they like the movie? Yes, they did.",
+          "es": "¿Les gustó la película? Sí, les gustó."
+        }
       ],
       "tip_es": "En preguntas y negativos el verbo regresa a su forma base, porque did ya marca el pasado: Did you go? I didn't go. Un error muy común es decir Did you went? o I didn't went. Ojo también: bored es cómo te sientes y boring es cómo es algo."
     },
@@ -97,21 +349,84 @@
       "id": "9-5",
       "title_es": "De vacaciones",
       "words": [
-        {"en": "vacation", "es": "vacaciones", "pos": "noun", "ex_en": "We were on vacation in July.", "ex_es": "Estuvimos de vacaciones en julio."},
-        {"en": "beach", "es": "playa", "pos": "noun", "ex_en": "The beach in Mazatlán was beautiful.", "ex_es": "La playa de Mazatlán estaba hermosa."},
-        {"en": "trip", "es": "viaje", "pos": "noun", "ex_en": "Our trip to Chiapas was amazing.", "ex_es": "Nuestro viaje a Chiapas fue increíble."},
-        {"en": "travel / traveled", "es": "viajar / viajé", "pos": "verb", "ex_en": "They traveled by bus to Mérida.", "ex_es": "Viajaron en camión a Mérida."},
-        {"en": "swim / swam", "es": "nadar / nadé", "pos": "verb", "ex_en": "The kids swam in the ocean every day.", "ex_es": "Los niños nadaron en el mar todos los días."},
-        {"en": "take / took", "es": "tomar / tomé", "pos": "verb", "ex_en": "I took a lot of pictures.", "ex_es": "Tomé muchas fotos."},
-        {"en": "souvenir", "es": "recuerdo (de viaje)", "pos": "noun", "ex_en": "I bought a souvenir for my sister.", "ex_es": "Compré un recuerdo para mi hermana."},
-        {"en": "mountain", "es": "montaña", "pos": "noun", "ex_en": "We climbed a mountain near the town.", "ex_es": "Subimos una montaña cerca del pueblo."}
+        {
+          "en": "vacation",
+          "es": "vacaciones",
+          "pos": "noun",
+          "ex_en": "We were on vacation in July.",
+          "ex_es": "Estuvimos de vacaciones en julio."
+        },
+        {
+          "en": "beach",
+          "es": "playa",
+          "pos": "noun",
+          "ex_en": "The beach in Mazatlán was beautiful.",
+          "ex_es": "La playa de Mazatlán estaba hermosa."
+        },
+        {
+          "en": "trip",
+          "es": "viaje",
+          "pos": "noun",
+          "ex_en": "Our trip to Chiapas was amazing.",
+          "ex_es": "Nuestro viaje a Chiapas fue increíble."
+        },
+        {
+          "en": "travel / traveled",
+          "es": "viajar / viajé",
+          "pos": "verb",
+          "ex_en": "They traveled by bus to Mérida.",
+          "ex_es": "Viajaron en camión a Mérida."
+        },
+        {
+          "en": "swim / swam",
+          "es": "nadar / nadé",
+          "pos": "verb",
+          "ex_en": "The kids swam in the ocean every day.",
+          "ex_es": "Los niños nadaron en el mar todos los días."
+        },
+        {
+          "en": "take / took",
+          "es": "tomar / tomé",
+          "pos": "verb",
+          "ex_en": "I took a lot of pictures.",
+          "ex_es": "Tomé muchas fotos."
+        },
+        {
+          "en": "souvenir",
+          "es": "recuerdo (de viaje)",
+          "pos": "noun",
+          "ex_en": "I bought a souvenir for my sister.",
+          "ex_es": "Compré un recuerdo para mi hermana."
+        },
+        {
+          "en": "mountain",
+          "es": "montaña",
+          "pos": "noun",
+          "ex_en": "We climbed a mountain near the town.",
+          "ex_es": "Subimos una montaña cerca del pueblo."
+        }
       ],
       "sentences": [
-        {"en": "How was your vacation?", "es": "¿Qué tal tus vacaciones?"},
-        {"en": "We stayed near the beach.", "es": "Nos quedamos cerca de la playa."},
-        {"en": "I didn't swim because the water was cold.", "es": "No nadé porque el agua estaba fría."},
-        {"en": "They took a trip to the mountains.", "es": "Hicieron un viaje a las montañas."},
-        {"en": "Last summer we traveled to Baja California by car.", "es": "El verano pasado viajamos a Baja California en carro."}
+        {
+          "en": "How was your vacation?",
+          "es": "¿Qué tal tus vacaciones?"
+        },
+        {
+          "en": "We stayed near the beach.",
+          "es": "Nos quedamos cerca de la playa."
+        },
+        {
+          "en": "I didn't swim because the water was cold.",
+          "es": "No nadé porque el agua estaba fría."
+        },
+        {
+          "en": "They took a trip to the mountains.",
+          "es": "Hicieron un viaje a las montañas."
+        },
+        {
+          "en": "Last summer we traveled to Baja California by car.",
+          "es": "El verano pasado viajamos a Baja California en carro."
+        }
       ],
       "tip_es": "En inglés vacation casi siempre va en singular: my vacation was great, no my vacations were great. Además, en Estados Unidos se escribe traveled con una sola l, y travelled es la forma británica."
     },
@@ -119,39 +434,482 @@
       "id": "9-6",
       "title_es": "Contar una historia",
       "words": [
-        {"en": "first", "es": "primero", "pos": "adv", "ex_en": "First, we had breakfast at the hotel.", "ex_es": "Primero desayunamos en el hotel."},
-        {"en": "then", "es": "luego", "pos": "adv", "ex_en": "Then we walked to the museum.", "ex_es": "Luego caminamos al museo."},
-        {"en": "after that", "es": "después de eso", "pos": "phrase", "ex_en": "After that, we ate lunch downtown.", "ex_es": "Después de eso, comimos en el centro."},
-        {"en": "finally", "es": "al final, por fin", "pos": "adv", "ex_en": "Finally, we got home at midnight.", "ex_es": "Al final, llegamos a casa a medianoche."},
-        {"en": "suddenly", "es": "de repente", "pos": "adv", "ex_en": "Suddenly, it started to rain.", "ex_es": "De repente empezó a llover."},
-        {"en": "lose / lost", "es": "perder / perdí", "pos": "verb", "ex_en": "I lost my phone on the bus.", "ex_es": "Perdí mi celular en el camión."},
-        {"en": "find / found", "es": "encontrar / encontré", "pos": "verb", "ex_en": "A nice man found my wallet.", "ex_es": "Un señor amable encontró mi cartera."},
-        {"en": "meet / met", "es": "conocer / conocí", "pos": "verb", "ex_en": "I met my best friend in college.", "ex_es": "Conocí a mi mejor amiga en la universidad."}
+        {
+          "en": "first",
+          "es": "primero",
+          "pos": "adv",
+          "ex_en": "First, we had breakfast at the hotel.",
+          "ex_es": "Primero desayunamos en el hotel."
+        },
+        {
+          "en": "then",
+          "es": "luego",
+          "pos": "adv",
+          "ex_en": "Then we walked to the museum.",
+          "ex_es": "Luego caminamos al museo."
+        },
+        {
+          "en": "after that",
+          "es": "después de eso",
+          "pos": "phrase",
+          "ex_en": "After that, we ate lunch downtown.",
+          "ex_es": "Después de eso, comimos en el centro."
+        },
+        {
+          "en": "finally",
+          "es": "al final, por fin",
+          "pos": "adv",
+          "ex_en": "Finally, we got home at midnight.",
+          "ex_es": "Al final, llegamos a casa a medianoche."
+        },
+        {
+          "en": "suddenly",
+          "es": "de repente",
+          "pos": "adv",
+          "ex_en": "Suddenly, it started to rain.",
+          "ex_es": "De repente empezó a llover."
+        },
+        {
+          "en": "lose / lost",
+          "es": "perder / perdí",
+          "pos": "verb",
+          "ex_en": "I lost my phone on the bus.",
+          "ex_es": "Perdí mi celular en el camión."
+        },
+        {
+          "en": "find / found",
+          "es": "encontrar / encontré",
+          "pos": "verb",
+          "ex_en": "A nice man found my wallet.",
+          "ex_es": "Un señor amable encontró mi cartera."
+        },
+        {
+          "en": "meet / met",
+          "es": "conocer / conocí",
+          "pos": "verb",
+          "ex_en": "I met my best friend in college.",
+          "ex_es": "Conocí a mi mejor amiga en la universidad."
+        }
       ],
       "sentences": [
-        {"en": "First, I took a shower.", "es": "Primero me bañé."},
-        {"en": "Then I met Ana for coffee.", "es": "Luego vi a Ana para tomar un café."},
-        {"en": "Suddenly, the lights went out.", "es": "De repente se fue la luz."},
-        {"en": "After that, we looked for a taxi.", "es": "Después de eso, buscamos un taxi."},
-        {"en": "Finally, I found my wallet under the bed.", "es": "Al final, encontré mi cartera debajo de la cama."}
+        {
+          "en": "First, I took a shower.",
+          "es": "Primero me bañé."
+        },
+        {
+          "en": "Then I met Ana for coffee.",
+          "es": "Luego vi a Ana para tomar un café."
+        },
+        {
+          "en": "Suddenly, the lights went out.",
+          "es": "De repente se fue la luz."
+        },
+        {
+          "en": "After that, we looked for a taxi.",
+          "es": "Después de eso, buscamos un taxi."
+        },
+        {
+          "en": "Finally, I found my wallet under the bed.",
+          "es": "Al final, encontré mi cartera debajo de la cama."
+        }
       ],
       "tip_es": "Para contar una historia en orden usa first, then, after that y finally. Ojo: meet en pasado (met) significa conocer a alguien por primera vez, no conocer un lugar. Para lugares se usa visit: I visited Oaxaca."
+    },
+    {
+      "id": "9-7",
+      "title_es": "El fin de semana",
+      "words": [
+        {
+          "en": "weekend",
+          "es": "fin de semana",
+          "pos": "noun",
+          "ex_en": "We stayed home last weekend.",
+          "ex_es": "Nos quedamos en casa el fin de semana pasado."
+        },
+        {
+          "en": "party",
+          "es": "fiesta",
+          "pos": "noun",
+          "ex_en": "The party was really fun.",
+          "ex_es": "La fiesta estuvo muy divertida."
+        },
+        {
+          "en": "dance / danced",
+          "es": "bailar / bailé",
+          "pos": "verb",
+          "ex_en": "We danced all night at the wedding.",
+          "ex_es": "Bailamos toda la noche en la boda."
+        },
+        {
+          "en": "listen / listened",
+          "es": "escuchar / escuché",
+          "pos": "verb",
+          "ex_en": "I listened to music in the car.",
+          "ex_es": "Escuché música en el carro."
+        },
+        {
+          "en": "walk / walked",
+          "es": "caminar / caminé",
+          "pos": "verb",
+          "ex_en": "She walked to the park on Sunday.",
+          "ex_es": "Ella caminó al parque el domingo."
+        },
+        {
+          "en": "read / read",
+          "es": "leer / leí",
+          "pos": "verb",
+          "ex_en": "I read a good book on Saturday.",
+          "ex_es": "Leí un buen libro el sábado."
+        },
+        {
+          "en": "write / wrote",
+          "es": "escribir / escribí",
+          "pos": "verb",
+          "ex_en": "He wrote a letter to his grandma.",
+          "ex_es": "Él le escribió una carta a su abuela."
+        },
+        {
+          "en": "come / came",
+          "es": "venir / vine",
+          "pos": "verb",
+          "ex_en": "My friends came to my house.",
+          "ex_es": "Mis amigos vinieron a mi casa."
+        }
+      ],
+      "sentences": [
+        {
+          "en": "What did you do last weekend?",
+          "es": "¿Qué hiciste el fin de semana pasado?"
+        },
+        {
+          "en": "I walked my dog on Saturday morning.",
+          "es": "Paseé a mi perro el sábado en la mañana."
+        },
+        {
+          "en": "We listened to music and danced.",
+          "es": "Escuchamos música y bailamos."
+        },
+        {
+          "en": "My cousins came to the party.",
+          "es": "Mis primos vinieron a la fiesta."
+        },
+        {
+          "en": "I didn't read or write anything all weekend.",
+          "es": "No leí ni escribí nada en todo el fin de semana."
+        }
+      ],
+      "tip_es": "Read se escribe igual en presente y en pasado, pero en pasado se pronuncia red. Listen siempre lleva to antes de lo que escuchas: I listened to music. Write y come son irregulares: wrote y came."
+    },
+    {
+      "id": "9-8",
+      "title_es": "Preguntas: when, why y who",
+      "words": [
+        {
+          "en": "when",
+          "es": "cuándo",
+          "pos": "adv",
+          "ex_en": "When did you go to Mexico City?",
+          "ex_es": "¿Cuándo fuiste a la Ciudad de México?"
+        },
+        {
+          "en": "why",
+          "es": "por qué",
+          "pos": "adv",
+          "ex_en": "Why were you sad yesterday?",
+          "ex_es": "¿Por qué estabas triste ayer?"
+        },
+        {
+          "en": "because",
+          "es": "porque",
+          "pos": "conj",
+          "ex_en": "I stayed home because I was sick.",
+          "ex_es": "Me quedé en casa porque estaba enfermo."
+        },
+        {
+          "en": "who",
+          "es": "quién",
+          "pos": "pron",
+          "ex_en": "Who did you see at the mall?",
+          "ex_es": "¿A quién viste en la plaza?"
+        },
+        {
+          "en": "how long",
+          "es": "cuánto tiempo",
+          "pos": "phrase",
+          "ex_en": "How long was the trip?",
+          "ex_es": "¿Cuánto duró el viaje?"
+        },
+        {
+          "en": "early",
+          "es": "temprano",
+          "pos": "adv",
+          "ex_en": "I got up early on Monday.",
+          "ex_es": "Me levanté temprano el lunes."
+        },
+        {
+          "en": "late",
+          "es": "tarde",
+          "pos": "adv",
+          "ex_en": "The bus came late again.",
+          "ex_es": "El camión llegó tarde otra vez."
+        },
+        {
+          "en": "the whole day",
+          "es": "todo el día",
+          "pos": "phrase",
+          "ex_en": "We were at the beach the whole day.",
+          "ex_es": "Estuvimos en la playa todo el día."
+        }
+      ],
+      "sentences": [
+        {
+          "en": "When did you get home?",
+          "es": "¿Cuándo llegaste a casa?"
+        },
+        {
+          "en": "Who did you go with?",
+          "es": "¿Con quién fuiste?"
+        },
+        {
+          "en": "Why didn't you call me?",
+          "es": "¿Por qué no me llamaste?"
+        },
+        {
+          "en": "I was late because the traffic was really bad.",
+          "es": "Llegué tarde porque el tráfico estaba muy pesado."
+        },
+        {
+          "en": "How long did you stay in Guadalajara?",
+          "es": "¿Cuánto tiempo te quedaste en Guadalajara?"
+        }
+      ],
+      "tip_es": "En preguntas con did el verbo regresa a su forma base: When did you go?, no When did you went? Con was y were no se usa did: Why were you late? Para responder a why se usa because."
+    },
+    {
+      "id": "9-9",
+      "title_es": "¿Cómo te sentiste?",
+      "words": [
+        {
+          "en": "surprised",
+          "es": "sorprendido",
+          "pos": "adj",
+          "ex_en": "I was surprised by the gift.",
+          "ex_es": "Me sorprendió el regalo."
+        },
+        {
+          "en": "excited",
+          "es": "emocionado",
+          "pos": "adj",
+          "ex_en": "The kids were excited about the trip.",
+          "ex_es": "Los niños estaban emocionados por el viaje."
+        },
+        {
+          "en": "scared",
+          "es": "asustado",
+          "pos": "adj",
+          "ex_en": "She was scared during the storm.",
+          "ex_es": "Ella tenía miedo durante la tormenta."
+        },
+        {
+          "en": "worried",
+          "es": "preocupado",
+          "pos": "adj",
+          "ex_en": "My mom was worried about me.",
+          "ex_es": "Mi mamá estaba preocupada por mí."
+        },
+        {
+          "en": "amazing",
+          "es": "increíble",
+          "pos": "adj",
+          "ex_en": "The concert was amazing!",
+          "ex_es": "¡El concierto estuvo increíble!"
+        },
+        {
+          "en": "terrible",
+          "es": "horrible, terrible",
+          "pos": "adj",
+          "ex_en": "The food at the hotel was terrible.",
+          "ex_es": "La comida del hotel estuvo horrible."
+        },
+        {
+          "en": "laugh / laughed",
+          "es": "reír / me reí",
+          "pos": "verb",
+          "ex_en": "We laughed a lot at the movie.",
+          "ex_es": "Nos reímos mucho en la película."
+        },
+        {
+          "en": "cry / cried",
+          "es": "llorar / lloré",
+          "pos": "verb",
+          "ex_en": "The baby cried all night.",
+          "ex_es": "El bebé lloró toda la noche."
+        }
+      ],
+      "sentences": [
+        {
+          "en": "I was so excited before the trip.",
+          "es": "Estaba muy emocionado antes del viaje."
+        },
+        {
+          "en": "Were you scared on the plane?",
+          "es": "¿Tuviste miedo en el avión?"
+        },
+        {
+          "en": "The show was amazing and we laughed a lot.",
+          "es": "El show estuvo increíble y nos reímos mucho."
+        },
+        {
+          "en": "She cried because she lost her phone.",
+          "es": "Ella lloró porque perdió su celular."
+        },
+        {
+          "en": "We were worried, but everything was fine.",
+          "es": "Estábamos preocupados, pero todo salió bien."
+        }
+      ],
+      "tip_es": "Los adjetivos con -ed describen cómo te sientes: I was bored, I was excited. Los que terminan en -ing describen lo que causa el sentimiento: The movie was boring. Cry en pasado cambia la y por i: cried."
+    },
+    {
+      "id": "9-10",
+      "title_es": "En la vida real: ¿Qué pasó?",
+      "words": [
+        {
+          "en": "leave / left",
+          "es": "salir, dejar / salí, dejé",
+          "pos": "verb",
+          "ex_en": "I left my keys in the office.",
+          "ex_es": "Dejé mis llaves en la oficina."
+        },
+        {
+          "en": "arrive / arrived",
+          "es": "llegar / llegué",
+          "pos": "verb",
+          "ex_en": "We arrived at the hotel at midnight.",
+          "ex_es": "Llegamos al hotel a medianoche."
+        },
+        {
+          "en": "forget / forgot",
+          "es": "olvidar / olvidé",
+          "pos": "verb",
+          "ex_en": "I forgot my wallet at home.",
+          "ex_es": "Olvidé mi cartera en casa."
+        },
+        {
+          "en": "bring / brought",
+          "es": "traer / traje",
+          "pos": "verb",
+          "ex_en": "She brought tamales to the party.",
+          "ex_es": "Ella trajo tamales a la fiesta."
+        },
+        {
+          "en": "tell / told",
+          "es": "decir, contar / dije, conté",
+          "pos": "verb",
+          "ex_en": "He told me about his new job.",
+          "ex_es": "Él me contó de su nuevo trabajo."
+        },
+        {
+          "en": "say / said",
+          "es": "decir / dije",
+          "pos": "verb",
+          "ex_en": "What did the teacher say?",
+          "ex_es": "¿Qué dijo la maestra?"
+        },
+        {
+          "en": "hear / heard",
+          "es": "oír / oí",
+          "pos": "verb",
+          "ex_en": "Did you hear the news?",
+          "ex_es": "¿Escuchaste la noticia?"
+        },
+        {
+          "en": "happen / happened",
+          "es": "pasar, suceder / pasó",
+          "pos": "verb",
+          "ex_en": "What happened at work today?",
+          "ex_es": "¿Qué pasó hoy en el trabajo?"
+        }
+      ],
+      "sentences": [
+        {
+          "en": "Sorry I'm late, I forgot my phone at home.",
+          "es": "Perdón por llegar tarde, olvidé mi celular en casa."
+        },
+        {
+          "en": "What happened? I heard a loud noise.",
+          "es": "¿Qué pasó? Escuché un ruido fuerte."
+        },
+        {
+          "en": "We left early, but we arrived late.",
+          "es": "Salimos temprano, pero llegamos tarde."
+        },
+        {
+          "en": "Did you bring the cake for the party?",
+          "es": "¿Trajiste el pastel para la fiesta?"
+        },
+        {
+          "en": "She told me she was very happy there.",
+          "es": "Me dijo que estaba muy feliz ahí."
+        }
+      ],
+      "tip_es": "Say y tell significan decir, pero tell necesita a quién: She told me. Con say no se pone la persona directamente: She said hello. Para preguntar qué pasó usa What happened?, sin did."
     }
   ],
   "dialogue": {
     "title_es": "El lunes en la oficina",
     "setting_es": "Un compañero te pregunta qué hiciste el fin de semana.",
     "lines": [
-      {"who": "A", "en": "Hi! How was your weekend?", "es": "¡Hola! ¿Qué tal tu fin de semana?"},
-      {"who": "B", "en": "It was great, thanks. I went to Tepoztlán.", "es": "Estuvo muy bien, gracias. Fui a Tepoztlán."},
-      {"who": "A", "en": "Nice! Did you go with your family?", "es": "¡Qué bien! ¿Fuiste con tu familia?"},
-      {"who": "B", "en": "No, I went with two friends from college.", "es": "No, fui con dos amigos de la universidad."},
-      {"who": "A", "en": "What did you do there?", "es": "¿Qué hicieron allá?"},
-      {"who": "B", "en": "First, we climbed the mountain. Then we ate quesadillas.", "es": "Primero subimos el cerro. Luego comimos quesadillas."},
-      {"who": "A", "en": "Sounds fun. Did you take any pictures?", "es": "Suena divertido. ¿Tomaste fotos?"},
-      {"who": "B", "en": "Yes, I took a lot. Look!", "es": "Sí, tomé muchas. ¡Mira!"},
-      {"who": "A", "en": "Beautiful! I stayed home and slept all weekend.", "es": "¡Qué bonito! Yo me quedé en casa y dormí todo el fin de semana."},
-      {"who": "B", "en": "That sounds good too!", "es": "¡Eso también suena bien!"}
+      {
+        "who": "A",
+        "en": "Hi! How was your weekend?",
+        "es": "¡Hola! ¿Qué tal tu fin de semana?"
+      },
+      {
+        "who": "B",
+        "en": "It was great, thanks. I went to Tepoztlán.",
+        "es": "Estuvo muy bien, gracias. Fui a Tepoztlán."
+      },
+      {
+        "who": "A",
+        "en": "Nice! Did you go with your family?",
+        "es": "¡Qué bien! ¿Fuiste con tu familia?"
+      },
+      {
+        "who": "B",
+        "en": "No, I went with two friends from college.",
+        "es": "No, fui con dos amigos de la universidad."
+      },
+      {
+        "who": "A",
+        "en": "What did you do there?",
+        "es": "¿Qué hicieron allá?"
+      },
+      {
+        "who": "B",
+        "en": "First, we climbed the mountain. Then we ate quesadillas.",
+        "es": "Primero subimos el cerro. Luego comimos quesadillas."
+      },
+      {
+        "who": "A",
+        "en": "Sounds fun. Did you take any pictures?",
+        "es": "Suena divertido. ¿Tomaste fotos?"
+      },
+      {
+        "who": "B",
+        "en": "Yes, I took a lot. Look!",
+        "es": "Sí, tomé muchas. ¡Mira!"
+      },
+      {
+        "who": "A",
+        "en": "Beautiful! I stayed home and slept all weekend.",
+        "es": "¡Qué bonito! Yo me quedé en casa y dormí todo el fin de semana."
+      },
+      {
+        "who": "B",
+        "en": "That sounds good too!",
+        "es": "¡Eso también suena bien!"
+      }
     ]
   }
 }

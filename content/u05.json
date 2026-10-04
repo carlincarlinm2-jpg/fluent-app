@@ -136,6 +136,94 @@
         {"en":"We don't need any forks, thanks.","es":"No necesitamos tenedores, gracias."}
       ],
       "tip_es": "Usa some en oraciones afirmativas y al pedir u ofrecer algo (Can I have some water?). Usa any en negativas y preguntas (We don't have any milk). Agua, azúcar y sal no se cuentan: no digas a sugar ni sugars."
+    },
+    {
+      "id": "5-7",
+      "title_es": "Cocinar en casa",
+      "words": [
+        {"en":"kitchen","es":"cocina","pos":"noun","ex_en":"My mom is in the kitchen.","ex_es":"Mi mamá está en la cocina."},
+        {"en":"recipe","es":"receta","pos":"noun","ex_en":"This is my grandma's recipe.","ex_es":"Esta es la receta de mi abuela."},
+        {"en":"boil","es":"hervir","pos":"verb","ex_en":"Boil the water first.","ex_es":"Primero hierve el agua."},
+        {"en":"fry","es":"freír","pos":"verb","ex_en":"I fry the eggs in a little oil.","ex_es":"Frío los huevos en poco aceite."},
+        {"en":"cut","es":"cortar","pos":"verb","ex_en":"Cut the onion, please.","ex_es":"Corta la cebolla, por favor."},
+        {"en":"mix","es":"mezclar","pos":"verb","ex_en":"Mix the milk and the sugar.","ex_es":"Mezcla la leche y el azúcar."},
+        {"en":"pan","es":"sartén","pos":"noun","ex_en":"The pan is very hot.","ex_es":"La sartén está muy caliente."},
+        {"en":"oven","es":"horno","pos":"noun","ex_en":"The chicken is in the oven.","ex_es":"El pollo está en el horno."}
+      ],
+      "sentences": [
+        {"en":"Boil the potatoes for twenty minutes.","es":"Hierve las papas veinte minutos."},
+        {"en":"Cut the tomatoes and the onion.","es":"Corta los jitomates y la cebolla."},
+        {"en":"Do you have a good recipe for soup?","es":"¿Tienes una buena receta de sopa?"},
+        {"en":"I fry the fish in a big pan.","es":"Frío el pescado en una sartén grande."},
+        {"en":"Mix the rice with the beans and serve.","es":"Mezcla el arroz con los frijoles y sirve."}
+      ],
+      "tip_es": "Las recetas usan el imperativo, que es el verbo sin sujeto: Cut the onion, Boil the water. Ojo, en inglés tomato es jitomate y pan es sartén, no pan de comer, que es bread."
+    },
+    {
+      "id": "5-8",
+      "title_es": "Sabores",
+      "words": [
+        {"en":"sweet","es":"dulce","pos":"adj","ex_en":"This cake is very sweet.","ex_es":"Este pastel está muy dulce."},
+        {"en":"salty","es":"salado","pos":"adj","ex_en":"The soup is too salty.","ex_es":"La sopa está demasiado salada."},
+        {"en":"spicy","es":"picante","pos":"adj","ex_en":"I love spicy food.","ex_es":"Me encanta la comida picante."},
+        {"en":"sour","es":"ácido","pos":"adj","ex_en":"Lemons are sour.","ex_es":"Los limones son ácidos."},
+        {"en":"fresh","es":"fresco","pos":"adj","ex_en":"The fish is very fresh.","ex_es":"El pescado está muy fresco."},
+        {"en":"taste","es":"saber","pos":"verb","ex_en":"The chicken tastes great.","ex_es":"El pollo sabe muy rico."},
+        {"en":"hot sauce","es":"salsa picante","pos":"noun","ex_en":"Can I have some hot sauce?","ex_es":"¿Me da salsa picante?"},
+        {"en":"soup","es":"sopa","pos":"noun","ex_en":"I have soup for lunch.","ex_es":"Como sopa en la comida."}
+      ],
+      "sentences": [
+        {"en":"Is this salsa spicy?","es":"¿Esta salsa pica?"},
+        {"en":"The coffee tastes bitter without sugar.","es":"El café sabe amargo sin azúcar."},
+        {"en":"I don't like sweet drinks.","es":"No me gustan las bebidas dulces."},
+        {"en":"Do you put hot sauce on your eggs?","es":"¿Le pones salsa picante a tus huevos?"},
+        {"en":"This soup tastes good, but it's a little salty.","es":"Esta sopa sabe rica, pero está un poco salada."}
+      ],
+      "tip_es": "Para picante usa spicy, porque hot casi siempre significa caliente. Con taste se usa un adjetivo, no un adverbio: It tastes good, nunca It tastes well."
+    },
+    {
+      "id": "5-9",
+      "title_es": "Postres y antojitos",
+      "words": [
+        {"en":"dessert","es":"postre","pos":"noun","ex_en":"What's for dessert?","ex_es":"¿Qué hay de postre?"},
+        {"en":"cake","es":"pastel","pos":"noun","ex_en":"We have chocolate cake today.","ex_es":"Hoy tenemos pastel de chocolate."},
+        {"en":"ice cream","es":"helado","pos":"noun","ex_en":"My kids love ice cream.","ex_es":"A mis hijos les encanta el helado."},
+        {"en":"cookie","es":"galleta","pos":"noun","ex_en":"Do you want a cookie?","ex_es":"¿Quieres una galleta?"},
+        {"en":"sandwich","es":"sándwich","pos":"noun","ex_en":"I make a sandwich for lunch.","ex_es":"Hago un sándwich para la comida."},
+        {"en":"French fries","es":"papas a la francesa","pos":"noun","ex_en":"Can I have French fries with that?","ex_es":"¿Me da papas a la francesa con eso?"},
+        {"en":"snack","es":"botana","pos":"noun","ex_en":"I eat a snack at five.","ex_es":"Como una botana a las cinco."},
+        {"en":"would you like","es":"te gustaría, quieres","pos":"phrase","ex_en":"Would you like some coffee?","ex_es":"¿Gustas un café?"}
+      ],
+      "sentences": [
+        {"en":"Would you like some dessert?","es":"¿Gustas algo de postre?"},
+        {"en":"Yes, please. I'd like the chocolate cake.","es":"Sí, por favor. Quiero el pastel de chocolate."},
+        {"en":"Would you like ice cream or cookies?","es":"¿Quieres helado o galletas?"},
+        {"en":"No, thanks. I'm not hungry.","es":"No, gracias. No tengo hambre."},
+        {"en":"We usually have a snack in the afternoon.","es":"Normalmente comemos una botana en la tarde."}
+      ],
+      "tip_es": "Would you like...? es la forma amable de ofrecer algo. Contesta Yes, please o No, thanks. No lo confundas con Do you like...?, que pregunta si algo te gusta en general."
+    },
+    {
+      "id": "5-10",
+      "title_es": "En la vida real: comer fuera",
+      "words": [
+        {"en":"for here","es":"para comer aquí","pos":"phrase","ex_en":"Is that for here?","ex_es":"¿Es para comer aquí?"},
+        {"en":"to go","es":"para llevar","pos":"phrase","ex_en":"Two coffees to go, please.","ex_es":"Dos cafés para llevar, por favor."},
+        {"en":"refill","es":"otro vaso, rellenar","pos":"noun","ex_en":"Can I have a refill?","ex_es":"¿Me puede rellenar el vaso?"},
+        {"en":"allergic","es":"alérgico","pos":"adj","ex_en":"I'm allergic to fish.","ex_es":"Soy alérgico al pescado."},
+        {"en":"vegetarian","es":"vegetariano","pos":"adj","ex_en":"My sister is vegetarian.","ex_es":"Mi hermana es vegetariana."},
+        {"en":"without","es":"sin","pos":"prep","ex_en":"A burger without onion, please.","ex_es":"Una hamburguesa sin cebolla, por favor."},
+        {"en":"split","es":"dividir","pos":"verb","ex_en":"Let's split the check.","ex_es":"Vamos a dividir la cuenta."},
+        {"en":"box","es":"caja, recipiente","pos":"noun","ex_en":"Can I have a box, please?","ex_es":"¿Me da un recipiente, por favor?"}
+      ],
+      "sentences": [
+        {"en":"For here or to go?","es":"¿Para comer aquí o para llevar?"},
+        {"en":"I'd like a sandwich to go, please.","es":"Quiero un sándwich para llevar, por favor."},
+        {"en":"I'm vegetarian. Is there any meat in this?","es":"Soy vegetariano. ¿Esto tiene carne?"},
+        {"en":"Can I have some water without ice?","es":"¿Me da agua sin hielo?"},
+        {"en":"Can we split the check and get a box?","es":"¿Podemos dividir la cuenta y pedir un recipiente?"}
+      ],
+      "tip_es": "Para llevar se dice to go, y para comer aquí for here. En muchos lugares de EE. UU. el refill de refresco o café es gratis. Si te sobra comida, pide a box, no es mal visto."
     }
   ],
   "dialogue": {
