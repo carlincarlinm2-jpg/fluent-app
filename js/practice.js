@@ -220,5 +220,4 @@ function settingsView(){
 function openName(force){openSheet(head(force?'¿Cómo te llamas?':'Tu nombre','Se usa en todas tus apps.')+`<div class="field"><input id="nmIn" value="${esc(user?.user_metadata?.name||'')}" placeholder="Tu nombre"></div><button class="btn" onclick="saveName(this)">Guardar</button>`);setTimeout(()=>$('nmIn')?.focus(),300)}
 async function saveName(btn){const nm=$('nmIn').value.trim();if(!nm)return;btn.disabled=true;const {data,error}=await sb.auth.updateUser({data:{name:nm}});if(error){btn.disabled=false;return toast('No se pudo guardar','sad')}user=data.user;sfx('done');closeSheet();render();toast('Nice to meet you, '+userName()+'!')}
 
-// Arranque cuando todos los archivos ya cargaron.
-boot();
+// El arranque (boot) está al final de js/world.js.
