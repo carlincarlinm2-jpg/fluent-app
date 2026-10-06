@@ -106,7 +106,7 @@ function runSession(o){
   $('player').classList.add('open');document.body.style.overflow='hidden';sfx('open');showEx();
 }
 function quitLesson(){if(P&&P.i>0&&P.mode!=='game'&&!confirm('¿Salir? Perderás el avance de esta lección.'))return;endPlayer()}
-function endPlayer(){$('pBtn').onclick=footAction;stopListen();try{speechSynthesis.cancel()}catch(e){}$('player').classList.remove('open');document.body.style.overflow='';P=null;render()}
+function endPlayer(){try{clearInterval(G&&G.timer);cancelAnimationFrame(G&&G.raf)}catch(e){}$('pBtn').onclick=footAction;stopListen();try{speechSynthesis.cancel()}catch(e){}$('player').classList.remove('open');document.body.style.overflow='';P=null;render()}
 function setProgress(){const done=Math.min(P.answered,P.total);$('pBar').style.width=Math.round(done/Math.max(1,P.total)*100)+'%';$('pCombo').innerHTML=P.combo>=3?`${ic('fire',16)}${P.combo}`:'';$('pCombo').style.display='flex'}
 let cur=null,sel=null,footMode='check';
 function showEx(){

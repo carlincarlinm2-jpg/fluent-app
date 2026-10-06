@@ -79,8 +79,7 @@ evalSpeak=function(said){const before=S.totals.speak;_evalSpeak(said);if(S.total
 let curPlace=null;
 function currentUnit(){const nx=nextLesson();if(!nx)return UNITS.length;if(nx.test)return nx.test;return nx.unit||+String(nx.id).split('-')[0]||1}
 function placeProgress(uid){const u=unitById(uid);const n=u.lessons.filter(l=>S.done[l.id]).length;return {n,total:u.lessons.length,story:!!(S.units[uid]?.dlg),boss:!!W().boss[uid],exam:!!S.units[uid]?.test}}
-function avatarHTML(size=40){const w=W();const f=SHOP.find(i=>i.id===w.equip.face)||SHOP[0];const hat=SHOP.find(i=>i.id===w.equip.hat);const fr=SHOP.find(i=>i.id===w.equip.frame);
-  return `<span class="w-av" style="--s:${size}px;${fr?`background:${fr.bg}`:''}"><span class="w-face">${f.e}</span>${hat?`<span class="w-hat">${hat.e}</span>`:''}</span>`}
+function avatarHTML(size=40){return `<span class="w-av" style="--s:${size}px">${avatarSVG(size)}</span>`}
 function cityView(){
   const w=W();const cu=currentUnit();const lv=level();
   let html=`<div class="w-hero"><div class="w-hero-top">${avatarHTML(54)}<div style="flex:1;min-width:0"><div class="w-hello">${greet()}</div><div class="w-lv"><b>Nivel ${lv.lv}</b><div class="w-bar gold"><i style="width:${Math.round(lv.into/lv.need*100)}%"></i></div></div></div><button class="w-coins" onclick="go('me')">🪙 ${w.coins}</button></div>
@@ -273,7 +272,7 @@ function gameRace(){
   const lv=arc('race').lv;const ws=gw();const goal=10;G={me:0,rival:0,score:0};
   gameShell('Carrera',`<div class="race"><div class="lane"><span class="car" id="cMe">🏎️</span><small>Tú</small></div><div class="lane"><span class="car" id="cRv">🚙</span><small>Rival</small></div><div class="finish"></div></div><div class="wordcard" style="margin-top:14px"><div class="es" id="rq" style="font-size:24px;color:var(--text)"></div><div class="muted small">Escríbelo en inglés</div></div><input id="ri" class="typein" style="min-height:0;text-align:center;font-size:22px" autocapitalize="off" autocomplete="off" spellcheck="false">`);
   const next=()=>{G.w=pick(ws,1)[0];$('rq').textContent=G.w.es;$('ri').value='';$('ri').focus()};
-  const pos=()=>{$('cMe').style.left=`calc(${G.me/goal*86}% )`;$('cRv').style.left=`calc(${G.rival/goal*86}% )`};
+  const pos=()=>{if(!$('cMe')){clearInterval(G.timer);return}$('cMe').style.left=`calc(${G.me/goal*86}% )`;$('cRv').style.left=`calc(${G.rival/goal*86}% )`};
   $('ri').oninput=e=>{const v=e.target.value;const ans=String(G.w.en).split(' / ').map(x=>norm(x));if(ans.includes(norm(v))){G.me++;G.score+=3;P.correct++;sfx('done');speak(enMain(G.w.en));pos();if(G.me>=goal)return fin(true);next()}};
   $('ri').onkeydown=e=>{if(e.key==='Enter'){sfx('error');$('ri').placeholder=enMain(G.w.en);G.me=Math.max(0,G.me-0);next()}};
   G.timer=setInterval(()=>{G.rival+=1;pos();if(G.rival>=goal)fin(false)},Math.max(2200,5200-lv*400));
@@ -306,12 +305,17 @@ function meView(){
   ${missionsHTML()}
   <div class="sec"><h2>Pasaporte</h2><span class="muted small">${got} de 20 sellos</span></div>
   <div class="passport">${stamps.map(s=>`<button class="stamp ${s.pr.exam?'got':''} ${s.pr.boss?'gold':''}" onclick="${unitUnlocked(s.u.id)?`openPlace(${s.u.id})`:`lockedPlace(${s.u.id})`}"><span>${s.p.e}</span><small>${esc(s.p.n)}</small>${s.pr.boss?'<i>👑</i>':''}</button>`).join('')}</div>
-  <div class="sec"><h2>Tienda</h2><span class="muted small">Personaliza tu viajero</span></div>
-  ${['face','hat','frame'].map(slot=>`<div class="shop-row"><b>${{face:'Cara',hat:'Accesorio',frame:'Fondo'}[slot]}</b><div class="shop">${slot!=='face'?`<button class="shop-i ${!w.equip[slot]?'eq':''}" onclick="equip('${slot}',null)"><span>🚫</span><small>Nada</small></button>`:''}${SHOP.filter(i=>i.slot===slot).map(i=>{const own=w.inv.includes(i.id),eq=w.equip[slot]===i.id;return `<button class="shop-i ${eq?'eq':''} ${own?'own':''}" onclick="${own?`equip('${slot}','${i.id}')`:`buy('${i.id}')`}" ${i.bg?`style="--fbg:${i.bg}"`:''}><span ${i.bg?'class="fr"':''}>${i.bg?'':i.e}</span><small>${own?(eq?'Puesto':esc(i.n)):`🪙 ${i.p}`}</small></button>`}).join('')}</div></div>`).join('')}
+    <div class="sec"><h2>Tu avatar</h2><span class="muted small">Toca para cambiarlo</span></div>${avatarEditorHTML()}
   <div class="grid2" style="margin-top:16px"><button class="tile-card" onclick="go('stats')"><div class="ti">${ic('star',22)}</div><b>Progreso y logros</b><span>Estadísticas completas</span></button><button class="tile-card" onclick="go('settings')"><div class="ti">${ic('gear',22)}</div><b>Ajustes</b><span>Meta, avisos, voz y tema</span></button></div>`;
 }
-function buy(id){const it=SHOP.find(i=>i.id===id),w=W();if(w.coins<it.p){sfx('error');return toast(`Te faltan ${it.p-w.coins} monedas`,'think')}w.coins-=it.p;w.inv.push(id);w.equip[it.slot]=id;sfx('coin');confetti();toast('¡Lo compraste!','celebrate');save(true);render()}
-function equip(slot,id){const w=W();if(id)w.equip[slot]=id;else delete w.equip[slot];sfx('toggle');save();render()}
+const AV_LABEL={hair:'Peinado',hairC:'Color de pelo',skin:'Tono de piel',eyes:'Ojos',mouth:'Boca',acc:'Accesorio',bg:'Fondo'};
+let avTab='hair';
+function avatarEditorHTML(){const a=avState();const k=avTab;const list=k==='skin'?AV.skin:k==='hairC'?AV.hairC:k==='bg'?AV.bg:AV[k];
+  return `<div class="ave"><div class="ave-prev">${avatarSVG(120)}</div><div class="ave-tabs">${Object.keys(AV_LABEL).map(t=>`<button class="${t===k?'on':''}" onclick="avTab='${t}';render()">${AV_LABEL[t]}</button>`).join('')}</div>
+  <div class="ave-opts">${list.map((v,i)=>{const own=avOwned(k,i),on=a[k]===i,price=(AV_PRICE[k]||[])[i]||0;const prev={...a,[k]:i};const sw=['skin','hairC','bg'].includes(k);
+    return `<button class="ave-o ${on?'on':''}" onclick="avPick('${k}',${i})">${sw?`<span class="ave-sw" style="background:${v}"></span>`:avatarSVG(56,prev,false)}<small>${on?'Puesto':own?(sw?'':esc(v)):'🪙 '+price}</small></button>`}).join('')}</div></div>`}
+function avPick(k,i){const w=W(),a=avState();if(!avOwned(k,i)){const p=AV_PRICE[k][i];if(w.coins<p){sfx('error');return toast(`Te faltan ${p-w.coins} monedas`,'think')}w.coins-=p;w.avOwn[k+i]=1;sfx('coin');confetti();toast('¡Lo compraste!','celebrate')}else sfx('toggle');a[k]=i;save();render()}
+function buy(){} function equip(){}
 
 /* ---------------- vista: escuela de Alex ---------------- */
 function kikoView(){
@@ -348,4 +352,4 @@ view='city';
 // Al terminar un encargo, examen o jefe dentro de un lugar, regresa al lugar.
 const _start=start;start=async function(u){await _start(u);if(S&&!W().intro)setTimeout(worldIntro,600)};
 
-boot();
+// El arranque (boot) está al final de js/study.js.
