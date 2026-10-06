@@ -118,4 +118,56 @@ render=function(){if(view==='study'||view==='vocab'){const m=$('main');m.innerHT
 const _buildNav2=buildNav;
 buildNav=function(){const v=view;if(v==='vocab'){view='study';_buildNav2();view='vocab';return}_buildNav2()};
 
+
+/* ---------------- para hablar bien: situaciones y pronunciación ---------------- */
+const SIT=(window.SITUATIONS||[]).map(x=>({...x,ph:x.p.map(s=>{const [en,es]=s.split('|');return {en,es}})}));
+const SND=(window.SOUNDS||[]).map(x=>({...x,pr:x.pairs.map(s=>{const [a,b,ma,mb]=s.split('|');return {a,b,ma,mb}})}));
+function speakHTML(){const sw=SW();sw.sit=sw.sit||{};sw.snd=sw.snd||{};
+  return `<div class="sec"><h2>Habla en la vida real</h2><span class="muted small">Frases que sí se usan</span></div>
+  <div class="sit-grid">${SIT.map(x=>{const b=sw.sit[x.id]||0;return `<button class="sit" onclick="openSit('${x.id}')"><span class="sit-e">${x.e}</span><span class="mid"><b>${esc(x.n)}</b><small>${esc(x.en)} · ${x.ph.length} frases</small></span>${b?`<i class="v-best ${b>=80?'ok':''}">${b}%</i>`:''}</button>`}).join('')}</div>
+  <div class="sec"><h2>Laboratorio de pronunciación</h2><span class="muted small">Los sonidos que más cuestan</span></div>
+  <div class="list">${SND.map(x=>{const b=sw.snd[x.id]||0;return `<div class="li" onclick="openSnd('${x.id}')"><span class="g-e">${x.e}</span><div class="mid"><div class="t">${esc(x.n)}</div><div class="s">${esc(x.pr.slice(0,3).map(p=>p.a+' / '+p.b).join(' · '))}</div></div>${b?`<span class="g-best ${b>=80?'ok':''}">${b}%</span>`:ic('play',18)}</div>`}).join('')}</div>`}
+const _studyView=studyView;
+studyView=function(){return _studyView().replace('<div class="sec"><h2>Diccionario con dibujos',speakHTML()+'<div class="sec"><h2>Diccionario con dibujos')};
+function openSit(id){const x=SIT.find(s=>s.id===id);
+  openSheet(head(`${x.e} ${esc(x.n)}`,`${esc(x.en)} · toca una frase para escucharla`)+`<div class="list" style="margin-bottom:16px">${x.ph.map(p=>`<div class="li" onclick="${sayJS(p.en)}"><span style="color:var(--blue)">${ic('speaker',18)}</span><div class="mid"><div class="t">${esc(p.en)}</div><div class="s">${esc(p.es)}</div></div><button class="iconbtn" onclick="event.stopPropagation();speak('${esc(p.en).replace(/'/g,"\\'")}',{slow:true})" aria-label="Despacio">${ic('turtle',18)}</button></div>`).join('')}</div><button class="btn" onclick="closeSheet();practiceSit('${id}')">${ic('mic',18)} Practicar esta situación</button>`)}
+function practiceSit(id){const x=SIT.find(s=>s.id===id);const ph=pick(x.ph,Math.min(8,x.ph.length));const items=[];
+  ph.forEach((p,i)=>{const k=i%3;if(k===0){const opts=shuffle([p.es,...pick(x.ph.filter(q=>q.en!==p.en),2).map(q=>q.es)]);items.push(['l',p.en,opts,opts.indexOf(p.es),p.es])}else if(k===1)items.push(['o',p.en,p.es]);else items.push(canListen()?['s',p.en,p.es]:['o',p.en,p.es])});
+  runItems(items,x.n,null);GX.sit=id}
+function openSnd(id){const x=SND.find(s=>s.id===id);
+  openSheet(head(`${x.e} ${esc(x.n)}`,'Escucha la diferencia')+`<div class="tipbox"><b>${ic('book',16)} Cómo se hace</b>${esc(x.tip)}</div><div class="mp-list">${x.pr.map(p=>`<div class="mp"><button onclick="${sayJS(p.a)}">${ic('speaker',16)} <b>${esc(p.a)}</b><small>${esc(p.ma)}</small></button>${x.speakOnly?'':`<button onclick="${sayJS(p.b)}">${ic('speaker',16)} <b>${esc(p.b)}</b><small>${esc(p.mb)}</small></button>`}</div>`).join('')}</div><button class="btn" onclick="closeSheet();practiceSnd('${id}')">${ic('ear',18)} Practicar</button>`)}
+function practiceSnd(id){const x=SND.find(s=>s.id===id);const items=[];
+  pick(x.pr,Math.min(8,x.pr.length)).forEach((p,i)=>{if(!x.speakOnly&&i%2===0){const t=Math.random()<.5?0:1;items.push(['m',[p.a,p.b],t,[p.ma,p.mb]])}else items.push(canListen()?['s',p.a,p.ma]:['m',[p.a,p.b],0,[p.ma,p.mb]])});
+  runItems(items,x.n,null);GX.snd=id}
+const _gxShow=gxShow;
+gxShow=function(){
+  if(!GX||GX.i>=GX.items.length)return _gxShow();
+  const x=GX.items[GX.i];const top=`<p class="bf-k">${esc(GX.title)} · ${GX.i+1} de ${GX.items.length}</p>`;
+  if(!['l','s','m'].includes(x[0]))return _gxShow();
+  $('pFoot').className='p-foot';$('pFb').innerHTML='';$('pBar').style.width=Math.round(GX.i/GX.items.length*100)+'%';GX.sel=null;
+  if(x[0]==='l'){$('pBody').innerHTML=top+`<div class="p-q">¿Qué significa?</div><div class="big-listen"><button onclick="${sayJS(x[1])}">${ic('speaker',40)}</button><button class="slow" onclick="speak('${esc(x[1]).replace(/'/g,"\\'")}',{slow:true})">${ic('turtle',30)}</button></div><div class="opts">${x[2].map((o,k)=>`<button class="opt" data-k="${k}" onclick="gxPick2(this)">${esc(o)}</button>`).join('')}</div>`;setTimeout(()=>speak(x[1]),250);gxFoot('Comprobar',false,gxCheck)}
+  else if(x[0]==='m'){const w=x[1][x[2]];$('pBody').innerHTML=top+`<div class="p-q">¿Cuál escuchaste?</div><div class="big-listen"><button onclick="${sayJS(w)}">${ic('speaker',40)}</button><button class="slow" onclick="speak('${esc(w).replace(/'/g,"\\'")}',{slow:true})">${ic('turtle',30)}</button></div><div class="opts two">${x[1].map((o,k)=>`<button class="opt mp-o" data-k="${k}" onclick="gxPick2(this)"><b>${esc(o)}</b><small>${esc(x[3][k])}</small></button>`).join('')}</div>`;setTimeout(()=>speak(w),250);gxFoot('Comprobar',false,gxCheck)}
+  else{$('pBody').innerHTML=top+`<div class="p-q">Dilo en voz alta</div><div class="say-card"><button onclick="${sayJS(x[1])}">${ic('speaker',22)}</button><div><b>${esc(x[1])}</b><small>${esc(x[2])}</small></div></div><button class="mic-xl" id="sayMic" aria-label="Hablar">${ic('mic',44)}</button><div class="heard" id="sayHeard">Toca el micrófono y habla</div><button class="linkb" style="display:block;margin:14px auto 0" onclick="GX.skip=true;gxCheck()">No puedo hablar ahora</button>`;gxFoot('Comprobar',false,gxCheck);GX.said='';
+    $('sayMic').onclick=()=>{const m=$('sayMic');m.classList.add('rec');sfx('record');$('sayHeard').textContent='Te escucho…';listen({onText:t=>{$('sayHeard').textContent=t},onEnd:t=>{m.classList.remove('rec');GX.said=t||'';$('sayHeard').textContent=t||'No te escuché, intenta otra vez';if(t)gxCheck()},onError:()=>{m.classList.remove('rec');$('sayHeard').textContent='No pude usar el micrófono'}})}}
+};
+function gxPick2(el){document.querySelectorAll('.opts .opt').forEach(o=>o.classList.remove('sel'));el.classList.add('sel');GX.sel=+el.dataset.k;sfx('toggle');$('pBtn').disabled=false}
+const _gxCheck=gxCheck;
+gxCheck=function(){
+  const x=GX.items[GX.i];if(!['l','s','m'].includes(x[0]))return _gxCheck();
+  let ok,right,expl='';
+  if(x[0]==='l'){ok=GX.sel===x[3];right=x[1];expl=x[4]}
+  else if(x[0]==='m'){ok=GX.sel===x[2];right=x[1][x[2]];expl=x[3][x[2]]}
+  else{if(GX.skip){GX.skip=false;GX.items.splice(GX.i,1);P.total=GX.items.length;return gxShow()}const sc=similarity(GX.said,x[1]);ok=sc>=.7;right=x[1];expl=`Entendí: "${GX.said}" · ${Math.round(sc*100)}% parecido`;if(ok){S.totals.speak++;dayCount('speak')}}
+  document.querySelectorAll('.opts .opt').forEach(b=>b.disabled=true);
+  if(ok){GX.ok++;P.correct++;sfx('done');buzz(15)}else{P.wrong++;sfx('error');buzz([30,40,30])}
+  speak(right);$('pFoot').className='p-foot '+(ok?'good':'bad');
+  $('pFb').innerHTML=`<div>${kikoSVG(52,ok?'happy':'sad')}</div><div><h4>${ok?pickArr(['¡Excelente!','¡Suenas muy bien!','¡Perfecto!','¡Así mero!']):x[0]==='s'?'Casi. Escúchalo y vuelve a intentarlo:':'Casi. Era:'}</h4><p><b>${esc(right)}</b>${expl?`<br>${esc(expl)}`:''}</p></div>`;
+  const b=$('pBtn');b.style.display='';b.disabled=false;b.className='btn '+(ok?'good':'bad');b.textContent='Continuar';b.onclick=()=>{GX.i++;P.answered=GX.i;gxShow()};
+};
+const _gxEnd=gxEnd;
+gxEnd=function(){const pct=Math.round(GX.ok/Math.max(1,GX.items.length)*100);const sw=SW();sw.sit=sw.sit||{};sw.snd=sw.snd||{};
+  if(GX.sit){const prev=sw.sit[GX.sit]||0;sw.sit[GX.sit]=Math.max(prev,pct);if(pct>=80&&prev<80)addCoins(20);GX.items.forEach(it=>{if(it[0]!=='m')srsAdd({en:it[1],es:it[0]==='l'?it[4]:it[2],lesson:'sit-'+GX.sit},'s')})}
+  if(GX.snd){const prev=sw.snd[GX.snd]||0;sw.snd[GX.snd]=Math.max(prev,pct);if(pct>=80&&prev<80)addCoins(20)}
+  _gxEnd()};
+
 boot();
