@@ -1,4 +1,4 @@
-// Fluent — practicar (repaso, juegos, conversaciones, Kiko IA), diccionario, gramática, progreso y ajustes.
+// Fluent — practicar (repaso, juegos, conversaciones, Alex IA), diccionario, gramática, progreso y ajustes.
 const REF=window.REFERENCE||{grammar:[],compare:[],phrasal:[],irregular:[],expressions:[],false_friends:[]};
 function learnedWords(){const ws=Object.values(S.srs).filter(c=>c.kind==='w');return ws.length>=8?ws:ALL_WORDS.slice(0,24).map(w=>({...w}))}
 
@@ -7,7 +7,7 @@ function practiceView(){
   const due=srsDue().length,weak=srsWeak().length;
   return `<h1 class="title">Practicar</h1><div class="grid2">
   <button class="tile-card wide hero" onclick="startReview()"><div class="ti">${ic('brain',24)}</div><div><b>Repaso diario</b><br><span>${due?`${due} ${due===1?'cosa lista':'cosas listas'} para repasar`:'Al día. Repasa lo aprendido'}</span></div></button>
-  <button class="tile-card wide" onclick="openTutor()"><div class="ti">${kikoSVG(40,'talk')}</div><div><b>Platica con Kiko</b><br><span>Conversa en inglés, te corrige y al final te dice cómo mejorar</span></div></button>
+  <button class="tile-card wide" onclick="openTutor()"><div class="ti">${kikoSVG(40,'talk')}</div><div><b>Platica con Alex</b><br><span>Conversa en inglés, te corrige y al final te dice cómo mejorar</span></div></button>
   <button class="tile-card" onclick="gamePairs()"><div class="ti">${ic('pairs',22)}</div><b>Parejas contra reloj</b><span>Une palabras en 60 segundos</span></button>
   <button class="tile-card" onclick="gameListen()"><div class="ti">${ic('ear',22)}</div><b>Oído rápido</b><span>Escucha y elige</span></button>
   <button class="tile-card" onclick="gameTF()"><div class="ti">${ic('tf',22)}</div><b>¿Sí o no?</b><span>¿La traducción es correcta?</span></button>
@@ -60,23 +60,23 @@ function gameSpell(){
 }
 
 /* ---------------- conversaciones (diálogos de cada curso) ---------------- */
-function openDialogs(){const us=UNITS.filter(u=>unitUnlocked(u.id));openSheet(head('Conversaciones','Tú eres la persona B. Kiko dice las líneas de A.')+`<div class="list">${us.map(u=>`<div class="li" onclick="closeSheet();openDialogue(${u.id})">${ic('chat',20)}<div class="mid"><div class="t">${esc(u.dialogue.title_es)}</div><div class="s">Curso ${u.id} · ${esc(u.dialogue.setting_es)}</div></div>${S.units[u.id]?.dlg?`<span style="color:var(--gold)">${ic('star',18)}</span>`:''}</div>`).join('')}</div>`)}
+function openDialogs(){const us=UNITS.filter(u=>unitUnlocked(u.id));openSheet(head('Conversaciones','Tú eres la persona B. Alex dice las líneas de A.')+`<div class="list">${us.map(u=>`<div class="li" onclick="closeSheet();openDialogue(${u.id})">${ic('chat',20)}<div class="mid"><div class="t">${esc(u.dialogue.title_es)}</div><div class="s">Curso ${u.id} · ${esc(u.dialogue.setting_es)}</div></div>${S.units[u.id]?.dlg?`<span style="color:var(--gold)">${ic('star',18)}</span>`:''}</div>`).join('')}</div>`)}
 function openDialogue(uid){
   const u=unitById(uid),d=u.dialogue;
   openSheet(head(esc(d.title_es),esc(d.setting_es))+`<div class="chat">${d.lines.map(l=>`<div class="msg ${l.who==='B'?'me':'kiko'}">${esc(l.en)}<span class="tr" style="${l.who==='B'?'color:rgba(255,255,255,.75)':''}">${esc(l.es)}</span></div>`).join('')}</div>
   <button class="btn alt" onclick="playDialogue(${uid})">${ic('speaker',18)} Escuchar completa</button><button class="btn" onclick="closeSheet();actDialogue(${uid})">${ic('mic',18)} Actuarla (tú eres B)</button>`);
 }
 function playDialogue(uid){const ls_=unitById(uid).dialogue.lines;let i=0;const nx=()=>{if(i<ls_.length)speak(ls_[i++].en,{onend:()=>setTimeout(nx,350)})};nx()}
-function actDialogue(uid){const d=unitById(uid).dialogue;const q=[];d.lines.forEach((l,i)=>{if(l.who==='B'){const prev=d.lines[i-1];q.push({type:'speak',q:prev?`Kiko: “${prev.en}”`:'Empieza la plática',prompt:l.en,es:l.es,answer:l.en,item:null,audioFirst:prev?.en})}});
+function actDialogue(uid){const d=unitById(uid).dialogue;const q=[];d.lines.forEach((l,i)=>{if(l.who==='B'){const prev=d.lines[i-1];q.push({type:'speak',q:prev?`Alex: “${prev.en}”`:'Empieza la plática',prompt:l.en,es:l.es,answer:l.en,item:null,audioFirst:prev?.en})}});
   runSession({mode:'review',queue:q,title:d.title_es,onFinish:acc=>{S.units[uid]={...(S.units[uid]||{}),dlg:Math.max(acc,S.units[uid]?.dlg||0)}}})}
 
-/* ---------------- Kiko IA ---------------- */
+/* ---------------- Alex IA ---------------- */
 const SCENARIOS=[['','Plática libre'],['ordering food at a restaurant in New York','Restaurante'],['checking in at a hotel','Hotel'],['a job interview for an office job','Entrevista'],['asking for directions in a city','Direcciones'],['shopping for clothes','Compras'],['at the doctor','Doctor'],['making plans with a friend for the weekend','Planes con amigos'],['at the airport check-in','Aeropuerto'],['talking about your family and hobbies','Familia y hobbies']];
 let T={msgs:[],scen:'',busy:false};
 function tutorLevel(){const nx=nextLesson();const u=nx?(nx.test||nx.unit):16;return u<=6?'A1':u<=11?'A2':u<=15?'B1':'B2'}
-function openTutor(){T={msgs:[],scen:T.scen||'',busy:false};renderTutor();setTimeout(()=>{if(!T.msgs.length)kikoSays(T.scen?"Let's start! I'll begin.":`Hi${userName()?' '+userName():''}! I'm Kiko. How are you today?`,'¡Hola! Soy Kiko. ¿Cómo estás hoy?')},300)}
+function openTutor(){T={msgs:[],scen:T.scen||'',busy:false};renderTutor();setTimeout(()=>{if(!T.msgs.length)kikoSays(T.scen?"Let's start! I'll begin.":`Hi${userName()?' '+userName():''}! I'm Alex. How are you today?`,'¡Hola! Soy Alex. ¿Cómo estás hoy?')},300)}
 function renderTutor(){
-  openSheet(head('Platica con Kiko',`Nivel ${tutorLevel()} · Escribe o habla en inglés. Si no sabes cómo decir algo, escríbelo en español.`)+
+  openSheet(head('Platica con Alex',`Nivel ${tutorLevel()} · Escribe o habla en inglés. Si no sabes cómo decir algo, escríbelo en español.`)+
   `<div class="scen">${SCENARIOS.map(([k,n])=>`<button class="${T.scen===k?'on':''}" onclick="T.scen='${k}';openTutor()">${n}</button>`).join('')}</div>
   <div class="chat" id="chat">${T.msgs.map(msgHTML).join('')}</div>
   <div class="composer"><button class="mic" id="tMic" onclick="tutorMic()" aria-label="Hablar">${ic('mic',22)}</button><textarea id="tIn" rows="1" placeholder="Write in English…" onkeydown="if(event.key==='Enter'&&!event.shiftKey){event.preventDefault();tutorSend()}"></textarea><button onclick="tutorSend()" aria-label="Enviar">${ic('send',20)}</button></div>
@@ -85,7 +85,7 @@ function renderTutor(){
 }
 function msgHTML(m,i){
   if(m.role==='user')return `<div class="msg me">${esc(m.content)}</div>`;
-  if(m.typing)return `<div class="msg kiko"><span class="muted">Kiko está escribiendo…</span></div>`;
+  if(m.typing)return `<div class="msg kiko"><span class="muted">Alex está escribiendo…</span></div>`;
   return `<div class="msg kiko">${esc(m.content)}${m.reply_es?`<span class="tr" id="tr${i}" style="display:none">${esc(m.reply_es)}</span>`:''}${m.correction?`<span class="corr"><b>Mejor di:</b> ${esc(m.correction)}${m.explain_es?`<br><span class="muted">${esc(m.explain_es)}</span>`:''}</span>`:m.praise?`<span class="ok">${ic('check',14)} ${esc(m.praise)}</span>`:''}<span class="acts"><button onclick="speak(T.msgs[${i}].content)">${ic('speaker',15)} Escuchar</button>${m.reply_es?`<button onclick="const e=$('tr${i}');e.style.display=e.style.display?'':'none'">Traducir</button>`:''}</span></div>`;
 }
 function kikoSays(en,es){T.msgs.push({role:'assistant',content:en,reply_es:es});renderTutor();speak(en)}
@@ -96,7 +96,7 @@ async function tutorSend(){
     const {data:{session}}=await sb.auth.getSession();
     const r=await fetch(TUTOR_API,{method:'POST',headers:{Authorization:'Bearer '+session.access_token,'Content-Type':'application/json'},body:JSON.stringify({messages:T.msgs.filter(m=>!m.typing).map(m=>({role:m.role,content:m.content})),scenario:T.scen,level:tutorLevel()})});
     const j=await r.json().catch(()=>({}));T.msgs.pop();
-    if(!r.ok){T.msgs.push({role:'assistant',content:j.error||'Kiko no está disponible ahorita.',reply_es:null});T.busy=false;renderTutor();sfx('error');return}
+    if(!r.ok){T.msgs.push({role:'assistant',content:j.error||'Alex no está disponible ahorita.',reply_es:null});T.busy=false;renderTutor();sfx('error');return}
     T.msgs.push({role:'assistant',content:j.reply||'…',reply_es:j.reply_es,correction:j.correction,explain_es:j.explain_es,praise:j.praise});
     S.totals.tutor++;addXP(2);save();T.busy=false;renderTutor();speak(j.reply||'');sfx(j.correction?'toggle':'done');
   }catch(e){T.msgs.pop();T.busy=false;T.msgs.push({role:'assistant',content:'Sin conexión. Intenta otra vez.'});renderTutor()}
@@ -107,7 +107,7 @@ function tutorMic(){
   b.classList.add('rec');listen({onText:t=>{$('tIn').value=t},onEnd:f=>{b?.classList.remove('rec');sfx('stop');if(f.trim())tutorSend()},onError:()=>{b?.classList.remove('rec')}});
 }
 async function tutorSummary(){
-  openSheet(head('Tu plática','Kiko está revisando…')+`<div style="text-align:center">${kikoSVG(120,'think')}</div>`);
+  openSheet(head('Tu plática','Alex está revisando…')+`<div style="text-align:center">${kikoSVG(120,'think')}</div>`);
   try{const {data:{session}}=await sb.auth.getSession();
     const r=await fetch(TUTOR_API,{method:'POST',headers:{Authorization:'Bearer '+session.access_token,'Content-Type':'application/json'},body:JSON.stringify({mode:'summary',messages:T.msgs.filter(m=>!m.typing).map(m=>({role:m.role,content:m.content})),level:tutorLevel()})});
     const j=await r.json();if(!r.ok)throw new Error(j.error);
@@ -118,7 +118,7 @@ async function tutorSummary(){
     ${(j.tips_es||[]).length?`<div class="sec"><h2>Cómo mejorar</h2></div><div class="list">${j.tips_es.map(s=>`<div class="li">${ic('target',18)}<div class="mid">${esc(s)}</div></div>`).join('')}</div>`:''}
     ${(j.useful_phrases||[]).length?`<div class="sec"><h2>Frases útiles</h2></div><div class="list">${j.useful_phrases.map(p=>`<div class="li" onclick="speak('${esc(p.en).replace(/'/g,"\\'")}')"><span style="color:var(--blue)">${ic('speaker',18)}</span><div class="mid"><div class="t">${esc(p.en)}</div><div class="s">${esc(p.es)}</div></div></div>`).join('')}</div>`:''}
     <div style="margin-top:16px"><button class="btn" onclick="openTutor()">Platicar otra vez</button></div>`);
-    (j.mistakes||[]).forEach(m=>srsAdd({en:m.better,es:m.why_es||'Corrección de Kiko',lesson:'kiko'},'s'));save();
+    (j.mistakes||[]).forEach(m=>srsAdd({en:m.better,es:m.why_es||'Corrección de Alex',lesson:'kiko'},'s'));save();
   }catch(e){openSheet(head('Tu plática','')+`<p>No pude revisar la plática: ${esc(e.message||'')}</p><button class="btn" onclick="renderTutor()">Regresar</button>`)}
 }
 

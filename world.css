@@ -128,3 +128,7 @@
 .kk-hero{display:flex;gap:14px;align-items:center;margin-bottom:12px}.kk-hero h1{margin:0;font-size:26px}.kk-hero p{margin:2px 0 0;color:var(--muted)}
 @media (min-width:900px){.ar-grid{grid-template-columns:repeat(3,1fr)}.w-place{width:70%}}
 @media (prefers-reduced-motion:reduce){.w-pin,.w-big,.bf-boss,.w-claim{animation:none}}
+.alex .eyes{transform-box:fill-box;transform-origin:50% 50%;animation:ablink 4.5s infinite}
+.alex .scarf{transform-box:fill-box;transform-origin:50% 0%;animation:ascarf 3s ease-in-out infinite}
+@keyframes ablink{0%,92%,100%{transform:scaleY(1)}95%{transform:scaleY(.1)}}
+@keyframes ascarf{0%,100%{transform:rotate(0)}50%{transform:rotate(-2deg)}}

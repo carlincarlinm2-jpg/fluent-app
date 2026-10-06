@@ -40,7 +40,7 @@ function learnView(){
 function greet(){const h=new Date().getHours();const g=h>=5&&h<12?'Good morning':h<19?'Good afternoon':'Good evening';return g+(userName()?', '+esc(userName()):'')+'!'}
 function scrollToCurrent(){const el=document.querySelector('.node .tag');if(el&&!window.__scrolled){window.__scrolled=1;el.closest('.node').scrollIntoView({block:'center',behavior:'smooth'})}}
 function lockedLesson(){sfx('error');toast('Termina lo anterior para desbloquearlo','think')}
-function startNext(){const nx=nextLesson();if(!nx)return toast('¡Terminaste todo! Repasa o platica con Kiko','celebrate');if(nx.test)return openTest(nx.test);startLesson(nx.id)}
+function startNext(){const nx=nextLesson();if(!nx)return toast('¡Terminaste todo! Repasa o platica con Alex','celebrate');if(nx.test)return openTest(nx.test);startLesson(nx.id)}
 function openUnit(uid){
   const u=unitById(uid);const unlocked=unitUnlocked(uid);
   openSheet(head(`Curso ${u.id}: ${esc(u.title_es)}`,`${u.level} · ${esc(u.goal_es||'')}`)+
@@ -207,7 +207,7 @@ function startSkipTest(uid){const prev=UNITS.filter(u=>u.id<uid);runSession({mod
 
 /* ---------------- bienvenida ---------------- */
 function openOnboarding(step=1){
-  if(step===1)return openSheet(`<div style="text-align:center">${kikoSVG(150,'wave')}<h3 style="font-size:28px;margin:6px 0">¡Hola${userName()?', '+esc(userName()):''}! Soy Kiko.</h3><p class="muted">Te voy a acompañar a aprender inglés desde cero: lecciones cortas, juegos, repaso diario y pláticas conmigo.</p><button class="btn" onclick="openOnboarding(2)">Empezar</button></div>`);
+  if(step===1)return openSheet(`<div style="text-align:center">${kikoSVG(150,'wave')}<h3 style="font-size:28px;margin:6px 0">¡Hola${userName()?', '+esc(userName()):''}! Soy Alex.</h3><p class="muted">Te voy a acompañar a aprender inglés desde cero: lecciones cortas, juegos, repaso diario y pláticas conmigo.</p><button class="btn" onclick="openOnboarding(2)">Empezar</button></div>`);
   if(step===2)return openSheet(head('¿Cuánto quieres practicar al día?','Puedes cambiarlo cuando quieras.')+`<div class="choice">${[[20,'Relajado','5 min al día'],[30,'Normal','10 min al día'],[50,'En serio','15 min al día'],[80,'Intenso','20+ min al día']].map(([g,n,s])=>`<button class="${S.settings.goal===g?'on':''}" onclick="S.settings.goal=${g};sfx('toggle');openOnboarding(3)">${ic('target',20)} ${n}<span>${s}</span></button>`).join('')}</div>`);
   if(step===3)return openSheet(head('¿A qué hora te recuerdo?','Te mando una notificación para que no pierdas tu racha.')+`<div class="field"><input type="time" id="obTime" value="${S.settings.remind}"></div><button class="btn" onclick="S.settings.remind=$('obTime').value||'19:00';enablePush(this).finally(()=>openOnboarding(4))">${ic('bell',18)} Activar recordatorio</button><button class="btn alt" onclick="S.settings.remind=$('obTime').value||'19:00';openOnboarding(4)">Ahora no</button>`);
   S.settings.onboarded=true;save(true);closeSheet();render();setTimeout(()=>startLesson(UNITS[0].lessons[0].id),300);

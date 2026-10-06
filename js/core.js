@@ -121,33 +121,37 @@ function similarity(said,expected){
 }
 function typedOK(said,expected){const a=norm(said),b=norm(expected);if(a===b)return 'exact';const d=lev(a,b);return d<=Math.max(1,Math.floor(b.length/12))?'typo':false}
 
-/* ---------------- personaje: Kiko, el perico con lentes ---------------- */
+/* ---------------- personaje: Alex, el pájaro azul ---------------- */
 let _kid=0;
 function isSleep(){const h=new Date().getHours();return h>=23||h<5}
 function kikoSVG(size=90,mood='idle'){
   if(isSleep()&&['idle','wave'].includes(mood))mood='sleep';
-  const id='k'+(++_kid),sleep=mood==='sleep',ink='#121314';
-  const eyes=sleep?`<path d="M44 52q6 5 12 0M64 52q6 5 12 0" stroke="${ink}" stroke-width="3" fill="none" stroke-linecap="round"/>`
-    :`<g class="glass"><path d="M38 47h44" stroke="${ink}" stroke-width="3.2" stroke-linecap="round"/><path d="M39 47h18q1 12-9 12t-9-12z" fill="${ink}"/><path d="M63 47h18q1 12-9 12t-9-12z" fill="${ink}"/><path d="M43 50l6-1.2M67 50l6-1.2" stroke="#fff" stroke-width="2" stroke-linecap="round" opacity=".6"/></g>`;
+  const id='k'+(++_kid),sleep=mood==='sleep',ink='#14182b';
   const happy=['happy','celebrate','wave'].includes(mood);
+  const eyes=sleep?`<path d="M38 55q8 6 16 0M66 55q8 6 16 0" stroke="${ink}" stroke-width="3.2" fill="none" stroke-linecap="round"/>`
+    :happy?`<path d="M38 57q8-10 16 0M66 57q8-10 16 0" stroke="${ink}" stroke-width="3.6" fill="none" stroke-linecap="round"/>`
+    :`<g class="eyes"><ellipse cx="46" cy="54" rx="10" ry="11.5" fill="#fff"/><ellipse cx="74" cy="54" rx="10" ry="11.5" fill="#fff"/><g class="pupils"><circle cx="${mood==='think'?44:48}" cy="${mood==='think'?51:56}" r="5.6" fill="${ink}"/><circle cx="${mood==='think'?72:76}" cy="${mood==='think'?51:56}" r="5.6" fill="${ink}"/><circle cx="${mood==='think'?46:50}" cy="${mood==='think'?49:54}" r="1.9" fill="#fff"/><circle cx="${mood==='think'?74:78}" cy="${mood==='think'?49:54}" r="1.9" fill="#fff"/></g></g>`;
   const zz=sleep?`<text class="z" x="92" y="22" font-size="12" font-weight="800" fill="var(--muted)">z</text><text class="z z2" x="100" y="12" font-size="15" font-weight="800" fill="var(--muted)">z</text><text class="z z3" x="108" y="2" font-size="18" font-weight="800" fill="var(--muted)">Z</text>`:'';
-  const tongue=happy||mood==='talk'?`<path d="M55 72q5 6 10 0" fill="#e86a6a"/>`:'';
-  const sadBrow=mood==='sad'?`<path d="M40 41l14 3M80 41l-14 3" stroke="${ink}" stroke-width="2.6" stroke-linecap="round"/>`:'';
-  return `<svg class="kiko m-${mood}" width="${size}" height="${size}" viewBox="0 0 120 132" onclick="kikoPoke(this)" role="img" aria-label="Kiko">
-  <defs><radialGradient id="${id}g" cx="38%" cy="28%" r="80%"><stop offset="0" stop-color="#7ef0a6"/><stop offset=".5" stop-color="#36c96f"/><stop offset="1" stop-color="#1d9a52"/></radialGradient>
-  <radialGradient id="${id}y" cx="50%" cy="35%" r="70%"><stop offset="0" stop-color="#fff2a8"/><stop offset="1" stop-color="#ffcf3f"/></radialGradient></defs>
+  const tongue=happy||mood==='talk'?`<path d="M56 73q4 4 8 0" fill="#ff7a8a"/>`:'';
+  const brow=mood==='sad'?`<path d="M36 41l16 5M84 41l-16 5" stroke="${ink}" stroke-width="2.8" stroke-linecap="round"/>`:mood==='think'?`<path d="M37 40q8-4 16 0" stroke="${ink}" stroke-width="2.6" fill="none" stroke-linecap="round"/>`:'';
+  return `<svg class="kiko alex m-${mood}" width="${size}" height="${size}" viewBox="0 0 120 132" onclick="kikoPoke(this)" role="img" aria-label="Alex">
+  <defs><radialGradient id="${id}g" cx="36%" cy="26%" r="85%"><stop offset="0" stop-color="#9ad8ff"/><stop offset=".45" stop-color="#3f8ff5"/><stop offset="1" stop-color="#1c4fc2"/></radialGradient>
+  <radialGradient id="${id}b" cx="50%" cy="30%" r="75%"><stop offset="0" stop-color="#fffaf0"/><stop offset="1" stop-color="#ffe2b8"/></radialGradient>
+  <linearGradient id="${id}s" x1="0" x2="1"><stop offset="0" stop-color="#ff5a5f"/><stop offset="1" stop-color="#e2303c"/></linearGradient></defs>
   <ellipse class="ks" cx="60" cy="127" rx="28" ry="4.5" fill="#000"/>
   <g class="kb">
-    <path d="M52 108l-10 18 8-2 4 6 4-20z" fill="#2f7bea"/><path d="M68 108l10 18-8-2-4 6-4-20z" fill="#e8504f"/>
-    <g class="crest"><path d="M56 16q-6-12 2-14 2 8 4 14z" fill="#e8504f"/><path d="M62 15q2-13 10-11-4 8-7 13z" fill="#ff9b4a"/><path d="M52 18q-11-6-7-12 5 6 9 10z" fill="#ffcf3f"/></g>
-    <ellipse cx="60" cy="68" rx="38" ry="46" fill="url(#${id}g)"/>
-    <ellipse cx="60" cy="88" rx="22" ry="24" fill="url(#${id}y)"/>
-    <g class="wing l"><path d="M24 66q-12 18 2 38 8-14 10-34z" fill="#1d9a52"/><path d="M22 86q4 8 6 14" stroke="#167a41" stroke-width="2" fill="none"/></g>
-    <g class="wing r"><path d="M96 66q12 18-2 38-8-14-10-34z" fill="#1d9a52"/><path d="M98 86q-4 8-6 14" stroke="#167a41" stroke-width="2" fill="none"/></g>
-    <path d="M50 120h6M64 120h6" stroke="#ff9b4a" stroke-width="5" stroke-linecap="round"/>
-    ${eyes}${sadBrow}
-    <path d="M51 61q9-8 18 0q2 8-9 14q-11-6-9-14z" fill="#ffb14a"/><path d="M60 75q4-3 4-8" stroke="#d98a24" stroke-width="1.6" fill="none"/>
-    <g class="beak-lo"><path d="M53 68q7 9 14 0q-2 7-7 8q-5-1-7-8z" fill="#e8952e"/></g>${tongue}
+    <path d="M86 98q22 6 26 22-14-2-22-8 2 8-2 14-8-10-10-22z" fill="#1c4fc2"/>
+    <path d="M50 117l-4 8M50 117l1 9M50 117l5 8M70 117l-5 8M70 117l-1 9M70 117l4 8" stroke="#ff9b2f" stroke-width="3" stroke-linecap="round"/>
+    <g class="crest"><path d="M58 22q-10-16 0-20 4 10 6 18z" fill="#3f8ff5"/><path d="M63 22q4-17 14-14-6 9-10 16z" fill="#2c6fe0"/><path d="M55 25q-14-6-10-14 6 6 12 11z" fill="#6cb6ff"/></g>
+    <ellipse cx="60" cy="70" rx="40" ry="46" fill="url(#${id}g)"/>
+    <ellipse cx="60" cy="92" rx="25" ry="22" fill="url(#${id}b)"/>
+    <g class="wing l"><path d="M22 68q-14 16-2 38 12-10 14-34z" fill="#1c4fc2"/><path d="M20 84q3 8 5 14M15 90q3 5 5 9" stroke="#163d99" stroke-width="2" fill="none" stroke-linecap="round"/></g>
+    <g class="wing r"><path d="M98 68q14 16 2 38-12-10-14-34z" fill="#1c4fc2"/><path d="M100 84q-3 8-5 14M105 90q-3 5-5 9" stroke="#163d99" stroke-width="2" fill="none" stroke-linecap="round"/></g>
+    <g class="scarf"><path d="M28 76q32 14 64 0l-2 9q-30 12-60 0z" fill="url(#${id}s)"/><path d="M74 82l8 20-9-2-2 8-6-22z" fill="#e2303c"/><path d="M76 89l4 9" stroke="#ffd166" stroke-width="2" stroke-linecap="round"/><path d="M36 80q24 8 48 0" stroke="#ffd166" stroke-width="2" fill="none" stroke-dasharray="3 4"/></g>
+    <circle cx="35" cy="66" r="5.5" fill="#ff8fa3" opacity=".55"/><circle cx="85" cy="66" r="5.5" fill="#ff8fa3" opacity=".55"/>
+    ${eyes}${brow}
+    <path d="M53 63q7-5 14 0l-7 9z" fill="#ffb02e"/><path d="M53 63q7-3 14 0" stroke="#e8891a" stroke-width="1.4" fill="none"/>
+    <g class="beak-lo"><path d="M55 69q5 5 10 0l-5 5z" fill="#e8891a"/></g>${tongue}
   </g>${zz}</svg>`;
 }
 function kikoPoke(el){sfx('coin');buzz(12);el.classList.add('m-happy');setTimeout(()=>el.classList.remove('m-happy'),1200);if(Math.random()<.5)speak(pickArr(['Hello!','Let us practice!','You got this!','Nice to see you!']))}
@@ -223,7 +227,7 @@ const ACHS=[
   ['perfect','Perfecto','Lección sin errores','star',()=>S.totals.perfect>=1],
   ['perfect10','Precisión','10 lecciones perfectas','star',()=>S.totals.perfect>=10],
   ['speak50','Buena pronunciación','50 frases dichas bien','mic',()=>S.totals.speak>=50],
-  ['tutor10','Platicador','10 mensajes con Kiko','chat',()=>S.totals.tutor>=10],
+  ['tutor10','Platicador','10 mensajes con Alex','chat',()=>S.totals.tutor>=10],
   ['games10','Jugador','Juega 10 juegos','timer',()=>S.totals.games>=10],
   ['review100','Memoria de elefante','100 repasos','brain',()=>S.totals.reviews>=100],
   ['unit1','Curso 1 completo','Termina el curso 1','trophy',()=>unitComplete(1)],

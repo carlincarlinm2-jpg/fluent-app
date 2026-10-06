@@ -1,5 +1,5 @@
 // Fluent — examen final de cada curso, estilo Cambridge: Reading, Listening, Use of English, Writing y Speaking.
-// Se aprueba con 70%: 85%+ "con distinción", 75%+ "con mérito". Writing y Speaking los califica Kiko (IA); si no hay conexión, te autoevalúas.
+// Se aprueba con 70%: 85%+ "con distinción", 75%+ "con mérito". Writing y Speaking los califica Alex (IA); si no hay conexión, te autoevalúas.
 const EXAMS=window.EXAMS||{};
 const VOICE_SEX={11:{A:'f',B:'m'},15:{A:'f',B:'m'},18:{A:'m',B:'f'},19:{A:'f',B:'m'},20:{A:'f',B:'m'}};
 let X=null;
@@ -68,7 +68,7 @@ async function gradeAI(kind,task,answer){
   try{const {data:{session}}=await sb.auth.getSession();const r=await fetch(TUTOR_API,{method:'POST',headers:{Authorization:'Bearer '+session.access_token,'Content-Type':'application/json'},body:JSON.stringify({mode:'grade',kind,level:examLevel(X.uid),task,answer})});if(!r.ok)return null;const j=await r.json();return typeof j.score==='number'?j:null}catch(e){return null}
 }
 async function examGrade(){
-  const e=X.e;$('pBtn').style.display='none';$('pBody').innerHTML=`<div class="result">${kikoSVG(140,'think')}<h2>Calificando tu examen…</h2><p class="muted">Kiko está revisando tu Writing y tu Speaking.</p></div>`;
+  const e=X.e;$('pBtn').style.display='none';$('pBody').innerHTML=`<div class="result">${kikoSVG(140,'think')}<h2>Calificando tu examen…</h2><p class="muted">Alex está revisando tu Writing y tu Speaking.</p></div>`;
   const pct=(sec,qs)=>Math.round(qs.filter((q,i)=>X.ans[sec][i]===q.answer).length/qs.length*100);
   const R={reading:pct('reading',e.reading.questions),listening:pct('listening',e.listening.questions),use:pct('use',e.use)};
   const w=e.writing;const wTask={prompt_en:w.prompt_en,checklist:w.checklist_es,min:w.min_words,max:w.max_words};

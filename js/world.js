@@ -44,7 +44,7 @@ const MISSION_POOL=[
   ['game','Juega {n} juegos del arcade',[2,3],'pairs'],
   ['story','Vive un capítulo de historia',[1],'book'],
   ['boss','Reta a un jefe',[1],'trophy'],
-  ['review','Haz un repaso con Kiko',[1],'brain'],
+  ['review','Haz un repaso con Alex',[1],'brain'],
   ['speak','Di {n} frases en voz alta',[3,5],'mic'],
   ['xp','Gana {n} XP',[30,50],'bolt'],
 ];
@@ -313,12 +313,12 @@ function meView(){
 function buy(id){const it=SHOP.find(i=>i.id===id),w=W();if(w.coins<it.p){sfx('error');return toast(`Te faltan ${it.p-w.coins} monedas`,'think')}w.coins-=it.p;w.inv.push(id);w.equip[it.slot]=id;sfx('coin');confetti();toast('¡Lo compraste!','celebrate');save(true);render()}
 function equip(slot,id){const w=W();if(id)w.equip[slot]=id;else delete w.equip[slot];sfx('toggle');save();render()}
 
-/* ---------------- vista: escuela de Kiko ---------------- */
+/* ---------------- vista: escuela de Alex ---------------- */
 function kikoView(){
   const due=srsDue().length,weak=srsWeak().length;
-  return `<div class="kk-hero">${kikoSVG(92,'wave')}<div><h1>Escuela de Kiko</h1><p>Repasa, platica y resuelve dudas.</p></div></div><div class="grid2">
+  return `<div class="kk-hero">${kikoSVG(92,'wave')}<div><h1>Escuela de Alex</h1><p>Repasa, platica y resuelve dudas.</p></div></div><div class="grid2">
   <button class="tile-card wide hero" onclick="startReview()"><div class="ti">${ic('brain',24)}</div><div><b>Repaso del día</b><br><span>${due?`${due} ${due===1?'cosa lista':'cosas listas'} para repasar`:'Al día. Repasa lo aprendido'}</span></div></button>
-  <button class="tile-card wide" onclick="openTutor()"><div class="ti">${kikoSVG(40,'talk')}</div><div><b>Platica con Kiko</b><br><span>Conversa en inglés, te corrige y te dice cómo mejorar</span></div></button>
+  <button class="tile-card wide" onclick="openTutor()"><div class="ti">${kikoSVG(40,'talk')}</div><div><b>Platica con Alex</b><br><span>Conversa en inglés, te corrige y te dice cómo mejorar</span></div></button>
   <button class="tile-card" onclick="practiceSpeak()"><div class="ti">${ic('mic',22)}</div><b>Pronunciación</b><span>Di frases en voz alta</span></button>
   <button class="tile-card" onclick="practiceWeak()"><div class="ti">${ic('target',22)}</div><b>Palabras difíciles</b><span>${weak?weak+' por reforzar':'Las que más fallas'}</span></button>
   <button class="tile-card" onclick="openGrammar()"><div class="ti">${ic('book',22)}</div><b>Gramática</b><span>${REF.grammar.length} temas y comparaciones</span></button>
@@ -330,7 +330,7 @@ function kikoView(){
 function worldIntro(){if(W().intro)return;W().intro=true;save();openSheet(`<div style="text-align:center">${head('','')}<div style="font-size:64px;line-height:1">🌆</div><h2 style="margin:8px 0">Bienvenido a Brightvale</h2><p class="muted">Acabas de llegar a una ciudad donde todos hablan inglés. Visita cada lugar, cumple encargos, vive su historia y vence a su jefe.</p><p class="muted">Junta los <b>20 sellos</b> de tu pasaporte y gana monedas para personalizar a tu viajero.</p><button class="btn" onclick="closeSheet();openPlace(${currentUnit()})">${ic('play',18)} Empezar a explorar</button></div>`)}
 
 /* ---------------- conectar con la navegación ---------------- */
-VIEWS.length=0;VIEWS.push(['city','Ciudad','map'],['arcade','Arcade','game'],['kiko','Kiko','chat'],['me','Yo','user']);
+VIEWS.length=0;VIEWS.push(['city','Ciudad','map'],['arcade','Arcade','game'],['kiko','Alex','chat'],['me','Yo','user']);
 IC.map='<path d="M9 4 3 6v14l6-2 6 2 6-2V4l-6 2-6-2z"/><path d="M9 4v14M15 6v14"/>';
 IC.game='<rect x="2" y="7" width="20" height="11" rx="5"/><path d="M7 11v3M5.5 12.5h3"/><circle cx="15.5" cy="11.5" r="1"/><circle cx="18" cy="13.5" r="1"/>';
 const _render=render;
