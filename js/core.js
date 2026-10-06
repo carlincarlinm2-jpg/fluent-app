@@ -72,17 +72,28 @@ function wordsMastered(){return Object.values(S.srs).filter(c=>c.kind==='w'&&c.i
 let voices=[];
 function loadVoices(){try{voices=speechSynthesis.getVoices().filter(v=>/^en(-|_)/i.test(v.lang))}catch(e){voices=[]}}
 try{loadVoices();speechSynthesis.onvoiceschanged=loadVoices}catch(e){}
+// Califica las voces del teléfono: primero las naturales (Premium / Mejorada / Natural), luego las buenas
+// conocidas, y al final las básicas. Las voces de broma o robóticas casi nunca se eligen.
+const NOVELTY=/Albert|Bad News|Bahh|Bells|Boing|Bubbles|Cellos|Good News|Jester|Organ|Superstar|Trinoids|Whisper|Wobble|Zarvox|Fred|Junior|Kathy|Ralph|Grandma|Grandpa|Eddy|Flo|Reed|Rocko|Sandy|Shelley|Hysterical|Deranged|Pipe Organ/i;
+function voiceScore(v){let s=0;const n=v.name||'';
+  if(NOVELTY.test(n))return -100;
+  if(/premium/i.test(n))s+=120;else if(/enhanced|mejorad|neural|natural|online/i.test(n))s+=90;
+  if(/Ava|Zoe|Evan|Nathan|Joelle|Noelle|Samantha|Allison|Susan|Tom|Aaron|Nicky|Jenny|Aria|Guy|Michelle|Christopher|Emma|Brian/i.test(n))s+=30;
+  if(/Google US English/i.test(n))s+=60;if(/Google UK English/i.test(n))s+=45;
+  if(/en[-_]US/i.test(v.lang))s+=12;else if(/en[-_]GB/i.test(v.lang))s+=8;
+  if(v.localService===false&&/Google|Microsoft/i.test(n))s+=10;
+  return s}
+function rankedVoices(){if(!voices.length)loadVoices();return voices.slice().sort((a,b)=>voiceScore(b)-voiceScore(a))}
+function voiceQuality(v){const s=voiceScore(v);return s>=110?'Natural':s>=80?'Muy buena':s>=40?'Buena':'Básica'}
 function pickVoice(){
   if(!voices.length)loadVoices();
   if(S?.settings?.voice){const v=voices.find(v=>v.name===S.settings.voice);if(v)return v}
-  const pref=[/Samantha/i,/Google US English/i,/Ava/i,/Allison/i,/Aria/i,/Jenny/i,/Microsoft.*(Aria|Jenny|Guy)/i,/en-US/i];
-  for(const p of pref){const v=voices.find(v=>p.test(v.name)||p.test(v.lang));if(v)return v}
-  return voices[0]||null;
+  return rankedVoices()[0]||null;
 }
 function speak(text,{slow=false,onend}={}){
   try{
     speechSynthesis.cancel();const u=new SpeechSynthesisUtterance(String(text).replace(/ \/ /g,', '));
-    const v=pickVoice();if(v)u.voice=v;u.lang=v?.lang||'en-US';u.rate=(S?.settings?.rate||.92)*(slow?.6:1);u.pitch=1;
+    const v=pickVoice();if(v)u.voice=v;u.lang=v?.lang||'en-US';u.rate=(S?.settings?.rate||.96)*(slow?.68:1);u.pitch=1;
     if(onend)u.onend=onend;speechSynthesis.speak(u);
   }catch(e){onend&&onend()}
 }

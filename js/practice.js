@@ -212,7 +212,7 @@ function settingsView(){
     ${st==='off'?`<div style="padding:0 0 14px"><button class="btn" onclick="enablePush(this).then(ok=>{if(ok){toast('Recordatorios activados');render()}})">Activar recordatorios</button></div>`:st==='on'?`<div class="li" onclick="testPush()">${ic('bell',20)}<div class="mid"><div class="t">Probar notificación</div></div></div>`:''}
     <label class="li">${ic('sound',20)}<div class="mid"><div class="t">Sonidos</div></div><input type="checkbox" class="tgl" ${soundOn()?'checked':''} onchange="setSound(this.checked)"></label>
     <div class="li" style="cursor:default">${ic('speaker',20)}<div class="mid"><div class="t">Velocidad de la voz</div><div class="s">${S.settings.rate<.85?'Lenta':S.settings.rate>1?'Rápida':'Normal'}</div></div><input type="range" min=".6" max="1.2" step=".05" value="${S.settings.rate}" onchange="S.settings.rate=+this.value;save();speak('This is how I sound.');render()"></div>
-    <div class="li" style="cursor:default">${ic('chat',20)}<div class="mid"><div class="t">Voz</div></div><select style="max-width:170px;border:1px solid var(--line);background:var(--s2);border-radius:10px;padding:6px" onchange="S.settings.voice=this.value;save();speak('Hello! I am your new voice.')"><option value="">Automática</option>${voices.map(v=>`<option ${S.settings.voice===v.name?'selected':''}>${esc(v.name)}</option>`).join('')}</select></div>
+    <div class="li" onclick="openVoices()">${ic('chat',20)}<div class="mid"><div class="t">Voz</div><div class="s">${esc((pickVoice()||{}).name||'Automática')} · ${pickVoice()?voiceQuality(pickVoice()):''}</div></div><span class="muted small">Cambiar</span></div>
   </div>
   <div class="seg" style="margin:12px 0">${[['dark','Oscura'],['light','Clara'],['auto','Como el teléfono']].map(([v,n])=>`<button class="${themePref()===v?'on':''}" onclick="ls('fluent_theme','${v}');applyTheme();sfx('toggle');render()">${n}</button>`).join('')}</div>
   <button class="btn alt" onclick="if(confirm('¿Cerrar sesión?'))logout()">${ic('logout',18)} Cerrar sesión</button>`;
@@ -221,3 +221,12 @@ function openName(force){openSheet(head(force?'¿Cómo te llamas?':'Tu nombre','
 async function saveName(btn){const nm=$('nmIn').value.trim();if(!nm)return;btn.disabled=true;const {data,error}=await sb.auth.updateUser({data:{name:nm}});if(error){btn.disabled=false;return toast('No se pudo guardar','sad')}user=data.user;sfx('done');closeSheet();render();toast('Nice to meet you, '+userName()+'!')}
 
 // El arranque (boot) está al final de js/world.js.
+
+/* ---------------- elegir voz ---------------- */
+function openVoices(){
+  const vs=rankedVoices().filter(v=>voiceScore(v)>-100);const best=vs[0];const cur=pickVoice();
+  const need=!best||voiceScore(best)<90;
+  openSheet(head('Voz de Alex','Toca una voz para escucharla y elegirla')+
+  (need?`<div class="tipbox"><b>${ic('sound',16)} Consigue una voz más natural</b>Tu teléfono todavía no tiene voces naturales en inglés. En iPhone: Ajustes → Accesibilidad → Contenido leído → Voces → Inglés → elige <b>Ava (Premium)</b>, <b>Zoe (Premium)</b> o <b>Evan (Mejorada)</b> y descárgala. Después cierra y abre Fluent.</div>`:'')+
+  `<div class="list">${[{name:'',auto:1}].concat(vs.slice(0,40)).map(v=>{const on=v.auto?!S.settings.voice:S.settings.voice===v.name;return `<div class="li" onclick="pickVoiceName('${esc(v.name||'').replace(/'/g,"\\'")}')">${ic(on?'check':'speaker',18)}<div class="mid"><div class="t">${v.auto?'Automática (la más natural)':esc(v.name)}</div><div class="s">${v.auto?esc(cur?cur.name:''):esc(v.lang)+' · '+voiceQuality(v)}</div></div>${!v.auto&&voiceScore(v)>=110?'<span class="pill" style="color:var(--good)">Natural</span>':''}</div>`}).join('')}</div>`)}
+function pickVoiceName(n){S.settings.voice=n;save();speak(n?'Hi! This is how I sound. Nice to meet you.':'Hi! I picked the most natural voice for you.');openVoices()}

@@ -1,10 +1,11 @@
 // Service worker de Fluent: la página siempre se pide a la red primero (para no quedarse con versiones viejas)
 // y los íconos se guardan en caché. También recibe los avisos de pago.
-const CACHE = 'fluent-static-v6';
+const CACHE = 'fluent-static-v7';
 const ASSETS = ['./manifest.json', './icons/icon-192.png', './icons/icon-512.png'];
 self.addEventListener('install', (e) => { e.waitUntil(caches.open(CACHE).then((c) => c.addAll(ASSETS)).catch(() => {})); self.skipWaiting(); });
 self.addEventListener('activate', (e) => { e.waitUntil(caches.keys().then((ks) => Promise.all(ks.filter((k) => k !== CACHE).map((k) => caches.delete(k))))); self.clients.claim(); });
 self.addEventListener('fetch', (e) => {
+  if (new URL(e.request.url).searchParams.has('check')) return; // revisión de versión nueva: siempre a la red
   const url = new URL(e.request.url);
   if (e.request.method !== 'GET' || url.origin !== location.origin) return;
   if (e.request.mode === 'navigate' || url.pathname === '/' || /\.(html|js)$/.test(url.pathname)) { e.respondWith(fetch(e.request).then((r) => { if (r.ok && url.pathname.endsWith('.js')) { const cp = r.clone(); caches.open(CACHE).then((c) => c.put(e.request, cp)); } return r; }).catch(() => caches.match(e.request).then((h) => h || caches.match('./index.html')))); return; }
