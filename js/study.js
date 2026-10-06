@@ -46,7 +46,7 @@ function vocabQuiz(id){
   $('player').classList.add('open');document.body.style.overflow='hidden';
   P={mode:'game',i:0,total:qs.length,answered:0,correct:0,wrong:0,combo:0,maxCombo:0,start:Date.now(),queue:[],retried:new Set()};
   $('pBtn').style.display='none';$('pFoot').className='p-foot';$('pFb').innerHTML='';
-  const others=w=>pick(pool.filter(x=>x.en!==w.en),3);
+  const others=w=>pick(pool.filter(x=>x.en!==w.en),typeof diff==='function'?[2,3,5][diff()-1]:3);
   const show=()=>{$('pBar').style.width=Math.round(i/qs.length*100)+'%';if(i>=qs.length)return end();const w=qs[i];const kind=i%3;
     let q,opts;
     if(kind===0){q=`<div class="vq-pic">${picHTML(w.pic,110)}</div><p class="bf-k">¿Cómo se dice en inglés?</p>`;opts=shuffle([w,...others(w)]).map(o=>`<button class="opt" onclick="vqA(this,${o.en===w.en})">${esc(o.en)}</button>`).join('')}
@@ -170,4 +170,4 @@ gxEnd=function(){const pct=Math.round(GX.ok/Math.max(1,GX.items.length)*100);con
   if(GX.snd){const prev=sw.snd[GX.snd]||0;sw.snd[GX.snd]=Math.max(prev,pct);if(pct>=80&&prev<80)addCoins(20)}
   _gxEnd()};
 
-boot();
+// El arranque (boot) está al final de js/adapt.js.

@@ -187,7 +187,7 @@ function bfNext(){
   const q=B.qs[B.i];const opts=shuffle([q.a,...q.o]);
   $('bfQ').innerHTML=`<p class="bf-k">${q.t}</p><div class="bf-q">${q.listen?`<button class="bf-ls" onclick="speak('${esc(q.listen).replace(/'/g,"\\'")}')">${ic('speaker',34)}</button>`:esc(q.q)}</div>${q.sub?`<p class="muted" style="text-align:center;margin-top:-8px">${esc(q.sub)}</p>`:''}<div class="opts two">${opts.map(o=>`<button class="opt" onclick="bfAns(this,${o===q.a})">${esc(o)}</button>`).join('')}</div>`;
   if(q.listen)setTimeout(()=>speak(q.listen),250);
-  let t=10;$('bfT').textContent=t;B.timer=setInterval(()=>{t--;const e=$('bfT');if(e){e.textContent=t;e.classList.toggle('hurry',t<=3)}if(t<=0){clearInterval(B.timer);bfAns(null,false)}},1000);
+  let t=typeof bossTime==='function'?bossTime():10;$('bfT').textContent=t;B.timer=setInterval(()=>{t--;const e=$('bfT');if(e){e.textContent=t;e.classList.toggle('hurry',t<=3)}if(t<=0){clearInterval(B.timer);bfAns(null,false)}},1000);
 }
 function bfAns(el,ok){
   clearInterval(B.timer);document.querySelectorAll('#bfQ .opt').forEach(b=>{b.disabled=true;if(b.textContent===B.qs[B.i].a)b.classList.add('right')});
