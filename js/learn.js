@@ -151,7 +151,7 @@ let speaking=false;
 function toggleSpeak(){
   if(speaking){stopListen();return}
   const btn=$('micX'),h=$('heard');speaking=true;btn.classList.add('rec');h.textContent='Te escucho…';
-  listen({onText:(t)=>{h.innerHTML=`<b>${esc(t)}</b>`},onEnd:(final)=>{speaking=false;btn?.classList.remove('rec');sfx('stop');if(!final){h.textContent='No te escuché. Toca y vuelve a intentarlo.';return}evalSpeak(final)},onError:(err)=>{speaking=false;btn?.classList.remove('rec');h.textContent=err==='not-allowed'?'Permite el micrófono en tu navegador.':'No te escuché bien. Intenta otra vez.'}});
+  listen({expect:cur.answer,silence:1400,onText:(t)=>{h.innerHTML=`<b>${esc(t)}</b>`},onEnd:(final)=>{speaking=false;btn?.classList.remove('rec');sfx('stop');if(!final){h.textContent='No te escuché. Toca y vuelve a intentarlo.';return}evalSpeak(final)},onError:(err)=>{speaking=false;btn?.classList.remove('rec');h.textContent=err==='not-allowed'?'Permite el micrófono en tu navegador.':'No te escuché bien. Intenta otra vez.'}});
 }
 function evalSpeak(said){const sc=similarity(said,cur.answer);const pct=Math.round(sc*100);if(sc>=.72){S.totals.speak++;mark(true,`Pronunciación ${pct}%`,`Dijiste: “${said}”`)}else mark(false,`Entendí: “${said}”`,`Se dice: ${cur.answer}`)}
 function skipSpeak(){P.queue.splice(P.i,1);P.total--;showEx()}

@@ -60,7 +60,7 @@ function wireSpeak(onResult,append){
   const done=(t)=>{if(!t.trim())return;const msg=onResult(t);if(!$('heard')){const ta=$('typeIn');ta&&ta.insertAdjacentHTML('afterend','<div class="heard" id="heard"></div>')}if($('heard'))$('heard').innerHTML=esc(msg);$('pBtn').disabled=false;sfx('done')};
   if(!canListen()){$('dictOk').onclick=()=>{const t=$('typeIn').value;$('typeIn').value='';done(t)};return}
   const b=$('micX');b.onclick=()=>{if(b.classList.contains('rec')){stopListen();return}b.classList.add('rec');$('heard').textContent='Te escucho…';
-    listen({onText:t=>{$('heard').innerHTML=`<b>${esc(t)}</b>`},onEnd:f=>{b.classList.remove('rec');sfx('stop');if(f)done(f);else $('heard').textContent='No te escuché. Inténtalo otra vez.'},onError:()=>{b.classList.remove('rec');$('heard').textContent='No te escuché bien. Inténtalo otra vez.'}})};
+    listen({expect:'',silence:2600,onText:t=>{$('heard').innerHTML=`<b>${esc(t)}</b>`},onEnd:f=>{b.classList.remove('rec');sfx('stop');if(f)done(f);else $('heard').textContent='No te escuché. Inténtalo otra vez.'},onError:(er)=>{toast(micErrorMsg(er),'think');b.classList.remove('rec');$('heard').textContent='No te escuché bien. Inténtalo otra vez.'}})};
 }
 
 /* ---------------- calificación ---------------- */

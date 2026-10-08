@@ -151,7 +151,7 @@ function stPick(el,ok){
     setTimeout(()=>{stBubble('A',r,'(No te entendió)');speak(r);if(ST.hearts<=0)return setTimeout(()=>stEnd(true),1200);document.querySelectorAll('.st-opts .opt').forEach(b=>{if(!b.classList.contains('wrong'))b.disabled=false})},500)}
 }
 function stSay(){const l=ST.d.lines[ST.i];const b=document.querySelector('.st-mic');b.classList.add('rec');b.innerHTML=ic('mic',20)+' Te escucho…';
-  listen({onText:t=>{b.innerHTML=ic('mic',20)+' '+esc(t)},onEnd:t=>{b.classList.remove('rec');const sc=similarity(t||'',l.en);if(sc>=.7){S.totals.speak++;dayCount('speak');const el=[...document.querySelectorAll('.st-opts .opt')].find(o=>o.dataset.en===l.en);stPick(el,true)}else{b.innerHTML=ic('mic',20)+' No te entendí bien, intenta otra vez';sfx('error')}},onError:()=>{b.classList.remove('rec');b.innerHTML=ic('mic',20)+' O dilo en voz alta'}})}
+  listen({expect:l.en,silence:1400,onText:t=>{b.innerHTML=ic('mic',20)+' '+esc(t)},onEnd:t=>{b.classList.remove('rec');const sc=similarity(t||'',l.en);if(sc>=.7){S.totals.speak++;dayCount('speak');const el=[...document.querySelectorAll('.st-opts .opt')].find(o=>o.dataset.en===l.en);stPick(el,true)}else{b.innerHTML=ic('mic',20)+' No te entendí bien, intenta otra vez';sfx('error')}},onError:(er)=>{toast(micErrorMsg(er),'think');b.classList.remove('rec');b.innerHTML=ic('mic',20)+' O dilo en voz alta'}})}
 function stEnd(failed){
   const uid=ST.uid,first=!S.units[uid]?.dlg;
   if(!failed){S.units[uid]={...(S.units[uid]||{}),dlg:true};dayCount('story');addCoins(first?30:10);ST.d.lines.filter(l=>l.who==='B').forEach(l=>srsAdd({en:l.en,es:l.es,lesson:uid+'-dlg'},'s'))}

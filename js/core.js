@@ -102,17 +102,43 @@ function speak(text,{slow=false,onend}={}){
 const SR=()=>window.SpeechRecognition||window.webkitSpeechRecognition;
 let recog=null;
 function canListen(){return !!SR()}
-function listen({lang='en-US',onText,onEnd,onError}){
+// Micrófono afinado para iPhone: calla a Alex antes de escuchar, aguanta pausas cortas, se detiene solo
+// cuando terminas de hablar, reintenta si iOS se corta al inicio y, si hay una frase esperada, elige de
+// entre las opciones que oyó el teléfono la que más se parece (así entiende mejor tu pronunciación).
+let listenGen=0;
+function listen({lang='en-US',onText,onEnd,onError,expect='',silence=1700,maxMs=30000}={}){
   const C=SR();if(!C){onError&&onError('unsupported');return}
-  stopListen();try{recog=new C()}catch(e){onError&&onError('unsupported');return}
-  recog.lang=lang;recog.interimResults=true;recog.continuous=false;recog.maxAlternatives=3;
-  let final='';
-  recog.onresult=e=>{let t='';for(let i=0;i<e.results.length;i++){t+=e.results[i][0].transcript}final=t;onText&&onText(t,e.results[e.results.length-1].isFinal)};
-  recog.onerror=e=>{onError&&onError(e.error)};
-  recog.onend=()=>{recog=null;onEnd&&onEnd(final)};
-  try{recog.start();sfx('record')}catch(e){onError&&onError('start')}
+  stopListen();try{speechSynthesis.cancel()}catch(e){}
+  const gen=++listenGen;let finals=[],interim='',heard=false,ended=false,tries=0,silT=null,maxT=null,startT=0;
+  const best=alts=>{if(!expect||alts.length<2)return alts[0];let b=alts[0],bs=-1;for(const a of alts){const sc=similarity(a,expect);if(sc>bs){bs=sc;b=a}}return b};
+  const text=()=>(finals.join(' ')+' '+interim).replace(/\s+/g,' ').trim();
+  const finish=()=>{if(ended||gen!==listenGen)return;ended=true;clearTimeout(silT);clearTimeout(maxT);try{recog&&recog.stop()}catch(e){}recog=null;onEnd&&onEnd(text())};
+  const armSilence=()=>{clearTimeout(silT);silT=setTimeout(finish,heard?silence:8000)};
+  const begin=()=>{
+    if(gen!==listenGen)return;
+    try{recog=new C()}catch(e){onError&&onError('unsupported');return}
+    recog.lang=lang;recog.interimResults=true;recog.continuous=true;recog.maxAlternatives=5;startT=Date.now();
+    recog.onresult=e=>{if(gen!==listenGen)return;finals=[];interim='';
+      for(let i=0;i<e.results.length;i++){const r=e.results[i];const alts=[];for(let j=0;j<r.length;j++)alts.push(r[j].transcript.trim());if(r.isFinal)finals.push(best(alts));else interim=best(alts)}
+      heard=heard||!!text();onText&&onText(text(),false);armSilence()};
+    recog.onerror=e=>{if(gen!==listenGen)return;const er=e.error;
+      if(er==='no-speech'&&!heard&&tries<1){return}
+      if(er==='aborted')return;
+      if(!heard){ended=true;clearTimeout(silT);clearTimeout(maxT);onError&&onError(er)}};
+    recog.onend=()=>{if(gen!==listenGen||ended)return;
+      // iOS a veces corta el micrófono en el primer segundo o tras una pausa: se reanuda solo.
+      if(!heard&&tries<2&&Date.now()-startT<6000){tries++;setTimeout(begin,150);return}
+      if(heard&&Date.now()-startT<maxMs&&tries<4){tries++;const keep=finals.slice();setTimeout(()=>{begin();finals=keep},80);return}
+      finish()};
+    try{recog.start()}catch(e){if(tries<2){tries++;setTimeout(begin,300)}else{onError&&onError('start')}}
+  };
+  sfx('record');armSilence();maxT=setTimeout(finish,maxMs);
+  // Espera a que terminen la voz de Alex y el sonido antes de abrir el micrófono.
+  setTimeout(begin,320);
 }
-function stopListen(){if(recog){try{recog.stop()}catch(e){}recog=null}}
+// Mensaje claro según lo que falló.
+function micErrorMsg(er){return er==='not-allowed'||er==='service-not-allowed'?'Permite el micrófono: Ajustes → Safari → Micrófono → Permitir (y en Ajustes → Privacidad → Reconocimiento de voz)':er==='network'?'El micrófono necesita internet para entenderte':er==='no-speech'?'No te escuché. Habla un poco más fuerte y cerca del teléfono':er==='audio-capture'?'No encontré el micrófono. Revisa que no lo esté usando otra app':'No pude usar el micrófono. Intenta otra vez'}
+function stopListen(){listenGen++;if(recog){try{recog.stop()}catch(e){}recog=null}}
 
 /* ---------------- comparar respuestas ---------------- */
 const CONTR={"i'm":'i am',"you're":'you are',"he's":'he is',"she's":'she is',"it's":'it is',"we're":'we are',"they're":'they are',"don't":'do not',"doesn't":'does not',"didn't":'did not',"can't":'cannot',"won't":'will not',"isn't":'is not',"aren't":'are not',"wasn't":'was not',"weren't":'were not',"i've":'i have',"you've":'you have',"we've":'we have',"they've":'they have',"haven't":'have not',"hasn't":'has not',"i'll":'i will',"you'll":'you will',"we'll":'we will',"they'll":'they will',"i'd":'i would',"let's":'let us',"that's":'that is',"what's":'what is',"there's":'there is',"couldn't":'could not',"shouldn't":'should not',"wouldn't":'would not'};

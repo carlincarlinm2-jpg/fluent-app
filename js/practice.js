@@ -102,10 +102,15 @@ async function tutorSend(){
   }catch(e){T.msgs.pop();T.busy=false;T.msgs.push({role:'assistant',content:'Sin conexión. Intenta otra vez.'});renderTutor()}
 }
 function tutorMic(){
-  const b=$('tMic');if(!canListen())return toast('Usa el micrófono de tu teclado para dictar','think');
-  if(b.classList.contains('rec')){stopListen();return}
-  b.classList.add('rec');listen({onText:t=>{$('tIn').value=t},onEnd:f=>{b?.classList.remove('rec');sfx('stop');if(f.trim())tutorSend()},onError:()=>{b?.classList.remove('rec')}});
+  const b=$('tMic'),inp=$('tIn');if(!canListen())return toast('Usa el micrófono de tu teclado para dictar','think');
+  // Si ya está escuchando, tocar otra vez envía lo que dijiste.
+  if(b.classList.contains('rec')){const t=inp.value.trim();stopListen();b.classList.remove('rec');tutorMicUI(false);sfx('stop');if(t)tutorSend();return}
+  b.classList.add('rec');tutorMicUI(true);inp.value='';inp.placeholder='Te escucho… habla en inglés';
+  listen({silence:1900,onText:t=>{inp.value=t;inp.style.height='auto';inp.style.height=Math.min(120,inp.scrollHeight)+'px'},
+    onEnd:f=>{b.classList.remove('rec');tutorMicUI(false);inp.placeholder='Write in English…';sfx('stop');if(f.trim()){inp.value=f.trim();tutorSend()}else toast('No te escuché. Toca el micrófono y habla otra vez','think')},
+    onError:er=>{b.classList.remove('rec');tutorMicUI(false);inp.placeholder='Write in English…';toast(micErrorMsg(er),'think')}});
 }
+function tutorMicUI(on){let h=$('tMicHint');if(on){if(!h){h=document.createElement('div');h.id='tMicHint';h.className='mic-hint';$('tIn').closest('.composer').before(h)}h.innerHTML='<span class="mic-dots"><i></i><i></i><i></i></span> Escuchando… cuando termines, espera un segundo o toca el micrófono para enviar';}else if(h)h.remove()}
 async function tutorSummary(){
   openSheet(head('Tu plática','Alex está revisando…')+`<div style="text-align:center">${kikoSVG(120,'think')}</div>`);
   try{const {data:{session}}=await sb.auth.getSession();
